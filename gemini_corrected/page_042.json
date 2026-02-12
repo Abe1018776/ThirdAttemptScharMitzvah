@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "book_title": "שכר מצוה",
+    "page_number": "סב",
+    "page_side": "left",
+    "chapter_context": "פרק רביעי",
+    "continues_from": {
+      "flag": true,
+      "section_letter": "מא",
+      "level": "body_paragraph"
+    },
+    "continues_to": {
+      "flag": false,
+      "section_letter": null,
+      "level": null
+    }
+  },
+  "data": [
+    {
+      "type": "continuation_fragment",
+      "text": "אז שכל מקיום המצות שנעשו ימי החול כעפרא.",
+      "source_ref": "ובית אברהם פ' תצא"
+    },
+    {
+      "type": "section",
+      "number": "מב",
+      "title": "כל מצות שעושין בשבת",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "ביום השביעי יהיה לכם קודש שגם הגוף יתקדש מהנאה רבה וא\"כ על כל זה יש שכר גם בהאי עלמא.",
+          "source_ref": "דברי אליעזר ויקהל"
+        }
+      ]
+    },
+    {
+      "type": "grouping_header",
+      "title": "מקום מסויים"
+    },
+    {
+      "type": "section",
+      "number": "מג",
+      "title": "בארץ ישראל",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "דהא דשכר מצוה בהאי עלמא ליכא ה\"ד בחו\"ל אבל בארץ ישראל שם השראת השכינה יוכל להיות שכר מצוה בהאי עלמא.",
+          "source_ref": "ילקוט הגרשוני, ברכות"
+        },
+        {
+          "is_makor": false,
+          "text": "דבחי' מגיע שכר בהאי עלמא וכו' והוא למעלה מן המזל יכולים לקבל אף בט\"ע.",
+          "source_ref": "אמרי יצחק לך"
+        },
+        {
+          "is_makor": false,
+          "text": "עוד י\"ל כי אין העוה\"ז כדאי לשכר מצוה, וא\"כ יש לומר דבא\"י שם השראת הקדושה יוכל להיות שם איזה השפעה כל דהוא מפירות שכר מצוה.",
+          "source_ref": "ערבי נחל ראה א'"
+        }
+      ]
+    }
+  ]
+}

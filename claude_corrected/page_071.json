@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "book_title": "שכר מצוה",
+    "page_number": "צא",
+    "page_side": "left",
+    "chapter_context": "פרק ששי",
+    "continues_from": {
+      "flag": false,
+      "section_letter": null,
+      "level": null
+    },
+    "continues_to": {
+      "flag": false,
+      "section_letter": null,
+      "level": null
+    }
+  },
+  "data": [
+    {
+      "type": "section",
+      "number": "יד",
+      "title": "על הטירחא להמציא מעות לקיום המצוה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "Needs verification, עי\"ז מקבל שכר בהאי עלמא.",
+          "source_ref": "Needs verification against image parenthetical"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "טו",
+      "title": "על הטירדא של המצוה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "דאף דשכר מצוה בהאי עלמא ליכא מ\"מ שכר טירדת מצוה איכא בהאי עלמא.",
+          "source_ref": "וכתב סופר עקב"
+        }
+      ]
+    },
+    {
+      "type": "grouping_header",
+      "title": "הכנה"
+    },
+    {
+      "type": "section",
+      "number": "טז",
+      "title": "על ההכנה למצוה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "אבל הענין הוא Needs verification הוא רק על ההכנה למצוה וכו'.",
+          "source_ref": "מאורי אור בשם הרה\"ק ר' משה מרדכי מטריסק-לובלין זצוק\"ל"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "יז",
+      "title": "על מה שאומרים 'הריני מוכן ומזומן לקיים המצוה'",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "אגרא דבי הילולי, היינו מה דמקבלים שכר בהאי עלמא, מילי, היינו כשאומר הריני מוכן ומזומן לקיים המצוה.",
+          "source_ref": "ומגדלות מרקחים, ש\"ס ברכות"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "יח",
+      "title": "המתכונן לשב\"ק מימי החול",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "בעד שבת שמתכוננים (needs verification) ומכינים עצמו אליו, מגיע גם שכר בהאי עלמא.",
+          "source_ref": "שארית מנחם פ' עקב"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "יט",
+      "title": "מי שעושה מצוה מדחיפה פנימית, מבלי שיתכונן לזה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "פנחס עשה את כל זה מאליו, בלי התעוררות ובלי ישוב הדעת, בלי הכנות ובלי כוונה, אלא מדחיפה פנימית, וזה ששמו אל פנחס, ובדין הוא שיטול שכרו.",
+          "source_ref": "פניני קדם בשם הגרי\"ש"
+        }
+      ]
+    },
+    {
+      "type": "grouping_header",
+      "title": "לומד"
+    },
+    {
+      "type": "section",
+      "number": "כ",
+      "title": "אם מקיימין המצות שאפשר לקיימם ולומדים המצות שא\"א לקיימם.",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "דיש באמת עצה לקיים כל התורה בבת אחת והוא לעסוק בד\"ת שאם לומדים ההלכות Needs verification לקיימם אז נחשב כאילו קיימם וכו' דע\"י הלימוד התורה נחשב כאילו קימתם גם אלו המצות שא\"א לקיימם בפועל, וא\"כ תקיימו כל התרי\"ג מצות ותקבלו שכר על הקבלנות וכו' גם בהאי עלמא.",
+          "source_ref": "בנין חיים בחוקותי"
+        }
+      ]
+    }
+  ]
+}

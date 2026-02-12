@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "book_title": "שכר מצוה",
+    "page_number": "לה",
+    "page_side": "right",
+    "chapter_context": "פרק שלישי",
+    "continues_from": {
+      "flag": true,
+      "section_letter": "כ",
+      "level": "body_paragraph"
+    },
+    "continues_to": {
+      "flag": false,
+      "section_letter": null,
+      "level": null
+    }
+  },
+  "data": [
+    {
+      "type": "continuation_fragment",
+      "text": "כמה שהז\"ג וכו' אותו הטרדא שייכת גם גבי שמיטה, כיון שעיקר השמיטה תליא בזמן גרמא זמן גרמא מקרי עכת\"ד.",
+      "source_ref": "ובירורי השיטות בשם המקנה, קידושין לד."
+    },
+    {
+      "type": "continuation_fragment",
+      "text": "כאלו המצות שהזמן גרמא בהם שייך רק שכר חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+      "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+    },
+    {
+      "type": "section",
+      "number": "כא",
+      "title": "על שמירת נדה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "שאם משמר ז' ימי נדה וכו' איכא שכר בהאי עלמא וכו'.",
+          "source_ref": "אמרי אש, השמטה, תזריע"
+        },
+        {
+          "is_makor": false,
+          "text": "אך ענין טבילת נדה Needs verification against original יש שכר בעוה\"ז.",
+          "source_ref": "יד אהרן תזריע"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "כב",
+      "title": "המונע עצמו מלעבור על נדנוד איסור עריות",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "דע\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\"ז.",
+          "source_ref": "ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\"ה"
+        }
+      ]
+    },
+    {
+      "type": "grouping_header",
+      "title": "תורה"
+    },
+    {
+      "type": "section",
+      "number": "כג",
+      "title": "על קבלת התורה בכללות.",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "וכיון שיש להם עונג אם לא יקבלו, ממילא יש להם שכר בעוה\"ז עכ\"פ על קבלת הטורח.",
+          "source_ref": "עצי חיים, במדבר"
+        },
+        {
+          "is_makor": false,
+          "text": "ותירץ מהר\"ק פרימו כי תנאי דהתנה הקב\"ה עם מ\"ב אם מקבלים יקבלו מוטב ואם לאו אחזיר אתכם לתוהו ובוהו, וא\"כ הוו כאילו מושבע ועומד וכו' ויש והעוה\"ז ג\"כ שלהם ואין לעשו חלק בה.",
+          "source_ref": "בני יששכר סיון מאמר ב יא"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "כד",
+      "title": "על תושבע\"פ",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "כי על תורה שבעל פה איכא שכר אף בהאי עלמא.",
+          "source_ref": "ברך משה, תשא"
+        },
+        {
+          "is_makor": false,
+          "text": "אע\"ג דשכר מצוה בהאי עלמא ליכא, Needs verification - possibly different word, עכ\"ז על תורה שבע\"פ מגיע שכר גם בהאי עלמא.",
+          "source_ref": "טל חיים, בא"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "כה",
+      "title": "על לימוד התורה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "Needs verification of abbreviation, שבזכות התורה ינחלו הברכות.",
+          "source_ref": "בעה\"ט ראה"
+        },
+        {
+          "is_makor": false,
+          "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז וכו' ואלו הן וכו' ותלמוד תורה כנגד כולם.",
+          "source_ref": "פאה מ\"א"
+        }
+      ]
+    }
+  ]
+}

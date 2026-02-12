@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "book_title": "שכר מצוה",
+    "page_number": "עט",
+    "page_side": "left",
+    "chapter_context": "פרק חמישי",
+    "continues_from": {
+      "flag": false,
+      "section_letter": null,
+      "level": null
+    },
+    "continues_to": {
+      "flag": true,
+      "section_letter": "צז",
+      "level": "makor"
+    }
+  },
+  "data": [
+    {
+      "type": "section",
+      "number": null,
+      "title": "ענינים גשמיים הוא עושה לשם שמים",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "בודאי שכל מצוה שהיא רוחניות וגשמיות גם שכרה רוחניות וגשמיות, אבל מי שכל מעשיו לשם שמים, Verify unclear word ומשתה ושינה ומסחר ועושה כולו הכנה לעבודת ה', Verify against original, ולכן יש שכר עבור זה בגשמיות בעולם הזה. וכתב",
+          "source_ref": "סופר החדש פ' בחוקותי"
+        },
+        {
+          "is_makor": false,
+          "text": "אם גם התכלית הגשמיים וכו' נתכון ג\"כ וכו' לשם שמים וכו' שע\"ז יקבל שכר גם בהאי עלמא.",
+          "source_ref": "בית אשר עקב"
+        },
+        {
+          "is_makor": false,
+          "text": "אבל העושה דבר הרשות ומכוין לש\"ש בזה מקבל שכר בעוה\"ז.",
+          "source_ref": "יד אהרן לך"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "צג",
+      "title": "ע\"י שאוכלים אכילת רשות בדרך מצוה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "הרי מלינו בזכות אכילת הרשות בדרך מצוה, מגיע לנו נשיאות פנים לטובה וכו'.",
+          "source_ref": "צמח דוד, ר\"ה"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "צד",
+      "title": "מי שעושה מצוה מדברים שברשות.",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "וה\"נ י\"ל כיון דגם בחוקותי תלכו היינו שגם ההליכה בעניני עוה\"ז יהיה חקותי, היינו שיעשו מצוה מדבר הרשות אז ונתתי גשמיכם בעתם וכו' ושפיר מגיע לו עבור זה שכר בעוה\"ז.",
+          "source_ref": "מגדלות מרקחים, בחוקותי"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "צה",
+      "title": "המשתמש בהנאת עוה\"ז לכבוד התוה\"ק יתן לו הקב\"ה עושר וכבוד בעוה\"ז",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "אמנם Garbled - needs correction from original משתמש בהנאת עוה\"ז לכבוד התוה\"ק ית\"ק וכו' בודאי יתן לו הקב\"ה עושר וכבוד.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "צו",
+      "title": "המשתמש בהנאת עוה\"ז ללמד לתוהים בינה, יתן לו הקב\"ה עושר וכבוד בעוה\"ז",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "אמנם Garbled - needs correction from original משתמש בהנאת עוח\"ז וכו' ללמד תועים בינה בודאי יתן לו הקב\"ה עושר וכבוד.",
+          "source_ref": "פני מבין פ' לך"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "צז",
+      "title": "מי שאוכל ביחודים ובשכל ובחכמה",
+      "paragraphs": [
+        {
+          "is_makor": true,
+          "text": "אצל מי שאוכל כו' ביחודים ובשכל ובחכמה נותנין לו",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

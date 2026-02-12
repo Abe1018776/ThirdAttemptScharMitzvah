@@ -1,0 +1,1943 @@
+{
+  "total_pages": 84,
+  "modified_pages": 72,
+  "total_corrections": 277,
+  "pages": [
+    {
+      "page": 1,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "שבאמת יש לכל המצוה שכר",
+          "corrected": "שבאמת יש לכל המצות שכר"
+        },
+        {
+          "original": "הרי החול כקודש הוא, לכן נותנים שכר גם בעוה\"ז כמו כי כקולך הוא.",
+          "corrected": "הרי החול כקודש הוא, לכן נותנים שכר גם בעוה\"ז כמו כי כקודש הוא."
+        },
+        {
+          "original": "שמעתי ממורי (מהרי\"א מזידיטשוב). זללה\"ה ששמע ... (מזידיטשוב). זללה\"ה שאמר",
+          "corrected": "שמעתי ממורי (מהרי\"א מזידיטשוב). וזללה\"ה ששמע ... (מזידיטשוב). וזללה\"ה שאמר"
+        },
+        {
+          "original": "שכר מצוה בהאי עלמא ליכא מצד הבריאה דדי שכר בלאו וכו'",
+          "corrected": "שכר מצוה בהאי עלמא ליכא מצד הבריאה הרי שכר בלאו וכו'"
+        },
+        {
+          "original": "מי הקדימני מכל הבריאה.",
+          "corrected": "מי הקדימני מכל הבר'."
+        },
+        {
+          "original": "עכ\"פ הוא דבוק בקדושה וכטוב,",
+          "corrected": "עכ\"פ הוא דבוק בקדושה ובטוב,"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing is excellent, correctly handling the Right-to-Left column flow and the cross-column join within a paragraph. However, there are several character-level recognition errors (typos), including some that change the meaning of words (e.g., 'holy' becoming 'voice'). There is also an issue with expanding an abbreviation without marking it."
+    },
+    {
+      "page": 2,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "א\"כ ראוי לקבל טוב ומקל מהבורא",
+          "corrected": "א\"כ ראוי לקבל טוב ומכל מהבורא"
+        },
+        {
+          "original": "מכ\"ש שכר רוחני שטמן לכם",
+          "corrected": "מכ\"ש שכר רוחני שצפן לכם"
+        },
+        {
+          "original": "זה יועיל אשר ישמור את בריתו",
+          "corrected": "זה יועיל אשר יזכור את בריתו"
+        },
+        {
+          "original": "וזהו השכר פירות בהאי עלמא",
+          "corrected": "וזהו השכר מצוה בהאי עלמא"
+        },
+        {
+          "original": "הנז' בתורה כ\"פ אצל שמיעת המצות והקמתו",
+          "corrected": "הנז' בתורה כ\"פ מכל שמיעת המצות ולהקמתו"
+        },
+        {
+          "original": "ובכל מצוה אשר יעשה",
+          "corrected": "וככל מצוה אשר יעשה"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing is excellent, correctly identifying the complex column flow, joining text across columns, and handling sections/headers. However, there are several word-level OCR errors (some significant) where letters were confused (e.g., 'פירות' vs 'מצוה', 'ישמור' vs 'יזכור', 'שטמן' vs 'שצפן')."
+    },
+    {
+      "page": 3,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "נראה כי הוא אינו ירא אלקים",
+          "corrected": "נראה כי הוא איש ירא אלקים"
+        },
+        {
+          "original": "דרשות יריעות... / דברי יוסף... / חת\"ס...",
+          "corrected": "ודרשות יריעות... / ודברי יוסף... / וחת\"ס..."
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The structural parsing is excellent, correctly handling the cross-column flow for Section ט and the split text flow. There is one transcription error in the continuation fragment ('אינו' vs 'איש') and minor inconsistencies in preserving the conjunctive 'Vav' in source references."
+    },
+    {
+      "page": 4,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "במה שלפי שכר יחסים לעוה\"ב",
+          "corrected": "במה שמפריש שכר מצות לעוה\"ב"
+        },
+        {
+          "original": "כתב סופר לך",
+          "corrected": "כת\"ס לך"
+        },
+        {
+          "original": "שמיוע לקיום העולם",
+          "corrected": "שמיועד לקיום העולם"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The OCR successfully navigated a complex column layout (Right column items 13-14 and start of 15; Left column items end of 15, 16-17) and merged the cross-column text of Section 15 correctly. However, there are significant text hallucinations in Section 14 where words were misread resulting in wrong meaning, and a typo in Section 15. One source abbreviation was incorrectly expanded contrary to instructions."
+    },
+    {
+      "page": 5,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "לכן מגיע ליעקב גם עוה\"ז דהוה",
+          "corrected": "לכן מגיע ליעקב גם עה\"ז דהוה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR result is of very high quality. The complex RTL column structure was parsed correctly, merging lines appropriately. All sections, titles, and source references were identified and extracted accurately. There is only a very minor transcription inaccuracy regarding an abbreviation."
+    },
+    {
+      "page": 6,
+      "modified": false,
+      "method": "no_corrections_needed",
+      "corrections": [],
+      "quality": "excellent",
+      "issues_count": 0,
+      "summary": "The OCR extraction is highly accurate. It correctly followed all structural parsing rules, including the critical Right-to-Left column reading order and the seamless joining of text split across columns (Section 25). Section numbering, titles, source extraction, and 'Makor HaMitzvah' label stripping were handled correctly. No text transcription errors were found."
+    },
+    {
+      "page": 7,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "דאף למען קיימ\"ל דשכר מצוה",
+          "corrected": "דאף למען דסבר שכר מצוה"
+        },
+        {
+          "original": "מי שנמנע ומקבל",
+          "corrected": "מי שנשמר מקבל"
+        },
+        {
+          "original": "[Paragraph Split after 'עיי\"ש.']",
+          "corrected": "[Merge paragraphs]"
+        },
+        {
+          "original": "לפי\"ז במצות מילה וקרבן פסח שיש בצידן עונש",
+          "corrected": "לפי\"ז במצות מילה וקרבן פסח דיש בייהו עונש"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "The OCR correctly identified the structural layout, including the two-column reading order, section headers, and source references. However, there are several text accuracy issues involving word substitutions (hallucinations based on common phrases) and a structural error where a paragraph was incorrectly split."
+    },
+    {
+      "page": 8,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כך כביכול שפיר מגיע עליהם שכר בעוה\"ז בקיומן.",
+          "corrected": "כרח בביטולה שפיר מגיע עליהם שכר בעוה\"ז בקיומן."
+        },
+        {
+          "original": "ע\"כ בני אומר לי",
+          "corrected": "ע\"כ לבי אומר לי"
+        },
+        {
+          "original": "ירבה תורה ואתחנן",
+          "corrected": "וירבה תורה ואתחנן"
+        },
+        {
+          "original": "טרם יבא השמש מהשלם היינו בעוה\"ז.",
+          "corrected": "טרם יבא השמש מהעלם היינו בעוה\"ז."
+        },
+        {
+          "original": "הוויו\"ט פאה פ\"א מ\"א",
+          "corrected": "הריו\"ט פאה פ\"א מ\"א"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The structural parsing is perfect, including column flow and section handling. However, there is a significant hallucination in the first line (continuation fragment) where the OCR invented words not present in the image. There are also a few minor character substitution errors in the body text."
+    },
+    {
+      "page": 9,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "קיימים",
+          "corrected": "קיומים"
+        },
+        {
+          "original": "גם זה מלוה הקב\"ה",
+          "corrected": "גם זה מלות הקב\"ה"
+        },
+        {
+          "original": "ש\"ח",
+          "corrected": "ש\"ה"
+        },
+        {
+          "original": "אפשר דיקבל בעוה\"ז",
+          "corrected": "אפשר השכר בעוה\"ז"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "Start of page handled well as continuation fragment. Structural parsing of sections and columns is excellent. Several text inaccuracies were found, including one hallmark of hallucination in section 16 ('דיקבל' vs 'השכר'), and a few character misrecognitions in source references and body text."
+    },
+    {
+      "page": 10,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אותם קאי בהם",
+          "corrected": "אותם קרי בהם"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is extremely high quality. The structure, section numbering, and column flow are perfect. Source references are correctly extracted. There is only one single character recognition error in the text body."
+    },
+    {
+      "page": 11,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אותה מצה",
+          "corrected": "אותה מצוה"
+        },
+        {
+          "original": "מצוה שכזה",
+          "corrected": "מצוה שבזה"
+        },
+        {
+          "original": "ויקהל",
+          "corrected": "ומגדלות מרקחים ויקהל"
+        },
+        {
+          "original": "ולטובה אינו מוכרח",
+          "corrected": "ולטובה היה מוכרח"
+        },
+        {
+          "original": "לרעה מוכרח וא\"כ",
+          "corrected": "לרעה וממילא וא\"כ"
+        },
+        {
+          "original": "זכו שכרו ולא נזכר אלא פנחס, בגין שפרע\"ה שרצון",
+          "corrected": "זכו חכמו ולא נזכר אלא פנחס, הכין מפרשה שרצון"
+        },
+        {
+          "original": "משום לא תלין דשליח",
+          "corrected": "משום לא תלין דשכיר"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 7,
+      "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and seamlessly joining the text from Section 26 that splits across columns. However, there are several word-level OCR errors, some of which flip the meaning (e.g., 'not forced' vs 'was forced', 'agent' vs 'hired worker'), and a partial omission in one source reference."
+    },
+    {
+      "page": 12,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אפ\"ל במצות תפילין דמן הדין",
+          "corrected": "אפ\"ל במצות תפילין דמצד הדין"
+        },
+        {
+          "original": "אלא שאם יושב בתפלין יותר מתחייב בהם מצוה קא עביד",
+          "corrected": "אלא שאם יושב בתפלין יותר מהמחוייב בהם מצוה קא עביד"
+        },
+        {
+          "original": "דהמזוה עצמה שומרת ביתו",
+          "corrected": "דהמזוזה עצמה שומרת ביתו"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 3,
+      "summary": "The structural parsing is perfect, including the handling of column ordering, cross-column text joining (Section Bet), and source extraction. There are a few transcription errors in Sections Gimel and Dalet where specific words were misread."
+    },
+    {
+      "page": 13,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "לפיכך נתן להם מצות שיש בהם חשיבות הרצוי",
+          "corrected": "לפיכך נתן להם מצות שיש בהם חשיבות הרבוי"
+        },
+        {
+          "original": "בזכות זה רוויים כל ישראל בשכר",
+          "corrected": "בזכות זה זוכין כל ישראל בשכר"
+        },
+        {
+          "original": "ממילא גורם לעשות חמדות כידוע דהסעודה גורם לחמדות",
+          "corrected": "ממילא גורם לעשות חסדים כידוע דהסעודה גורם לחסדים"
+        },
+        {
+          "original": "וכל ענינים הצריכים לה",
+          "corrected": "וכל עניניה הצריכים לה"
+        },
+        {
+          "original": "ויתן לך כל טובות העוה\"ז",
+          "corrected": "ויתן לך כל טוב העוה\"ז"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "Structural parsing, column ordering, and source extraction are excellent. However, there are several distinct OCR recognition errors where letters were confused (resulting in different words), specifically in sections ח, י, יא, and יב."
+    },
+    {
+      "page": 14,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ולזוכה לן הקב\"ה",
+          "corrected": "ולזוכה בו הקב\"ה"
+        },
+        {
+          "original": "וכאילו כבד בא",
+          "corrected": "וכאילו כבד בה"
+        },
+        {
+          "original": "סגולה של וכו' עומר",
+          "corrected": "סגולה של רבוי עומר"
+        },
+        {
+          "original": "בשם מהרש\"ח",
+          "corrected": "בשם מהרש\"א"
+        },
+        {
+          "original": "ובשו\"ת שנות חיים קכ\"ג (within text)",
+          "corrected": "Source ref field populated"
+        },
+        {
+          "original": "כיון שחיובו תליא",
+          "corrected": "כיון שחיובו תלי"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing, including column flow and section separation, is excellent. However, there are several character-level OCR errors in the text body (confusing letters like Bet/Kaf, Nun/Vav, Aleph/Chet) and one instance of missed source extraction."
+    },
+    {
+      "page": 15,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כמה שהז\"ג",
+          "corrected": "במה שהז\"ג"
+        },
+        {
+          "original": "כאלו המצות",
+          "corrected": "באלו המצות"
+        },
+        {
+          "original": "רק שכור חיי",
+          "corrected": "רק שכר חיי"
+        },
+        {
+          "original": "וכיון שיש להם עונג אם לא יקבלו",
+          "corrected": "וכיון שיש להם עונג חס לא יקבלו"
+        },
+        {
+          "original": "תנאי דהתנה הקב\"ה עם מ\"ב",
+          "corrected": "תנאי דהתנה הקב\"ה עם הים"
+        },
+        {
+          "original": "וכו' ויש והעוה\"ז",
+          "corrected": "וכו' וירש והעוה\"ז"
+        },
+        {
+          "original": "תשמעו ק\"ת תורה",
+          "corrected": "תשמעו קרי תורה"
+        },
+        {
+          "original": "בעוה\"ז וכו' ואלו הן",
+          "corrected": "בעוה\"ז והקרן קיימת לו לעוה\"ב ואלו הן"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 8,
+      "summary": "The structural parsing is excellent, correctly handling column flow and section nesting. Source extraction is accurate. However, there are several transcription errors mainly due to letter confusion (ב/כ), hallucinations of abbreviations that contradict the visual text, and one instance of summarizing text ('וכו') instead of transcribing it."
+    },
+    {
+      "page": 16,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "המגי\"ד שומר תורתו",
+          "corrected": "הקיי\"ת שומר תורתו"
+        },
+        {
+          "original": "וא\"כ אינו בזה מגיע לו שכר",
+          "corrected": "וא\"כ בזה מגיע לו שכר"
+        },
+        {
+          "original": "במלוה דגמרה בשלימות",
+          "corrected": "במלוה שגמרה בשלימות"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing, section identification, and cross-column merging are excellent. Source extraction is accurate. However, there are three text errors, one of which is critical (insertion of a negation word 'אינו' that reverses the meaning) and one significant substitution in an acronym."
+    },
+    {
+      "page": 17,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 18,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "רק ע\"י שמתענג מילוי תורה",
+          "corrected": "רק ע\"י שמתענג מזיו תורה"
+        },
+        {
+          "original": "הרי זה ככי יתן שכלו אף בעוה\"ז",
+          "corrected": "הרי זה כפי יתן שכרו אף בעוה\"ז"
+        },
+        {
+          "original": "ולכן העוסק בתורה",
+          "corrected": "וכן העוסק בתורה"
+        },
+        {
+          "original": "תשמעון את המשפטים מלות שהם לעקביו",
+          "corrected": "תשמעון את המשפטים מצות שהם לעקביו"
+        },
+        {
+          "original": "דהיינו שמשלם ה' שכר.",
+          "corrected": "דהיינו שמשלם ה' עמך."
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "Structure, formatting, and source extraction are perfect. However, there are several distinct character recognition errors where letters were confused (Pe/Kaf, Resh/Lamed, Zayin/Lamed, Tzadi/Lamed), leading to incorrect words in the body text. The end of the last section contains a hallucinated word."
+    },
+    {
+      "page": 19,
+      "modified": false,
+      "method": "no_corrections_needed",
+      "corrections": [],
+      "quality": "excellent",
+      "issues_count": 0,
+      "summary": "The OCR extraction is flawless. The structural parsing correctly handled the RTL dual-column layout, specifically the critical join in Section מד where the text flows from the bottom of the right column to the top of the left column. Titles, body text, and source references are accurately transcribed and segmented."
+    },
+    {
+      "page": 20,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אר\"י [?] ... אוכל פירותיהן",
+          "corrected": "אר\"י ששה דברים אדם אוכל פירותיהן"
+        },
+        {
+          "original": "אר\"י [?] ... אוכל פירותיהן",
+          "corrected": "אר\"י ששה דברים אדם אוכל פירותיהן"
+        },
+        {
+          "original": "\"page_side\": \"left\"",
+          "corrected": "\"page_side\": \"right\""
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing is excellent, correctly handling the complex column flow where Section נא's title is at the bottom of the right column and its body is at the top of the left column. Section numbering and source extraction are accurate. However, there are two instances of missing text where the OCR marked legible text as '[?]' in Sections נב and נד."
+    },
+    {
+      "page": 21,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ואפ\"ל ע\"ד שאמחז\"ל כל מזונותיו",
+          "corrected": "ואפ\"ל ע\"ד שאחז\"ל כל מזונותיו"
+        },
+        {
+          "original": "בדין הוא שימולא לו שכר",
+          "corrected": "בדין הוא שימלא לו שכר"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The OCR extraction is extremely accurate, correctly handling the column layout (Right to Left), section hierarchy, and extracting source references out of the text. There are only two very minor transcription errors in the Hebrew text body where visual artifacts or ligatures were misinterpreted."
+    },
+    {
+      "page": 22,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אלו דברים אדם אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' ועיון תפילה וכו'.",
+          "corrected": "אלו דברים שאדם אוכל פירותיהן בעוה\"ז והקרן קיימת לו לעוה\"ב וכו' ואלו הן כיבוד אב ואם וכו' ועיון תפילה וכו'."
+        },
+        {
+          "original": "ולפי\"ז הרמב\"ם מגיע",
+          "corrected": "ולפי\"ז להרמב\"ם מגיע"
+        },
+        {
+          "original": "(בספר דברי יואל המועדים א תמ\"א)",
+          "corrected": "(בספר דברי יואל ומועדים א תמ\"א)"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and identifying section headers and content blocks that span columns (specifically Section סו). Metadata extraction is accurate. However, there is a significant transcription issue in Section סה where the model abridged the text with 'וכו'' instead of transcribing the full printed text, and a minor typo in Section סד."
+    },
+    {
+      "page": 23,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "דזהו שכלו לקו בעוה\"ז",
+          "corrected": "דזהו שכלו להו בעוה\"ז"
+        },
+        {
+          "original": "לומר מאה ברכות בכל יוס, זכו",
+          "corrected": "לומר מאה ברכות בכל יום, זכו"
+        },
+        {
+          "original": "ברך משה, תשא",
+          "corrected": "וברך משה, תשא"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 3,
+      "summary": "The OCR result is high quality with perfect structure detection (columns, sections, headers) and source extraction. There are only very minor character recognition errors due to font peculiarities (Samech/Final Mem confusion and He/Kuf confusion) and one minor omission in a source citation."
+    },
+    {
+      "page": 24,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ולוה לנו מלות עונג שבת",
+          "corrected": "וצוה לנו מצות עונג שבת"
+        },
+        {
+          "original": "ולאשר אמר נח",
+          "corrected": "מאמר מרדכי"
+        },
+        {
+          "original": "שכרו גם",
+          "corrected": "שכרו גס"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "Output is structurally correct and mostly accurate. However, there are two significant text errors in Section 79 where 'וצוה' was OCR'd as 'ולוה' and 'מצות' as 'מלות', altering the meaning. Additionally, the source reference for the last paragraph of Section 77 is incorrect."
+    },
+    {
+      "page": 25,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וז\"ק ושמרתם",
+          "corrected": "וז\"ש ושמרתם"
+        },
+        {
+          "original": "דמ\"ע דאו\"ג",
+          "corrected": "דמ\"ע שהז\"ג"
+        },
+        {
+          "original": "בלאו המנות",
+          "corrected": "בלאו המצות"
+        },
+        {
+          "original": "דבליס רק",
+          "corrected": "דבליכא רק"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "The structural parsing, section identification, and source extraction are excellent. Column handling is correct. However, there are several specific transcription errors in the body text of sections פד and פז, mostly involving misread abbreviations/ligatures (ש vs ק, שהז\"ג vs דאו\"ג) and character confusions (צ vs נ, כ for ס)."
+    },
+    {
+      "page": 26,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ומנח ושייר",
+          "corrected": "ומנה ושייר"
+        },
+        {
+          "original": "(רמב\"ן קידושין לד:)",
+          "corrected": "(רמב\"ן קידושין לד.)"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "High-quality extraction. Structure, sectioning, and source isolation were handled perfectly. Two minor text discrepancies were found in section 89 (one character substitution and one punctuation mark)."
+    },
+    {
+      "page": 27,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 28,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "הוא משום אי הקדימני",
+          "corrected": "הוא משום מי הקדימני"
+        },
+        {
+          "original": "הוא לחש גמול וגרוס המטא אח\"כ",
+          "corrected": "הוא לחשב גמול וגורם החטא אח\"כ"
+        },
+        {
+          "original": "ועבירה יכנה מצוה",
+          "corrected": "ועבירה יכבה מצוה"
+        },
+        {
+          "original": "צדיק שמובטחים שיש בו",
+          "corrected": "צדיק שמובטח לו שיש בו"
+        },
+        {
+          "original": "והנה לדיק כזה וכו' ... ולדיק כזה",
+          "corrected": "והנה לצדיק כזה וכו' ... ולצדיק כזה"
+        },
+        {
+          "original": "העובד באהבה ויראה עולתה בלתי לה'",
+          "corrected": "העובד באהבה ויראה עבודתו בלתי לה'"
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 6,
+      "summary": "The structural parsing is excellent, correctly handling the horizontal (row-based) flow of sections despite the column-based instructions. However, there are significant OCR text errors in Sections 104 and 105, including gibberish words, missing letters changing meanings (e.g., 'יכבה' to 'יכנה'), and typos in titles."
+    },
+    {
+      "page": 29,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 30,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "סגולה של וכו' מתנת",
+          "corrected": "סגולה של שכר מתנת"
+        },
+        {
+          "original": "אכן אם הוא רודף",
+          "corrected": "מכן אם הוא רודף"
+        },
+        {
+          "original": "בתתך לו וכו' ירע לבבו",
+          "corrected": "בתתך לו שלא ירע לבבו"
+        },
+        {
+          "original": "אם יש לאדם נעלמו מזונות",
+          "corrected": "אם יש לאדם נצמצמו מזונות"
+        },
+        {
+          "original": "ימלאהו ה' מלאו.",
+          "corrected": "ימלאהו ה' משאלו."
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The structural parsing, column handling, and source extraction are excellent. The OCR correctly joined text across columns and identified sections. However, there are several specific word recognition errors in the body text where characters were confused (e.g., 'שכר' read as 'וכו'', 'נצמצמו' as 'נעלמו')."
+    },
+    {
+      "page": 31,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "מעלס המצוה אינו יכול",
+          "corrected": "מעצם המצוה אינו יכול"
+        },
+        {
+          "original": "כיון שחון מקיים",
+          "corrected": "כיון שחוץ מקיים"
+        },
+        {
+          "original": "וליתום ולאלמנה",
+          "corrected": "וליתוס ולחלמנה"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The OCR correctly identified the structure, including the complex right-to-left column flow where section 122 starts on bottom-right and continues top-left. It correctly extracted headers and sources. However, it failed in 'exact transcription' in two places: it silently 'autocorrected' print typos in section 122, and it misread two letters in section 124 resulting in incorrect words."
+    },
+    {
+      "page": 32,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אגדות מהרי\"ט שבת דף רנ\"ו",
+          "corrected": "אגדות מהרי\"ט שבת דף נ\"ו"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is highly accurate. It correctly handled the layout where the title for section 128 (קכח) is at the bottom of the right column and its content is at the top of the left column. Transcriptions and source extractions are precise, with only one minor error in a page number reference."
+    },
+    {
+      "page": 33,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "המילי שמשמח חתן, ושמח כלה",
+          "corrected": "המילי שמשמח החתן, ושמח הכלה"
+        },
+        {
+          "original": "הוא על הרמת קול וּבְכִי הַשּׁוֹמְעִים.",
+          "corrected": "הוא על הרמת קול קינכו הקומעים [?]."
+        }
+      ],
+      "quality": "good",
+      "issues_count": 2,
+      "summary": "The OCR structural analysis is excellent, correctly handling the right-to-left column flow, column-spanning text in section קלה, and identifying all sections and headers. However, there are transcription inaccuracies: specifically, a significant 'hallucination' of vowelized text in Section קלד where the image contains garbled unvowelized text, and minor typos in the first text fragment."
+    },
+    {
+      "page": 34,
+      "modified": false,
+      "method": "no_corrections_needed",
+      "corrections": [],
+      "quality": "excellent",
+      "issues_count": 0,
+      "summary": "The OCR extraction is accurate and robust. It correctly identified the page number, section structure, and text content. The cross-column text joining is seamless, and the source reference extraction follows the provided rules perfectly. The slight visual ambiguity of the letter Aleph (resembling Chet in the print) was correctly interpreted as 'אני' based on context."
+    },
+    {
+      "page": 35,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "Order: A, B, C, D, E",
+          "corrected": "Order: A (Right), D (Right), E (Right), C (Left), B (Left)"
+        },
+        {
+          "original": "ומבטחת לה דגר הבא להתגייר ומניח עולמו לחיות מנות שלא נצטוה עליהן.",
+          "corrected": "ומובטח לו דגר הבא להתגייר ומניח עמו וכל אשר לו ובא לחסות תחת כנפי השכינה וזכה בו יתברך."
+        },
+        {
+          "original": "והיה להם מחילה בפ\"ע",
+          "corrected": "והיה להם נחלה בפ\"ע"
+        },
+        {
+          "original": "הטעם דקבל מצוה בהאי עלמא",
+          "corrected": "הטעם דקבל שכר בהאי עלמא"
+        },
+        {
+          "original": "ליכא להקב\"ה אינו מאמין",
+          "corrected": "משום דהקב\"ה אינו מאמין"
+        },
+        {
+          "original": "לרבים צריכים לו",
+          "corrected": "דלרבים צריכין ליה"
+        }
+      ],
+      "quality": "poor",
+      "issues_count": 6,
+      "summary": "The OCR output correctly identified the section boundaries but failed significantly in two areas: (1) It reordered the sections logically (1,2,3,4,5) instead of following the strict column-based reading order (Right: 1,4,5; Left: 3,2) required by the prompt. (2) Text transcription in Section A is severe garbled/halucinated, and critical word errors exist in Sections B and E changing the theological meaning (e.g., 'forgiveness' vs 'inheritance', 'mitzvah' vs 'reward')."
+    },
+    {
+      "page": 36,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "משום שאם יחיה שמה יחטא",
+          "corrected": "משום שאם יחיה שמא יחטא"
+        },
+        {
+          "original": "בגדי אהרן פנחס",
+          "corrected": "ובגדי אהרן פנחס"
+        },
+        {
+          "original": "מי שנוהג ברבנות בכשרות ובתמימות כראוי",
+          "corrected": "מי שנוהג ברבנות בכשרות ובתמימות כלחוי"
+        },
+        {
+          "original": "כי הזכר שפעולתו הוא בניגוד",
+          "corrected": "כי הזכר שפעולתו היא בניגוד"
+        },
+        {
+          "original": "רז\"ל גדולה הבטחה",
+          "corrected": "חז\"ל גדולה הבטחה"
+        },
+        {
+          "original": "שנתנו ג' עולמות",
+          "corrected": "שנתנן ג' עולמות"
+        },
+        {
+          "original": "עין יעקב מבואר ברכות קפח",
+          "corrected": "עין יעקב מבואר ברכות קמ\"ז"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 7,
+      "summary": "Structure and field extraction are excellent. Column ordering and text joining are handled correctly. However, there are several precise transcription errors where the OCR substituted similar-looking letters or 'corrected' words rather than transcribing the printed text exactly."
+    },
+    {
+      "page": 37,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אלא אמרו להם לעשות עגל ומסכה אין אנו נשמע לכם",
+          "corrected": "אלא אמרו להם לעשות עגל ומסכה אין לנו כח להאיל, לא נשמע לכם"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 1,
+      "summary": "Structure, headers, and source extraction are handled perfectly. There is one text transcription error in Section יג where a phrase was skipped and replaced with a shorter phrase, likely due to visual similarity or an OCR glitch. All other sections are accurate."
+    },
+    {
+      "page": 38,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אף שבכל מצוה",
+          "corrected": "לאף שבכל מצוה"
+        },
+        {
+          "original": "כדי שע\"ז ישפיע",
+          "corrected": "כדי שע\"י ישפיע"
+        },
+        {
+          "original": "חלף עמלו ית\"ש מגיע לו",
+          "corrected": "חלף עמלו יותר מגיע לו"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing, section numbering, and source extraction are excellent. However, there are three specific text transcription errors where characters were misread or hallucinated."
+    },
+    {
+      "page": 39,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 40,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וה\"ה שעברו רוב שנותיו שבידוע שלא יחטא",
+          "corrected": "וה\"ה שעברו רוב שנותיו שלא יחטא"
+        },
+        {
+          "original": "left",
+          "corrected": "right"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The OCR is highly accurate, correctly handling the multi-column layout and the seamless text join between the bottom of the right column and top of the left column. Source extraction is precise. A single minor issue was found where a word was inserted into Section 32 that does not appear in the image."
+    },
+    {
+      "page": 41,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וידוע מה שאמר המצודות דוד להפס דשכר מצוה",
+          "corrected": "וידוע מה שאמר המצודות דוד להפס' דשכר מצוה"
+        },
+        {
+          "original": "נמצא לפי\"ז דבכלות ששת ימי החול",
+          "corrected": "נמצא לפי\"ז לכלות ששת ימי החול"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The OCR result is of very high quality. The complex column structure—specifically the splitting of Section 38 across columns—was handled correctly. Headers, section numbering, and source references were accurately identified and parsed. Only two minor text discrepancies were found compared to the visual evidence."
+    },
+    {
+      "page": 42,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אז שכר מקיום",
+          "corrected": "אז שכל מקיום"
+        },
+        {
+          "original": "כעפרה",
+          "corrected": "כעפרא"
+        },
+        {
+          "original": "בית אברהם פ' תצא",
+          "corrected": "ובית אברהם פ' תצא"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "Excellent structural parsing and column joining. The only errors found were distinct transcription typos in the partial text fragment at the very top of the page."
+    },
+    {
+      "page": 43,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "עוד מלינו שישראל [?] אוכלים",
+          "corrected": "עוד מלינו שישראל כביכול אוכלים"
+        },
+        {
+          "original": "כי האבות הם כבר נעלמו דקשוט",
+          "corrected": "כי האבות הם כבר נעלמא דקשוט"
+        },
+        {
+          "original": "אבות נוטריקון אורה וגדולה",
+          "corrected": "אבות נוטריקון תורה וגדולה"
+        },
+        {
+          "original": "שנכרת הקרן שכל לפיעל",
+          "corrected": "שנכרת הקרן שכל לפועל"
+        },
+        {
+          "original": "אלא שכר המלוה ממתין",
+          "corrected": "אלא שכר המצוה ממתין"
+        },
+        {
+          "original": "אהוב למעלה ולדיק",
+          "corrected": "אהוב למעלה וצדיק"
+        },
+        {
+          "original": "הגר\"א, עקב",
+          "corrected": "ופנינים משולחן הגר\"א, עקב"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 7,
+      "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and identifying headers. However, the OCR transcription accuracy degrades in the final section (Section ג), containing several typos and critical word substitutions (e.g., 'the loan' vs 'the mitzvah'). There is also a partial omission in one source reference."
+    },
+    {
+      "page": 44,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "שהניח לחלקיו",
+          "corrected": "שקונה לחלקיו"
+        },
+        {
+          "original": "של אלעזר ואהרן",
+          "corrected": "של אלעזר והכהן"
+        },
+        {
+          "original": "כמציל מווטו של ים",
+          "corrected": "כמציל מחוטו של ים"
+        },
+        {
+          "original": "ומ\"כ איפוא",
+          "corrected": "וא\"כ איפוא"
+        },
+        {
+          "original": "שלא תהו",
+          "corrected": "ולא תהו"
+        },
+        {
+          "original": "כבהמה",
+          "corrected": "כרמה"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing, section numbering, and source extraction are excellent. However, there are several specific text substitution errors where the OCR seemingly auto-corrected or misidentified letters (e.g., 'ואהרן' vs 'והכהן', 'כבהמה' vs 'כרמה') or missed visual nuances (e.g., 'מחוטו' vs 'מווטו')."
+    },
+    {
+      "page": 45,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "Sequence: 11, 12, 13, 14, Grouping, 15, 16",
+          "corrected": "Sequence: 11, Grouping 'Yissurim', 15, 16, 14, 12, 13"
+        },
+        {
+          "original": "למאור זרע בירך",
+          "corrected": "דמאור זרע בירך"
+        },
+        {
+          "original": "וברש\"י שת קבל שכר",
+          "corrected": "וברש\"י שקבל שכר"
+        },
+        {
+          "original": "וזהו אין לעשו חלק בו",
+          "corrected": "וזה אין לעשו חלק בו"
+        }
+      ],
+      "quality": "poor",
+      "issues_count": 4,
+      "summary": "The OCR extraction completely disregarded the explicit 'Right Column then Left Column' reading order instruction, instead synthetically reordering the sections by number (11, 12, 13, 14, 15, 16). The actual physical layout is complex: Right Column contains 11 -> Grouping -> 15 -> 16; Left Column contains 14 -> 12 -> 13. The structural parse must reflect the physical document flow as requested. Additionally, there are minor typos in the Hebrew text."
+    },
+    {
+      "page": 46,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "Text: ...שיטול שכרו. ופלפולא חריפא | Source: רוח חיים עולם",
+          "corrected": "Text: ...שיטול שכרו. | Source: ופלפולא חריפא ורוח חיי עולם"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is excellent. It successfully navigated the complex right-to-left two-column layout, including correctly stitching section 19 which wraps from the bottom of the right column to the top of the left. Structural elements and most text are accurate. A minor issue was found in the parsing of a parenthetical source reference in Section 18."
+    },
+    {
+      "page": 47,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "סד",
+          "corrected": "סז"
+        },
+        {
+          "original": "המגיד פ' פנחס",
+          "corrected": "דברי יואל עקב"
+        },
+        {
+          "original": "יקבל שכרו",
+          "corrected": "יקבל שכרו משלם בעוה\"ז."
+        },
+        {
+          "original": "...וא\"כ נגמר המצוה",
+          "corrected": "...וא\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו."
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 4,
+      "summary": "The OCR correctly identified the structural layout and most sections. However, it failed significantly in text accuracy for two sections: it hallucinated a source reference for Section 24 while dropping text, and it failed to merge the text continuing from the Right column to the Left column in Section 25 (though it did capture the source reference at the end of that continuation). The page number in metadata is also incorrect."
+    },
+    {
+      "page": 48,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ואין חטא בא על ידם ואז יש שכר מצוה",
+          "corrected": "ואין חטא בא על ידם וכו' יש שכר מצוה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR performed exceptionally well, correctly identifying the non-standard column order (Left Column then Right Column) used on this specific page. Structural parsing, section numbering, and source extraction are accurate. Only one minor transcription error was found."
+    },
+    {
+      "page": 49,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וכו' מקום לזיכה את הרבים",
+          "corrected": "וכו' מ\"מ לזיכה את הרבים"
+        },
+        {
+          "original": "קנא קנאת ה\"ל בשעת מעשה",
+          "corrected": "קנא קנאת ה' בשעת מעשה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The OCR extraction is of very high quality. It correctly handled the RTL dual-column layout, the seamless joining of sections, and the complex extraction of source references from parenthetical formatting. The structural hierarchy and section numbering are perfect. There are only two minor transcription accuracies regarding an abbreviation and a divine name symbol."
+    },
+    {
+      "page": 50,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "היינו שמגילים את העולם",
+          "corrected": "היינו שמצילים את העולם"
+        },
+        {
+          "original": "שקיוה קוית ה\"ל במחשבה",
+          "corrected": "שקיוה קוית ה' במחשבה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The OCR extraction is exceptionally high quality. It correctly handled the Right-to-Left column flow, the seamless joining of text across columns (in Section 44), and the identification of all structural elements including section headers and source references. There are only two specific text errors: one ambiguous letter misrecognition and one incorrect transcription of a Divine Name abbreviation."
+    },
+    {
+      "page": 51,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 52,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וש\"ך על התורה, בחוקותי",
+          "corrected": "רמב\"ם הל' תשובה פ\"ט"
+        },
+        {
+          "original": "ולכך היתה הוא",
+          "corrected": "ולכך היתר הוא"
+        },
+        {
+          "original": "ינוויי",
+          "corrected": "ינווי"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The OCR structural extraction is largely correct, handling the column flow and section breaks very well. However, there is a CRITICAL hallucination in the source reference for Section 56, where the OCR provides a source not present in the image and ignores the clear source text. There are also minor transcription errors (single letters)."
+    },
+    {
+      "page": 53,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "דאם תעשו משמרתם הנ\"ל מצות עשה, דהיינו כלומר על גילוי תעשו מצות עשה",
+          "corrected": "דאם תעשון מצותי עקב, דהיינו עקב על מנת לקבל פרס תעשו מצות עקב"
+        },
+        {
+          "original": "ועתה לא יתייחס",
+          "corrected": "ומעתה לא יתייחס"
+        },
+        {
+          "original": "היינו בלא לא היו",
+          "corrected": "היינו באלו לא היו"
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 4,
+      "summary": "Generally accurate text extraction for most sections, but missed a grouping header at the bottom of the right column and produced a severe textual hallucination in Section 61, inventing words not present in the image."
+    },
+    {
+      "page": 54,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "שהיו הקנטים מכניס מומו",
+          "corrected": "שהיו השבטים מכניס מומו"
+        },
+        {
+          "original": "הוא מכין שלא עשה כלום",
+          "corrected": "הוא מבין שלא עשה כלום"
+        },
+        {
+          "original": "שיקבל שכר כמתנת חינם",
+          "corrected": "שיקבל שכר כמתנת חינם (בעוה\"ז)"
+        },
+        {
+          "original": "דלהוי [?] כעשה",
+          "corrected": "דלהוי כעשה"
+        },
+        {
+          "original": "שנותנים",
+          "corrected": "שנותנין"
+        },
+        {
+          "original": "בקובץ 'חדשים גם ישנים'",
+          "corrected": "ובקובץ 'חדשים גם ישנים'"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing is perfect, handling column flow and section alignment correctly. There are a few text recognition errors (character confusion) and one short phrase omitted from the end of a legal text block. One critical word ('השבטים') was misrecognized due to visual noise but is contextually clear."
+    },
+    {
+      "page": 55,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כיון שמדת דינו הדק כן הוא",
+          "corrected": "כיון שמדת דינו רק כן הוא"
+        },
+        {
+          "original": "לא יגרע מלצדיק",
+          "corrected": "לא יגרע מצדיק"
+        },
+        {
+          "original": "הגר\"י גר\"פ",
+          "corrected": "הגר\"י גרי\"פ"
+        },
+        {
+          "original": "ולהם משלם הקב\"ה השכר גם בעוה\"ז",
+          "corrected": "ולהם משלם הקב\"ה הכל גם בעוה\"ז"
+        },
+        {
+          "original": "ששכרו כפול יטול",
+          "corrected": "ששכרו יטול"
+        },
+        {
+          "original": "עבודתא שפירתא",
+          "corrected": "עבידתא שפירתא"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing is excellent, correctly identifying sections, headers, and column flow. However, there are several distinct textual errors: a hallucinated word ('כפול'), word substitutions ('השכר' instead of 'הכל'), and minor misreadings of text ('מלצדיק' vs 'מצדיק', 'עבודתא' vs 'עבידתא')."
+    },
+    {
+      "page": 56,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "{type: 'grouping_header', title: 'פ. המשכים ומעריב לעבודת ה'.'}",
+          "corrected": "(Remove entire object)"
+        },
+        {
+          "original": "וחמץ את כוחו",
+          "corrected": "וימץ את כוחו"
+        },
+        {
+          "original": "יחסרו הבריות חיה מחקימו לכל מסיו בו",
+          "corrected": "יחסרו הבריות חיות מחלקו לכל חוסיו בו"
+        },
+        {
+          "original": "כי ראית עיקר הדבר",
+          "corrected": "כי ראיתי עיקר הכלל"
+        },
+        {
+          "original": "אמנס יש לחלק",
+          "corrected": "אמנם יש לחלק"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The OCR correctly identified the structural layout, column order, and cross-column text joining (which is complex on this page). Source extraction is precise. However, there are several distinct text recognition errors in the Hebrew body text (wrong words/letters) and one structural error where a section header was duplicated as a grouping header."
+    },
+    {
+      "page": 57,
+      "modified": false,
+      "method": "no_corrections_needed",
+      "corrections": [],
+      "quality": "unknown",
+      "issues_count": 0,
+      "summary": ""
+    },
+    {
+      "page": 58,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ראויה לו שכר",
+          "corrected": "לחויה לו שכר"
+        },
+        {
+          "original": "כי המצוה נעלמה הוא ג\"כ",
+          "corrected": "כי המצוה נעלמה היא ג\"כ"
+        },
+        {
+          "original": "הגמרא נותנת שמשלמין לו",
+          "corrected": "הגמרא נותנת שתשלומין לו"
+        },
+        {
+          "original": "מה שאנחנו נחשב לשכר",
+          "corrected": "מה שאננו נחשב לשכר"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "The structural parsing, segmentation, source extraction, and column ordering are excellent. However, there are several word-level transcription errors where the OCR seemingly autocorrected valid (though perhaps less common) words or confused visually similar letters."
+    },
+    {
+      "page": 59,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "section (number: null)",
+          "corrected": "N/A (Keep as section for content preservation, just noted)"
+        },
+        {
+          "original": "ואוכל ה' [?] במאכל",
+          "corrected": "ועובד ה' במאכל"
+        },
+        {
+          "original": "null",
+          "corrected": "פני מבין פ' לך"
+        },
+        {
+          "original": "ללמד לתוהים בינה",
+          "corrected": "ללמד לתועים בינה"
+        },
+        {
+          "original": "עוח\"ז",
+          "corrected": "עוה\"ז"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The OCR correctly identified the structure, column flow, and cross-column join for section 94. However, there are significant text errors in the first paragraph (wrong words changing meaning), a missing source reference in section 95, and minor typos in section 96."
+    },
+    {
+      "page": 60,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אכל מי וכו'",
+          "corrected": "חזל מי וכו'"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is of very high quality. The structure, column handling, source extraction, and text transcription are nearly perfect. There is one minor text recognition error in section 98 where 'חזל' (Chazal) was misidentified as 'אכל'."
+    },
+    {
+      "page": 61,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כי הנה דשכר מצוה",
+          "corrected": "כי הגם דשכר מצוה"
+        },
+        {
+          "original": "דכיון דיקודם מעבירה",
+          "corrected": "דכיון דקודם מעבירה"
+        },
+        {
+          "original": "כיון שיש לה גבול שפיר",
+          "corrected": "כיון שיש לה גדול שפיר"
+        },
+        {
+          "original": "ונטלו שכר עליה",
+          "corrected": "ומטלו שכר עליה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 4,
+      "summary": " The structural parsing is perfect, including the complex column merging of Section 108, Paragraph 1. The extraction of headers, sections, and source references is accurate. There are a few minor text transcription errors where characters were misidentified or where the OCR likely corrected a typo present in the original book (instructions specify exact transcription)."
+    },
+    {
+      "page": 62,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 63,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "לכן היה ירא מפרהס [?] כיון",
+          "corrected": "לכן היה ירא מאברהם כיון"
+        },
+        {
+          "original": "מקיימן שפיר בוטחים עליהם",
+          "corrected": "מקיימן שפיר מובטחים עליהם"
+        },
+        {
+          "original": "קכ",
+          "corrected": "קב"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing is accurate, correctly handling the right-to-left column flow and text joining across columns. The section numbering `קכ` was correctly inferred logically despite a misprint `קב` in the source. However, there are two transcription errors within the body text, one of which is significant."
+    },
+    {
+      "page": 64,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "מ\"מ ככר הֵשִׁיב",
+          "corrected": "מ\"מ כבר השיב"
+        },
+        {
+          "original": "אכל מי שמסתפק",
+          "corrected": "אבל מי שמסתפק"
+        },
+        {
+          "original": "השכינה המוה\"ק",
+          "corrected": "הכתיבה התוה\"ק"
+        },
+        {
+          "original": "ועזרתם ה\"א",
+          "corrected": "ועבדתם ה\"א"
+        },
+        {
+          "original": "ומכניע ה\"ע בסכנה",
+          "corrected": "ומכניס ע\"ע בסכנה"
+        },
+        {
+          "original": "אמנם מקרע\"ה... גם למקרע\"ה.",
+          "corrected": "אמנם מרע\"ה... גם למרע\"ה."
+        }
+      ],
+      "quality": "good",
+      "issues_count": 6,
+      "summary": "The structural parsing, sectioning, and source extraction are excellent. However, there are several distinct OCR character misrecognitions specific to the Rashi script provided (e.g., confusing ב with כ, confusing מ with ת, and misreading abbreviations like מרע\"ה)."
+    },
+    {
+      "page": 65,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "Section 129 object",
+          "corrected": "(Remove Section 129 entirely)"
+        },
+        {
+          "original": "Section 130 header",
+          "corrected": "Header should be missing or marked as [חסר כותרת]; Text itself is valid."
+        },
+        {
+          "original": "Moved to Section 130",
+          "corrected": "Move paragraph back to Section 127."
+        },
+        {
+          "original": "דאדם המלט מקיים",
+          "corrected": "דאדם השלם מקיים"
+        },
+        {
+          "original": "כשמונעים אותם",
+          "corrected": "כשמונעים אותו"
+        },
+        {
+          "original": "אעפ\"י שפנחס עשה דין",
+          "corrected": "אעפ\"י שעשה דין"
+        }
+      ],
+      "quality": "poor",
+      "issues_count": 6,
+      "summary": "The OCR result contains significant structural hallucinations and reordering. It invented a section (129) that does not exist on the page, fabricated a header for Section 130, and incorrectly moved a paragraph from the Right Column (Section 127) to the Left Column (Section 130). There are also minor transcription errors."
+    },
+    {
+      "page": 66,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אפילו",
+          "corrected": "אפי'"
+        },
+        {
+          "original": "מותר לחול ע\"מ... מותר לחול",
+          "corrected": "מותר לעזול [?] ע\"מ... מותר לעזול [?]"
+        },
+        {
+          "original": "שנוחלתו",
+          "corrected": "שנוחלין"
+        },
+        {
+          "original": "כניגוד",
+          "corrected": "בניגוד"
+        },
+        {
+          "original": "הניח את ממחי בצלקתו ולקח",
+          "corrected": "הניח את מסחו ולקח"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The structural parsing is excellent, correctly handling the complex layout where a section title (קלו) appears at the bottom of the right column while its body text is at the top of the left column. However, there are several specific text transcription errors, including a hallucinated word in Section קלח."
+    },
+    {
+      "page": 67,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "דאם כבר היה",
+          "corrected": "ואם כבר היה"
+        },
+        {
+          "original": "לק\"מ דסומא",
+          "corrected": "לק\"מ בסומא"
+        },
+        {
+          "original": "ראוי שפיר לקייס",
+          "corrected": "ראוי שפיר לקיום"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The structural parsing, section numbering, and source extraction are accurate. The OCR correctly handled the right-to-left column flow. However, there are three specific character recognition errors in the body text of sections קמג and קמד, one of which creates a non-existent word."
+    },
+    {
+      "page": 68,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "ע\"י שמקיימו המצות",
+          "corrected": "ע\"י שתקיימו המצות"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is of very high quality. The complex column structure, grouping headers, and empty final section were parsed correctly. Text extraction is highly accurate, with only a single minor character substitution identified in Section ד."
+    },
+    {
+      "page": 69,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "תבואות בחוקותי",
+          "corrected": "ואך פרי תבואה בחוקותי"
+        },
+        {
+          "original": "לחף לקבל מצוה בהאי עלמא",
+          "corrected": "להא דשכר מצוה בהאי עלמא"
+        },
+        {
+          "original": "דוקא כמצוה",
+          "corrected": "דוקא במצוה"
+        },
+        {
+          "original": "כשהינו",
+          "corrected": "כשאינו"
+        },
+        {
+          "original": "אם היה יטרח",
+          "corrected": "אם הוא יטרח"
+        },
+        {
+          "original": "באר מנחם לך",
+          "corrected": "ובאר מנחם לך"
+        },
+        {
+          "original": "מצות הלא נטיה עליהם",
+          "corrected": "מצות הלא נטל עליהם"
+        },
+        {
+          "original": "[]",
+          "corrected": "[{\"is_makor\": false, \"text\": \"\", \"source_ref\": \"וקדושת ציון דף ק\\\"י\"}]"
+        },
+        {
+          "original": "N/A",
+          "corrected": "N/A"
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 9,
+      "summary": "The OCR correctly identified the structure and titles but suffered from significant text hallucinations in Section 6 and missed content in Section 10. The strict column reading order resulted in non-sequential section numbering (6,9,7,8,10), which accurately reflects the column content but misrepresents the book's logical flow."
+    },
+    {
+      "page": 70,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אפשר שיהיה שכר מצוה בהאי עלמא",
+          "corrected": "אי אפשר שיהיה שכר מצוה בהאי עלמא"
+        },
+        {
+          "original": "כי השכר שקיבל היינו המצוה",
+          "corrected": "כי השכר שקיבל עבור המצוה היינו המצוה"
+        },
+        {
+          "original": "שכר עבור המצוה גופא ליכא אבל שכר טרחתו שטרח עצמו עבור המצוה איכא.",
+          "corrected": "טרחתו שטרח עצמו עבור המצוה ליכא."
+        },
+        {
+          "original": "באשר היה ישראל ... הלך להראות",
+          "corrected": "באשר היו ישראל ... הלך להורות"
+        },
+        {
+          "original": "שכעבור",
+          "corrected": "שעבור"
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 5,
+      "summary": "The OCR correctly identified the structure (chapters, sections, paragraphs) but suffered from significant hallucination in Section 11, inventing a text segment that does not appear in the image to bridge a column break. It also missed a crucial negation word ('אי') in Section 10, reversing the meaning, and contained several minor transcription errors."
+    },
+    {
+      "page": 71,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "אבל טירחא שטרח להניח המעות לקנות תפלין, עי\"ז מקבל שכר בהאי עלמא.",
+          "corrected": "אבל טירחא שטרח למנוח המעות לקנות תפלין, עי\"ז מקבל שכר כהאי עלמא."
+        },
+        {
+          "original": "בעד שבת שמתכוונים אליו מאד בשבתא",
+          "corrected": "בעד שבת שמתכוונים אליו מחד בשבתא"
+        },
+        {
+          "original": "וזה ששמו אל פנחס",
+          "corrected": "וזה עצמו של פנחס"
+        },
+        {
+          "original": "שאם לומדים ההלכות שאין לו יכולת לקיימם אז נחשב... דע\"י הלימוד התורה נחשב כאילו קימתם",
+          "corrected": "שאם לומדים ההלכות שאין לו יכולת לקיימם לו נחשב... דע\"י לימוד התורה נחשב כאילו קיימם"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "The structural parsing, section numbering, and source extraction are excellent. However, there are several localized text recognition errors, including one significant misreading in section 19 ('ששמו אל' vs 'עצמו של') and a few minor transcription inaccuracies ('מאד' vs 'מחד', 'הלימוד' vs 'לימוד')."
+    },
+    {
+      "page": 72,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "לכן המחיל במלת",
+          "corrected": "לכן המתחיל במלת"
+        },
+        {
+          "original": "ונתן בשמחה",
+          "corrected": "ונתת בשמחה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 2,
+      "summary": "The structural parsing is impressive, correctly handling the non-linear layout where Section 24 flows from the bottom of the right column to the top of the left column before Section 25 begins. The section numbering and source extraction are accurate. Two minor character recognition errors were found in Section 25."
+    },
+    {
+      "page": 73,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "מה ששמחים וטובים בהאבה ונחת",
+          "corrected": "מה ששמחים וטובים באהבה ונחת"
+        },
+        {
+          "original": "נ\"ל כי בשלמת שכר מצוה בהאי עלמא ליכא, אבל כתיב במלכים",
+          "corrected": "נ\"ל כי עצם שכר מצוה בהאי עלמא ליכא, אבל כתיב בספרים [?]"
+        },
+        {
+          "original": "זה עושה בשמחה יותר מזה",
+          "corrected": "כי כל א' [אחד] עושה בשמחה יתר מזה"
+        },
+        {
+          "original": "שהברכה בעוה\"ז יהיה, אשר תשמעו",
+          "corrected": "והברכה בעוה\"ז יהיה, כאשר תשמעו"
+        },
+        {
+          "original": "זה ישכר לכם ברכה",
+          "corrected": "זה יזכה לכם ברכה"
+        },
+        {
+          "original": "ומזרז לעשותה",
+          "corrected": "ומזדרז לעשותה"
+        },
+        {
+          "original": "אבל מי שמזלזל בהמצוה",
+          "corrected": "אבל מי שמזדרז בהמצוה"
+        },
+        {
+          "original": "יותר מבשלוחו הוא רק זריזות",
+          "corrected": "יותר מבשלוחו הוי רק זריזות"
+        },
+        {
+          "original": "שעושה בעצמו וכו' שפיר",
+          "corrected": "שעושה בעצמו וכו' שפיר מגיע לו שכר בעוה\"ז"
+        }
+      ],
+      "quality": "fair",
+      "issues_count": 9,
+      "summary": "The structural parsing, column ordering, and section division are excellent. However, the OCR text extraction suffers from several critical accuracy issues, including word substitutions that reverse the meaning (e.g., \"disparages\" instead of \"hastens\"), missing words, and misread characters in titles and body text. The source extraction is generally accurate."
+    },
+    {
+      "page": 74,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "מכל ההוספה שעושה זה שממהרת למשרת במרוצתו... נוסף ג\"כ בעולם הזה. וקדושה וברכה",
+          "corrected": "מכל ההוספה שעושה זה שממהרת למהרת במרוצתו... נוסף ג\"כ בעולם הזה."
+        },
+        {
+          "original": "ברכות פ\"א",
+          "corrected": "קדושה וברכה, ברכות פ\"א"
+        },
+        {
+          "original": "ומאורי אור...",
+          "corrected": "מאורי אור..."
+        },
+        {
+          "original": "...הקדוש הנ\"ל (ההיל\"מ)...",
+          "corrected": "...הקדוש הנ\"ל (היהודי)..."
+        },
+        {
+          "original": "חמנס יש מילה וכו'",
+          "corrected": "במס' יט מילה וכו'"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 5,
+      "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and associating the specific source at the top of the Left column with the section at the bottom of the Right column. However, there are several localized text recognition errors, including one significant hallucination in Section 37 and a misread book title citation in Section 32."
+    },
+    {
+      "page": 75,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "וא\"כ שמע ישראל, והוא מסיי\"נ, ומקנה פנים חדשות",
+          "corrected": "וא\"כ שמע ישראל, והוא מסיי\"נ, ונעשה פנים חדשות"
+        },
+        {
+          "original": "ולכן על זה המלוה כשמקבל על עצמו",
+          "corrected": "ולכן על זה המצוה כשמקבל על עצמו"
+        },
+        {
+          "original": "Section order: 38, 39, 40, 41, 42, 43",
+          "corrected": "Section order: 38, 42, 39, 41, 40, 43"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 3,
+      "summary": "The OCR extracted all sections and text with very high accuracy, containing only two distinct word errors. However, it significantly deviated from the structural instructions regarding 'Column Order'. The original page has a chaotic layout (Right Col contains sections 38->42->39; Left Col contains 41->40->43). The OCR automatically re-sorted these to numerical order (38-43). While this is logically 'cleaner', it violates the specific instruction to read Right then Left. The corrected JSON below restores the visual reading order found on the page."
+    },
+    {
+      "page": 76,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כשם שאמה עושה בלי טעם",
+          "corrected": "כשם שאתה עושה בלי טעם"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is highly accurate. Structural parsing of chapters, sections, paragraphs, and headers is perfect. Handling of cross-column flow and source references is correct. A single character substitution error was identified in Section 47."
+    },
+    {
+      "page": 77,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "יכלה בניו וקראו",
+          "corrected": "יכלה בניו יקראו"
+        },
+        {
+          "original": "ושמר ה\"ח לך",
+          "corrected": "ושמר ה\"א לך"
+        },
+        {
+          "original": "שאף בלי לוו התורה",
+          "corrected": "שאף בלי ציווי התורה"
+        },
+        {
+          "original": "אבל בלאו [המלות]",
+          "corrected": "אבל בלאו [המל\"ת]"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "Structure and cross-column joining were handled perfectly. There are a few specific text recognition errors, notably misinterpreting letters in abbreviations and difficult words (Tzadik as Lamed-Vav)."
+    },
+    {
+      "page": 78,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "בעושה עבירה לשמה וכו' מחמת שפתוך בהיה עבירה",
+          "corrected": "בעושה עבירה לשמה (תמר) וכו' מחמת דפתוך בה יה עבירה"
+        },
+        {
+          "original": "אמר אזדכך החומר וא\"כ היה לה צער גדול",
+          "corrected": "אחר שנזדכך החומר וא\"כ היה זה צער גדול"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 2,
+      "summary": " The OCR extraction is structurally excellent; it correctly handles the column flow (Right-to-Left), section delineation, and joins the running text fragments. Source references are correctly identified and extracted. However, there are a few notable text recognition errors in the body text involving letter confusion (e.g., ד vs ש, ח vs מ, ל vs ז) that change the meaning and require correction."
+    },
+    {
+      "page": 79,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "הישיבה - נצבים",
+          "corrected": "בשבילי הישיבה - נצבים"
+        },
+        {
+          "original": "וזרע יעקב רות",
+          "corrected": "זרע יעקב רות"
+        },
+        {
+          "original": "או לי\"ת, בזה",
+          "corrected": "או לל\"ת, בזה"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 3,
+      "summary": "The OCR extraction is extremely high quality. Structure, column ordering, and section delineation are perfect. There are three very minor textual inaccuracies: one missing word in a source citation, one extra letter in a source citation, and one typo in a standard abbreviation."
+    },
+    {
+      "page": 80,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 81,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "...לשון נסתר מחמת שהגוף היה נסתר כנ\"ל מהראוי ליטול שכרו וקדושת",
+          "corrected": "...לשון נסתר מחמת שהגוף היה נסתר כנ\"ל מהראוי ליטול שכרו"
+        },
+        {
+          "original": "לוי פי' פנחס",
+          "corrected": "קדושת לוי פי' פנחס"
+        },
+        {
+          "original": "אז פניה בשעת",
+          "corrected": "אז פנה בשעת"
+        },
+        {
+          "original": "על הבשר מצוה ולבוש",
+          "corrected": "על הכשר מצוה ולבוש"
+        },
+        {
+          "original": "נהנים משכר המצות בהחי עלמא",
+          "corrected": "נהנים משכר המצות בהאי עלמא"
+        },
+        {
+          "original": "ונותנים לו חיות שכר",
+          "corrected": "ונותנים לו חלף שכר"
+        },
+        {
+          "original": "אך אם מוסיף לכך שלא",
+          "corrected": "אך אם מוסיף לבד שלא"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 7,
+      "summary": "The structural parsing, including column ordering and cross-column merging, is handled excellently. However, there are several text accuracy issues involving letter substitutions (e.g., 'הבשר' vs 'הכשר', 'בהחי' vs 'בהאי') and one instance of a source reference name being split between the text and the source field."
+    },
+    {
+      "page": 82,
+      "modified": false,
+      "method": "qa_parse_failed",
+      "corrections": [],
+      "quality": null,
+      "issues_count": 0,
+      "summary": "QA parsing failed, using original"
+    },
+    {
+      "page": 83,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כלום עשה לו לית על וכו'",
+          "corrected": "כלום עשה לו לית טב וכו'"
+        },
+        {
+          "original": "צריך עוד גם [?], היינו",
+          "corrected": "צריך עוד גם הזמנה, היינו"
+        },
+        {
+          "original": "ולא יעשה את מצות כמצות אנשים",
+          "corrected": "ולא יעשה את מצות ה' כמצות אנשים"
+        },
+        {
+          "original": "אנחנו מקיימים אותו מצד",
+          "corrected": "אנחנו מקיימים אותן מצד"
+        }
+      ],
+      "quality": "good",
+      "issues_count": 4,
+      "summary": "The layout detection, structural parsing (headers, section numbering, column flow), and source extraction are excellent. The OCR correctly handled the complex column layout and extracted sources flawlessly. However, there are a few text transcription errors, including a misinterpreted Aramaic phrase, a missing word, and a grammatical gender error."
+    },
+    {
+      "page": 84,
+      "modified": true,
+      "method": "corrected_json",
+      "corrections": [
+        {
+          "original": "כי מאן דכרן שׁל לקיס [?] לעתיד",
+          "corrected": "כי מאן דכרן ש\"ל לקבל לעתיד"
+        }
+      ],
+      "quality": "excellent",
+      "issues_count": 1,
+      "summary": "The OCR extraction is highly accurate, correctly handling the two-column layout, section breaks, extracted sources, and formatting. There is only one minor text transcription error in Section 87 involving an unclear phrase."
+    }
+  ]
+}
