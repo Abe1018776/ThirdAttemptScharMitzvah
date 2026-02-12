@@ -248,11 +248,12 @@ def render_ocr_content(parsed_json):
             sec_html += '</div>'
             parts.append(sec_html)
 
-        elif item_type == "continuation_paragraph":
+        elif item_type in ("continuation_fragment", "continuation_paragraph"):
             text = item.get("text", "")
             source_ref = item.get("source_ref", "")
-            p_html = f'<div class="paragraph body-para continuation">'
-            p_html += escape(text)
+            p_html = '<div class="continuation-fragment">'
+            p_html += '<div class="cont-label">&#8592; המשך מעמוד הקודם (Continuation from previous page)</div>'
+            p_html += f'<div class="hebrew-text">{escape(text)}</div>'
             if source_ref:
                 p_html += f' <span class="source-ref">({escape(source_ref)})</span>'
             p_html += '</div>'
@@ -533,6 +534,18 @@ body {{ font-family: 'Segoe UI', Tahoma, sans-serif; background: #1a1a2e; color:
     margin-top: 10px;
 }}
 .source-ref {{ color: #ffa726; font-style: italic; font-size: 0.95em; }}
+.continuation-fragment {{
+    background: rgba(255, 167, 38, 0.1);
+    border: 1px dashed #ffa726;
+    border-right: 3px solid #ffa726;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+}}
+.cont-label {{
+    color: #ffa726; font-weight: bold; font-size: 0.85em; margin-bottom: 8px;
+}}
+.hebrew-text {{ font-family: 'David', 'Noto Sans Hebrew', serif; line-height: 1.8; }}
 </style>
 </head>
 <body>
