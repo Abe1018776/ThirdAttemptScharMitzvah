@@ -1,0 +1,162 @@
+{
+  "page": 28,
+  "book_page": 64,
+  "raw_response": "```json\n{\n  \"page\": 48,\n  \"book_page\": 48,\n  \"overall_quality\": \"fair\",\n  \"summary\": \"The structural parsing is excellent, correctly handling the horizontal (row-based) flow of sections despite the column-based instructions. However, there are significant OCR text errors in Sections 104 and 105, including gibberish words, missing letters changing meanings (e.g., 'יכבה' to 'יכנה'), and typos in titles.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קב, paragraph 3\",\n      \"description\": \"Wrong word in famous phrase substitution (Aleph vs Mem)\",\n      \"original_text\": \"הוא משום אי הקדימני\",\n      \"corrected_text\": \"הוא משום מי הקדימני\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קד, paragraph 1\",\n      \"description\": \"Garbled words leading to gibberish sentence.\",\n      \"original_text\": \"הוא לחש גמול וגרוס המטא אח\\\"כ\",\n      \"corrected_text\": \"הוא לחשב גמול וגורם החטא אח\\\"כ\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"section קד, paragraph 1\",\n      \"description\": \"Word substitution changing meaning (Bet vs Nun). 'Extinguishes' vs 'Names'.\",\n      \"original_text\": \"ועבירה יכנה מצוה\",\n      \"corrected_text\": \"ועבירה יכבה מצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קה, title\",\n      \"description\": \"Inaccurate title transcription.\",\n      \"original_text\": \"צדיק שמובטחים שיש בו\",\n      \"corrected_text\": \"צדיק שמובטח לו שיש בו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קה, paragraph 1\",\n      \"description\": \"Missing letter 'Tzadik' in word 'Latzadik', repeated twice.\",\n      \"original_text\": \"והנה לדיק כזה וכו' ... ולדיק כזה\",\n      \"corrected_text\": \"והנה לצדיק כזה וכו' ... ולצדיק כזה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קד, paragraph 1\",\n      \"description\": \"Misread word.\",\n      \"original_text\": \"העובד באהבה ויראה עולתה בלתי לה'\",\n      \"corrected_text\": \"העובד באהבה ויראה עבודתו בלתי לה'\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"מח\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": null,\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"והקרן קיימת לו לעוה\\\"ב.\",\n        \"source_ref\": \"בית אברהם השמטות ויצא\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קא\",\n        \"title\": \"העובד מיראה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"העובד מיראה לזה אפשר שיתן לו הקב\\\"ה שכר (בעוה\\\"ז – עיי\\\"ש).\",\n            \"source_ref\": \"ברית אברהם פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קב\",\n        \"title\": \"על יראה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל ביראה יש שכר גם בהאי עלמא, כיון דלא שייך אינה משתלמת אלא לבסוף וכו' כיון שלמטה של יראה אין סוף.\",\n            \"source_ref\": \"שארית מנחם פי ואתחנן\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"על מצות יראה יש שכר בהאי עלמא.\",\n            \"source_ref\": \"מגדלות מרקחים, עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"לפימ\\\"ש המפורשים דשכר מצוה בהאי עלמא ליכא הוא משום מי הקדימני וכו' וא\\\"כ ביראה דהחלט המקדיש טוב מגיע על זה שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"באר שלמה מערכת קימה והידור\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ונראה דהוא לפי שיש בהן רמז לשכר נגלה בעוה\\\"ז הבא בזכות יראה.\",\n            \"source_ref\": \"יקר שלחן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קג\",\n        \"title\": \"מי שהוא ירא שמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהנה כטעמא דמילתא דשכר מצוה בהאי עלמא ליכא הוא מטעם וכו' מי הקדימני ואשלם וכו' וכתב בשמע יעקב ח\\\"א דלפי\\\"ז לירא שמים לא שייך מי הקדימני שהרי חז\\\"ל הכל בידי שמים חוץ מיראת שמים וא\\\"כ וכו' יש שכר בהאי עלמא.\",\n            \"source_ref\": \"דורש טוב רנט\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קד\",\n        \"title\": \"העובד השי\\\"ת באהבה ויראה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מכיון שענין של שכר מצוה בהאי עלמא ליכא, הוא לחשב גמול וגורם החטא אח\\\"כ ועבירה יכבה מצוה, וא\\\"כ אין מגיע לו שכר על המצוה, אבל זהו שייך רק אצל העובד מחמת שכר ועונש, שאצלו יתכן שיחזור לסורו, משא\\\"כ העובד באהבה ויראה עבודתו בלתי לה' לבדו, שלא שייך אצלו החשש הנזכר שפיר יכול לקבל שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"עצי חיים עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קה\",\n        \"title\": \"צדיק שמובטח לו שיש בו יראת טהורה עומדת לעד.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה לצדיק כזה וכו' יש בו יראה טהורה עומדת לעד, ולצדיק כזה שפיר יכול ליטול שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"מכתב השלישי, פנחס\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 48,
+    "book_page": 48,
+    "overall_quality": "fair",
+    "summary": "The structural parsing is excellent, correctly handling the horizontal (row-based) flow of sections despite the column-based instructions. However, there are significant OCR text errors in Sections 104 and 105, including gibberish words, missing letters changing meanings (e.g., 'יכבה' to 'יכנה'), and typos in titles.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קב, paragraph 3",
+        "description": "Wrong word in famous phrase substitution (Aleph vs Mem)",
+        "original_text": "הוא משום אי הקדימני",
+        "corrected_text": "הוא משום מי הקדימני"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קד, paragraph 1",
+        "description": "Garbled words leading to gibberish sentence.",
+        "original_text": "הוא לחש גמול וגרוס המטא אח\"כ",
+        "corrected_text": "הוא לחשב גמול וגורם החטא אח\"כ"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "section קד, paragraph 1",
+        "description": "Word substitution changing meaning (Bet vs Nun). 'Extinguishes' vs 'Names'.",
+        "original_text": "ועבירה יכנה מצוה",
+        "corrected_text": "ועבירה יכבה מצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קה, title",
+        "description": "Inaccurate title transcription.",
+        "original_text": "צדיק שמובטחים שיש בו",
+        "corrected_text": "צדיק שמובטח לו שיש בו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קה, paragraph 1",
+        "description": "Missing letter 'Tzadik' in word 'Latzadik', repeated twice.",
+        "original_text": "והנה לדיק כזה וכו' ... ולדיק כזה",
+        "corrected_text": "והנה לצדיק כזה וכו' ... ולצדיק כזה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קד, paragraph 1",
+        "description": "Misread word.",
+        "original_text": "העובד באהבה ויראה עולתה בלתי לה'",
+        "corrected_text": "העובד באהבה ויראה עבודתו בלתי לה'"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "מח",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": null,
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "והקרן קיימת לו לעוה\"ב.",
+          "source_ref": "בית אברהם השמטות ויצא"
+        },
+        {
+          "type": "section",
+          "number": "קא",
+          "title": "העובד מיראה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "העובד מיראה לזה אפשר שיתן לו הקב\"ה שכר (בעוה\"ז – עיי\"ש).",
+              "source_ref": "ברית אברהם פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קב",
+          "title": "על יראה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל ביראה יש שכר גם בהאי עלמא, כיון דלא שייך אינה משתלמת אלא לבסוף וכו' כיון שלמטה של יראה אין סוף.",
+              "source_ref": "שארית מנחם פי ואתחנן"
+            },
+            {
+              "is_makor": false,
+              "text": "על מצות יראה יש שכר בהאי עלמא.",
+              "source_ref": "מגדלות מרקחים, עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "לפימ\"ש המפורשים דשכר מצוה בהאי עלמא ליכא הוא משום מי הקדימני וכו' וא\"כ ביראה דהחלט המקדיש טוב מגיע על זה שכר בהאי עלמא וכו'.",
+              "source_ref": "באר שלמה מערכת קימה והידור"
+            },
+            {
+              "is_makor": false,
+              "text": "ונראה דהוא לפי שיש בהן רמז לשכר נגלה בעוה\"ז הבא בזכות יראה.",
+              "source_ref": "יקר שלחן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קג",
+          "title": "מי שהוא ירא שמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהנה כטעמא דמילתא דשכר מצוה בהאי עלמא ליכא הוא מטעם וכו' מי הקדימני ואשלם וכו' וכתב בשמע יעקב ח\"א דלפי\"ז לירא שמים לא שייך מי הקדימני שהרי חז\"ל הכל בידי שמים חוץ מיראת שמים וא\"כ וכו' יש שכר בהאי עלמא.",
+              "source_ref": "דורש טוב רנט"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קד",
+          "title": "העובד השי\"ת באהבה ויראה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מכיון שענין של שכר מצוה בהאי עלמא ליכא, הוא לחשב גמול וגורם החטא אח\"כ ועבירה יכבה מצוה, וא\"כ אין מגיע לו שכר על המצוה, אבל זהו שייך רק אצל העובד מחמת שכר ועונש, שאצלו יתכן שיחזור לסורו, משא\"כ העובד באהבה ויראה עבודתו בלתי לה' לבדו, שלא שייך אצלו החשש הנזכר שפיר יכול לקבל שכרו בעוה\"ז.",
+              "source_ref": "עצי חיים עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קה",
+          "title": "צדיק שמובטח לו שיש בו יראת טהורה עומדת לעד.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה לצדיק כזה וכו' יש בו יראה טהורה עומדת לעד, ולצדיק כזה שפיר יכול ליטול שכרו בעוה\"ז.",
+              "source_ref": "מכתב השלישי, פנחס"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

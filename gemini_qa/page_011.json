@@ -1,0 +1,162 @@
+{
+  "page": 11,
+  "book_page": 47,
+  "raw_response": "{\n  \"page\": 31,\n  \"book_page\": 31,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is excellent, correctly handling the right-to-left column flow and seamlessly joining the text from Section 26 that splits across columns. However, there are several word-level OCR errors, some of which flip the meaning (e.g., 'not forced' vs 'was forced', 'agent' vs 'hired worker'), and a partial omission in one source reference.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 23 (כג), paragraph 1\",\n      \"description\": \"Typo in word 'מצוה'.\",\n      \"original_text\": \"אותה מצה\",\n      \"corrected_text\": \"אותה מצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 23 (כג), paragraph 1\",\n      \"description\": \"Misread word.\",\n      \"original_text\": \"מצוה שכזה\",\n      \"corrected_text\": \"מצוה שבזה\"\n    },\n    {\n      \"type\": \"missing_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 23 (כג)\",\n      \"description\": \"Source reference is incomplete.\",\n      \"original_text\": \"ויקהל\",\n      \"corrected_text\": \"ומגדלות מרקחים ויקהל\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section 24 (כד), paragraph 1\",\n      \"description\": \"Critical text error reversing meaning ('is not forced' vs 'was forced').\",\n      \"original_text\": \"ולטובה אינו מוכרח\",\n      \"corrected_text\": \"ולטובה היה מוכרח\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section 24 (כד), paragraph 1\",\n      \"description\": \"Misread word.\",\n      \"original_text\": \"לרעה מוכרח וא\\\"כ\",\n      \"corrected_text\": \"לרעה וממילא וא\\\"כ\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section 27 (כז), paragraph 1\",\n      \"description\": \"Transcription errors making the sentence unintelligible due to misreading abbreviations or Aramaic.\",\n      \"original_text\": \"זכו שכרו ולא נזכר אלא פנחס, בגין שפרע\\\"ה שרצון\",\n      \"corrected_text\": \"זכו חכמו ולא נזכר אלא פנחס, הכין מפרשה שרצון\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"Section 27 (כז), paragraph 1\",\n      \"description\": \"Halachic term error ('Shaliach' vs 'Sachir'). Context refers to wages (Lo Talin).\",\n      \"original_text\": \"משום לא תלין דשליח\",\n      \"corrected_text\": \"משום לא תלין דשכיר\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לא\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שני\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"כג\",\n        \"title\": \"על מצוה שנאמר בו זה הדבר.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז מצוה שבזה אותה מצוה בבחינת זה הדבר וכו' ע\\\"ז מגיע שכר בהאי עלמא.\",\n            \"source_ref\": \"ומגדלות מרקחים ויקהל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כד\",\n        \"title\": \"מצוה שזכה אליה ע\\\"י עבירה של אחרים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר על המצוה באמת אינו מגיע עפ\\\"י דין כיון שהיה ישועה להשי\\\"ת ולטובה היה מוכרח וכו' וא\\\"כ עבירה שעשה זמרי היה ביד זמרי לבטל בחירתו לרעה וממילא וא\\\"כ גם המצוה שעשה פנחס היה בטל וכו' ושפיר מגיע שכר עפ\\\"י דין.\",\n            \"source_ref\": \"אמרי אש פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כה\",\n        \"title\": \"מצות שאדם מוסיף וממציא מדעת עצמו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דעל מצות שהאדם מוסיף וממציא מדעת עצמו נותנים שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"חידושי רבינו יוסף נחמי' עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כו\",\n        \"title\": \"המקיים מצות התלוים בעסקי פרנסתו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"היינו שכעסקיכם במזונותיכם ובפרנסתיכם ותקיימו את המצות התלוים בהם עכ\\\"פ אני אשלח ברכה במעשי ידיכם וכו'.\",\n            \"source_ref\": \"שובע שמחות בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כז\",\n        \"title\": \"מצוה שאי אפשר ליעשות ע\\\"י אחר.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהא דלא עשה משה בעצמו דבר זה, לפי שמשה ואהרן זכו חכמו ולא נזכר אלא פנחס, הכין מפרשה שרצון הקב\\\"ה שלא יעשה דבר זה שום בן אדם אלא פנחס, א\\\"כ בכה\\\"ג אזלא הפקפוק דמילי ושוה שפיר היה מגיע לפנחס שכר מדינא משום לא תלין דשכיר של אדם כמותו ודו\\\"ק.\",\n            \"source_ref\": \"שפתי מהר\\\"ש פ' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כח\",\n        \"title\": \"על מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,\",\n            \"source_ref\": \"דרשות חת\\\"ס קכג, ירבה תורה פנחס\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 31,
+    "book_page": 31,
+    "overall_quality": "good",
+    "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and seamlessly joining the text from Section 26 that splits across columns. However, there are several word-level OCR errors, some of which flip the meaning (e.g., 'not forced' vs 'was forced', 'agent' vs 'hired worker'), and a partial omission in one source reference.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 23 (כג), paragraph 1",
+        "description": "Typo in word 'מצוה'.",
+        "original_text": "אותה מצה",
+        "corrected_text": "אותה מצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 23 (כג), paragraph 1",
+        "description": "Misread word.",
+        "original_text": "מצוה שכזה",
+        "corrected_text": "מצוה שבזה"
+      },
+      {
+        "type": "missing_source_ref",
+        "severity": "minor",
+        "location": "Section 23 (כג)",
+        "description": "Source reference is incomplete.",
+        "original_text": "ויקהל",
+        "corrected_text": "ומגדלות מרקחים ויקהל"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section 24 (כד), paragraph 1",
+        "description": "Critical text error reversing meaning ('is not forced' vs 'was forced').",
+        "original_text": "ולטובה אינו מוכרח",
+        "corrected_text": "ולטובה היה מוכרח"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section 24 (כד), paragraph 1",
+        "description": "Misread word.",
+        "original_text": "לרעה מוכרח וא\"כ",
+        "corrected_text": "לרעה וממילא וא\"כ"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section 27 (כז), paragraph 1",
+        "description": "Transcription errors making the sentence unintelligible due to misreading abbreviations or Aramaic.",
+        "original_text": "זכו שכרו ולא נזכר אלא פנחס, בגין שפרע\"ה שרצון",
+        "corrected_text": "זכו חכמו ולא נזכר אלא פנחס, הכין מפרשה שרצון"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "Section 27 (כז), paragraph 1",
+        "description": "Halachic term error ('Shaliach' vs 'Sachir'). Context refers to wages (Lo Talin).",
+        "original_text": "משום לא תלין דשליח",
+        "corrected_text": "משום לא תלין דשכיר"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לא",
+        "page_side": "left",
+        "chapter_context": "פרק שני",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "כג",
+          "title": "על מצוה שנאמר בו זה הדבר.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז מצוה שבזה אותה מצוה בבחינת זה הדבר וכו' ע\"ז מגיע שכר בהאי עלמא.",
+              "source_ref": "ומגדלות מרקחים ויקהל"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כד",
+          "title": "מצוה שזכה אליה ע\"י עבירה של אחרים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר על המצוה באמת אינו מגיע עפ\"י דין כיון שהיה ישועה להשי\"ת ולטובה היה מוכרח וכו' וא\"כ עבירה שעשה זמרי היה ביד זמרי לבטל בחירתו לרעה וממילא וא\"כ גם המצוה שעשה פנחס היה בטל וכו' ושפיר מגיע שכר עפ\"י דין.",
+              "source_ref": "אמרי אש פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כה",
+          "title": "מצות שאדם מוסיף וממציא מדעת עצמו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דעל מצות שהאדם מוסיף וממציא מדעת עצמו נותנים שכר גם בעוה\"ז.",
+              "source_ref": "חידושי רבינו יוסף נחמי' עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כו",
+          "title": "המקיים מצות התלוים בעסקי פרנסתו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "היינו שכעסקיכם במזונותיכם ובפרנסתיכם ותקיימו את המצות התלוים בהם עכ\"פ אני אשלח ברכה במעשי ידיכם וכו'.",
+              "source_ref": "שובע שמחות בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כז",
+          "title": "מצוה שאי אפשר ליעשות ע\"י אחר.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהא דלא עשה משה בעצמו דבר זה, לפי שמשה ואהרן זכו חכמו ולא נזכר אלא פנחס, הכין מפרשה שרצון הקב\"ה שלא יעשה דבר זה שום בן אדם אלא פנחס, א\"כ בכה\"ג אזלא הפקפוק דמילי ושוה שפיר היה מגיע לפנחס שכר מדינא משום לא תלין דשכיר של אדם כמותו ודו\"ק.",
+              "source_ref": "שפתי מהר\"ש פ' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כח",
+          "title": "על מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,",
+              "source_ref": "דרשות חת\"ס קכג, ירבה תורה פנחס"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

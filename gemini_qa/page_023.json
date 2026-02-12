@@ -1,0 +1,156 @@
+{
+  "page": 23,
+  "book_page": 59,
+  "raw_response": "{\n  \"page\": 43,\n  \"book_page\": 43,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR result is high quality with perfect structure detection (columns, sections, headers) and source extraction. There are only very minor character recognition errors due to font peculiarities (Samech/Final Mem confusion and He/Kuf confusion) and one minor omission in a source citation.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section עד, paragraph 2\",\n      \"description\": \"Text misrecognition: 'laku' (לקו) instead of 'lehu' (להו). The letter He corresponds to 'to them'.\",\n      \"original_text\": \"דזהו שכלו לקו בעוה\\\"ז\",\n      \"corrected_text\": \"דזהו שכלו להו בעוה\\\"ז\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section עה, paragraph 1\",\n      \"description\": \"Visual confusion between Final Mem and Samech. The word is clearly 'Yom' (day), not 'Yos'.\",\n      \"original_text\": \"לומר מאה ברכות בכל יוס, זכו\",\n      \"corrected_text\": \"לומר מאה ברכות בכל יום, זכו\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section עה, paragraph 1\",\n      \"description\": \"Missing prefix letter 'Vav' in source title.\",\n      \"original_text\": \"ברך משה, תשא\",\n      \"corrected_text\": \"וברך משה, תשא\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"מג\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"סט\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"עו\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"יותר טוב משאר מ\\\"ע כיון שעל זה יש שכר בעוה\\\"ז.\",\n        \"source_ref\": \"עצי חיים, לך\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ע\",\n        \"title\": \"המתפלל על חבירו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בהך עיון תפילה היינו שמתפלל על חבירו וכו' וא\\\"כ מגיע לו שכר בעוה\\\"ז.\",\n            \"source_ref\": \"שומע תפילה פמ\\\"ו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עא\",\n        \"title\": \"רבים שמתפללים בציבור וי\\\"ג מידות.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל לרבים יש להם זכות עוה\\\"ז וכו' אם מצאו מ\\\"מ אם מתפללים בציבור י\\\"ג מידות ברית כרותה שעונותיהם מחול, וגם זכות אבות מסייעם להיטיב עמהם בעוה\\\"ז.\",\n            \"source_ref\": \"נחלת יעקב עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עב\",\n        \"title\": \"על מצות קריאת שמע\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכתב הרב מטה יששכר בסוף ספרו בשם מהר\\\"ם ריקאנטי ז\\\"ל דבזכות ק\\\"ש ה' זן אותנו וכו'.\",\n            \"source_ref\": \"דבש לפי מערכת מ\\\"ט\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כתב הגרש\\\"ק ז\\\"ל וזל\\\"ק: אבל באלו המלות שהזמן גרמא בהם דכתיב רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עג\",\n        \"title\": \"בזכות אמירת תהלה לדוד וגו' פעמיים ביום יש לו פרנסה בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אר\\\"א תנינן כל מאן דאמר תהלה לדוד בכל יום וכו' אי בגין פרנסה ומזונא דכל עלמא תרין זמנין אינון בכל יומא בצפרא ובפניא וכו'.\",\n            \"source_ref\": \"זוה\\\"ק פ' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עד\",\n        \"title\": \"על שכר ההליכה לביהכ\\\"נ\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי טוב יותר לילך לביהכ\\\"נ ושכר הליכה יהיה לי בעוה\\\"ז, ויהיה לנו פרנסה בכבוד, ונתתי גשמיכם שכר עוה\\\"ז.\",\n            \"source_ref\": \"מעגלי צדק בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דחילוק בין שכר הליכה לשכר מעשה דזהו שכלו להו בעוה\\\"ז\",\n            \"source_ref\": \"ומעגלי צדק בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עה\",\n        \"title\": \"על מאה ברכות בכל יום\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דע\\\"י שיקיימו ישראל וכו' לומר מאה ברכות בכל יום, זכו לשכר מצוה בעוה\\\"ז.\",\n            \"source_ref\": \"וברך משה, תשא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עו\",\n        \"title\": \"ע\\\"י ברכה שמברכין\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הברכה סגולה לפרנסה, דכן כינו חז\\\"ל ענין הברכות מטבע\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 43,
+    "book_page": 43,
+    "overall_quality": "excellent",
+    "summary": "The OCR result is high quality with perfect structure detection (columns, sections, headers) and source extraction. There are only very minor character recognition errors due to font peculiarities (Samech/Final Mem confusion and He/Kuf confusion) and one minor omission in a source citation.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section עד, paragraph 2",
+        "description": "Text misrecognition: 'laku' (לקו) instead of 'lehu' (להו). The letter He corresponds to 'to them'.",
+        "original_text": "דזהו שכלו לקו בעוה\"ז",
+        "corrected_text": "דזהו שכלו להו בעוה\"ז"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section עה, paragraph 1",
+        "description": "Visual confusion between Final Mem and Samech. The word is clearly 'Yom' (day), not 'Yos'.",
+        "original_text": "לומר מאה ברכות בכל יוס, זכו",
+        "corrected_text": "לומר מאה ברכות בכל יום, זכו"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section עה, paragraph 1",
+        "description": "Missing prefix letter 'Vav' in source title.",
+        "original_text": "ברך משה, תשא",
+        "corrected_text": "וברך משה, תשא"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "מג",
+        "page_side": "right",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "סט",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "עו",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "יותר טוב משאר מ\"ע כיון שעל זה יש שכר בעוה\"ז.",
+          "source_ref": "עצי חיים, לך"
+        },
+        {
+          "type": "section",
+          "number": "ע",
+          "title": "המתפלל על חבירו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בהך עיון תפילה היינו שמתפלל על חבירו וכו' וא\"כ מגיע לו שכר בעוה\"ז.",
+              "source_ref": "שומע תפילה פמ\"ו"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עא",
+          "title": "רבים שמתפללים בציבור וי\"ג מידות.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל לרבים יש להם זכות עוה\"ז וכו' אם מצאו מ\"מ אם מתפללים בציבור י\"ג מידות ברית כרותה שעונותיהם מחול, וגם זכות אבות מסייעם להיטיב עמהם בעוה\"ז.",
+              "source_ref": "נחלת יעקב עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עב",
+          "title": "על מצות קריאת שמע",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכתב הרב מטה יששכר בסוף ספרו בשם מהר\"ם ריקאנטי ז\"ל דבזכות ק\"ש ה' זן אותנו וכו'.",
+              "source_ref": "דבש לפי מערכת מ\"ט"
+            },
+            {
+              "is_makor": false,
+              "text": "כתב הגרש\"ק ז\"ל וזל\"ק: אבל באלו המלות שהזמן גרמא בהם דכתיב רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עג",
+          "title": "בזכות אמירת תהלה לדוד וגו' פעמיים ביום יש לו פרנסה בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אר\"א תנינן כל מאן דאמר תהלה לדוד בכל יום וכו' אי בגין פרנסה ומזונא דכל עלמא תרין זמנין אינון בכל יומא בצפרא ובפניא וכו'.",
+              "source_ref": "זוה\"ק פ' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עד",
+          "title": "על שכר ההליכה לביהכ\"נ",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי טוב יותר לילך לביהכ\"נ ושכר הליכה יהיה לי בעוה\"ז, ויהיה לנו פרנסה בכבוד, ונתתי גשמיכם שכר עוה\"ז.",
+              "source_ref": "מעגלי צדק בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "דחילוק בין שכר הליכה לשכר מעשה דזהו שכלו להו בעוה\"ז",
+              "source_ref": "ומעגלי צדק בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עה",
+          "title": "על מאה ברכות בכל יום",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דע\"י שיקיימו ישראל וכו' לומר מאה ברכות בכל יום, זכו לשכר מצוה בעוה\"ז.",
+              "source_ref": "וברך משה, תשא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עו",
+          "title": "ע\"י ברכה שמברכין",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הברכה סגולה לפרנסה, דכן כינו חז\"ל ענין הברכות מטבע"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

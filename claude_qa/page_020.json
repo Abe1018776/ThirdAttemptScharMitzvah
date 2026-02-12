@@ -1,0 +1,49 @@
+{
+  "page": 20,
+  "book_page": 56,
+  "overall_quality": "fair",
+  "summary": "Page 20 (book page מ) contains sections מח through נד. Section numbering is correct and sequential. However, sections נב and נד have '[?]' markers and '...' indicating incomplete OCR capture. The continues_to metadata may be incorrect.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section נב, makor text",
+      "description": "The OCR text reads 'אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והשכמת ביהמ\"ד וכו''. The '[?]' and '...' indicate the OCR could not read parts of the text. The full makor text should be captured without placeholder markers.",
+      "original_text": "אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והשכמת ביהמ\"ד וכו'.",
+      "corrected_text": "Needs re-OCR - text not properly captured"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section נד, makor text",
+      "description": "Same issue as section נב - the OCR text reads 'אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והמגדל בניו לת\"ת וכו''. The '[?]' and '...' indicate incomplete OCR.",
+      "original_text": "אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו'",
+      "corrected_text": "Needs re-OCR - text incomplete"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section נא, makor text",
+      "description": "The OCR reads 'מניח עצמו לידי חיוב' which may actually be 'מכניס עצמו לידי חיוב' (puts himself into obligation).",
+      "original_text": "מניח עצמו לידי חיוב",
+      "corrected_text": "Possibly 'מכניס עצמו לידי חיוב'"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section נא, source_ref",
+      "description": "Source ref reads 'אגדות מהרי\"ט עירובין דף של\"ב'. The daf number של\"ב (332) seems very high for a Talmudic tractate. May be a different number or a page reference in the sefer rather than the Gemara.",
+      "original_text": "עירובין דף של\"ב",
+      "corrected_text": "Verify daf number"
+    },
+    {
+      "type": "wrong_structure",
+      "severity": "minor",
+      "location": "meta.continues_to",
+      "description": "The continues_to shows section_letter 'נד' but the flag is false, which is contradictory. Looking at the image, section נד appears complete on this page. The continues_to should either have flag:true or section_letter:null.",
+      "original_text": "continues_to: {flag: false, section_letter: 'נד', level: 'body_paragraph'}",
+      "corrected_text": "Should be {flag: false, section_letter: null, level: null}"
+    }
+  ],
+  "corrected_json": null
+}

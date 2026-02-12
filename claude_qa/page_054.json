@@ -1,0 +1,41 @@
+{
+  "page": 54,
+  "book_page": 90,
+  "overall_quality": "good",
+  "summary": "Page 54 (book page 74) captures sections סב through סח plus grouping header 'עבירה'. Structure and section numbering are correct. Some minor text and source ref issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סב, makor text",
+      "description": "OCR has 'שהיו הקנטים מכניס מומו' - the word 'הקנטים' seems like an OCR error. Image may show 'הקנאים' (the zealots). Also 'מכניס' may be 'מכניסו'.",
+      "original_text": "שהיו הקנטים מכניס מומו",
+      "corrected_text": "Verify - possibly 'שהיו הקנאים מכניסו מומו'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סד, title",
+      "description": "OCR title has 'עה\"פ' which may be 'עוה\"פ' (עוד הפעם). Image shows abbreviated form.",
+      "original_text": "מצפה לקיים אותם עה\"פ",
+      "corrected_text": "Verify abbreviation - possibly 'עוה\"פ'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סו, makor text",
+      "description": "OCR has '[?]' marker: 'דלהוי [?] כעשה מצוה'. The unclear word needs verification from image.",
+      "original_text": "דלהוי [?] כעשה מצוה",
+      "corrected_text": "Verify unclear word from original"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סו, source_ref",
+      "description": "Source ref 'תיבת גמא משפטים' - verify against image. Image shows this appears correct.",
+      "original_text": "תיבת גמא משפטים",
+      "corrected_text": "Correct"
+    }
+  ],
+  "corrected_json": null
+}

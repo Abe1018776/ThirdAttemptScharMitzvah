@@ -1,0 +1,147 @@
+{
+  "page": 53,
+  "book_page": 89,
+  "raw_response": "{\n  \"page\": 73,\n  \"book_page\": 89,\n  \"overall_quality\": \"fair\",\n  \"summary\": \"Generally accurate text extraction for most sections, but missed a grouping header at the bottom of the right column and produced a severe textual hallucination in Section 61, inventing words not present in the image.\",\n  \"issues\": [\n    {\n      \"type\": \"missing_section\",\n      \"severity\": \"major\",\n      \"location\": \"Right column, bottom\",\n      \"description\": \"The grouping header 'נסיון' (Trial) appears centered at the bottom of the right column but was omitted from the output. It corresponds to the theme of the following section 'מי שעמד בנסיונות'.\",\n      \"original_text\": null,\n      \"corrected_text\": \"נסיון\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"Section סא, Paragraph 1\",\n      \"description\": \"Severe text hallucination. The OCR invented the phrase 'משמרתם הנ\\\"ל מצות עשה... כלומר על גילוי' instead of transcribing the visible text involving the word 'עקב' (Eikev), which is emphasized in the source (Arugas HaBosem, Parshas Eikev).\",\n      \"original_text\": \"דאם תעשו משמרתם הנ\\\"ל מצות עשה, דהיינו כלומר על גילוי תעשו מצות עשה\",\n      \"corrected_text\": \"דאם תעשון מצותי עקב, דהיינו עקב על מנת לקבל פרס תעשו מצות עקב\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section סא, Paragraph 2\",\n      \"description\": \"Missing letter 'mem' at the start of the word.\",\n      \"original_text\": \"ועתה לא יתייחס\",\n      \"corrected_text\": \"ומעתה לא יתייחס\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section ס, Paragraph 1\",\n      \"description\": \"Text mismatch. OCR transcribed 'היינו בלא', image appears to be 'היינו באלו'.\",\n      \"original_text\": \"היינו בלא לא היו\",\n      \"corrected_text\": \"היינו באלו לא היו\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עג\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"נז\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"להיעסק בתורה, כשהוא קטן אומר לו לך לבית המלמד ואתן לך מן הרמונים ומן האגוזים וכו' וכן הקב\\\"ה אמר בתחילה אם בחוקותי תלכו וגו' אתן לכם לחם ופירות גשמיכם בעתם וכו'.\",\n        \"source_ref\": \"תולדות יצחק בחוקותי\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נח\",\n        \"title\": \"הכנה שלא יבוטלו מתורה ותפילה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דכל היעודים טובים כמוה\\\"ק לא בתורת שכר, דשכר מצוה בהאי עלמא ליכא, רק בתורת הכנה שלא יבוטלו מתורה ותפילה שיהיה הרחבת הדעת לתורה ועבודת ה'.\",\n            \"source_ref\": \"טל השמים עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נט\",\n        \"title\": \"בתורת מתנה, מצד אהבתו לישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהנה אע\\\"ג דשכר מצוה בהאי עלמא ליכא, זה רק בתורת שכר, אבל מה שהשי\\\"ת נותן במתנה מחמת אהבה, זה שייך גם בעוה\\\"ז.\",\n            \"source_ref\": \"מגדלות מרקחים, עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וי\\\"ל וכו' היינו המתנה שנוסף לו על שכר המצות יוכן לו בעוה\\\"ז.\",\n            \"source_ref\": \"חת\\\"ס אבות, ת\\\"מ מהת\\\"ל תצא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"נסיון\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ס\",\n        \"title\": \"מי שעמד בנסיונות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דאע\\\"ג דשכר מצוה בהאי עלמא ליכא היינו באלו לא היו לו נסיונות, לא כן כשעמד בנסיונות ע\\\"ז מגיע שפיר שכר.\",\n            \"source_ref\": \"טל השמים עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אך עמידה בנסיון אינו בכלל מי הקדימני, ולכן שייך בו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ביאורי החסידות קידושין, שפת אמת, מקץ\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"עניו\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סא\",\n        \"title\": \"מי שהוא עניו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מיהא ע\\\"י ענוה וכו' מתעלים כל המצות כגון שעשה וראוי לקבל עליהם שכר וכו' ושמרתם ועשיתם אותם ושמר ה' אלהיך וגו' דאם תעשון מצותי עקב, דהיינו עקב על מנת לקבל פרס תעשו מצות עקב עי\\\"ז תזכו לברכות עוה\\\"ז.\",\n            \"source_ref\": \"ערוה\\\"ב עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ומעתה לא יתייחס לעניו השפלה של מי הקדימני ואשלם וכו' כי הלא הוא העמיד העולם, ובזכותו יש קיום להבית ולכל העולם וכו'.\",\n            \"source_ref\": \"ולאשר אמר נח\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ולכך נכפל וכו' שהיה עניו בתכלית וכו' בדין הוא שיטול שכרו על אתר בעוה\\\"ז.\",\n            \"source_ref\": \"בית אשר פנחס\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 73,
+    "book_page": 89,
+    "overall_quality": "fair",
+    "summary": "Generally accurate text extraction for most sections, but missed a grouping header at the bottom of the right column and produced a severe textual hallucination in Section 61, inventing words not present in the image.",
+    "issues": [
+      {
+        "type": "missing_section",
+        "severity": "major",
+        "location": "Right column, bottom",
+        "description": "The grouping header 'נסיון' (Trial) appears centered at the bottom of the right column but was omitted from the output. It corresponds to the theme of the following section 'מי שעמד בנסיונות'.",
+        "original_text": null,
+        "corrected_text": "נסיון"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "Section סא, Paragraph 1",
+        "description": "Severe text hallucination. The OCR invented the phrase 'משמרתם הנ\"ל מצות עשה... כלומר על גילוי' instead of transcribing the visible text involving the word 'עקב' (Eikev), which is emphasized in the source (Arugas HaBosem, Parshas Eikev).",
+        "original_text": "דאם תעשו משמרתם הנ\"ל מצות עשה, דהיינו כלומר על גילוי תעשו מצות עשה",
+        "corrected_text": "דאם תעשון מצותי עקב, דהיינו עקב על מנת לקבל פרס תעשו מצות עקב"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section סא, Paragraph 2",
+        "description": "Missing letter 'mem' at the start of the word.",
+        "original_text": "ועתה לא יתייחס",
+        "corrected_text": "ומעתה לא יתייחס"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section ס, Paragraph 1",
+        "description": "Text mismatch. OCR transcribed 'היינו בלא', image appears to be 'היינו באלו'.",
+        "original_text": "היינו בלא לא היו",
+        "corrected_text": "היינו באלו לא היו"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עג",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "נז",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "להיעסק בתורה, כשהוא קטן אומר לו לך לבית המלמד ואתן לך מן הרמונים ומן האגוזים וכו' וכן הקב\"ה אמר בתחילה אם בחוקותי תלכו וגו' אתן לכם לחם ופירות גשמיכם בעתם וכו'.",
+          "source_ref": "תולדות יצחק בחוקותי"
+        },
+        {
+          "type": "section",
+          "number": "נח",
+          "title": "הכנה שלא יבוטלו מתורה ותפילה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דכל היעודים טובים כמוה\"ק לא בתורת שכר, דשכר מצוה בהאי עלמא ליכא, רק בתורת הכנה שלא יבוטלו מתורה ותפילה שיהיה הרחבת הדעת לתורה ועבודת ה'.",
+              "source_ref": "טל השמים עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נט",
+          "title": "בתורת מתנה, מצד אהבתו לישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהנה אע\"ג דשכר מצוה בהאי עלמא ליכא, זה רק בתורת שכר, אבל מה שהשי\"ת נותן במתנה מחמת אהבה, זה שייך גם בעוה\"ז.",
+              "source_ref": "מגדלות מרקחים, עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "וי\"ל וכו' היינו המתנה שנוסף לו על שכר המצות יוכן לו בעוה\"ז.",
+              "source_ref": "חת\"ס אבות, ת\"מ מהת\"ל תצא"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "נסיון"
+        },
+        {
+          "type": "section",
+          "number": "ס",
+          "title": "מי שעמד בנסיונות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דאע\"ג דשכר מצוה בהאי עלמא ליכא היינו באלו לא היו לו נסיונות, לא כן כשעמד בנסיונות ע\"ז מגיע שפיר שכר.",
+              "source_ref": "טל השמים עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "אך עמידה בנסיון אינו בכלל מי הקדימני, ולכן שייך בו שכר גם בעוה\"ז.",
+              "source_ref": "ביאורי החסידות קידושין, שפת אמת, מקץ"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "עניו"
+        },
+        {
+          "type": "section",
+          "number": "סא",
+          "title": "מי שהוא עניו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מיהא ע\"י ענוה וכו' מתעלים כל המצות כגון שעשה וראוי לקבל עליהם שכר וכו' ושמרתם ועשיתם אותם ושמר ה' אלהיך וגו' דאם תעשון מצותי עקב, דהיינו עקב על מנת לקבל פרס תעשו מצות עקב עי\"ז תזכו לברכות עוה\"ז.",
+              "source_ref": "ערוה\"ב עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "ומעתה לא יתייחס לעניו השפלה של מי הקדימני ואשלם וכו' כי הלא הוא העמיד העולם, ובזכותו יש קיום להבית ולכל העולם וכו'.",
+              "source_ref": "ולאשר אמר נח"
+            },
+            {
+              "is_makor": false,
+              "text": "ולכך נכפל וכו' שהיה עניו בתכלית וכו' בדין הוא שיטול שכרו על אתר בעוה\"ז.",
+              "source_ref": "בית אשר פנחס"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

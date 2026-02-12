@@ -1,0 +1,14 @@
+{
+  "page": 19,
+  "book_page": 55,
+  "raw_response": "{\n  \"page\": 19,\n  \"book_page\": 39,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is flawless. The structural parsing correctly handled the RTL dual-column layout, specifically the critical join in Section מד where the text flows from the bottom of the right column to the top of the left column. Titles, body text, and source references are accurately transcribed and segmented.\",\n  \"issues\": [],\n  \"corrected_json\": null\n}",
+  "parsed_qa": {
+    "page": 19,
+    "book_page": 39,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is flawless. The structural parsing correctly handled the RTL dual-column layout, specifically the critical join in Section מד where the text flows from the bottom of the right column to the top of the left column. Titles, body text, and source references are accurately transcribed and segmented.",
+    "issues": [],
+    "corrected_json": null
+  },
+  "status": "success"
+}

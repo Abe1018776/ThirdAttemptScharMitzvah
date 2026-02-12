@@ -1,0 +1,33 @@
+{
+  "page": 2,
+  "book_page": 38,
+  "overall_quality": "good",
+  "summary": "Page 2 captures the continuation of section aleph, the grouping header, and sections bet through heh. Structure is correct. The continuation paragraphs belonging to section aleph use generic 'paragraph' type which is acceptable for continuation pages. Section heh continues to next page with null source_ref which is correct.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment (section א ending)",
+      "description": "OCR reads 'ומקל מהבורא' but the image appears to show 'וחמד מהבורא ב\"ה' - the word seems to be חמד not מקל.",
+      "original_text": "טוב ומקל מהבורא",
+      "corrected_text": "טוב וחמד מהבורא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "paragraph (source: עלים לתרופה)",
+      "description": "OCR reads 'שטמן לכם' but image appears to read 'דטמון לכם' - minor word variant.",
+      "original_text": "שטמן לכם",
+      "corrected_text": "דטמון לכם"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section ה makor (last on page)",
+      "description": "The source_ref is null because section ה's makor text continues to the next page. The source ref appears on page 3's continuation fragment. This is acceptable behavior for cross-page sections.",
+      "original_text": null,
+      "corrected_text": null
+    }
+  ],
+  "corrected_json": null
+}

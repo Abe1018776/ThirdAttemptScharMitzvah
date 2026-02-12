@@ -1,0 +1,136 @@
+{
+  "page": 9,
+  "book_page": 45,
+  "raw_response": "```json\n{\n  \"page\": 29,\n  \"book_page\": 29,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Start of page handled well as continuation fragment. Structural parsing of sections and columns is excellent. Several text inaccuracies were found, including one hallmark of hallucination in section 16 ('דיקבל' vs 'השכר'), and a few character misrecognitions in source references and body text.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"continuation_fragment\",\n      \"description\": \"Misidentified letter 'Vav' as 'Yod' in word, changing meaning.\",\n      \"original_text\": \"קיימים\",\n      \"corrected_text\": \"קיומים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section יב, paragraph 1\",\n      \"description\": \"Misidentified word. Visually distinct 'tav' read as 'heh'. Change from plural construct (loans of) to singular/lender.\",\n      \"original_text\": \"גם זה מלוה הקב\\\"ה\",\n      \"corrected_text\": \"גם זה מלות הקב\\\"ה\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section יד, source_ref\",\n      \"description\": \"Misidentified reference letter 'Heh' as 'Chet'.\",\n      \"original_text\": \"ש\\\"ח\",\n      \"corrected_text\": \"ש\\\"ה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"section טז, paragraph 1\",\n      \"description\": \"Hallucination/Major misreading. The word 'השכר' (the reward) was read as 'דיקבל' (that he receives). The words have no visual similarity.\",\n      \"original_text\": \"אפשר דיקבל בעוה\\\"ז\",\n      \"corrected_text\": \"אפשר השכר בעוה\\\"ז\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"כט\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק שני\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"יא\",\n        \"level\": \"makor\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"דאף דשכר מצוה בהאי עלמא ליכא, אמנם קיומים וגדרי חכמים וכו' איכא בהאי עלמא.\",\n        \"source_ref\": \"נועם מגדים אחרי\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יב\",\n        \"title\": \"על שמירת גדרים וסייגים שעושים גדולי הדור בכל דור.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומבואר בפקה\\\"ק דעל סייגים וגדרים משלם הקב\\\"ה שכר בעוה\\\"ז וכו' מה שעשיתם אתם המלוות גם זה מלות הקב\\\"ה ומשלם שכר בהאי עלמא וכו' ולכך בכל דור ודור צריכים חכמי הדור לעשות סייגים וגדרים והשומע לדברי חכמים ישכון בטח ויתענג בדשן נפשו.\",\n            \"source_ref\": \"פני מבין בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יג\",\n        \"title\": \"על מצוה דרבים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"זכות הרבים ומעשיהם הטובים מביאים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\\\"ז.\",\n            \"source_ref\": \"מהרש\\\"א סופ\\\"ק קידושין\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יד\",\n        \"title\": \"כל מצוה שנעשה בחברותא.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לזה כלל מצוה שנעשה בחברותא רבים משלם הקב\\\"ה בעוה\\\"ז.\",\n            \"source_ref\": \"ויריעות שלמה, ש\\\"ה, ו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טו\",\n        \"title\": \"מצוה שהוא הלכה ואין מורין כן, ואדם עושהו מעצמו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכל מצוה שאדם עושהו מעצמו אשר אין לו תוכח הגוף עליו, יש לו שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"פני מבין פנחס\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כתבו המפרשים דענין שכר מצוה בהאי עלמא ליכא, הוא דכל הפסוק היום לעשותם שדרשו בו חז\\\"ל היום לעשותם ומחר לקבל שכרם, משא\\\"כ במצוה שהוא הלכה ואין מורין כן ולא שייך ביה היום לעשותם, דאין עליו מצות העשיה, א\\\"כ ג\\\"כ לא שייך ביה הגדר של ומחר לקבל שכרם, וע\\\"כ מקבל שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"בשבילי הישיבה - בעלעד, בשם מפרשים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טז\",\n        \"title\": \"על מצוה קלה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי הגם דשכר מצוה בהאי עלמא ליכא וכו' אבל עקבי המצות אפשר השכר בעוה\\\"ז, ולכך הוי זהיר במצוה קלה וכו' די\\\"ל שתשלום גמול העוה\\\"ז יהיה דוקא בזכות מצוה קלה.\",\n            \"source_ref\": \"מעגלי צדק פ' עקב\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 29,
+    "book_page": 29,
+    "overall_quality": "good",
+    "summary": "Start of page handled well as continuation fragment. Structural parsing of sections and columns is excellent. Several text inaccuracies were found, including one hallmark of hallucination in section 16 ('דיקבל' vs 'השכר'), and a few character misrecognitions in source references and body text.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "continuation_fragment",
+        "description": "Misidentified letter 'Vav' as 'Yod' in word, changing meaning.",
+        "original_text": "קיימים",
+        "corrected_text": "קיומים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section יב, paragraph 1",
+        "description": "Misidentified word. Visually distinct 'tav' read as 'heh'. Change from plural construct (loans of) to singular/lender.",
+        "original_text": "גם זה מלוה הקב\"ה",
+        "corrected_text": "גם זה מלות הקב\"ה"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section יד, source_ref",
+        "description": "Misidentified reference letter 'Heh' as 'Chet'.",
+        "original_text": "ש\"ח",
+        "corrected_text": "ש\"ה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "section טז, paragraph 1",
+        "description": "Hallucination/Major misreading. The word 'השכר' (the reward) was read as 'דיקבל' (that he receives). The words have no visual similarity.",
+        "original_text": "אפשר דיקבל בעוה\"ז",
+        "corrected_text": "אפשר השכר בעוה\"ז"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "כט",
+        "page_side": "right",
+        "chapter_context": "פרק שני",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "יא",
+          "level": "makor"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "דאף דשכר מצוה בהאי עלמא ליכא, אמנם קיומים וגדרי חכמים וכו' איכא בהאי עלמא.",
+          "source_ref": "נועם מגדים אחרי"
+        },
+        {
+          "type": "section",
+          "number": "יב",
+          "title": "על שמירת גדרים וסייגים שעושים גדולי הדור בכל דור.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומבואר בפקה\"ק דעל סייגים וגדרים משלם הקב\"ה שכר בעוה\"ז וכו' מה שעשיתם אתם המלוות גם זה מלות הקב\"ה ומשלם שכר בהאי עלמא וכו' ולכך בכל דור ודור צריכים חכמי הדור לעשות סייגים וגדרים והשומע לדברי חכמים ישכון בטח ויתענג בדשן נפשו.",
+              "source_ref": "פני מבין בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יג",
+          "title": "על מצוה דרבים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "זכות הרבים ומעשיהם הטובים מביאים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\"ז.",
+              "source_ref": "מהרש\"א סופ\"ק קידושין"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יד",
+          "title": "כל מצוה שנעשה בחברותא.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לזה כלל מצוה שנעשה בחברותא רבים משלם הקב\"ה בעוה\"ז.",
+              "source_ref": "ויריעות שלמה, ש\"ה, ו"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טו",
+          "title": "מצוה שהוא הלכה ואין מורין כן, ואדם עושהו מעצמו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכל מצוה שאדם עושהו מעצמו אשר אין לו תוכח הגוף עליו, יש לו שכר מצוה בהאי עלמא.",
+              "source_ref": "פני מבין פנחס"
+            },
+            {
+              "is_makor": false,
+              "text": "כתבו המפרשים דענין שכר מצוה בהאי עלמא ליכא, הוא דכל הפסוק היום לעשותם שדרשו בו חז\"ל היום לעשותם ומחר לקבל שכרם, משא\"כ במצוה שהוא הלכה ואין מורין כן ולא שייך ביה היום לעשותם, דאין עליו מצות העשיה, א\"כ ג\"כ לא שייך ביה הגדר של ומחר לקבל שכרם, וע\"כ מקבל שכרו בעוה\"ז.",
+              "source_ref": "בשבילי הישיבה - בעלעד, בשם מפרשים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טז",
+          "title": "על מצוה קלה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי הגם דשכר מצוה בהאי עלמא ליכא וכו' אבל עקבי המצות אפשר השכר בעוה\"ז, ולכך הוי זהיר במצוה קלה וכו' די\"ל שתשלום גמול העוה\"ז יהיה דוקא בזכות מצוה קלה.",
+              "source_ref": "מעגלי צדק פ' עקב"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

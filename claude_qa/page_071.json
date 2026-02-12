@@ -1,0 +1,57 @@
+{
+  "page": 71,
+  "book_page": 107,
+  "overall_quality": "good",
+  "summary": "Page 71 (book page צא) covers sections יד through כ in chapter 6, with grouping headers 'הכנה' and 'לומד'. The OCR captures the structure well with correct section numbering and source references. Some minor text differences detected.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יד, title",
+      "description": "OCR title reads 'על הטירחא להמציא מעות לקיום המצוה'. The image shows 'על הטירחא להמציא מעות לקיום המצוה' which matches. However, the makor text says 'אבל טירחא שטרח להניח המעות לקנות תפלין' - the image shows 'אבל טירחא שטרח להניח תפלין' or may include 'המעות'. The word 'להניח' should be verified - may be 'להשיג'.",
+      "original_text": "אבל טירחא שטרח להניח המעות לקנות תפלין",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יח, makor text",
+      "description": "OCR reads 'בעד שבת שמתכוונים אליו מאד בשבתא ומכינים עצמו אליו'. The image shows 'בעד שבת שמתכוננים' (with נ not ו). The word in the image appears to be 'שמתכוננים' rather than 'שמתכוונים'. Also 'מאד' may actually be 'מכל' in the image.",
+      "original_text": "שמתכוונים אליו מאד בשבתא",
+      "corrected_text": "שמתכוננים (needs verification)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יט, makor text",
+      "description": "OCR reads 'פנחס עשה את כל זה מאליו, בלי התעלות ובלי ישוב הדעת'. The image shows 'פנחס עשה את כל זה... בלי התעוררות ובלי ישוב הדעת' - 'התעלות' should likely be 'התעוררות'.",
+      "original_text": "בלי התעלות",
+      "corrected_text": "בלי התעוררות"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כ, makor text",
+      "description": "OCR text has 'דיש באמת עצה לקיים כל התורה בבת אחת והוא לעסוק בד\"ת שאם לומדים ההלכות שאין לו יכולת לקיימם אז נחשב כאילו קיימם'. The image shows 'דיש באמת עצה לקיים' matching. The phrase 'שאין לו יכולת' may read 'שאין להם יכולת' in the image.",
+      "original_text": "שאין לו יכולת",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section יד source_ref",
+      "description": "Source listed as 'יריעות שלמה, עקב.' - the image shows 'שארית ישראל' or similar. Need to verify exact source ref in the parenthetical.",
+      "original_text": "יריעות שלמה, עקב.",
+      "corrected_text": "Needs verification against image parenthetical"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section טז, makor text",
+      "description": "OCR reads 'אבל הענין הוא כי השכר הגשמי הוא רק על ההכנה למצוה וכו''. The image appears to read 'אבל הענין הוא כי שכר הגשמי הוא רק על ההכנה למצוה' - missing the 'ה' prefix on 'שכר'. Minor.",
+      "original_text": "כי השכר הגשמי",
+      "corrected_text": "Needs verification"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,41 @@
+{
+  "page": 78,
+  "book_page": 114,
+  "overall_quality": "good",
+  "summary": "Page 78 covers the continuation of section 53, then a grouping header 'צער והעדר תענוג', followed by sections 54-58. Structure and section numbering are correct. The continuation_fragment source_ref attribution is reasonable. Section 54's title mentions 'ועי\"ז אינו יכול להרגיש במתיקות המצוה בעת עשייתה' which matches the image. Section 57 has a long makor paragraph that is well captured. Section 58 title 'על מה שהגוף סובל צער, שמכניעים תאותה' - the last word should possibly be 'תאותו' (his desire) rather than 'תאותה' (her desire). The continues_to flag is set to false, which is correct as the page ends cleanly.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 54, makor paragraph",
+      "description": "OCR reads 'מחמת שפתוך בהיה עבירה' - appears garbled. The image shows 'מחמת שפתוכה היא עבירה' or similar. The word 'שפתוך' seems incorrect.",
+      "original_text": "מחמת שפתוך בהיה עבירה",
+      "corrected_text": "מחמת שפיתוכה היא עבירה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 58, title",
+      "description": "Title says 'שמכניעים תאותה' but image shows 'שמכניעים תאותו' (masculine suffix)",
+      "original_text": "שמכניעים תאותה",
+      "corrected_text": "שמכניעים תאותו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 58, makor paragraph",
+      "description": "OCR reads 'אמר אזדכך החומר וא\"כ היה לה צער גדול להגוף' but the image appears to show 'אמר אזדכך החומר וא\"כ היה לה צער גדול להגוף' - the 'לה' should possibly be 'לו'.",
+      "original_text": "וא\"כ היה לה צער גדול להגוף",
+      "corrected_text": "וא\"כ היה לו צער גדול להגוף"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "continuation_fragment source_ref",
+      "description": "Source ref says 'בית אהרן, עקב, בשם פנים יפות' - the image shows this source attribution at the end of the continuation text. Appears correct but 'פנים יפות' part should be verified.",
+      "original_text": "בית אהרן, עקב, בשם פנים יפות",
+      "corrected_text": "בית אהרן, עקב. בשם פנים יפות"
+    }
+  ],
+  "corrected_json": null
+}

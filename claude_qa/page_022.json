@@ -1,0 +1,49 @@
+{
+  "page": 22,
+  "book_page": 58,
+  "overall_quality": "good",
+  "summary": "Page 22 (book page מב) contains sections סג through סט (beginning). Includes the grouping header 'קר\"ש תפלה וברכות'. Section numbering is correct and sequential. The continues_to flag for section סט is properly noted. Structure and source refs are generally well captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section סד, makor text",
+      "description": "The OCR reads 'ולפי\"ז הרמב\"ם מגיע שכר בהאי עלמא' which seems grammatically incomplete. Should likely be 'ולפי\"ז לדעת הרמב\"ם מגיע שכר בהאי עלמא' or 'ולפי הרמב\"ם מגיע שכר'.",
+      "original_text": "ולפי\"ז הרמב\"ם מגיע שכר בהאי עלמא",
+      "corrected_text": "Possibly 'ולפי\"ז לדעת הרמב\"ם מגיע שכר בהאי עלמא'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section סו, makor text",
+      "description": "The OCR reads 'וזמן שביהמ\"ק היה קיים'. The word 'וזמן' should likely be 'בזמן' (at the time when).",
+      "original_text": "וזמן שביהמ\"ק היה קיים",
+      "corrected_text": "בזמן שביהמ\"ק היה קיים"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section סח, source_ref",
+      "description": "Source ref reads 'ודבש לפי מערכת סמ\"ך' with a leading vav. Should be 'דבש לפי מערכת סמ\"ך'.",
+      "original_text": "ודבש לפי מערכת סמ\"ך",
+      "corrected_text": "דבש לפי מערכת סמ\"ך"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section סח, makor text",
+      "description": "The OCR reads 'רבים כלכם ילכו' - the word 'כלכם' should be 'כולכם' (all of you). Minor spelling variant.",
+      "original_text": "רבים כלכם ילכו",
+      "corrected_text": "רבים כולכם ילכו"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "Section סט, source_ref",
+      "description": "Source ref is null because the section continues to the next page. This is acceptable given the continuation flag is set.",
+      "original_text": "source_ref: null",
+      "corrected_text": "Acceptable - source ref likely on next page"
+    }
+  ],
+  "corrected_json": null
+}

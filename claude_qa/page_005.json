@@ -1,0 +1,33 @@
+{
+  "page": 5,
+  "book_page": 41,
+  "overall_quality": "good",
+  "summary": "Page 5 covers continuation of section yod-zayin and sections yod-chet through kaf-gimel. All section numbers are sequential and correct. Source references appear accurate. Minor meta page_side issue.",
+  "issues": [
+    {
+      "type": "other",
+      "severity": "minor",
+      "location": "meta.page_side",
+      "description": "Page side is marked as 'left' but page כה (25) is odd-numbered, which should be right page in a Hebrew book.",
+      "original_text": "left",
+      "corrected_text": "right"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment (section יז)",
+      "description": "OCR has 'דהוה כמלא חוטו של ים [?]' with a question mark bracket indicating uncertainty. This is the standard Talmudic phrase 'כמלוא חוטו של חמה' (the fullness of a thread of the sun). The word should be 'חמה' not 'ים'.",
+      "original_text": "דהוה כמלא חוטו של ים [?]",
+      "corrected_text": "דהוה כמלא חוטו של חמה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כב makor",
+      "description": "OCR has 'על פ' בלאה [?]' with uncertainty marker. This reference in the context of שוחר טוב (Midrash Tehillim) is unclear at this resolution.",
+      "original_text": "על פ' בלאה [?]",
+      "corrected_text": "על פ' בלאה [?]"
+    }
+  ],
+  "corrected_json": null
+}

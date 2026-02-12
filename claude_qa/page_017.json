@@ -1,0 +1,57 @@
+{
+  "page": 17,
+  "book_page": 53,
+  "overall_quality": "fair",
+  "summary": "Page 17 (book page לז) has significant structural issues. The page_number in meta incorrectly says 'לו' instead of 'לז'. The page contains continuation of section ל, then sections לא through לה (beginning). The OCR has mixed up section ordering, placing sections לג/לד before לא/לב. There are also [?] markers indicating OCR uncertainty, and duplicate text across sections.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "meta.page_number",
+      "description": "The meta page_number says 'לו' but the image clearly shows 'לז' (37) at the bottom of the page.",
+      "original_text": "לו",
+      "corrected_text": "לז"
+    },
+    {
+      "type": "column_order_error",
+      "severity": "critical",
+      "location": "Sections לא-לה ordering",
+      "description": "The page should read RIGHT column first then LEFT. The image right column has: continuation of section ל, then sections לא (על היגיעה להבין טעמי הגמרא בסברא) and לב (ע\"י לימוד התורה להבין גם ההוה אמינא של כל דבר). The left column has: sections לג (המסיק שמעתתא אליבא דהילכתא), לד (מי שהוא שמח בעמלו בתורה), and לה (מי שעמל בתורה ונהנה ממנו). But the OCR places לג and לד BEFORE לא and לב, reversing the column reading order.",
+      "original_text": "Order: continuation, לג, לד, לה, continuation_fragment, לא, לב",
+      "corrected_text": "Correct order should be: continuation, לא, לב, לג, לד, לה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section לד, makor text",
+      "description": "The OCR contains '[?]' uncertainty markers: 'והמפלסים [?] תירזו [?]'. These should be resolved. Looking at the image, the text likely reads 'והמפלפלים תירצו'.",
+      "original_text": "והמפלסים [?] תירזו [?]",
+      "corrected_text": "והמפלפלים תירצו"
+    },
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "Section לה",
+      "description": "Section לה has two paragraphs both marked is_makor:true, which is incorrect. It should have one makor paragraph. The second paragraph 'ע\"כ מי שעמל בתורה' is a fragment that should be part of the makor or body.",
+      "original_text": "Two makor paragraphs in section לה",
+      "corrected_text": "Should have one makor paragraph with complete text"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Sections לב and לה, duplicated text",
+      "description": "The makor text for section לב is identical to the first paragraph of section לה: 'אנו שכבר ידוע לנו ההלכה פסוקה של כל דבר, לכאורה אין לנו לעסוק רק במסקנות הגמרא והלכה'. This is a duplication error - each section should have unique makor text.",
+      "original_text": "Same text in both לב and לה",
+      "corrected_text": "Each section needs its own distinct makor text"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section לא, makor text",
+      "description": "OCR reads 'השכל שנותנים טעמ'ה הוא על היגיעה בקבלה'. The word 'טעמ'ה' is unusual - may be 'טעמיה' or 'טעם הוא'.",
+      "original_text": "השכל שנותנים טעמ'ה הוא על היגיעה בקבלה",
+      "corrected_text": "Needs verification"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,154 @@
+{
+  "page": 47,
+  "book_page": 83,
+  "raw_response": "```json\n{\n  \"page\": 67,\n  \"book_page\": 83,\n  \"overall_quality\": \"fair\",\n  \"summary\": \"The OCR correctly identified the structural layout and most sections. However, it failed significantly in text accuracy for two sections: it hallucinated a source reference for Section 24 while dropping text, and it failed to merge the text continuing from the Right column to the Left column in Section 25 (though it did capture the source reference at the end of that continuation). The page number in metadata is also incorrect.\",\n  \"issues\": [\n    {\n      \"type\": \"other\",\n      \"severity\": \"minor\",\n      \"location\": \"meta.page_number\",\n      \"description\": \"OCR metadata lists page as 'סד' (64), but the image header clearly shows 'סז' (67).\",\n      \"original_text\": \"סד\",\n      \"corrected_text\": \"סז\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"critical\",\n      \"location\": \"Section כד (24)\",\n      \"description\": \"The OCR completely hallucinated the source reference. The image shows (דברי יואל עקב), but the OCR output (המגיד פ' פנחס).\",\n      \"original_text\": \"המגיד פ' פנחס\",\n      \"corrected_text\": \"דברי יואל עקב\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כד (24)\",\n      \"description\": \"The end of the paragraph is missing text that appears on the last line of the section in the right column.\",\n      \"original_text\": \"יקבל שכרו\",\n      \"corrected_text\": \"יקבל שכרו משלם בעוה\\\"ז.\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כה (25)\",\n      \"description\": \"The text cuts off at the bottom of the Right column. The continuation at the top of the Left column ('ולכך בדין הוא שיטול שכרו') was missed, although the source reference following it was correctly captured.\",\n      \"original_text\": \"...וא\\\"כ נגמר המצוה\",\n      \"corrected_text\": \"...וא\\\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו.\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סז\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"כב\",\n        \"level\": \"section_title\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"כח\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"כב\",\n        \"title\": \"להשי\\\"ת נח\\\"ר בשכרו שיכול להיטיב.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואפשר דבכהאי גוונא השכר הוא גם בעוה\\\"ז, מכיון שבקבלת השכר הוא מכוין לעשות נח\\\"ר לבוראו ית'.\",\n            \"source_ref\": \"שארית מנחם פ' בחוקתי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כג\",\n        \"title\": \"העושה דבר ומתכוין שעי\\\"ז יתקדש שם ה'.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"למעט קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא.\",\n            \"source_ref\": \"שארית מנחם פ' עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כד\",\n        \"title\": \"מי שאינו מתפתה ממסיתים ומדיחים ולוחם נגדם.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דאם האדם מתגבר על מסיתים ומדיחים בעלי בחירה ואינו מתפתה להם רק לוחם נגדם יקבל שכרו משלם בעוה\\\"ז.\",\n            \"source_ref\": \"דברי יואל עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כה\",\n        \"title\": \"על מצות ביעור הרשעים שמצפין שיתמו חטאים ולא יצטרכו עוד לקיימו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הנה שכירות אינה משתלמת אלא לבסוף וכו' ולא נגמר שום מצוה עד יום מותו, משא\\\"כ מצוה זו וכו' ויעמוד פנחס ויפלל שלא יהא עוד לידו לעולם וכו' וא\\\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו.\",\n            \"source_ref\": \"פני מבין פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מזכה הרבים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כו\",\n        \"title\": \"כשמזכין את הרבים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\\\"ז\",\n            \"source_ref\": \"מהרש\\\"א קידושין לט.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כז\",\n        \"title\": \"המזכה אחרים בקיום המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דנהי דעל מצוה גופא ליכא שכר בעוה\\\"ז מ\\\"מ במה שזיכה אחרים על זה מגיע שכר בעוה\\\"ז.\",\n            \"source_ref\": \"ויחי יוסף בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כח\",\n        \"title\": \"המזכה את הרבים מקבל שכרו בעוה\\\"ז על כל מצותיו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר מצוה בהאי עלמא ליכא, והטעם להרמב\\\"ם דלא שליט עבידתיה ושכירות אינה משתלמת אלא\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 67,
+    "book_page": 83,
+    "overall_quality": "fair",
+    "summary": "The OCR correctly identified the structural layout and most sections. However, it failed significantly in text accuracy for two sections: it hallucinated a source reference for Section 24 while dropping text, and it failed to merge the text continuing from the Right column to the Left column in Section 25 (though it did capture the source reference at the end of that continuation). The page number in metadata is also incorrect.",
+    "issues": [
+      {
+        "type": "other",
+        "severity": "minor",
+        "location": "meta.page_number",
+        "description": "OCR metadata lists page as 'סד' (64), but the image header clearly shows 'סז' (67).",
+        "original_text": "סד",
+        "corrected_text": "סז"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "critical",
+        "location": "Section כד (24)",
+        "description": "The OCR completely hallucinated the source reference. The image shows (דברי יואל עקב), but the OCR output (המגיד פ' פנחס).",
+        "original_text": "המגיד פ' פנחס",
+        "corrected_text": "דברי יואל עקב"
+      },
+      {
+        "type": "missing_text",
+        "severity": "major",
+        "location": "Section כד (24)",
+        "description": "The end of the paragraph is missing text that appears on the last line of the section in the right column.",
+        "original_text": "יקבל שכרו",
+        "corrected_text": "יקבל שכרו משלם בעוה\"ז."
+      },
+      {
+        "type": "missing_text",
+        "severity": "major",
+        "location": "Section כה (25)",
+        "description": "The text cuts off at the bottom of the Right column. The continuation at the top of the Left column ('ולכך בדין הוא שיטול שכרו') was missed, although the source reference following it was correctly captured.",
+        "original_text": "...וא\"כ נגמר המצוה",
+        "corrected_text": "...וא\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו."
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סז",
+        "page_side": "right",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "כב",
+          "level": "section_title"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "כח",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "כב",
+          "title": "להשי\"ת נח\"ר בשכרו שיכול להיטיב.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואפשר דבכהאי גוונא השכר הוא גם בעוה\"ז, מכיון שבקבלת השכר הוא מכוין לעשות נח\"ר לבוראו ית'.",
+              "source_ref": "שארית מנחם פ' בחוקתי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כג",
+          "title": "העושה דבר ומתכוין שעי\"ז יתקדש שם ה'.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "למעט קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא.",
+              "source_ref": "שארית מנחם פ' עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כד",
+          "title": "מי שאינו מתפתה ממסיתים ומדיחים ולוחם נגדם.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דאם האדם מתגבר על מסיתים ומדיחים בעלי בחירה ואינו מתפתה להם רק לוחם נגדם יקבל שכרו משלם בעוה\"ז.",
+              "source_ref": "דברי יואל עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כה",
+          "title": "על מצות ביעור הרשעים שמצפין שיתמו חטאים ולא יצטרכו עוד לקיימו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הנה שכירות אינה משתלמת אלא לבסוף וכו' ולא נגמר שום מצוה עד יום מותו, משא\"כ מצוה זו וכו' ויעמוד פנחס ויפלל שלא יהא עוד לידו לעולם וכו' וא\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו.",
+              "source_ref": "פני מבין פנחס"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "מזכה הרבים"
+        },
+        {
+          "type": "section",
+          "number": "כו",
+          "title": "כשמזכין את הרבים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\"ז",
+              "source_ref": "מהרש\"א קידושין לט."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כז",
+          "title": "המזכה אחרים בקיום המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דנהי דעל מצוה גופא ליכא שכר בעוה\"ז מ\"מ במה שזיכה אחרים על זה מגיע שכר בעוה\"ז.",
+              "source_ref": "ויחי יוסף בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כח",
+          "title": "המזכה את הרבים מקבל שכרו בעוה\"ז על כל מצותיו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר מצוה בהאי עלמא ליכא, והטעם להרמב\"ם דלא שליט עבידתיה ושכירות אינה משתלמת אלא",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

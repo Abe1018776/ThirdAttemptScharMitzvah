@@ -1,0 +1,144 @@
+{
+  "page": 75,
+  "book_page": 111,
+  "raw_response": "```json\n{\n  \"page\": 95,\n  \"book_page\": 95,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR extracted all sections and text with very high accuracy, containing only two distinct word errors. However, it significantly deviated from the structural instructions regarding 'Column Order'. The original page has a chaotic layout (Right Col contains sections 38->42->39; Left Col contains 41->40->43). The OCR automatically re-sorted these to numerical order (38-43). While this is logically 'cleaner', it violates the specific instruction to read Right then Left. The corrected JSON below restores the visual reading order found on the page.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section מ (OCR section 40), paragraph 2\",\n      \"description\": \"Word transcription error. The OCR read 'ומקנה' where the image clearly shows 'ונעשה'.\",\n      \"original_text\": \"וא\\\"כ שמע ישראל, והוא מסיי\\\"נ, ומקנה פנים חדשות\",\n      \"corrected_text\": \"וא\\\"כ שמע ישראל, והוא מסיי\\\"נ, ונעשה פנים חדשות\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section מב (OCR section 42), paragraph 1\",\n      \"description\": \"Word transcription error. Visual similarity confusion between Mem/Lamed/Vav.\",\n      \"original_text\": \"ולכן על זה המלוה כשמקבל על עצמו\",\n      \"corrected_text\": \"ולכן על זה המצוה כשמקבל על עצמו\"\n    },\n    {\n      \"type\": \"column_order_error\",\n      \"severity\": \"major\",\n      \"location\": \"Entire Page\",\n      \"description\": \"The OCR reordered the sections numerically (38, 39, 40, 41, 42, 43) instead of following the prompt instructions to process the Right Column first, then the Left Column. The physical page layout is Right Col (38, 42, 39) -> Left Col (41, 40, 43).\",\n      \"original_text\": \"Section order: 38, 39, 40, 41, 42, 43\",\n      \"corrected_text\": \"Section order: 38, 42, 39, 41, 40, 43\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צה\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"לז\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"שנאמר בהם יהרג ואל יעבור וכו' ע\\\"ז משלמים בהאי עלמא.\",\n        \"source_ref\": \"מרדכי בשער המלך, פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לח\",\n        \"title\": \"מי שמכניס עצמו בסכנה לקיום המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה פנחס נמי הכניס עצמו בסכנה גדולה מה שלא היה מחוייב בדבר וכו' לכן בדין הוא נוטל שכרו.\",\n            \"source_ref\": \"אך פרי תבואה פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מב\",\n        \"title\": \"המקבל על עצמו למסור נפשו לה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולכן על זה המצוה כשמקבל על עצמו באמת למסור נפשו מגיע אליו השכר בעוה\\\"ז.\",\n            \"source_ref\": \"עצי חיים, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לט\",\n        \"title\": \"המוכן למסור נפשו כדי לקיים מצות ה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכשאדם זוכה לקיים מצוה מתוך מסירות נפש וכו' ואע\\\"פ שמחשבתו לא נתקיימה והוא נשאר בחיים וכו' כיון שהחלט מצידו היה מוכן למסור נפשו וכו' לא נאמר לגביו שכר מצוה כה\\\"ע ליכא וכו' ושייך שפיר ליתן שכרו כה\\\"ע.\",\n            \"source_ref\": \"דברי אש פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מא\",\n        \"title\": \"מי שמוסר נפשו להשי\\\"ת במחשבה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכתב הזרע בירך דקמעיין מזה דמי שמוסר נפשו להקב\\\"ה במחשבה וכו' אז הקב\\\"ה צריך ליתן לו שכר מומ\\\"י.\",\n            \"source_ref\": \"ותפארת חיים, צו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מ\",\n        \"title\": \"על מסירות נפש\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואולם וכו' דעל מסיי\\\"נ מקבל שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"אמרי יצחק עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וא\\\"כ שמע ישראל, והוא מסיי\\\"נ, ונעשה פנים חדשות וזוכה לשכר בעוה\\\"ז.\",\n            \"source_ref\": \"שארית מנחם פ' בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"כולל\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מג\",\n        \"title\": \"הכולל את עצמו עם הכלל ישראל בעת קיום המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר מצוה בהאי עלמא ליכא דוקא ליחיד העושה מצוה אבל רבים זכותא לרבים עדיף ויכולה להמשיך שכר גם בהאי עלמא, וכל יחיד המשתתף וכולל א\\\"ע עם כלל ישראל: בעשותו איזה מצוה ממשיך על עצמו רחמי ה' לשלם לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ערכי יהושע אות ל׳ תפלה בציבור\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 95,
+    "book_page": 95,
+    "overall_quality": "good",
+    "summary": "The OCR extracted all sections and text with very high accuracy, containing only two distinct word errors. However, it significantly deviated from the structural instructions regarding 'Column Order'. The original page has a chaotic layout (Right Col contains sections 38->42->39; Left Col contains 41->40->43). The OCR automatically re-sorted these to numerical order (38-43). While this is logically 'cleaner', it violates the specific instruction to read Right then Left. The corrected JSON below restores the visual reading order found on the page.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section מ (OCR section 40), paragraph 2",
+        "description": "Word transcription error. The OCR read 'ומקנה' where the image clearly shows 'ונעשה'.",
+        "original_text": "וא\"כ שמע ישראל, והוא מסיי\"נ, ומקנה פנים חדשות",
+        "corrected_text": "וא\"כ שמע ישראל, והוא מסיי\"נ, ונעשה פנים חדשות"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section מב (OCR section 42), paragraph 1",
+        "description": "Word transcription error. Visual similarity confusion between Mem/Lamed/Vav.",
+        "original_text": "ולכן על זה המלוה כשמקבל על עצמו",
+        "corrected_text": "ולכן על זה המצוה כשמקבל על עצמו"
+      },
+      {
+        "type": "column_order_error",
+        "severity": "major",
+        "location": "Entire Page",
+        "description": "The OCR reordered the sections numerically (38, 39, 40, 41, 42, 43) instead of following the prompt instructions to process the Right Column first, then the Left Column. The physical page layout is Right Col (38, 42, 39) -> Left Col (41, 40, 43).",
+        "original_text": "Section order: 38, 39, 40, 41, 42, 43",
+        "corrected_text": "Section order: 38, 42, 39, 41, 40, 43"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צה",
+        "page_side": "right",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "לז",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "שנאמר בהם יהרג ואל יעבור וכו' ע\"ז משלמים בהאי עלמא.",
+          "source_ref": "מרדכי בשער המלך, פנחס"
+        },
+        {
+          "type": "section",
+          "number": "לח",
+          "title": "מי שמכניס עצמו בסכנה לקיום המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה פנחס נמי הכניס עצמו בסכנה גדולה מה שלא היה מחוייב בדבר וכו' לכן בדין הוא נוטל שכרו.",
+              "source_ref": "אך פרי תבואה פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מב",
+          "title": "המקבל על עצמו למסור נפשו לה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולכן על זה המצוה כשמקבל על עצמו באמת למסור נפשו מגיע אליו השכר בעוה\"ז.",
+              "source_ref": "עצי חיים, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לט",
+          "title": "המוכן למסור נפשו כדי לקיים מצות ה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכשאדם זוכה לקיים מצוה מתוך מסירות נפש וכו' ואע\"פ שמחשבתו לא נתקיימה והוא נשאר בחיים וכו' כיון שהחלט מצידו היה מוכן למסור נפשו וכו' לא נאמר לגביו שכר מצוה כה\"ע ליכא וכו' ושייך שפיר ליתן שכרו כה\"ע.",
+              "source_ref": "דברי אש פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מא",
+          "title": "מי שמוסר נפשו להשי\"ת במחשבה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכתב הזרע בירך דקמעיין מזה דמי שמוסר נפשו להקב\"ה במחשבה וכו' אז הקב\"ה צריך ליתן לו שכר מומ\"י.",
+              "source_ref": "ותפארת חיים, צו"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מ",
+          "title": "על מסירות נפש",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואולם וכו' דעל מסיי\"נ מקבל שכר בהאי עלמא וכו'.",
+              "source_ref": "אמרי יצחק עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "וא\"כ שמע ישראל, והוא מסיי\"נ, ונעשה פנים חדשות וזוכה לשכר בעוה\"ז.",
+              "source_ref": "שארית מנחם פ' בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "כולל"
+        },
+        {
+          "type": "section",
+          "number": "מג",
+          "title": "הכולל את עצמו עם הכלל ישראל בעת קיום המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר מצוה בהאי עלמא ליכא דוקא ליחיד העושה מצוה אבל רבים זכותא לרבים עדיף ויכולה להמשיך שכר גם בהאי עלמא, וכל יחיד המשתתף וכולל א\"ע עם כלל ישראל: בעשותו איזה מצוה ממשיך על עצמו רחמי ה' לשלם לו שכר גם בעוה\"ז.",
+              "source_ref": "ערכי יהושע אות ל׳ תפלה בציבור"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

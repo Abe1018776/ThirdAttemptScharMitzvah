@@ -1,0 +1,49 @@
+{
+  "page": 81,
+  "book_page": 117,
+  "overall_quality": "good",
+  "summary": "Page 81 (book page 101) correctly shows continuation from section ע, then sections עא through עה. Section עה properly continues to next page. Column order is correct. The continuation fragment and most section texts are reasonably accurate. Some text issues in several sections.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment text",
+      "description": "The continuation text 'משלמים בהאי עלמא.' is quite short. The image top-right shows more text continuing from the previous page that may not be fully captured in this fragment.",
+      "original_text": "משלמים בהאי עלמא.",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עב, makor text",
+      "description": "OCR has 'ואינו מחוסר אל הקדושה' - 'מחוסר' (lacking) should likely be 'מחובר' (connected), which makes more contextual sense in this passage about being attached to higher holiness.",
+      "original_text": "ואינו מחוסר אל הקדושה",
+      "corrected_text": "ואינו מחובר אל הקדושה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עג, makor text",
+      "description": "OCR has 'בהחי עלמא' which should be 'בהאי עלמא' (standard Aramaic phrase).",
+      "original_text": "בהחי עלמא",
+      "corrected_text": "בהאי עלמא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עג, makor text",
+      "description": "OCR has 'כילין ופרחין' - may need to be 'כלילין ופרחין' or another form. The exact reading from the image is unclear.",
+      "original_text": "כילין ופרחין",
+      "corrected_text": ""
+    },
+    {
+      "type": "missing_text",
+      "severity": "minor",
+      "location": "section עה, body paragraph",
+      "description": "The body paragraph ends with 'משא\"כ אינו מצוה ועושה שאין' which is truncated as the page continues. No source_ref is provided, which is correct since it continues to the next page.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

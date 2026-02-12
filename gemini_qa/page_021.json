@@ -1,0 +1,146 @@
+{
+  "page": 21,
+  "book_page": 57,
+  "raw_response": "{\n  \"page\": 57,\n  \"book_page\": 41,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is extremely accurate, correctly handling the column layout (Right to Left), section hierarchy, and extracting source references out of the text. There are only two very minor transcription errors in the Hebrew text body where visual artifacts or ligatures were misinterpreted.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נז (57), paragraph 1\",\n      \"description\": \"Incorrect transcription of abbreviation due to visual smudge/ligature.\",\n      \"original_text\": \"ואפ\\\"ל ע\\\"ד שאמחז\\\"ל כל מזונותיו\",\n      \"corrected_text\": \"ואפ\\\"ל ע\\\"ד שאחז\\\"ל כל מזונותיו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נח (58), paragraph 1\",\n      \"description\": \"Minor spelling error (extra vav/misread vowel) in word.\",\n      \"original_text\": \"בדין הוא שימולא לו שכר\",\n      \"corrected_text\": \"בדין הוא שימלא לו שכר\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"מא\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"נה\",\n        \"title\": \"על הוצאות בניו לת\\\"ח\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כל מזונותיו של אדם קצובין לו מר\\\"ה חוץ מהוצאות וכו' בניו לתלמוד תורה.\",\n            \"source_ref\": \"וביצה טז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נו\",\n        \"title\": \"המכבד תלמידי חכמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בשביל שאינם מכבדים הת\\\"ח בעבור זה מתמעט הפרנסה וכו' ולכן אם תרצה שיהיה לך פרנסה אז וכו' שתהדר ותכבד את הת\\\"ח אז יהיה לך פרנסה.\",\n            \"source_ref\": \"דברי אליעזר, הדרנים למס׳ שבת\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נז\",\n        \"title\": \"מי שנותן מעות לת\\\"ח\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואפ\\\"ל ע\\\"ד שאחז\\\"ל כל מזונותיו של אדם קצובין וכו' ומ\\\"מ נקרא שבת מתנה לפי\\\"ז אפ\\\"ל שכל מה שנותן לת\\\"ח השם פותח וכו' ואם הוסיף מוסיפין לו.\",\n            \"source_ref\": \"ברית אברם\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נח\",\n        \"title\": \"מי שיש לו אהבה וחיבה נכונה ללומדי תורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי כשיש לו אהבה וחיבה נכונה ללומדי תורה בדין הוא שימלא לו שכר מיל וגיל רחבה.\",\n            \"source_ref\": \"ואגדות מהרי\\\"ט עמ\\\"ס שבת, דף רנ\\\"א\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נט\",\n        \"title\": \"על שימוש ת\\\"ח\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואיתא בשם ר' שאול קאצנעלינבויגן (עיי' בבנין דוד פ' תולדות מזה) דעל שימוש וכיבוד ת\\\"ח יש שכר מלוה בעלמא הדין וכו', (ועיי' נמי באור תורה מהאדמו\\\"ר מאוסטרובצא פ' לך מזה).\",\n            \"source_ref\": \"נופת צופים פ' עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ס\",\n        \"title\": \"על מה שמחבבין תלמידי חכמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עקב אשר שמע וגו' למען חיבת ת\\\"ח לכן מגיע לו שכר בעוה\\\"ז להיות לו בנים הגונים.\",\n            \"source_ref\": \"ובנין דוד תולדות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סא\",\n        \"title\": \"המתיירא מן הת\\\"ח\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דמי שיש לו יראה מן הת\\\"ח וכו' לכן ניתן לו שכר בהאי עלמא.\",\n            \"source_ref\": \"דורש טוב רפב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סב\",\n        \"title\": \"על השתיקה מלימוד התורה בבית האבל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אגרא דבי טמיא שתיקותא וכו' השכר שנותנים בעוה\\\"ז הוא על השתיקה [ - מלימוד התורה].\",\n            \"source_ref\": \"יעב\\\"ץ ברכות ו:\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 57,
+    "book_page": 41,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is extremely accurate, correctly handling the column layout (Right to Left), section hierarchy, and extracting source references out of the text. There are only two very minor transcription errors in the Hebrew text body where visual artifacts or ligatures were misinterpreted.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section נז (57), paragraph 1",
+        "description": "Incorrect transcription of abbreviation due to visual smudge/ligature.",
+        "original_text": "ואפ\"ל ע\"ד שאמחז\"ל כל מזונותיו",
+        "corrected_text": "ואפ\"ל ע\"ד שאחז\"ל כל מזונותיו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section נח (58), paragraph 1",
+        "description": "Minor spelling error (extra vav/misread vowel) in word.",
+        "original_text": "בדין הוא שימולא לו שכר",
+        "corrected_text": "בדין הוא שימלא לו שכר"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "מא",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "נה",
+          "title": "על הוצאות בניו לת\"ח",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כל מזונותיו של אדם קצובין לו מר\"ה חוץ מהוצאות וכו' בניו לתלמוד תורה.",
+              "source_ref": "וביצה טז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נו",
+          "title": "המכבד תלמידי חכמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בשביל שאינם מכבדים הת\"ח בעבור זה מתמעט הפרנסה וכו' ולכן אם תרצה שיהיה לך פרנסה אז וכו' שתהדר ותכבד את הת\"ח אז יהיה לך פרנסה.",
+              "source_ref": "דברי אליעזר, הדרנים למס׳ שבת"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נז",
+          "title": "מי שנותן מעות לת\"ח",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואפ\"ל ע\"ד שאחז\"ל כל מזונותיו של אדם קצובין וכו' ומ\"מ נקרא שבת מתנה לפי\"ז אפ\"ל שכל מה שנותן לת\"ח השם פותח וכו' ואם הוסיף מוסיפין לו.",
+              "source_ref": "ברית אברם"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נח",
+          "title": "מי שיש לו אהבה וחיבה נכונה ללומדי תורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי כשיש לו אהבה וחיבה נכונה ללומדי תורה בדין הוא שימלא לו שכר מיל וגיל רחבה.",
+              "source_ref": "ואגדות מהרי\"ט עמ\"ס שבת, דף רנ\"א"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נט",
+          "title": "על שימוש ת\"ח",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואיתא בשם ר' שאול קאצנעלינבויגן (עיי' בבנין דוד פ' תולדות מזה) דעל שימוש וכיבוד ת\"ח יש שכר מלוה בעלמא הדין וכו', (ועיי' נמי באור תורה מהאדמו\"ר מאוסטרובצא פ' לך מזה).",
+              "source_ref": "נופת צופים פ' עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ס",
+          "title": "על מה שמחבבין תלמידי חכמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עקב אשר שמע וגו' למען חיבת ת\"ח לכן מגיע לו שכר בעוה\"ז להיות לו בנים הגונים.",
+              "source_ref": "ובנין דוד תולדות"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סא",
+          "title": "המתיירא מן הת\"ח",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דמי שיש לו יראה מן הת\"ח וכו' לכן ניתן לו שכר בהאי עלמא.",
+              "source_ref": "דורש טוב רפב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סב",
+          "title": "על השתיקה מלימוד התורה בבית האבל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אגרא דבי טמיא שתיקותא וכו' השכר שנותנים בעוה\"ז הוא על השתיקה [ - מלימוד התורה].",
+              "source_ref": "יעב\"ץ ברכות ו:"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

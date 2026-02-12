@@ -1,0 +1,147 @@
+{
+  "page": 65,
+  "book_page": 101,
+  "raw_response": "```json\n{\n  \"page\": 86,\n  \"book_page\": 101,\n  \"overall_quality\": \"poor\",\n  \"summary\": \"The OCR result contains significant structural hallucinations and reordering. It invented a section (129) that does not exist on the page, fabricated a header for Section 130, and incorrectly moved a paragraph from the Right Column (Section 127) to the Left Column (Section 130). There are also minor transcription errors.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"critical\",\n      \"location\": \"Right Column, Bottom\",\n      \"description\": \"The OCR generated a non-existent Section 129 ('השי\\\"ת נותן שכר בהאי עלמא בפרנסה'). The text listed for it ('וברך פרי אדמתך...') does not appear in the image. The image only shows Section 128 ending with 'וברך פרי בטנך וגו''. The OCR likely hallucinated the content based on the 'etc.' or external knowledge.\",\n      \"original_text\": \"Section 129 object\",\n      \"corrected_text\": \"(Remove Section 129 entirely)\"\n    },\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"critical\",\n      \"location\": \"Left Column, Top\",\n      \"description\": \"The OCR fabricated a section header 'קל. אדם המקיים מוצא שפתיו'. While the text 'מקור המצוה: לא יחל דברו...' exists at the top of the column, there is no bold numbered header visible above it. It appears to be an unnumbered section (perhaps continuation or missing header).\",\n      \"original_text\": \"Section 130 header\",\n      \"corrected_text\": \"Header should be missing or marked as [חסר כותרת]; Text itself is valid.\"\n    },\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"major\",\n      \"location\": \"Section 127 (Right Column)\",\n      \"description\": \"The OCR moved the second paragraph ('דאדם המלט מקיים...') from Section 127 in the Right Column to Section 130 in the Left Column. While the content matches Section 130's theme, visually this paragraph is located under Section 127 in the Right Column. The prompt instructions require following the visual layout (Right Col then Left Col).\",\n      \"original_text\": \"Moved to Section 130\",\n      \"corrected_text\": \"Move paragraph back to Section 127.\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 127, Paragraph 2\",\n      \"description\": \"Incorrect transcription of word 'השלם' as 'המלט'.\",\n      \"original_text\": \"דאדם המלט מקיים\",\n      \"corrected_text\": \"דאדם השלם מקיים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 131, Paragraph 1\",\n      \"description\": \"Transcription error: 'אותם' instead of 'אותו'.\",\n      \"original_text\": \"כשמונעים אותם\",\n      \"corrected_text\": \"כשמונעים אותו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 131, Paragraph 1\",\n      \"description\": \"Hallucination of the word 'פנחס' which is not in the text line.\",\n      \"original_text\": \"אעפ\\\"י שפנחס עשה דין\",\n      \"corrected_text\": \"אעפ\\\"י שעשה דין\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"פו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"קכז\",\n        \"title\": \"כל הוצאות שאדם מוציא על מצוה, אין קצובין לו בר\\\"ה, ומקבלו חזרה בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כל מזונותיו קצובין וכו' חוץ מהוצאת שבת ויו\\\"ט וכו' וכתב הריטב\\\"א דה\\\"ה לכל הוצאות של מצוה וכו'.\",\n            \"source_ref\": \"ומטבע שטבעו חכמים א' חט.\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דאדם השלם מקיים מוצא שפתיו א\\\"כ אפילו דהאי עלמא לא הוי אגר נטר וכו'.\",\n            \"source_ref\": \"חקל יצחק פ' וישלח\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכח\",\n        \"title\": \"השי\\\"ת נותן שכר בהאי עלמא בבנים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולכן שפיר אמר קרא והיה עקב תשמעון אז השכר שיתן לכם הקב\\\"ה בהאי עלמא הוא וכו' וברך פרי בטנך וגו' דדברים אלו וכו' ובנים המה ביד הקב\\\"ה בלבד וכו'.\",\n            \"source_ref\": \"מאיר עיני חכמים מהדו\\\"ת עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"[חסר]\",\n        \"title\": \"[חסר כותרת - משוער: אדם המקיים מוצא שפתיו]\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לא יחל דברו ככל היוצא מפיו יעשה, היינו לא יחל דברו, וממילא כל היוצא מפיו של הקב\\\"ה יעשה מידה כנגד מידה, ונקבל טוב באמת בשני עולמות.\",\n            \"source_ref\": \"שארית מנחם פ' ראה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קלא\",\n        \"title\": \"בשמונעים מרשע לעשות רשעתו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וזהו החסד של הרשע כשמונעים אותו מלעשות רשעתו, וזהו בדין הוא, אעפ\\\"י שעשה דין אעפ\\\"כ ראוי ליטול שכרו\",\n            \"source_ref\": \"קדושת לוי פ' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קלב\",\n        \"title\": \"המקבל דברי תוכחה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואעפ\\\"כ נראה לענ\\\"ד דבמצות תוכחה יש שכר בעוה\\\"ז כיון שנתבייש החוטא בעבור שמוכיחין אותו והוא בעצמו יכאב עליו בלבבו ויצטער ביסורים לכן גם שכרו אתו.\",\n            \"source_ref\": \"אור פני יהושע פ' דברים\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 86,
+    "book_page": 101,
+    "overall_quality": "poor",
+    "summary": "The OCR result contains significant structural hallucinations and reordering. It invented a section (129) that does not exist on the page, fabricated a header for Section 130, and incorrectly moved a paragraph from the Right Column (Section 127) to the Left Column (Section 130). There are also minor transcription errors.",
+    "issues": [
+      {
+        "type": "wrong_structure",
+        "severity": "critical",
+        "location": "Right Column, Bottom",
+        "description": "The OCR generated a non-existent Section 129 ('השי\"ת נותן שכר בהאי עלמא בפרנסה'). The text listed for it ('וברך פרי אדמתך...') does not appear in the image. The image only shows Section 128 ending with 'וברך פרי בטנך וגו''. The OCR likely hallucinated the content based on the 'etc.' or external knowledge.",
+        "original_text": "Section 129 object",
+        "corrected_text": "(Remove Section 129 entirely)"
+      },
+      {
+        "type": "wrong_structure",
+        "severity": "critical",
+        "location": "Left Column, Top",
+        "description": "The OCR fabricated a section header 'קל. אדם המקיים מוצא שפתיו'. While the text 'מקור המצוה: לא יחל דברו...' exists at the top of the column, there is no bold numbered header visible above it. It appears to be an unnumbered section (perhaps continuation or missing header).",
+        "original_text": "Section 130 header",
+        "corrected_text": "Header should be missing or marked as [חסר כותרת]; Text itself is valid."
+      },
+      {
+        "type": "wrong_structure",
+        "severity": "major",
+        "location": "Section 127 (Right Column)",
+        "description": "The OCR moved the second paragraph ('דאדם המלט מקיים...') from Section 127 in the Right Column to Section 130 in the Left Column. While the content matches Section 130's theme, visually this paragraph is located under Section 127 in the Right Column. The prompt instructions require following the visual layout (Right Col then Left Col).",
+        "original_text": "Moved to Section 130",
+        "corrected_text": "Move paragraph back to Section 127."
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 127, Paragraph 2",
+        "description": "Incorrect transcription of word 'השלם' as 'המלט'.",
+        "original_text": "דאדם המלט מקיים",
+        "corrected_text": "דאדם השלם מקיים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 131, Paragraph 1",
+        "description": "Transcription error: 'אותם' instead of 'אותו'.",
+        "original_text": "כשמונעים אותם",
+        "corrected_text": "כשמונעים אותו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 131, Paragraph 1",
+        "description": "Hallucination of the word 'פנחס' which is not in the text line.",
+        "original_text": "אעפ\"י שפנחס עשה דין",
+        "corrected_text": "אעפ\"י שעשה דין"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "פו",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "קכז",
+          "title": "כל הוצאות שאדם מוציא על מצוה, אין קצובין לו בר\"ה, ומקבלו חזרה בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כל מזונותיו קצובין וכו' חוץ מהוצאת שבת ויו\"ט וכו' וכתב הריטב\"א דה\"ה לכל הוצאות של מצוה וכו'.",
+              "source_ref": "ומטבע שטבעו חכמים א' חט."
+            },
+            {
+              "is_makor": false,
+              "text": "דאדם השלם מקיים מוצא שפתיו א\"כ אפילו דהאי עלמא לא הוי אגר נטר וכו'.",
+              "source_ref": "חקל יצחק פ' וישלח"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכח",
+          "title": "השי\"ת נותן שכר בהאי עלמא בבנים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולכן שפיר אמר קרא והיה עקב תשמעון אז השכר שיתן לכם הקב\"ה בהאי עלמא הוא וכו' וברך פרי בטנך וגו' דדברים אלו וכו' ובנים המה ביד הקב\"ה בלבד וכו'.",
+              "source_ref": "מאיר עיני חכמים מהדו\"ת עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "[חסר]",
+          "title": "[חסר כותרת - משוער: אדם המקיים מוצא שפתיו]",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לא יחל דברו ככל היוצא מפיו יעשה, היינו לא יחל דברו, וממילא כל היוצא מפיו של הקב\"ה יעשה מידה כנגד מידה, ונקבל טוב באמת בשני עולמות.",
+              "source_ref": "שארית מנחם פ' ראה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קלא",
+          "title": "בשמונעים מרשע לעשות רשעתו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וזהו החסד של הרשע כשמונעים אותו מלעשות רשעתו, וזהו בדין הוא, אעפ\"י שעשה דין אעפ\"כ ראוי ליטול שכרו",
+              "source_ref": "קדושת לוי פ' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קלב",
+          "title": "המקבל דברי תוכחה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואעפ\"כ נראה לענ\"ד דבמצות תוכחה יש שכר בעוה\"ז כיון שנתבייש החוטא בעבור שמוכיחין אותו והוא בעצמו יכאב עליו בלבבו ויצטער ביסורים לכן גם שכרו אתו.",
+              "source_ref": "אור פני יהושע פ' דברים"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

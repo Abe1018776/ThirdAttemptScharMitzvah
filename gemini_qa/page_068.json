@@ -1,0 +1,134 @@
+{
+  "page": 68,
+  "book_page": 104,
+  "raw_response": "{\n  \"page\": 88,\n  \"book_page\": 88,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is of very high quality. The complex column structure, grouping headers, and empty final section were parsed correctly. Text extraction is highly accurate, with only a single minor character substitution identified in Section ד.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ד, paragraph 2\",\n      \"description\": \"Character substitution: 'שמקיימו' (Shin-Mem...) was visually transcribed, but the image shows 'שתקיימו' (Shin-Tav...). The letter has a distinct left leg characteristic of Tav, and the grammatical context (plural addressing, matching 'דתקבלו') supports 'שתקיימו'.\",\n      \"original_text\": \"ע\\\"י שמקיימו המצות\",\n      \"corrected_text\": \"ע\\\"י שתקיימו המצות\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"פח\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"ה\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"chapter_header\",\n        \"number\": \"פרק ששי\",\n        \"subtitle\": \"אופנים בקיום המצוה\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"רצון והשתוקקות\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"א\",\n        \"title\": \"על הרצון והשתוקקות למצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"על הרצון וההשתוקקות שיש לו לקיים המצוה ע\\\"ז ג\\\"כ איכא שכר בעוה\\\"ז.\",\n            \"source_ref\": \"ויחי יוסף בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"איתא במפרשים דעבור ההשתוקקות המצוה יש שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ובית אשר בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"בזכות רצון טוב של ישראל לקיים המצוה שעל זה יש שכר בהאי עלמא.\",\n            \"source_ref\": \"ויגד משה אמור\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כי בגלל הדבר הזה דהיינו על רצון הטוב יברכך ה' גם בעוה\\\"ז.\",\n            \"source_ref\": \"דברי מהרי\\\"א ראה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ב\",\n        \"title\": \"מי שממתין לקיים המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואת מצותי תשמרו וכו' שימתין על המצוה, וא\\\"כ יקבל שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"אמרי שמואל בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כשיושב ומצפה על המצוה מחמת אהבת ה' מגיע לו שכר בהאי עלמא.\",\n            \"source_ref\": \"וברכת שלמה - ראדאמסק, וישלח\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ג\",\n        \"title\": \"המשתוקק לקיים כל המצות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם ביארו המפרשים דע\\\"י התשוקה שמשתוקק האדם תמיד ועומד ומצפה מי יתן שיבואו לידו ויקיימם, נחשב לו בזה כאילו קיים את כולם, ממילא ע\\\"י תשוקה זו נמתק הקללות, ואז מגיע שכר מלא בהאי עלמא.\",\n            \"source_ref\": \"ערבי נחל חיי דרוש ג'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מקבל\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ד\",\n        \"title\": \"המקבל עליו לעשות מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ויתכן עוד דדוקא בעל עסק המעשה לא יקבל שכר בעוה\\\"ז, אבל בעד הקבלה שמקבל על עצמו לעשות המצוה יטול לו שכר גם בהאי עלמא.\",\n            \"source_ref\": \"ערכי יהושע מערכת מ אות כ\\\"ו\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ע\\\"י שתקיימו המצות וכו' דתקבלו עליכם לעשותה, אז שפיר מגיע שכר בהאי עלמא.\",\n            \"source_ref\": \"מגדלות מרקחים, עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ה\",\n        \"title\": \"המקבל על עצמו קודם שמגיע זמן המצוה לעשות המצוה\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 88,
+    "book_page": 88,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is of very high quality. The complex column structure, grouping headers, and empty final section were parsed correctly. Text extraction is highly accurate, with only a single minor character substitution identified in Section ד.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ד, paragraph 2",
+        "description": "Character substitution: 'שמקיימו' (Shin-Mem...) was visually transcribed, but the image shows 'שתקיימו' (Shin-Tav...). The letter has a distinct left leg characteristic of Tav, and the grammatical context (plural addressing, matching 'דתקבלו') supports 'שתקיימו'.",
+        "original_text": "ע\"י שמקיימו המצות",
+        "corrected_text": "ע\"י שתקיימו המצות"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "פח",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "ה",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "chapter_header",
+          "number": "פרק ששי",
+          "subtitle": "אופנים בקיום המצוה"
+        },
+        {
+          "type": "grouping_header",
+          "title": "רצון והשתוקקות"
+        },
+        {
+          "type": "section",
+          "number": "א",
+          "title": "על הרצון והשתוקקות למצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "על הרצון וההשתוקקות שיש לו לקיים המצוה ע\"ז ג\"כ איכא שכר בעוה\"ז.",
+              "source_ref": "ויחי יוסף בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "איתא במפרשים דעבור ההשתוקקות המצוה יש שכר גם בעוה\"ז.",
+              "source_ref": "ובית אשר בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "בזכות רצון טוב של ישראל לקיים המצוה שעל זה יש שכר בהאי עלמא.",
+              "source_ref": "ויגד משה אמור"
+            },
+            {
+              "is_makor": false,
+              "text": "כי בגלל הדבר הזה דהיינו על רצון הטוב יברכך ה' גם בעוה\"ז.",
+              "source_ref": "דברי מהרי\"א ראה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ב",
+          "title": "מי שממתין לקיים המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואת מצותי תשמרו וכו' שימתין על המצוה, וא\"כ יקבל שכרו בעוה\"ז.",
+              "source_ref": "אמרי שמואל בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "כשיושב ומצפה על המצוה מחמת אהבת ה' מגיע לו שכר בהאי עלמא.",
+              "source_ref": "וברכת שלמה - ראדאמסק, וישלח"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ג",
+          "title": "המשתוקק לקיים כל המצות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם ביארו המפרשים דע\"י התשוקה שמשתוקק האדם תמיד ועומד ומצפה מי יתן שיבואו לידו ויקיימם, נחשב לו בזה כאילו קיים את כולם, ממילא ע\"י תשוקה זו נמתק הקללות, ואז מגיע שכר מלא בהאי עלמא.",
+              "source_ref": "ערבי נחל חיי דרוש ג'"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "מקבל"
+        },
+        {
+          "type": "section",
+          "number": "ד",
+          "title": "המקבל עליו לעשות מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ויתכן עוד דדוקא בעל עסק המעשה לא יקבל שכר בעוה\"ז, אבל בעד הקבלה שמקבל על עצמו לעשות המצוה יטול לו שכר גם בהאי עלמא.",
+              "source_ref": "ערכי יהושע מערכת מ אות כ\"ו"
+            },
+            {
+              "is_makor": false,
+              "text": "ע\"י שתקיימו המצות וכו' דתקבלו עליכם לעשותה, אז שפיר מגיע שכר בהאי עלמא.",
+              "source_ref": "מגדלות מרקחים, עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ה",
+          "title": "המקבל על עצמו קודם שמגיע זמן המצוה לעשות המצוה",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

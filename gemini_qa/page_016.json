@@ -1,0 +1,127 @@
+{
+  "page": 16,
+  "book_page": 52,
+  "raw_response": "{\n  \"page\": 36,\n  \"book_page\": 36,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, section identification, and cross-column merging are excellent. Source extraction is accurate. However, there are three text errors, one of which is critical (insertion of a negation word 'אינו' that reverses the meaning) and one significant substitution in an acronym.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section כו, paragraph 1\",\n      \"description\": \"The opening acronym was mistranscribed significantly.\",\n      \"original_text\": \"המגי\\\"ד שומר תורתו\",\n      \"corrected_text\": \"הקיי\\\"ת שומר תורתו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"section כז, paragraph 1\",\n      \"description\": \"The OCR inserted the word 'אינו' (is not) which is not present in the image and reverses the meaning of the sentence.\",\n      \"original_text\": \"וא\\\"כ אינו בזה מגיע לו שכר\",\n      \"corrected_text\": \"וא\\\"כ בזה מגיע לו שכר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ל, paragraph 1\",\n      \"description\": \"Letter confusion: 'שגמרה' (Shin) transcribed as 'דגמרה' (Dalet).\",\n      \"original_text\": \"במלוה דגמרה בשלימות\",\n      \"corrected_text\": \"במלוה שגמרה בשלימות\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"כה\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"ל\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"דלכן דוקא שכר מצוה בהאי עלמא ליכא, אבל שכר התורה הוא גם בעוה\\\"ז וכו' דאין התורה מתקימת אלא במי שממית עצמו עליה וכו' ולכן מקבל שכרו גם בעוה\\\"ז.\",\n        \"source_ref\": \"אך פרי תבואה, פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כו\",\n        \"title\": \"על שמשומרים מן החטא ע\\\"י לימוד התורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הקיי\\\"ת שומר תורתו דאע\\\"ג דשכר מצוה בהאי עלמא ליכא מ\\\"מ משלם שכר שימור, דהיינו דע\\\"י התורה משומר מן החטא וכו'.\",\n            \"source_ref\": \"מגדלות מרקחים, בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כז\",\n        \"title\": \"העוסק בתורה מקבל שכר על כל המצות בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אחז\\\"ל שכר מצוה בהאי עלמא ליכא והטעם וכו' פן מנכה מצדקהו וכו' אבל כעוסק בתורה שהתורה מצלת מן החטא וכו' וא\\\"כ בזה מגיע לו שכר בהאי עלמא.\",\n            \"source_ref\": \"ואמרי שפר בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"הא דשכר מצוה בהאי עלמא ליכא וכו' אם יהיה לו עשירות הרי יוכל לקיים כל המצות בשלימות וכו' אמנם י\\\"ל דאדרבה יש גם לחשוב שיבעט ויקלקל במעשיו וכו' ואולם וכו' דטעם הנ\\\"ל לא שייך בלומד תורה דמגינא ומצלי וכו' וא\\\"כ כיון דליכא לחשוב וכו' שוב יוכל לקבל שכר בעוה\\\"ז.\",\n            \"source_ref\": \"וויגד משה תולדות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כח\",\n        \"title\": \"היושב כל היום ועוסק בתורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הא דשכר מצוה בהאי עלמא ליכא וכו' כי אם ישלם לו שכרו בעוה\\\"ז ימעט מרוב טובה, אבל צדיק גמור שיושב ועוסק כל היום בתורה לזה לא יניח העושר וההנחה לידי שכחת ה' וכו' שהקב\\\"ה משלם לו שכרו גם בעוה\\\"ז.\",\n            \"source_ref\": \"זרע סופר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כט\",\n        \"title\": \"כשלומדים תורה לשמה בתמידות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דבר הנעשה לשמה וכו' יתמיד בעבודתו וכו' וא\\\"כ פורחת לעילא ועשית תורתו של הקב\\\"ה, וממילא דינא כנגעו בסימנים של בעה\\\"ב ולא קנאו בשינוי כלי, ובזה שייך ג\\\"כ הל\\\"ת לא תלין והקב\\\"ה חייב לשלם שכרו בהאי עלמא.\",\n            \"source_ref\": \"דברי אליעזר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ל\",\n        \"title\": \"על ידי לימוד התורה ביגיעה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהנה טעמא דשכר מצוה בהאי עלמא ליכא שייך דוקא במלוה שגמרה בשלימות דכיון שעשה\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 36,
+    "book_page": 36,
+    "overall_quality": "good",
+    "summary": "The structural parsing, section identification, and cross-column merging are excellent. Source extraction is accurate. However, there are three text errors, one of which is critical (insertion of a negation word 'אינו' that reverses the meaning) and one significant substitution in an acronym.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section כו, paragraph 1",
+        "description": "The opening acronym was mistranscribed significantly.",
+        "original_text": "המגי\"ד שומר תורתו",
+        "corrected_text": "הקיי\"ת שומר תורתו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "section כז, paragraph 1",
+        "description": "The OCR inserted the word 'אינו' (is not) which is not present in the image and reverses the meaning of the sentence.",
+        "original_text": "וא\"כ אינו בזה מגיע לו שכר",
+        "corrected_text": "וא\"כ בזה מגיע לו שכר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ל, paragraph 1",
+        "description": "Letter confusion: 'שגמרה' (Shin) transcribed as 'דגמרה' (Dalet).",
+        "original_text": "במלוה דגמרה בשלימות",
+        "corrected_text": "במלוה שגמרה בשלימות"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לו",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "כה",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "ל",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "דלכן דוקא שכר מצוה בהאי עלמא ליכא, אבל שכר התורה הוא גם בעוה\"ז וכו' דאין התורה מתקימת אלא במי שממית עצמו עליה וכו' ולכן מקבל שכרו גם בעוה\"ז.",
+          "source_ref": "אך פרי תבואה, פנחס"
+        },
+        {
+          "type": "section",
+          "number": "כו",
+          "title": "על שמשומרים מן החטא ע\"י לימוד התורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הקיי\"ת שומר תורתו דאע\"ג דשכר מצוה בהאי עלמא ליכא מ\"מ משלם שכר שימור, דהיינו דע\"י התורה משומר מן החטא וכו'.",
+              "source_ref": "מגדלות מרקחים, בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כז",
+          "title": "העוסק בתורה מקבל שכר על כל המצות בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אחז\"ל שכר מצוה בהאי עלמא ליכא והטעם וכו' פן מנכה מצדקהו וכו' אבל כעוסק בתורה שהתורה מצלת מן החטא וכו' וא\"כ בזה מגיע לו שכר בהאי עלמא.",
+              "source_ref": "ואמרי שפר בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "הא דשכר מצוה בהאי עלמא ליכא וכו' אם יהיה לו עשירות הרי יוכל לקיים כל המצות בשלימות וכו' אמנם י\"ל דאדרבה יש גם לחשוב שיבעט ויקלקל במעשיו וכו' ואולם וכו' דטעם הנ\"ל לא שייך בלומד תורה דמגינא ומצלי וכו' וא\"כ כיון דליכא לחשוב וכו' שוב יוכל לקבל שכר בעוה\"ז.",
+              "source_ref": "וויגד משה תולדות"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כח",
+          "title": "היושב כל היום ועוסק בתורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הא דשכר מצוה בהאי עלמא ליכא וכו' כי אם ישלם לו שכרו בעוה\"ז ימעט מרוב טובה, אבל צדיק גמור שיושב ועוסק כל היום בתורה לזה לא יניח העושר וההנחה לידי שכחת ה' וכו' שהקב\"ה משלם לו שכרו גם בעוה\"ז.",
+              "source_ref": "זרע סופר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כט",
+          "title": "כשלומדים תורה לשמה בתמידות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דבר הנעשה לשמה וכו' יתמיד בעבודתו וכו' וא\"כ פורחת לעילא ועשית תורתו של הקב\"ה, וממילא דינא כנגעו בסימנים של בעה\"ב ולא קנאו בשינוי כלי, ובזה שייך ג\"כ הל\"ת לא תלין והקב\"ה חייב לשלם שכרו בהאי עלמא.",
+              "source_ref": "דברי אליעזר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ל",
+          "title": "על ידי לימוד התורה ביגיעה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהנה טעמא דשכר מצוה בהאי עלמא ליכא שייך דוקא במלוה שגמרה בשלימות דכיון שעשה"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

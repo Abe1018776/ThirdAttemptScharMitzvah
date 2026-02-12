@@ -1,0 +1,96 @@
+{
+  "page": 57,
+  "book_page": 93,
+  "raw_response": "Analysis of the OCR Exraction for Page עז (77):\n\n**Overall Quality**: Good\n**Summary**: The OCR correctly identified the structural layout, including the tricky flow where a section (פג) starts in the Right column and continues at the top of the Left column. It correctly merged these into a single logical section. Section numbers and titles were extracted correctly. However, there is a **Major** issue in Section פא where the OCR failed to resolve a word and outputted brackets/question marks `[בצרו?]` instead of a clean transcription.\n\n**Issues Found**:\n\n1.  **Section פא - Text Artifact / Uncertainty**\n    *   **Type**: `wrong_text`\n    *   **Severity**: `major`\n    *   **Location**: Section פא, Paragraph 1\n    *   **Description**: The OCR output contains debug/uncertainty markers `[בצרו?]` and a likely typo `בטרו` immediately preceding it. The visual text appears to be `בטלו` (or possibly `בצלו`, but visibly looks like `בטלו`). The final JSON shouldn't contain brackets or question marks.\n    *   **Original Text**: `...והוי מינו ידוע, אף בטרו [בצרו?], בעוה\"ז ישלם לבדו.`\n    *   **Corrected Text**: `...והוי מינו ידוע, אף בטלו, בעוה\"ז ישלם לבדו.`\n\n2.  **Section פב - Missing Punctuation (Minor)**\n    *   **Type**: `wrong_source_ref`\n    *   **Severity**: `minor`\n    *   **Location**: Section פב, Paragraph 1, Source\n    *   **Description**: The source in the image ends with a comma inside the parentheses `(דברי אליעזר עקב,)`. The OCR stripped it. While often acceptable, exact transcription is preferred if strictly requested.\n    *   **Original Text**: `דברי אליעזר עקב`\n    *   **Corrected Text**: `דברי אליעזר עקב,`\n\n**Corrected JSON**:\n```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"עז\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"פא\",\n      \"title\": \"מי שיש לו חיות מעבודת השי\\\"ת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי שה' במחשבתו תמיד ויש לו חיות מעבודת השי\\\"ת וכו' והוי מינו ידוע, אף בטלו, בעוה\\\"ז ישלם לבדו.\",\n          \"source_ref\": \"שארית מנחם פ' ראה\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פב\",\n      \"title\": \"מי שנהנה מעבודת השי\\\"ת וקיום המצות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי שעובד הבורא עולם בבחינה שיש לו הנאה מגוף העבודה על זה זוכה לעשות נח\\\"ר לפניו מגיע לו שכר בהאי עלמא.\",\n          \"source_ref\": \"דברי אליעזר עקב,\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"אבל מי שעובד הבורא עולם בבחינה זו, שיש לו הנאה מגוף העבודה וכו' בזה שפיר מגיע לו שכר.\",\n          \"source_ref\": \"דברי אליעזר, הדרנים למס' שבת\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פג\",\n      \"title\": \"על התחלת עבודת השי\\\"ת שאין מרגישים בה טעם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מה שמתחיל לילך בדרכי ה' ואינו מרגיש שום טעם ומתיקות בעבודתו וכו' ואעפ\\\"כ מחזיק בעבודתו וכו' הקב\\\"ה משלם מידה כנגד מידה ושולח לו השפעות טובות ג\\\"כ בתורת צדקה וכו'.\",\n          \"source_ref\": \"זרע יעקב, במדבר\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"בתחילה כשהעבודה כבדה וקשה עליו אז מגיע לו שכר ומשלמים שכר גם אח\\\"כ על התחלת כניסה להיכל המלך מלכו של עולם לעבדו ביראה ובאהבה.\",\n          \"source_ref\": \"טל השמים עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פד\",\n      \"title\": \"העובד השי\\\"ת בלי שום השגה והרגשת טעם, רק באמונה פשוטה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"איתא במדרש כל מה שישראל אוכלין בעוה\\\"ז אינו אלא בזכות אמונה וכו' שעיקר השכר הוא כשאין לו שום השגה רק אמונה פשוטה, ומחמת אמונה עושה מצות ומעשים טובים.\",\n          \"source_ref\": \"מגדלות מרקחים, מלוקטים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פה\",\n      \"title\": \"מי שפוסל תמיד עבודתו של אתמול, כדי להיות מוסיף והולך בעבודת השי\\\"ת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה ע\\\"י שמוצא בכל פעם חסרונות בעבודתו שעבר הנה ע\\\"ז יש לו שכר בה\\\"ע, שרק שכר על המצוה ליכא בה\\\"ע, אבל שכר עבירה הקב\\\"ה משלם גמול בעוה\\\"ז, וכיון דעבודתו עד הנה הוי אצלו בחינת עבירה וצריך לתקנו, על מצוה כזו שפיר מגיע שכר בה\\\"ע.\",\n          \"source_ref\": \"ויחי יוסף - בחוקותי\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "parsed_qa": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "עז",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "פא",
+        "title": "מי שיש לו חיות מעבודת השי\"ת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי שה' במחשבתו תמיד ויש לו חיות מעבודת השי\"ת וכו' והוי מינו ידוע, אף בטלו, בעוה\"ז ישלם לבדו.",
+            "source_ref": "שארית מנחם פ' ראה"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פב",
+        "title": "מי שנהנה מעבודת השי\"ת וקיום המצות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי שעובד הבורא עולם בבחינה שיש לו הנאה מגוף העבודה על זה זוכה לעשות נח\"ר לפניו מגיע לו שכר בהאי עלמא.",
+            "source_ref": "דברי אליעזר עקב,"
+          },
+          {
+            "is_makor": false,
+            "text": "אבל מי שעובד הבורא עולם בבחינה זו, שיש לו הנאה מגוף העבודה וכו' בזה שפיר מגיע לו שכר.",
+            "source_ref": "דברי אליעזר, הדרנים למס' שבת"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פג",
+        "title": "על התחלת עבודת השי\"ת שאין מרגישים בה טעם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מה שמתחיל לילך בדרכי ה' ואינו מרגיש שום טעם ומתיקות בעבודתו וכו' ואעפ\"כ מחזיק בעבודתו וכו' הקב\"ה משלם מידה כנגד מידה ושולח לו השפעות טובות ג\"כ בתורת צדקה וכו'.",
+            "source_ref": "זרע יעקב, במדבר"
+          },
+          {
+            "is_makor": false,
+            "text": "בתחילה כשהעבודה כבדה וקשה עליו אז מגיע לו שכר ומשלמים שכר גם אח\"כ על התחלת כניסה להיכל המלך מלכו של עולם לעבדו ביראה ובאהבה.",
+            "source_ref": "טל השמים עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פד",
+        "title": "העובד השי\"ת בלי שום השגה והרגשת טעם, רק באמונה פשוטה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "איתא במדרש כל מה שישראל אוכלין בעוה\"ז אינו אלא בזכות אמונה וכו' שעיקר השכר הוא כשאין לו שום השגה רק אמונה פשוטה, ומחמת אמונה עושה מצות ומעשים טובים.",
+            "source_ref": "מגדלות מרקחים, מלוקטים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פה",
+        "title": "מי שפוסל תמיד עבודתו של אתמול, כדי להיות מוסיף והולך בעבודת השי\"ת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה ע\"י שמוצא בכל פעם חסרונות בעבודתו שעבר הנה ע\"ז יש לו שכר בה\"ע, שרק שכר על המצוה ליכא בה\"ע, אבל שכר עבירה הקב\"ה משלם גמול בעוה\"ז, וכיון דעבודתו עד הנה הוי אצלו בחינת עבירה וצריך לתקנו, על מצוה כזו שפיר מגיע שכר בה\"ע.",
+            "source_ref": "ויחי יוסף - בחוקותי"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "success"
+}

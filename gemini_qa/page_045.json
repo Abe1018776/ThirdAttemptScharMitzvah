@@ -1,0 +1,152 @@
+{
+  "page": 45,
+  "book_page": 81,
+  "raw_response": "{\n  \"page\": 65,\n  \"book_page\": 65,\n  \"overall_quality\": \"poor\",\n  \"summary\": \"The OCR extraction completely disregarded the explicit 'Right Column then Left Column' reading order instruction, instead synthetically reordering the sections by number (11, 12, 13, 14, 15, 16). The actual physical layout is complex: Right Column contains 11 -> Grouping -> 15 -> 16; Left Column contains 14 -> 12 -> 13. The structural parse must reflect the physical document flow as requested. Additionally, there are minor typos in the Hebrew text.\",\n  \"issues\": [\n    {\n      \"type\": \"column_order_error\",\n      \"severity\": \"critical\",\n      \"location\": \"Whole Page\",\n      \"description\": \"The constraints specified 'Read the RIGHT column first... THEN the LEFT column'. The OCR reordered the sections numerically (11, 12, 13, 14, 15, 16). The physical order on the page is Right Column (11, 15, 16) then Left Column (14, 12, 13). Section 14 is at the Top Left, but was placed after 13.\",\n      \"original_text\": \"Sequence: 11, 12, 13, 14, Grouping, 15, 16\",\n      \"corrected_text\": \"Sequence: 11, Grouping 'Yissurim', 15, 16, 14, 12, 13\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יב (12), paragraph 1\",\n      \"description\": \"First word is misrecognized.\",\n      \"original_text\": \"למאור זרע בירך\",\n      \"corrected_text\": \"דמאור זרע בירך\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section טז (16), paragraph 1\",\n      \"description\": \"Typos in text body (inserted 'ת', missed 'ק' context).\",\n      \"original_text\": \"וברש\\\"י שת קבל שכר\",\n      \"corrected_text\": \"וברש\\\"י שקבל שכר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יא (11), paragraph 1\",\n      \"description\": \"Typo in text body. 'וזהו' should likely be 'וזה'\",\n      \"original_text\": \"וזהו אין לעשו חלק בו\",\n      \"corrected_text\": \"וזה אין לעשו חלק בו\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סה\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"י\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"מה שהחסיר לנו הקב\\\"ה.\",\n        \"source_ref\": \"פני מבין, בראשית.\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יא\",\n        \"title\": \"בזכות שישראל למעלה מן הטבע\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אף שחלקו בב' עולמות זה מה שהוא תחת הטבע, אבל ישראל למעלה מן הטבע וכו' וזה אין לעשו חלק בו.\",\n            \"source_ref\": \"אמרי יצחק תולדות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"יסורים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טו\",\n        \"title\": \"המקבל יסורים באהבה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואמרינן כל שהקב\\\"ה חפץ בו מדכאו ביסורים שנאמר את אשר יאהב ה' יוכיח ואמרינן שצריך לקבלן מאהבה ושכרו שיראה זרע יאריך ימים ותלמודו מתקיים בידו.\",\n            \"source_ref\": \"חדשים גם ישנים ברכות ה.\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"שמי שמקבל עליו יסורים באהבה, יכול לזכות אף בעוה\\\"ז כדאיתא בפ\\\"ק דברכות (ה.) ואם קבלן מאהבה מה שכרו יראה זרע יאריך ימים וכו'.\",\n            \"source_ref\": \"זרע שמשון עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טז\",\n        \"title\": \"המקבל יסורים ושותק\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וידום אהרן, וברש\\\"י שקבל שכר על שתיקתו, ומה שכר קיבל, שנתייחד עמו הדיבור שנאמר לו לבדו פ' שתויי יין.\",\n            \"source_ref\": \"ויקרא י ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יד\",\n        \"title\": \"אם ישראל יש להם דין הקדש\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם אם ישראל הקדש מותר ליהנות מהקדש ולכן וכו' זוכה לשכר בעוה\\\"ז\",\n            \"source_ref\": \"דורש טוב צח\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יב\",\n        \"title\": \"כשישראל בבחינת בנים למקום\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דמאור זרע בירך (פי' עקב) דאם ישראל הם במדריגת עבד אז אינם נוטלים שכרם אלא לבסוף וכו' ושכר מצוה בה\\\"ע ליכא וכו' משא\\\"כ אם הם במדריגת בן אז נוטלים תמיד בלי פסיק.\",\n            \"source_ref\": \"דורש טוב סג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יג\",\n        \"title\": \"ע\\\"י שישראל נעשין שותפין עם הקב\\\"ה במעשי בראשית.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהנה בטעמא דמילתא דשכר מצוה בהאי עלמא ליכא הוא משום וכו' מי הקדימני ואשלם וכו' וכ' בספר ברית אבות דע\\\"י שנעשין שותף עם הקב\\\"ה במעשי בראשית שוב לא שייך מי הקדימני וכו' יש שכר בהאי עלמא.\",\n            \"source_ref\": \"דורש טוב, קט\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 65,
+    "book_page": 65,
+    "overall_quality": "poor",
+    "summary": "The OCR extraction completely disregarded the explicit 'Right Column then Left Column' reading order instruction, instead synthetically reordering the sections by number (11, 12, 13, 14, 15, 16). The actual physical layout is complex: Right Column contains 11 -> Grouping -> 15 -> 16; Left Column contains 14 -> 12 -> 13. The structural parse must reflect the physical document flow as requested. Additionally, there are minor typos in the Hebrew text.",
+    "issues": [
+      {
+        "type": "column_order_error",
+        "severity": "critical",
+        "location": "Whole Page",
+        "description": "The constraints specified 'Read the RIGHT column first... THEN the LEFT column'. The OCR reordered the sections numerically (11, 12, 13, 14, 15, 16). The physical order on the page is Right Column (11, 15, 16) then Left Column (14, 12, 13). Section 14 is at the Top Left, but was placed after 13.",
+        "original_text": "Sequence: 11, 12, 13, 14, Grouping, 15, 16",
+        "corrected_text": "Sequence: 11, Grouping 'Yissurim', 15, 16, 14, 12, 13"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יב (12), paragraph 1",
+        "description": "First word is misrecognized.",
+        "original_text": "למאור זרע בירך",
+        "corrected_text": "דמאור זרע בירך"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section טז (16), paragraph 1",
+        "description": "Typos in text body (inserted 'ת', missed 'ק' context).",
+        "original_text": "וברש\"י שת קבל שכר",
+        "corrected_text": "וברש\"י שקבל שכר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יא (11), paragraph 1",
+        "description": "Typo in text body. 'וזהו' should likely be 'וזה'",
+        "original_text": "וזהו אין לעשו חלק בו",
+        "corrected_text": "וזה אין לעשו חלק בו"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סה",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "י",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "מה שהחסיר לנו הקב\"ה.",
+          "source_ref": "פני מבין, בראשית."
+        },
+        {
+          "type": "section",
+          "number": "יא",
+          "title": "בזכות שישראל למעלה מן הטבע",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אף שחלקו בב' עולמות זה מה שהוא תחת הטבע, אבל ישראל למעלה מן הטבע וכו' וזה אין לעשו חלק בו.",
+              "source_ref": "אמרי יצחק תולדות"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "יסורים"
+        },
+        {
+          "type": "section",
+          "number": "טו",
+          "title": "המקבל יסורים באהבה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואמרינן כל שהקב\"ה חפץ בו מדכאו ביסורים שנאמר את אשר יאהב ה' יוכיח ואמרינן שצריך לקבלן מאהבה ושכרו שיראה זרע יאריך ימים ותלמודו מתקיים בידו.",
+              "source_ref": "חדשים גם ישנים ברכות ה."
+            },
+            {
+              "is_makor": false,
+              "text": "שמי שמקבל עליו יסורים באהבה, יכול לזכות אף בעוה\"ז כדאיתא בפ\"ק דברכות (ה.) ואם קבלן מאהבה מה שכרו יראה זרע יאריך ימים וכו'.",
+              "source_ref": "זרע שמשון עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טז",
+          "title": "המקבל יסורים ושותק",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וידום אהרן, וברש\"י שקבל שכר על שתיקתו, ומה שכר קיבל, שנתייחד עמו הדיבור שנאמר לו לבדו פ' שתויי יין.",
+              "source_ref": "ויקרא י ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יד",
+          "title": "אם ישראל יש להם דין הקדש",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם אם ישראל הקדש מותר ליהנות מהקדש ולכן וכו' זוכה לשכר בעוה\"ז",
+              "source_ref": "דורש טוב צח"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יב",
+          "title": "כשישראל בבחינת בנים למקום",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דמאור זרע בירך (פי' עקב) דאם ישראל הם במדריגת עבד אז אינם נוטלים שכרם אלא לבסוף וכו' ושכר מצוה בה\"ע ליכא וכו' משא\"כ אם הם במדריגת בן אז נוטלים תמיד בלי פסיק.",
+              "source_ref": "דורש טוב סג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יג",
+          "title": "ע\"י שישראל נעשין שותפין עם הקב\"ה במעשי בראשית.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהנה בטעמא דמילתא דשכר מצוה בהאי עלמא ליכא הוא משום וכו' מי הקדימני ואשלם וכו' וכ' בספר ברית אבות דע\"י שנעשין שותף עם הקב\"ה במעשי בראשית שוב לא שייך מי הקדימני וכו' יש שכר בהאי עלמא.",
+              "source_ref": "דורש טוב, קט"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

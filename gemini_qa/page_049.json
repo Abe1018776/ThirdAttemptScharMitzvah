@@ -1,0 +1,133 @@
+{
+  "page": 49,
+  "book_page": 85,
+  "raw_response": "{\n  \"page\": 69,\n  \"book_page\": 85,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is of very high quality. It correctly handled the RTL dual-column layout, the seamless joining of sections, and the complex extraction of source references from parenthetical formatting. The structural hierarchy and section numbering are perfect. There are only two minor transcription accuracies regarding an abbreviation and a divine name symbol.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section לח, paragraph 1\",\n      \"description\": \"The OCR expanded the abbreviation 'מ\\\"מ' (Mikol Makom) to 'מקום' (Makom), violating the 'Do not expand' rule and changing the meaning slightly (though likely a visual misread).\",\n      \"original_text\": \"וכו' מקום לזיכה את הרבים\",\n      \"corrected_text\": \"וכו' מ\\\"מ לזיכה את הרבים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section לט, paragraph 1\",\n      \"description\": \"Transcription error for the symbol of God's name (ה'). The OCR transcribed it as 'ה\\\"ל', which is incorrect.\",\n      \"original_text\": \"קנא קנאת ה\\\"ל בשעת מעשה\",\n      \"corrected_text\": \"קנא קנאת ה' בשעת מעשה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סט\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"לה\",\n        \"level\": \"makor\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"מב\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"ועל\\\"ז שמעתי מחלמ\\\"ו הגאון מוה\\\"ר זאב וואלף גינצלער ז\\\"ל וכו' שאם האדם לא היה מתענג על זה לבד שהוא שומר שבת כהלכתו, אלא היה משגיח גם על אחרים שיעשו את השבת וכו' וממילא מגיע לו שכר בהאי עלמא.\",\n        \"source_ref\": \"מנחת אשר אגדה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לו\",\n        \"title\": \"המדריך את אחרים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אף דשכר מצוה בהאי עלמא ליכא וכו' ומדריך את האחרים וכו' מגיע לו שכר גם בהאי עלמא.\",\n            \"source_ref\": \"אמרי יצחק משפטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לז\",\n        \"title\": \"מי שמחזק האמונה בלב אחרים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וא\\\"כ מכיון שהמה בפעולתם גרמו להגדיל האמונה בלב ישראל ע\\\"כ זכו בשביל זה לקבל שכרם בעוה\\\"ז.\",\n            \"source_ref\": \"אבן יקרה, שלח\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לח\",\n        \"title\": \"המזכה את הרבים בדבר שאינו מצוה מפורשת.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהמזכה את הרבים באמונה יש על זה שכר גם בהאי עלמא וכו' מ\\\"מ לזיכה את הרבים בדבר שאין מצוה מפורשת בה וכו'.\",\n            \"source_ref\": \"ליקוטי יהודה, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לט\",\n        \"title\": \"המכניס הרהור תשובה בלב ישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה פנחס כאשר קנא קנאת ה' בשעת מעשה הכניס הרהור תשובה בלב ישראל וכו' ושפיר מגיע לו שכר בהאי עלמא.\",\n            \"source_ref\": \"מגדלות מרקחים, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מ\",\n        \"title\": \"המקרב אחרים תחת כנפי השכינה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה לאיש שקירב אחרים והכניסם תחת כנפי השכינה השכר הוא בלא קץ וגבול, וכיון שהשכר שלו הוא בלתי גבול ממילא מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ולאשר אמר חיי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מא\",\n        \"title\": \"על מה שעושה מצוה ברבים ואחרים לומדים ממנו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ועל זה שלמדים ממנו אחרים אוכל הפירות בעוה\\\"ז.\",\n            \"source_ref\": \"ודברי מהרי\\\"א ראה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מב\",\n        \"title\": \"המציל חבירו ממות לחיים, ויכול חבירו להוסיף במצות.\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 69,
+    "book_page": 85,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is of very high quality. It correctly handled the RTL dual-column layout, the seamless joining of sections, and the complex extraction of source references from parenthetical formatting. The structural hierarchy and section numbering are perfect. There are only two minor transcription accuracies regarding an abbreviation and a divine name symbol.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section לח, paragraph 1",
+        "description": "The OCR expanded the abbreviation 'מ\"מ' (Mikol Makom) to 'מקום' (Makom), violating the 'Do not expand' rule and changing the meaning slightly (though likely a visual misread).",
+        "original_text": "וכו' מקום לזיכה את הרבים",
+        "corrected_text": "וכו' מ\"מ לזיכה את הרבים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section לט, paragraph 1",
+        "description": "Transcription error for the symbol of God's name (ה'). The OCR transcribed it as 'ה\"ל', which is incorrect.",
+        "original_text": "קנא קנאת ה\"ל בשעת מעשה",
+        "corrected_text": "קנא קנאת ה' בשעת מעשה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סט",
+        "page_side": "right",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "לה",
+          "level": "makor"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "מב",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "ועל\"ז שמעתי מחלמ\"ו הגאון מוה\"ר זאב וואלף גינצלער ז\"ל וכו' שאם האדם לא היה מתענג על זה לבד שהוא שומר שבת כהלכתו, אלא היה משגיח גם על אחרים שיעשו את השבת וכו' וממילא מגיע לו שכר בהאי עלמא.",
+          "source_ref": "מנחת אשר אגדה"
+        },
+        {
+          "type": "section",
+          "number": "לו",
+          "title": "המדריך את אחרים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אף דשכר מצוה בהאי עלמא ליכא וכו' ומדריך את האחרים וכו' מגיע לו שכר גם בהאי עלמא.",
+              "source_ref": "אמרי יצחק משפטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לז",
+          "title": "מי שמחזק האמונה בלב אחרים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וא\"כ מכיון שהמה בפעולתם גרמו להגדיל האמונה בלב ישראל ע\"כ זכו בשביל זה לקבל שכרם בעוה\"ז.",
+              "source_ref": "אבן יקרה, שלח"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לח",
+          "title": "המזכה את הרבים בדבר שאינו מצוה מפורשת.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהמזכה את הרבים באמונה יש על זה שכר גם בהאי עלמא וכו' מ\"מ לזיכה את הרבים בדבר שאין מצוה מפורשת בה וכו'.",
+              "source_ref": "ליקוטי יהודה, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לט",
+          "title": "המכניס הרהור תשובה בלב ישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה פנחס כאשר קנא קנאת ה' בשעת מעשה הכניס הרהור תשובה בלב ישראל וכו' ושפיר מגיע לו שכר בהאי עלמא.",
+              "source_ref": "מגדלות מרקחים, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מ",
+          "title": "המקרב אחרים תחת כנפי השכינה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה לאיש שקירב אחרים והכניסם תחת כנפי השכינה השכר הוא בלא קץ וגבול, וכיון שהשכר שלו הוא בלתי גבול ממילא מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "ולאשר אמר חיי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מא",
+          "title": "על מה שעושה מצוה ברבים ואחרים לומדים ממנו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ועל זה שלמדים ממנו אחרים אוכל הפירות בעוה\"ז.",
+              "source_ref": "ודברי מהרי\"א ראה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מב",
+          "title": "המציל חבירו ממות לחיים, ויכול חבירו להוסיף במצות.",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

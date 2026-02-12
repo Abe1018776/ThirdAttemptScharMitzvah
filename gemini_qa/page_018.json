@@ -1,0 +1,149 @@
+{
+  "page": 18,
+  "book_page": 54,
+  "raw_response": "```json\n{\n  \"page\": 38,\n  \"book_page\": 38,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Structure, formatting, and source extraction are perfect. However, there are several distinct character recognition errors where letters were confused (Pe/Kaf, Resh/Lamed, Zayin/Lamed, Tzadi/Lamed), leading to incorrect words in the body text. The end of the last section contains a hallucinated word.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section לו (36), paragraph 1\",\n      \"description\": \"Word misread. 'Ziv' (Splendor) misread as 'Milui' (Filling).\",\n      \"original_text\": \"רק ע\\\"י שמתענג מילוי תורה\",\n      \"corrected_text\": \"רק ע\\\"י שמתענג מזיו תורה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section לו (36), paragraph 2\",\n      \"description\": \"Multiple character misreads changing meaning. 'Kefi' (According to) misread as 'Kichi', and 'Secharo' (His reward) misread as 'Sichlo' (His intellect).\",\n      \"original_text\": \"הרי זה ככי יתן שכלו אף בעוה\\\"ז\",\n      \"corrected_text\": \"הרי זה כפי יתן שכרו אף בעוה\\\"ז\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section לט (39), paragraph 1\",\n      \"description\": \"Added letter Lamed.\",\n      \"original_text\": \"ולכן העוסק בתורה\",\n      \"corrected_text\": \"וכן העוסק בתורה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section מ (40), paragraph 1\",\n      \"description\": \"Letter Tzadi misread as Lamed due to font similarity.\",\n      \"original_text\": \"תשמעון את המשפטים מלות שהם לעקביו\",\n      \"corrected_text\": \"תשמעון את המשפטים מצות שהם לעקביו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section מ (40), paragraph 1\",\n      \"description\": \"Last word of the section is incorrect. OCR hallucinated 'Sechar' (Reward) instead of 'Imcha' (With you).\",\n      \"original_text\": \"דהיינו שמשלם ה' שכר.\",\n      \"corrected_text\": \"דהיינו שמשלם ה' עמך.\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לח\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"לה\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"ויש לו עונג מזה אז יש לו שכר בהאי עלמא.\",\n        \"source_ref\": \"דברי אליעזר ואתחנן\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לו\",\n        \"title\": \"המחדשים חידושי תורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומעתה תו לא קשה מידי קושיית המפרשים דשכר מצוה בהאי עלמא ליכא, דאין זו שכר מצוה, רק ע\\\"י שמתענג מזיו תורה, עי\\\"ז ונתתי גשמיכם בעתם וגו' דהקב\\\"ה מקיים גזירות חכמים המגדילים את התוה\\\"ק ומאדירים אותה בחידו\\\"ת שלהם.\",\n            \"source_ref\": \"כרם שלמה כסלו תשל\\\"ח דברי אגדה מכ\\\"ק אדמו\\\"ר מאבאב שליט\\\"א\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"בספר בני משה (פנחס) כתב דעל עסק התורה שהאדם מחדש מדעתו הרי זה כפי יתן שכרו אף בעוה\\\"ז.\",\n            \"source_ref\": \"שמע ישראל ח\\\"ג, דרך החיים\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דמה שהאדם מחדש נקרא תורתו, וע\\\"ז יש שכר בהאי עלמא, וזה כוונת רש\\\"י שתהיו עמלים בתורה.\",\n            \"source_ref\": \"חמדת ישראל, בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לז\",\n        \"title\": \"על לימוד התורה לשמה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וראיתי בספר חוות יאיר וכו' דעל לימוד התורה מגיע שכר בעוה\\\"ז וכו' אלא לזה שייך רק בלימוד לשמה וכו'.\",\n            \"source_ref\": \"ויגד יעקב עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לח\",\n        \"title\": \"הלומד עם אחרים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל אם לומד עם אחרים יש לו שכר מצוה גם בהאי עלמא, כי שכר דידיה ליכא אבל שכר שמזכה רבים יש לו.\",\n            \"source_ref\": \"ספר המגיד אבות פ\\\"ב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לט\",\n        \"title\": \"העוסק בתורה בלילה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דמה שהאדם עושה יותר ממה שמחויב על פי הדין יש לו שכר בעוה\\\"ז וכו' וכן העוסק בתורה בלילה שהוא יותר מהדין יש לו שכר בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"ערבי נחל, בהעלותך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מ\",\n        \"title\": \"מי שיכול ללמוד בפני עצמו והולך ללמוד שיעור מפי הרב.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בפרקי אבות, ההולך ועושה חסיד, ומפרשים שיוכל ללמוד בפני עצמו, מ\\\"מ הולך ללמוד בחבורת אנשים זהו חסיד וכו' והיה עקב תשמעון את המשפטים מצות שהם לעקביו, דהיינו שהוא הולך ועושה ושומר המצות אלו בעקביו שהלך לרב ללמוד וכו' וכדומה הוא חסיד, אז ושמר ה\\\"א את הברית ואת החסד דהיינו שמשלם ה' עמך.\",\n            \"source_ref\": \"וכת\\\"ס עקב\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 38,
+    "book_page": 38,
+    "overall_quality": "good",
+    "summary": "Structure, formatting, and source extraction are perfect. However, there are several distinct character recognition errors where letters were confused (Pe/Kaf, Resh/Lamed, Zayin/Lamed, Tzadi/Lamed), leading to incorrect words in the body text. The end of the last section contains a hallucinated word.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section לו (36), paragraph 1",
+        "description": "Word misread. 'Ziv' (Splendor) misread as 'Milui' (Filling).",
+        "original_text": "רק ע\"י שמתענג מילוי תורה",
+        "corrected_text": "רק ע\"י שמתענג מזיו תורה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section לו (36), paragraph 2",
+        "description": "Multiple character misreads changing meaning. 'Kefi' (According to) misread as 'Kichi', and 'Secharo' (His reward) misread as 'Sichlo' (His intellect).",
+        "original_text": "הרי זה ככי יתן שכלו אף בעוה\"ז",
+        "corrected_text": "הרי זה כפי יתן שכרו אף בעוה\"ז"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section לט (39), paragraph 1",
+        "description": "Added letter Lamed.",
+        "original_text": "ולכן העוסק בתורה",
+        "corrected_text": "וכן העוסק בתורה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section מ (40), paragraph 1",
+        "description": "Letter Tzadi misread as Lamed due to font similarity.",
+        "original_text": "תשמעון את המשפטים מלות שהם לעקביו",
+        "corrected_text": "תשמעון את המשפטים מצות שהם לעקביו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section מ (40), paragraph 1",
+        "description": "Last word of the section is incorrect. OCR hallucinated 'Sechar' (Reward) instead of 'Imcha' (With you).",
+        "original_text": "דהיינו שמשלם ה' שכר.",
+        "corrected_text": "דהיינו שמשלם ה' עמך."
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לח",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "לה",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "ויש לו עונג מזה אז יש לו שכר בהאי עלמא.",
+          "source_ref": "דברי אליעזר ואתחנן"
+        },
+        {
+          "type": "section",
+          "number": "לו",
+          "title": "המחדשים חידושי תורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומעתה תו לא קשה מידי קושיית המפרשים דשכר מצוה בהאי עלמא ליכא, דאין זו שכר מצוה, רק ע\"י שמתענג מזיו תורה, עי\"ז ונתתי גשמיכם בעתם וגו' דהקב\"ה מקיים גזירות חכמים המגדילים את התוה\"ק ומאדירים אותה בחידו\"ת שלהם.",
+              "source_ref": "כרם שלמה כסלו תשל\"ח דברי אגדה מכ\"ק אדמו\"ר מאבאב שליט\"א"
+            },
+            {
+              "is_makor": false,
+              "text": "בספר בני משה (פנחס) כתב דעל עסק התורה שהאדם מחדש מדעתו הרי זה כפי יתן שכרו אף בעוה\"ז.",
+              "source_ref": "שמע ישראל ח\"ג, דרך החיים"
+            },
+            {
+              "is_makor": false,
+              "text": "דמה שהאדם מחדש נקרא תורתו, וע\"ז יש שכר בהאי עלמא, וזה כוונת רש\"י שתהיו עמלים בתורה.",
+              "source_ref": "חמדת ישראל, בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לז",
+          "title": "על לימוד התורה לשמה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וראיתי בספר חוות יאיר וכו' דעל לימוד התורה מגיע שכר בעוה\"ז וכו' אלא לזה שייך רק בלימוד לשמה וכו'.",
+              "source_ref": "ויגד יעקב עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לח",
+          "title": "הלומד עם אחרים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל אם לומד עם אחרים יש לו שכר מצוה גם בהאי עלמא, כי שכר דידיה ליכא אבל שכר שמזכה רבים יש לו.",
+              "source_ref": "ספר המגיד אבות פ\"ב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לט",
+          "title": "העוסק בתורה בלילה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דמה שהאדם עושה יותר ממה שמחויב על פי הדין יש לו שכר בעוה\"ז וכו' וכן העוסק בתורה בלילה שהוא יותר מהדין יש לו שכר בעוה\"ז וכו'.",
+              "source_ref": "ערבי נחל, בהעלותך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מ",
+          "title": "מי שיכול ללמוד בפני עצמו והולך ללמוד שיעור מפי הרב.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בפרקי אבות, ההולך ועושה חסיד, ומפרשים שיוכל ללמוד בפני עצמו, מ\"מ הולך ללמוד בחבורת אנשים זהו חסיד וכו' והיה עקב תשמעון את המשפטים מצות שהם לעקביו, דהיינו שהוא הולך ועושה ושומר המצות אלו בעקביו שהלך לרב ללמוד וכו' וכדומה הוא חסיד, אז ושמר ה\"א את הברית ואת החסד דהיינו שמשלם ה' עמך.",
+              "source_ref": "וכת\"ס עקב"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

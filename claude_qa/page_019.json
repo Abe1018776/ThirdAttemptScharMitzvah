@@ -1,0 +1,41 @@
+{
+  "page": 19,
+  "book_page": 55,
+  "overall_quality": "good",
+  "summary": "Page 19 (book page לט) contains sections מא through מז. All section numbers are sequential and correct. Structure is clean with single makor paragraphs per section. Source refs are well captured. A few minor text issues with unusual words.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מד, makor text",
+      "description": "The OCR reads 'הכל נוחים וממוצלח, וזו מנחתי גמליכם'. The word 'וממוצלח' appears odd (extra מ prefix). Also 'מנחתי גמליכם' is unclear - may be a different reading.",
+      "original_text": "הכל נוחים וממוצלח, וזו מנחתי גמליכם",
+      "corrected_text": "Needs verification - 'וממוצלח' possibly 'ומוצלח'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מה, makor text",
+      "description": "The OCR reads 'כעזר מקולע וסייעתא דשמיא'. The word 'מקולע' seems unusual in this context of Torah study rewards.",
+      "original_text": "כעזר מקולע וסייעתא דשמיא",
+      "corrected_text": "Needs verification - 'מקולע' meaning unclear"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section מד, source_ref",
+      "description": "Source ref reads 'מעגלי צדק פ' בחוקותי'. Looking at the image this appears correct.",
+      "original_text": "מעגלי צדק פ' בחוקותי",
+      "corrected_text": "Appears correct"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מו, makor text",
+      "description": "The OCR includes a complete and reasonable makor text about שכר שמיעה. The source ref 'דבש לפי מערכת מ\"ם' appears correct.",
+      "original_text": "N/A",
+      "corrected_text": "Text appears correct"
+    }
+  ],
+  "corrected_json": null
+}

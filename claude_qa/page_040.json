@@ -1,0 +1,41 @@
+{
+  "page": 40,
+  "book_page": 60,
+  "overall_quality": "good",
+  "summary": "Page contains continuation fragments from section לא, then sections לב through לה. Right column has continuation fragments and section לב. Left column has sections לג, לד, לה. Structure is correct with proper continuation handling. Two continuation fragments at top with separate source refs.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section לב, second paragraph (body)",
+      "description": "OCR: 'לפעמים משכחת לניכא אדם זה'. The word 'לניכא' is likely an OCR error for 'ליכא' (standard Aramaic for 'there is not'). The extra nun is incorrect.",
+      "original_text": "משכחת לניכא",
+      "corrected_text": "משכחת ליכא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section לג, source_ref",
+      "description": "Source: 'שפת אמת להרב הצדיק מו\"ה משולם שרגא פייבוש מברעזאן זצוק\"ל'. This is a very detailed attribution. The image shows this long source reference. It should be verified that the name is correctly transcribed - 'מברעזאן' is a city name (Brzezan).",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section לד, makor text",
+      "description": "OCR: 'שיש לטועים בעולם שאין זוכה בכלל'. The word 'לטועים' may be 'לטוענים' (those who argue/claim) rather than 'לטועים' (those who err). Context suggests 'לטוענים' (those who would argue that the righteous don't merit) fits better.",
+      "original_text": "לטועים",
+      "corrected_text": "לטוענים (verify)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment 2",
+      "description": "OCR: 'אם זכי' ראה ג' דורות'. The word 'זכי'' with geresh appears to be an abbreviation. It may be 'זכה' (plain past tense) in the image. Verify the exact form.",
+      "original_text": "זכי'",
+      "corrected_text": "זכה (verify)"
+    }
+  ],
+  "corrected_json": null
+}

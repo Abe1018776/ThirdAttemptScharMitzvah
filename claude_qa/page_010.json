@@ -1,0 +1,65 @@
+{
+  "page": 10,
+  "book_page": 46,
+  "overall_quality": "good",
+  "summary": "Page covers sections יז through כב of פרק שני. Right column then left column. Overall the OCR is quite good with minor textual issues. The section numbers, titles, and source references are largely accurate.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יז, makor text",
+      "description": "OCR has 'ממלות' but the image shows 'מצלות' or possibly 'ממצות'. The word in the image appears to read 'ממצות' (from the mitzvot) rather than 'ממלות' (from the words).",
+      "original_text": "והיינו ממלות שאדם דש בעקביו",
+      "corrected_text": "והיינו ממצות שאדם דש בעקביו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יז, makor text",
+      "description": "The image shows 'קיימם' but in the broader context appears to have more text around the word 'מזה'. Looking at the image more carefully, 'אחרים קיימם מזה' - the comma placement and reading appears mostly correct.",
+      "original_text": "ונחשבים כפסולת אצל אחרים, קיימם מזה, ומהם נתעשר.",
+      "corrected_text": "ונחשבים כפסולת אצל אחרים, קיימם מזה, ומהם נתעשר."
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יח, makor text",
+      "description": "OCR reads 'אבל במצוה כזו שרבים' but in the image the makor text starts with 'אבל במצות כזו' or similar. The image shows the beginning reads as expected but the word could be מצוה or מצות.",
+      "original_text": "אבל במצוה כזו שרבים",
+      "corrected_text": "אבל במצוה כזו שרבים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יט, makor text",
+      "description": "OCR has 'וי\"ל טעם בהא' but looking at the image the first word appears to be 'וי\"ל' which is correct. The rest of the passage reads correctly. The word 'סיוע' at the end - in the image it appears to show 'קיוע' possibly, but 'סיוע' makes more contextual sense.",
+      "original_text": "וי\"ל טעם בהא דאמרינן שכר מצוה בהאי עלמא ליכא",
+      "corrected_text": "וי\"ל טעם בהא דאמרינן שכר מצוה בהאי עלמא ליכא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כ, makor text",
+      "description": "The image shows 'אשר יעשה אותם האדם וחי בהם' but then continues with text. OCR has 'אותם קאי בהם' but the image appears to show slightly different text: 'אותם רומז לדברים בעוה\"ז ואוכל פירותיהם בעוה\"ז וזה מעשה'. The specific reading is hard to confirm with certainty.",
+      "original_text": "אותם קאי בהם בעוה\"ז ואוכל פירותיהם בעוה\"ז",
+      "corrected_text": "אותם קאי בהם בעוה\"ז ואוכל פירותיהם בעוה\"ז"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section כ, source_ref",
+      "description": "The image source reference in parentheses at end shows 'אמרי שפר אחרי' which matches the OCR. However the word before 'אחרי' might be read differently. Appears correct.",
+      "original_text": "אמרי שפר אחרי",
+      "corrected_text": "אמרי שפר אחרי"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כא, makor text",
+      "description": "OCR has 'ועושהו לשם מצוה' in the title. Looking at the image, the right column section title for כא reads 'מצוה שהגוף נהנה ממנו ועושהו לשם מצוה'. This appears correct. In the body, 'שהורגל בו בחומרו' - the image appears to show 'שהורגל' which matches.",
+      "original_text": "מצוה שהגוף נהנה ממנו ועושהו לשם מצוה.",
+      "corrected_text": "מצוה שהגוף נהנה ממנו ועושהו לשם מצוה."
+    }
+  ],
+  "corrected_json": null
+}

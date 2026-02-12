@@ -1,0 +1,73 @@
+{
+  "page": 75,
+  "book_page": 111,
+  "overall_quality": "good",
+  "summary": "Page 75 (book page צה) continues section לז from previous page, then covers sections לח through מג, with grouping header 'כולל'. The structure is well-captured with proper section numbering. The continuation fragment properly picks up from the previous page. Some text accuracy issues in individual sections.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Continuation fragment",
+      "description": "OCR reads 'שנאמר בהם יהרג ואל יעבור וכו' ע\"ז משלמים בהאי עלמא.' The image shows text at the top of the right column. The word 'שנאמר' needs verification - may be different opening word.",
+      "original_text": "שנאמר בהם יהרג ואל יעבור",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Continuation fragment source_ref",
+      "description": "Source listed as 'מרדכי בשער המלך, פנחס'. The image shows the parenthetical source. Need to verify 'מרדכי' vs possibly other name.",
+      "original_text": "מרדכי בשער המלך, פנחס",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section לח, makor text",
+      "description": "OCR reads 'והנה פנחס נמי הכניס עצמו בסכנה גדולה מה שלא היה מחוייב בדבר וכו' לכן בדין הוא נוטל שכרו.' The image appears to show 'והנה פנחס נמי הכניס... אלא היה מחוייב' or 'מה שלא היה' - the word 'מה' needs verification.",
+      "original_text": "מה שלא היה מחוייב בדבר",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מ, makor text",
+      "description": "OCR reads 'ואולם וכו' דעל מסיי\"נ מקבל שכר בהאי עלמא וכו'.' The abbreviation 'מסיי\"נ' should be 'מס\"נ' (מסירת נפש). The image may show the full word or different abbreviation.",
+      "original_text": "מסיי\"נ",
+      "corrected_text": "מס\"נ (needs verification)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מ, body paragraph",
+      "description": "OCR reads 'וא\"כ שמע ישראל, והוא מסיי\"נ, ומקנה פנים חדשות וזוכה לשכר בעוה\"ז.' Same abbreviation issue. Also 'ומקנה' may be 'ומקנא' (different meaning) in the image.",
+      "original_text": "ומקנה פנים חדשות",
+      "corrected_text": "Needs verification - possibly ומקנא or ומקנה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מא, makor text",
+      "description": "OCR reads 'וכתב הזרע בירך דקמעיין מזה דמי שמוסר נפשו להקב\"ה במחשבה וכו' אז הקב\"ה צריך ליתן לו שכר מומ\"י.' The abbreviation 'מומ\"י' is unclear - likely should be 'מוכ\"י' or another abbreviation. The image needs to be checked.",
+      "original_text": "שכר מומ\"י",
+      "corrected_text": "Needs verification of abbreviation"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מב, makor text",
+      "description": "OCR reads 'ולכן על זה המלוה כשמקבל על עצמו באמת למסור נפשו'. The word 'המלוה' seems out of place - may be 'המצוה' or different word in the image.",
+      "original_text": "על זה המלוה",
+      "corrected_text": "Needs verification - possibly על זה המילה or המצוה"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section מא, source_ref",
+      "description": "Source listed as 'ותפארת חיים, צו' with leading 'ו'. The image should be checked to see if the source begins with 'ו' or if this is part of a longer phrase.",
+      "original_text": "ותפארת חיים, צו",
+      "corrected_text": "תפארת חיים, צו (needs verification if ו is part of source name)"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,174 @@
+{
+  "page": 74,
+  "book_page": 110,
+  "raw_response": "```json\n{\n  \"page\": 94,\n  \"book_page\": 110,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is excellent, correctly handling the right-to-left column flow and associating the specific source at the top of the Left column with the section at the bottom of the Right column. However, there are several localized text recognition errors, including one significant hallucination in Section 37 and a misread book title citation in Section 32.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section לב, paragraph 1\",\n      \"description\": \"The OCR included the book title 'קדושה וברכה' as part of the body text instead of the source reference. It also misread the word 'למהרת' as 'למשרת'.\",\n      \"original_text\": \"מכל ההוספה שעושה זה שממהרת למשרת במרוצתו... נוסף ג\\\"כ בעולם הזה. וקדושה וברכה\",\n      \"corrected_text\": \"מכל ההוספה שעושה זה שממהרת למהרת במרוצתו... נוסף ג\\\"כ בעולם הזה.\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section לב, paragraph 1\",\n      \"description\": \"Source reference is incomplete; part of it was left in the body text.\",\n      \"original_text\": \"ברכות פ\\\"א\",\n      \"corrected_text\": \"קדושה וברכה, ברכות פ\\\"א\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section לה, source\",\n      \"description\": \"The OCR interpreted the opening parenthesis '(' as the letter 'ו' (Vav).\",\n      \"original_text\": \"ומאורי אור...\",\n      \"corrected_text\": \"מאורי אור...\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section לו, paragraph 2\",\n      \"description\": \"The term '(היהודי)' (Referring to the Holy Jew of Przysucha) was misread as '(ההיל\\\"מ)'.\",\n      \"original_text\": \"...הקדוש הנ\\\"ל (ההיל\\\"מ)...\",\n      \"corrected_text\": \"...הקדוש הנ\\\"ל (היהודי)...\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section לז, paragraph 1\",\n      \"description\": \"OCR completely hallucinated/misread the first words. Image shows 'במס' יט' (or similar abbreviation), OCR output 'חמנס יש'.\",\n      \"original_text\": \"חמנס יש מילה וכו'\",\n      \"corrected_text\": \"במס' יט מילה וכו'\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"לא\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"לז\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"...שייך שכר גם בעוה\\\"ז וכו'.\",\n        \"source_ref\": \"דברי תורה ג עה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לב\",\n        \"title\": \"מי שממהר למצוה כדי שלא לעבור על בל תאחר\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מכל ההוספה שעושה זה שממהרת למהרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\\\"כ בעולם הזה.\",\n            \"source_ref\": \"קדושה וברכה, ברכות פ\\\"א\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"הידור וכבוד\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לג\",\n        \"title\": \"על הידור המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"חז\\\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"מאורי אור בשם הרה\\\"ק ר' דוד אהרן מזאריג זצוק\\\"ל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לד\",\n        \"title\": \"על הידור מצוה יותר משליש\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עד שליש משלו מכאן ואילך משל הקב\\\"ה (ב\\\"ק ט:), וברש\\\"י שם מה שיוסיף בהידור על שליש יפרע לו הקב\\\"ה בחייו.\",\n            \"source_ref\": null\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לה\",\n        \"title\": \"על כבוד המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"חז\\\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"מאורי אור בשם הרה\\\"ק ר' דוד אהרן מזאריק זצוק\\\"ל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מס\\\"נ\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לו\",\n        \"title\": \"כשעושין מצוה במסירות נפש\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דכשעושין מצות במסירות נפש מגיע שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"תפארת חיים אות צז\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ואמר הקדוש הנ\\\"ל (היהודי) עלה לקבל שכר מצוה גם בהאי עלמא, שיעשה כל מצותיו במסירות נפש כמו שעלינו וכו' ואז יגיע לו שכר עכ\\\"ד.\",\n            \"source_ref\": \"יודעי בינה\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"על מצוה שעושים במסירות נפש יש שכר בהאי עלמא.\",\n            \"source_ref\": \"פרדס יוסף פנחס, בשם ספר זרע בירך\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ויקח רמח בידו שמרמז שבכח לעשות דבר זה במסירות נפש ככל רמ\\\"ח איברים, וזהו למעלה מהטבע ואז נתעלה לגמרי ולא היה לו שייכות רק עם רוחניו וכו' ע\\\"ז בדין הוא שיטול שכרו.\",\n            \"source_ref\": \"דברי שמחה, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לז\",\n        \"title\": \"המוסר נפשו למצוה, חוץ מג' דברים של יהרג ואל יעבור.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"במס' יט מילה וכו' מסירת נפש חוץ מהשלשה דברים\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 94,
+    "book_page": 110,
+    "overall_quality": "good",
+    "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and associating the specific source at the top of the Left column with the section at the bottom of the Right column. However, there are several localized text recognition errors, including one significant hallucination in Section 37 and a misread book title citation in Section 32.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section לב, paragraph 1",
+        "description": "The OCR included the book title 'קדושה וברכה' as part of the body text instead of the source reference. It also misread the word 'למהרת' as 'למשרת'.",
+        "original_text": "מכל ההוספה שעושה זה שממהרת למשרת במרוצתו... נוסף ג\"כ בעולם הזה. וקדושה וברכה",
+        "corrected_text": "מכל ההוספה שעושה זה שממהרת למהרת במרוצתו... נוסף ג\"כ בעולם הזה."
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section לב, paragraph 1",
+        "description": "Source reference is incomplete; part of it was left in the body text.",
+        "original_text": "ברכות פ\"א",
+        "corrected_text": "קדושה וברכה, ברכות פ\"א"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section לה, source",
+        "description": "The OCR interpreted the opening parenthesis '(' as the letter 'ו' (Vav).",
+        "original_text": "ומאורי אור...",
+        "corrected_text": "מאורי אור..."
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section לו, paragraph 2",
+        "description": "The term '(היהודי)' (Referring to the Holy Jew of Przysucha) was misread as '(ההיל\"מ)'.",
+        "original_text": "...הקדוש הנ\"ל (ההיל\"מ)...",
+        "corrected_text": "...הקדוש הנ\"ל (היהודי)..."
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section לז, paragraph 1",
+        "description": "OCR completely hallucinated/misread the first words. Image shows 'במס' יט' (or similar abbreviation), OCR output 'חמנס יש'.",
+        "original_text": "חמנס יש מילה וכו'",
+        "corrected_text": "במס' יט מילה וכו'"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צד",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "לא",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "לז",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "...שייך שכר גם בעוה\"ז וכו'.",
+          "source_ref": "דברי תורה ג עה"
+        },
+        {
+          "type": "section",
+          "number": "לב",
+          "title": "מי שממהר למצוה כדי שלא לעבור על בל תאחר",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מכל ההוספה שעושה זה שממהרת למהרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\"כ בעולם הזה.",
+              "source_ref": "קדושה וברכה, ברכות פ\"א"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "הידור וכבוד"
+        },
+        {
+          "type": "section",
+          "number": "לג",
+          "title": "על הידור המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "חז\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.",
+              "source_ref": "מאורי אור בשם הרה\"ק ר' דוד אהרן מזאריג זצוק\"ל"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לד",
+          "title": "על הידור מצוה יותר משליש",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עד שליש משלו מכאן ואילך משל הקב\"ה (ב\"ק ט:), וברש\"י שם מה שיוסיף בהידור על שליש יפרע לו הקב\"ה בחייו.",
+              "source_ref": null
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לה",
+          "title": "על כבוד המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "חז\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.",
+              "source_ref": "מאורי אור בשם הרה\"ק ר' דוד אהרן מזאריק זצוק\"ל"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "מס\"נ"
+        },
+        {
+          "type": "section",
+          "number": "לו",
+          "title": "כשעושין מצוה במסירות נפש",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דכשעושין מצות במסירות נפש מגיע שכר גם בעוה\"ז.",
+              "source_ref": "תפארת חיים אות צז"
+            },
+            {
+              "is_makor": false,
+              "text": "ואמר הקדוש הנ\"ל (היהודי) עלה לקבל שכר מצוה גם בהאי עלמא, שיעשה כל מצותיו במסירות נפש כמו שעלינו וכו' ואז יגיע לו שכר עכ\"ד.",
+              "source_ref": "יודעי בינה"
+            },
+            {
+              "is_makor": false,
+              "text": "על מצוה שעושים במסירות נפש יש שכר בהאי עלמא.",
+              "source_ref": "פרדס יוסף פנחס, בשם ספר זרע בירך"
+            },
+            {
+              "is_makor": false,
+              "text": "ויקח רמח בידו שמרמז שבכח לעשות דבר זה במסירות נפש ככל רמ\"ח איברים, וזהו למעלה מהטבע ואז נתעלה לגמרי ולא היה לו שייכות רק עם רוחניו וכו' ע\"ז בדין הוא שיטול שכרו.",
+              "source_ref": "דברי שמחה, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לז",
+          "title": "המוסר נפשו למצוה, חוץ מג' דברים של יהרג ואל יעבור.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "במס' יט מילה וכו' מסירת נפש חוץ מהשלשה דברים",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

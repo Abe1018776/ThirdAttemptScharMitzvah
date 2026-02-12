@@ -1,0 +1,41 @@
+{
+  "page": 18,
+  "book_page": 54,
+  "overall_quality": "good",
+  "summary": "Page 18 (book page לח) continues section לה from previous page, then has sections לו through מ. Structure is well captured with correct continuation flag. Section numbering is sequential. Source refs are generally well captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section לו, makor text",
+      "description": "The OCR reads 'שמתענג מילוי תורה' - the word 'מילוי' may be misread. Could be 'מלימוד תורה' (from Torah study) or 'מפילוי תורה'.",
+      "original_text": "שמתענג מילוי תורה",
+      "corrected_text": "Possibly 'שמתענג מלימוד תורה'"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section לו, makor source_ref",
+      "description": "Source ref reads 'מכ\"ק אדמו\"ר מאבאב שליט\"א'. The word 'מאבאב' should likely be 'מבאבוב' (from Bobov, the Hasidic dynasty).",
+      "original_text": "מכ\"ק אדמו\"ר מאבאב שליט\"א",
+      "corrected_text": "מכ\"ק אדמו\"ר מבאבוב שליט\"א"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section לו, body paragraph 1",
+      "description": "OCR reads 'הרי זה ככי יתן שכלו אף בעוה\"ז'. The phrase 'ככי יתן שכלו' is unclear and likely misread.",
+      "original_text": "הרי זה ככי יתן שכלו אף בעוה\"ז",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section מ, source_ref",
+      "description": "Source ref reads 'וכת\"ס עקב' with leading vav. Should likely be 'כת\"ס עקב' (Chasam Sofer on Eikev).",
+      "original_text": "וכת\"ס עקב",
+      "corrected_text": "כת\"ס עקב"
+    }
+  ],
+  "corrected_json": null
+}

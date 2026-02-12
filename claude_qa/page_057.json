@@ -1,0 +1,49 @@
+{
+  "page": 57,
+  "book_page": 93,
+  "overall_quality": "good",
+  "summary": "Page 57 (book page 77) captures sections פא through פה. Structure and section numbering are correct. Some OCR text has uncertain readings marked with [?]. The grouping header 'לכבוד' visible in the image is not captured but may be part of text flow rather than a structural element.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פא, makor text",
+      "description": "OCR has 'והוי מינו ידוע, אף בטרו [בצרו?], בעוה\"ז ישלם לבדו.' - the word 'בטרו' with [בצרו?] uncertainty is acknowledged. Image is hard to read.",
+      "original_text": "אף בטרו [בצרו?]",
+      "corrected_text": "Verify unclear text"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פא, source_ref",
+      "description": "Source ref 'שארית מנחם פ' ראה' - image confirms this appears correct.",
+      "original_text": "שארית מנחם פ' ראה",
+      "corrected_text": "Correct"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פג, makor text",
+      "description": "OCR text 'ומשלמים שכר גם אח\"כ על התחלת כניסה להיכל המלך מלכו של עולם לעבדו ביראה ובאהבה' - verify 'ומשלמים שכר' vs possibly 'ומשלמים שכרו'.",
+      "original_text": "ומשלמים שכר גם אח\"כ",
+      "corrected_text": "Verify - possibly 'ומשלמים שכרו גם אח\"כ'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פה, makor text",
+      "description": "OCR abbreviations 'בה\"ע' for 'בהאי עלמא' are used inconsistently - sometimes 'בהאי עלמא', sometimes 'בה\"ע'. This reflects the original text style but should be verified.",
+      "original_text": "בה\"ע",
+      "corrected_text": "Verify abbreviation consistency against image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פד, makor text",
+      "description": "OCR source ref 'מגדלות מרקחים, מלוקטים' - image shows this. Verify 'מלוקטים' or 'מלקוטים'.",
+      "original_text": "מגדלות מרקחים, מלוקטים",
+      "corrected_text": "Verify - possibly 'מלקוטים'"
+    }
+  ],
+  "corrected_json": null
+}

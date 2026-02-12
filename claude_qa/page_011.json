@@ -1,0 +1,65 @@
+{
+  "page": 11,
+  "book_page": 47,
+  "overall_quality": "good",
+  "summary": "Page covers sections כג through כח of פרק שני. Six sections, each with a single makor paragraph. Section structure and numbering are correct. Some minor textual discrepancies in body text.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כג, makor text",
+      "description": "OCR has 'אותה מצה' but the image appears to show 'אותה מצוה' - the word should be 'מצוה' not 'מצה'.",
+      "original_text": "ולפי\"ז מצוה שכזה אותה מצה בבחינת זה הדבר",
+      "corrected_text": "ולפי\"ז מצוה שכזה אותה מצוה בבחינת זה הדבר"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section כג, source_ref",
+      "description": "The source_ref is just 'ויקהל' but looking at the image the source in parentheses appears to show more detail. The image parenthetical text at the end reads what looks like 'מגדלות מרקחים ויקהל' or similar.",
+      "original_text": "ויקהל",
+      "corrected_text": "מגדלות מרקחים, ויקהל"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כד, makor text",
+      "description": "OCR has 'שכר על המצוה באמת אינו מגיע' - the image text in the right column for section כד begins with 'שכר על המצוה באמת' which appears correct. However, the phrase 'ישועה להשי\"ת ולטובה' seems imprecise. The image seems to show 'שהיה ישועה להשי\"ת ולטובה' which matches. Body text reading appears reasonable overall.",
+      "original_text": "שכר על המצוה באמת אינו מגיע עפ\"י דין כיון שהיה ישועה להשי\"ת ולטובה אינו מוכרח",
+      "corrected_text": "שכר על המצוה באמת אינו מגיע עפ\"י דין כיון שהיה ישועה להשי\"ת ולטובה אינו מוכרח"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כו, makor text",
+      "description": "OCR has 'שכעסקיכם במזונותיכם ובפרנסתיכם ותקיימו' - the image shows 'שבעסקיכם' rather than 'שכעסקיכם'. The bet and kaf are easily confused.",
+      "original_text": "היינו שכעסקיכם במזונותיכם ובפרנסתיכם",
+      "corrected_text": "היינו שבעסקיכם במזונותיכם ובפרנסתיכם"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section כז, makor text",
+      "description": "The OCR text for section כז is garbled and does not match the image well. The image text for this section is about a mitzvah that cannot be done by someone else (אי אפשר ליעשות ע\"י אחר). The OCR body text mentions Moshe, Aharon, and Pinchas but the specific reading is questionable - 'זכו שׂכרו ולא נזכר אלא פנחס' and 'פרע\"ה שרצון הקב\"ה' seem inaccurate. The image shows different text: 'דהנה דלא עשה משה בעצמו דבר זה לפי שמשם ואהרן ובני בניו יש שכר דבר זה' or similar. The exact reading is difficult but the OCR appears to have significant errors in the middle of this passage.",
+      "original_text": "דהא דלא עשה משה בעצמו דבר זה, לפי שמשה ואהרן זכו שׂכרו ולא נזכר אלא פנחס, בגין שפרע\"ה שרצון הקב\"ה שלא יעשה דבר זה שום בן אדם אלא פנחס",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כח, makor text",
+      "description": "OCR text reads 'שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית' - looking at the image, the text begins 'שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה'. The makor seems truncated - it ends with a comma, suggesting it continues, but looking at the page there is no continuation visible.",
+      "original_text": "שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,",
+      "corrected_text": "שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section כח, source_ref",
+      "description": "OCR has 'דרשות חת\"ס קכג, ירבה תורה פנחס' but looking at the image parenthetical, it reads 'דרשות חתם סופר, וירבה תורה פנחס' or possibly 'דרשות חת\"ס קכג, ירבה תורה פנחס'. Hard to tell if 'קכג' is present or not.",
+      "original_text": "דרשות חת\"ס קכג, ירבה תורה פנחס",
+      "corrected_text": "דרשות חת\"ס קכג, ירבה תורה פנחס"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,179 @@
+{
+  "page": 69,
+  "book_page": 105,
+  "raw_response": "Analysis of **Page 89 (פט)** of **Sechar Mitzvah**:\n\n## 1. Top Fragment (Continuation)\nThe page begins with the end of the previous section.\n- **Image**: \"מקור המצוה: ונמצא לפי\"ז כל מה שעושה האדם... (ואך פרי תבואה בחוקותי)\"\n- **OCR**: \"... (תבואות בחוקותי)\"\n- **Issue**: Missed the words \"ואך פרי\" and misread \"תבואה\" as \"תבואות\".\n\n## 2. Section Ordering (Layout)\nThe book layout is somewhat complex.\n- **Right Column**: Contains Section 6 (top-mid) and Section 9 (bottom).\n- **Left Column**: Contains Section 7 (top), Section 8 (mid), Section 10 (bottom).\n- **OCR Logic**: Followed the prompt's `Right Column -> Left Column` instruction strictly.\n- **Result**: The sections appear in the JSON as **6 → 9 → 7 → 8 → 10**. While strictly compliant with the column-first instruction, this breaks the logical numerical sequence. This is a structural limitation of simple column-based ordering for this specific layout.\n\n## 3. Section 6 (ו) - Critical OCR Errors\nThe OCR struggled significantly with the text in the Makor paragraph.\n- **Image**: \"מקור המצוה: **להא דשכר** מצוה...\" (Refers to the concept that there is no reward in this world...)\n- **OCR**: \"**לחף לקבל** מצוה...\"\n- **Analysis**: \"לחף\" is a hallucination; \"לקבל\" is a visual misinterpretation of \"דשכר\". This completely changes the meaning.\n- **Image**: \"**במצוה** שחל חיוב...\"\n- **OCR**: \"**כמצוה** שחל...\"\n\n## 4. Section 7 (ז) - Text Error\n- **Image**: \"אבל **כשאינו** לפניו...\" (But when it is *not* before him)\n- **OCR**: \"אבל **כשהינו** לפניו...\" (But when he *is* before him)\n- **Analysis**: Reversed meaning.\n\n## 5. Section 8 (ח) - Text Errors\n- **Image**: \"אם **הוא** יטרח...\"\n- **OCR**: \"אם **היה** יטרח...\"\n- **ImageSource**: \"(**ו**באר מנחם לך)\"\n- **OCRSource**: \"(באר מנחם לך)\" (Missing Vav)\n\n## 6. Section 9 (ט) - Text Error\n- **Image**: \"...הלא **נטל** עליהם...\" (Is it not a burden/obligation on them...)\n- **OCR**: \"...הלא **נטיה** עליהם...\" (Is it not an inclination...)\n\n## 7. Section 10 (י) - Missing Content\n- **Image**: Title is followed by a source reference line: \"(וקדושת ציון דף ק\"י)\".\n- **OCR**: `paragraphs: []`.\n- **Analysis**: The OCR detected the section title but failed to capture the content (the source reference) beneath it.\n\n```json\n{\n  \"page\": 89,\n  \"book_page\": 105,\n  \"overall_quality\": \"fair\",\n  \"summary\": \"The OCR correctly identified the structure and titles but suffered from significant text hallucinations in Section 6 and missed content in Section 10. The strict column reading order resulted in non-sequential section numbering (6,9,7,8,10), which accurately reflects the column content but misrepresents the book's logical flow.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Top fragment (Right Col)\",\n      \"description\": \"Source reference misread and truncated.\",\n      \"original_text\": \"תבואות בחוקותי\",\n      \"corrected_text\": \"ואך פרי תבואה בחוקותי\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"section ו, paragraph 1\",\n      \"description\": \"Severe text hallucination changing logic from 'Regarding the reward' to 'to accept'.\",\n      \"original_text\": \"לחף לקבל מצוה בהאי עלמא\",\n      \"corrected_text\": \"להא דשכר מצוה בהאי עלמא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ו, paragraph 1\",\n      \"description\": \"Letter confusion Bet/Kaf.\",\n      \"original_text\": \"דוקא כמצוה\",\n      \"corrected_text\": \"דוקא במצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ז, paragraph 1\",\n      \"description\": \"Meaning reversal: 'When he is' vs 'When it is not'.\",\n      \"original_text\": \"כשהינו\",\n      \"corrected_text\": \"כשאינו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Wrong word.\",\n      \"original_text\": \"אם היה יטרח\",\n      \"corrected_text\": \"אם הוא יטרח\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Missing conjunction letter in source.\",\n      \"original_text\": \"באר מנחם לך\",\n      \"corrected_text\": \"ובאר מנחם לך\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ט, paragraph 2\",\n      \"description\": \"Word hallucination/confusion.\",\n      \"original_text\": \"מצות הלא נטיה עליהם\",\n      \"corrected_text\": \"מצות הלא נטל עליהם\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"major\",\n      \"location\": \"section י\",\n      \"description\": \"Section body (source reference) is missing entirely.\",\n      \"original_text\": \"[]\",\n      \"corrected_text\": \"[{\\\"is_makor\\\": false, \\\"text\\\": \\\"\\\", \\\"source_ref\\\": \\\"וקדושת ציון דף ק\\\\\\\"י\\\"}]\"\n    },\n    {\n      \"type\": \"column_order_error\",\n      \"severity\": \"minor\",\n      \"location\": \"Entire Page\",\n      \"description\": \"Sections appear in order 6,9,7,8,10 due to rigid column-first processing. Logical order should be 6,7,8,9,10.\",\n      \"original_text\": \"N/A\",\n      \"corrected_text\": \"N/A\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"פט\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"ה\",\n        \"level\": \"makor\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"ונמצא לפי\\\"ז כל מה שעושה האדם בקבלת על עצמו קודם זמן המצוה זהו נחשב למעשי ידיו ולכן יכול שפיר לבקש שכר עליו.\",\n        \"source_ref\": \"ואך פרי תבואה בחוקותי\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"ממציא עצמו\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ו\",\n        \"title\": \"מי שממציא את עצמו להתחייב במצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"להא דשכר מצוה בהאי עלמא ליכא זהו דוקא במצוה שחל חיוב בה מקודם אבל אם הוא ממציא את עצמו להתחייב במצוה וכו' הרי זה מגיע לו השכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"תפארת בנים פ' שופטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ט\",\n        \"title\": \"מי שמייגע עצמו להמציא א\\\"ע לידי חיוב מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהגם דשכר מצוה בהאי עלמא ליכא, אבל אם הוא בעצמו טורח וממציא עצמו להמצוה אז יש שכר טוב גם בעוה\\\"ז.\",\n            \"source_ref\": \"דברי תורה ו, א\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ואילו גבי הנהנה מיגיעו כתיב יגיע כפיך כי תאכל אשריך וטוב לך, אשריך בעוה\\\"ז וטוב לך בעוה\\\"ב, כי מי שמציא עצמו לידי חיוב מצות הלא נטל עליהם יש לו שכר מצוה בהאי עלמא, וגם לרבות לעוה\\\"ב.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ז\",\n        \"title\": \"מי שהולך למקום כדי שתזדמן לו מצוה שם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל כשאינו לפניו רק הולך כדי שתזדמן לו המצוה וכו' גם שכר מצוה בהאי עלמא איכא.\",\n            \"source_ref\": \"ש\\\"י, בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ח\",\n        \"title\": \"המזמין את עצמו לקים מצוה, ומהדר לעשותו בכל פרטיה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם הוא יטרח מכין ומזמין א\\\"ע לעשות המצוה ומהדר אחריה לעשותו כראוי וכנכון בכל פרטיה ודקדוקיה ע\\\"ז מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ובאר מנחם לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"י\",\n        \"title\": \"המשתדל לקיים מצות בכל תהלוכותיו מקבל שכר בעוה\\\"ז על כל מצוה\",\n        \"paragraphs\": [\n            {\n                \"is_makor\": false,\n                \"text\": \"\",\n                \"source_ref\": \"וקדושת ציון דף ק\\\"י\"\n            }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 89,
+    "book_page": 105,
+    "overall_quality": "fair",
+    "summary": "The OCR correctly identified the structure and titles but suffered from significant text hallucinations in Section 6 and missed content in Section 10. The strict column reading order resulted in non-sequential section numbering (6,9,7,8,10), which accurately reflects the column content but misrepresents the book's logical flow.",
+    "issues": [
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "Top fragment (Right Col)",
+        "description": "Source reference misread and truncated.",
+        "original_text": "תבואות בחוקותי",
+        "corrected_text": "ואך פרי תבואה בחוקותי"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "section ו, paragraph 1",
+        "description": "Severe text hallucination changing logic from 'Regarding the reward' to 'to accept'.",
+        "original_text": "לחף לקבל מצוה בהאי עלמא",
+        "corrected_text": "להא דשכר מצוה בהאי עלמא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ו, paragraph 1",
+        "description": "Letter confusion Bet/Kaf.",
+        "original_text": "דוקא כמצוה",
+        "corrected_text": "דוקא במצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ז, paragraph 1",
+        "description": "Meaning reversal: 'When he is' vs 'When it is not'.",
+        "original_text": "כשהינו",
+        "corrected_text": "כשאינו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ח, paragraph 1",
+        "description": "Wrong word.",
+        "original_text": "אם היה יטרח",
+        "corrected_text": "אם הוא יטרח"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section ח, paragraph 1",
+        "description": "Missing conjunction letter in source.",
+        "original_text": "באר מנחם לך",
+        "corrected_text": "ובאר מנחם לך"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ט, paragraph 2",
+        "description": "Word hallucination/confusion.",
+        "original_text": "מצות הלא נטיה עליהם",
+        "corrected_text": "מצות הלא נטל עליהם"
+      },
+      {
+        "type": "missing_text",
+        "severity": "major",
+        "location": "section י",
+        "description": "Section body (source reference) is missing entirely.",
+        "original_text": "[]",
+        "corrected_text": "[{\"is_makor\": false, \"text\": \"\", \"source_ref\": \"וקדושת ציון דף ק\\\"י\"}]"
+      },
+      {
+        "type": "column_order_error",
+        "severity": "minor",
+        "location": "Entire Page",
+        "description": "Sections appear in order 6,9,7,8,10 due to rigid column-first processing. Logical order should be 6,7,8,9,10.",
+        "original_text": "N/A",
+        "corrected_text": "N/A"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "פט",
+        "page_side": "right",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "ה",
+          "level": "makor"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "ונמצא לפי\"ז כל מה שעושה האדם בקבלת על עצמו קודם זמן המצוה זהו נחשב למעשי ידיו ולכן יכול שפיר לבקש שכר עליו.",
+          "source_ref": "ואך פרי תבואה בחוקותי"
+        },
+        {
+          "type": "grouping_header",
+          "title": "ממציא עצמו"
+        },
+        {
+          "type": "section",
+          "number": "ו",
+          "title": "מי שממציא את עצמו להתחייב במצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "להא דשכר מצוה בהאי עלמא ליכא זהו דוקא במצוה שחל חיוב בה מקודם אבל אם הוא ממציא את עצמו להתחייב במצוה וכו' הרי זה מגיע לו השכר גם בעוה\"ז.",
+              "source_ref": "תפארת בנים פ' שופטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ט",
+          "title": "מי שמייגע עצמו להמציא א\"ע לידי חיוב מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהגם דשכר מצוה בהאי עלמא ליכא, אבל אם הוא בעצמו טורח וממציא עצמו להמצוה אז יש שכר טוב גם בעוה\"ז.",
+              "source_ref": "דברי תורה ו, א"
+            },
+            {
+              "is_makor": false,
+              "text": "ואילו גבי הנהנה מיגיעו כתיב יגיע כפיך כי תאכל אשריך וטוב לך, אשריך בעוה\"ז וטוב לך בעוה\"ב, כי מי שמציא עצמו לידי חיוב מצות הלא נטל עליהם יש לו שכר מצוה בהאי עלמא, וגם לרבות לעוה\"ב."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ז",
+          "title": "מי שהולך למקום כדי שתזדמן לו מצוה שם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל כשאינו לפניו רק הולך כדי שתזדמן לו המצוה וכו' גם שכר מצוה בהאי עלמא איכא.",
+              "source_ref": "ש\"י, בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ח",
+          "title": "המזמין את עצמו לקים מצוה, ומהדר לעשותו בכל פרטיה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם הוא יטרח מכין ומזמין א\"ע לעשות המצוה ומהדר אחריה לעשותו כראוי וכנכון בכל פרטיה ודקדוקיה ע\"ז מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "ובאר מנחם לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "י",
+          "title": "המשתדל לקיים מצות בכל תהלוכותיו מקבל שכר בעוה\"ז על כל מצוה",
+          "paragraphs": [
+            {
+              "is_makor": false,
+              "text": "",
+              "source_ref": "וקדושת ציון דף ק\"י"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

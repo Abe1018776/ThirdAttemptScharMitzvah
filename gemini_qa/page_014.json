@@ -1,0 +1,188 @@
+{
+  "page": 14,
+  "book_page": 50,
+  "raw_response": "```json\n{\n  \"page\": 34,\n  \"book_page\": 50,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, including column flow and section separation, is excellent. However, there are several character-level OCR errors in the text body (confusing letters like Bet/Kaf, Nun/Vav, Aleph/Chet) and one instance of missed source extraction.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section טז, paragraph 1\",\n      \"description\": \"Incorrect word transcription. Image says 'בו' (in him/it), OCR wrote 'לן'.\",\n      \"original_text\": \"ולזוכה לן הקב\\\"ה\",\n      \"corrected_text\": \"ולזוכה בו הקב\\\"ה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section טז, paragraph 1\",\n      \"description\": \"Incorrect word transcription. Image says 'בה' (with it/her), OCR wrote 'בא'.\",\n      \"original_text\": \"וכאילו כבד בא\",\n      \"corrected_text\": \"וכאילו כבד בה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section יז, paragraph 1\",\n      \"description\": \"Incorrect word transcription. The word 'רבוי' (abundance) was transcribed as 'וכו''.\",\n      \"original_text\": \"סגולה של וכו' עומר\",\n      \"corrected_text\": \"סגולה של רבוי עומר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יח, paragraph 1\",\n      \"description\": \"Source name misread. 'מהרש\\\"א' (Maharsha) transcribed as 'מהרש\\\"ח'.\",\n      \"original_text\": \"בשם מהרש\\\"ח\",\n      \"corrected_text\": \"בשם מהרש\\\"א\"\n    },\n    {\n      \"type\": \"missing_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section יט, paragraph 1\",\n      \"description\": \"The parenthetical source at the end of the paragraph was not extracted to the source_ref field.\",\n      \"original_text\": \"ובשו\\\"ת שנות חיים קכ\\\"ג (within text)\",\n      \"corrected_text\": \"Source ref field populated\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section כ, paragraph 1\",\n      \"description\": \"Final word transcribed with extrapolated letter not visible in image clip.\",\n      \"original_text\": \"כיון שחיובו תליא\",\n      \"corrected_text\": \"כיון שחיובו תלי\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"כ\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"יג\",\n        \"title\": \"על מצות פדיון הבן\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יד\",\n        \"title\": \"על מצות כיבוד אב ואם ומקבל שכר בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מקרא מפורש בתורה: כבד את אביך ואת אמך למען יאריכון ימיך.\",\n            \"source_ref\": \"שמות כ יב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אלו דברים שאדם אוכל פירותיהם בעוה\\\"ז והקרן קיימת לו לעוה\\\"ב וכו' ואלו הן כיבוד אב ואם וכו'.\",\n            \"source_ref\": \"פאה מ\\\"א\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טו\",\n        \"title\": \"המקיים מצות שילוח הקן\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שילוח הקן שכרו שיהיו לו בנים\",\n            \"source_ref\": \"תנחומא פ' תצא - דבש לפי מערכת שי\\\"ן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טז\",\n        \"title\": \"על מצות קימה והידור פני זקן\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שע\\\"י הקימה מפני שיבה זוכה האדם מפני השיבה ליר\\\"ש, ולזוכה בו הקב\\\"ה ע\\\"ש העתיד, וכאילו כבד בה, ומגיע לו שכר בעוה\\\"ז, אבל מצות היראה שמגיע עליה שכר בהאי עלמא.\",\n            \"source_ref\": \"באר שלמה מערכת קימה והידור\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יז\",\n        \"title\": \"על מצות עומר השכחה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אף ששכר מצוה בהאי עלמא ליכא, סגולה של רבוי עומר השכחה וכו' להמשיך ברכה אף בהאי עלמא.\",\n            \"source_ref\": \"היכל הברכה ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יח\",\n        \"title\": \"על הקרבנות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לזכות הקרבנות הקב\\\"ה נותן לנו מזונות כמ\\\"ש המטה יששכר דף ל\\\"ו ע\\\"ג בשם מהרש\\\"א פ\\\"ק למנחות דף יו\\\"ד.\",\n            \"source_ref\": \"דבש לפי מערכת מ'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יט\",\n        \"title\": \"על מצות שריפת קדשים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"גם העשה דשריפת קדשים הוי זמ\\\"ג ונשים פטורות וכו'\",\n            \"source_ref\": \"גור ארי'\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כ\",\n        \"title\": \"על מצות שמיטה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אך מדברי התוס' ד\\\"ה תפלין שכ' ואור\\\"י כיון שחיובו תלי\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 34,
+    "book_page": 50,
+    "overall_quality": "good",
+    "summary": "The structural parsing, including column flow and section separation, is excellent. However, there are several character-level OCR errors in the text body (confusing letters like Bet/Kaf, Nun/Vav, Aleph/Chet) and one instance of missed source extraction.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section טז, paragraph 1",
+        "description": "Incorrect word transcription. Image says 'בו' (in him/it), OCR wrote 'לן'.",
+        "original_text": "ולזוכה לן הקב\"ה",
+        "corrected_text": "ולזוכה בו הקב\"ה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section טז, paragraph 1",
+        "description": "Incorrect word transcription. Image says 'בה' (with it/her), OCR wrote 'בא'.",
+        "original_text": "וכאילו כבד בא",
+        "corrected_text": "וכאילו כבד בה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section יז, paragraph 1",
+        "description": "Incorrect word transcription. The word 'רבוי' (abundance) was transcribed as 'וכו''.",
+        "original_text": "סגולה של וכו' עומר",
+        "corrected_text": "סגולה של רבוי עומר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יח, paragraph 1",
+        "description": "Source name misread. 'מהרש\"א' (Maharsha) transcribed as 'מהרש\"ח'.",
+        "original_text": "בשם מהרש\"ח",
+        "corrected_text": "בשם מהרש\"א"
+      },
+      {
+        "type": "missing_source_ref",
+        "severity": "minor",
+        "location": "section יט, paragraph 1",
+        "description": "The parenthetical source at the end of the paragraph was not extracted to the source_ref field.",
+        "original_text": "ובשו\"ת שנות חיים קכ\"ג (within text)",
+        "corrected_text": "Source ref field populated"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section כ, paragraph 1",
+        "description": "Final word transcribed with extrapolated letter not visible in image clip.",
+        "original_text": "כיון שחיובו תליא",
+        "corrected_text": "כיון שחיובו תלי"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לד",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "כ",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "יג",
+          "title": "על מצות פדיון הבן",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יד",
+          "title": "על מצות כיבוד אב ואם ומקבל שכר בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מקרא מפורש בתורה: כבד את אביך ואת אמך למען יאריכון ימיך.",
+              "source_ref": "שמות כ יב"
+            },
+            {
+              "is_makor": false,
+              "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז והקרן קיימת לו לעוה\"ב וכו' ואלו הן כיבוד אב ואם וכו'.",
+              "source_ref": "פאה מ\"א"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טו",
+          "title": "המקיים מצות שילוח הקן",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שילוח הקן שכרו שיהיו לו בנים",
+              "source_ref": "תנחומא פ' תצא - דבש לפי מערכת שי\"ן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טז",
+          "title": "על מצות קימה והידור פני זקן",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שע\"י הקימה מפני שיבה זוכה האדם מפני השיבה ליר\"ש, ולזוכה בו הקב\"ה ע\"ש העתיד, וכאילו כבד בה, ומגיע לו שכר בעוה\"ז, אבל מצות היראה שמגיע עליה שכר בהאי עלמא.",
+              "source_ref": "באר שלמה מערכת קימה והידור"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יז",
+          "title": "על מצות עומר השכחה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אף ששכר מצוה בהאי עלמא ליכא, סגולה של רבוי עומר השכחה וכו' להמשיך ברכה אף בהאי עלמא.",
+              "source_ref": "היכל הברכה ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יח",
+          "title": "על הקרבנות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לזכות הקרבנות הקב\"ה נותן לנו מזונות כמ\"ש המטה יששכר דף ל\"ו ע\"ג בשם מהרש\"א פ\"ק למנחות דף יו\"ד.",
+              "source_ref": "דבש לפי מערכת מ'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יט",
+          "title": "על מצות שריפת קדשים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "גם העשה דשריפת קדשים הוי זמ\"ג ונשים פטורות וכו'",
+              "source_ref": "גור ארי'"
+            },
+            {
+              "is_makor": false,
+              "text": "כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כ",
+          "title": "על מצות שמיטה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אך מדברי התוס' ד\"ה תפלין שכ' ואור\"י כיון שחיובו תלי",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

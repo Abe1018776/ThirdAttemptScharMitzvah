@@ -1,0 +1,174 @@
+{
+  "page": 44,
+  "book_page": 80,
+  "raw_response": "```json\n{\n  \"page\": 64,\n  \"book_page\": 80,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, section numbering, and source extraction are excellent. However, there are several specific text substitution errors where the OCR seemingly auto-corrected or misidentified letters (e.g., 'ואהרן' vs 'והכהן', 'כבהמה' vs 'כרמה') or missed visual nuances (e.g., 'מחוטו' vs 'מווטו').\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ד, paragraph 1\",\n      \"description\": \"Word substitution: The visual text is 'שקונה לחלקיו' (shin-kuf-vav-nun-he). The OCR output 'שהניח לחלקיו'.\",\n      \"original_text\": \"שהניח לחלקיו\",\n      \"corrected_text\": \"שקונה לחלקיו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ד, paragraph 1\",\n      \"description\": \"Word substitution: The visual text is 'והכהן' (vav-he-kaf-he-nun). The OCR output 'ואהרן'.\",\n      \"original_text\": \"של אלעזר ואהרן\",\n      \"corrected_text\": \"של אלעזר והכהן\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ז, title\",\n      \"description\": \"Letter misidentifiction: The visual text is 'מחוטו' (mem-chet-vav-tet-vav). The OCR output 'מווטו'.\",\n      \"original_text\": \"כמציל מווטו של ים\",\n      \"corrected_text\": \"כמציל מחוטו של ים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Abbreviation typo: Visual clearly shows 'וא\\\"כ' (And if so), OCR output 'ומ\\\"כ'.\",\n      \"original_text\": \"ומ\\\"כ איפוא\",\n      \"corrected_text\": \"וא\\\"כ איפוא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section י, paragraph 1\",\n      \"description\": \"Text substitution: Visual shows 'ולא' (vav-lamed-aleph). OCR output 'שלא' (shin-lamed-aleph).\",\n      \"original_text\": \"שלא תהו\",\n      \"corrected_text\": \"ולא תהו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section י, paragraph 1\",\n      \"description\": \"Transcription fidelity: The visual text is 'כרמה' (kaf-resh-mem-he), likely a print error for 'כבהמה', but transcription should match the visual. OCR extracted 'כבהמה'.\",\n      \"original_text\": \"כבהמה\",\n      \"corrected_text\": \"כרמה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"י\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"ד\",\n        \"title\": \"אם מתנהגים בדרכי אבות,\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ללמד שכלו על מצוה זו שקונה לחלקיו, אבל רק בזכות אבותיו של אלעזר והכהן נתן לו כהונת עולם וכו' שע\\\"י זכות אבות נותן הקב\\\"ה לבניהם ההולכים ומתנהגים בדרכי אבותיהם וכו'.\",\n            \"source_ref\": \"חת\\\"ס - מש\\\"מ פנחס\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"עתיד הקב\\\"ה להנחיל וכו' ואוכלותיהם למלח, ומפרש בתויו\\\"ט בעוה\\\"ז וכו', והטעם כי נגד מטעי שהם הולכים בדרכי אבות וכו'.\",\n            \"source_ref\": \"דברי אליעזר, הדרנים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ה\",\n        \"title\": \"מי שהולך בדרכי אבות גם בין האוה\\\"ע המלעיגים עליו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם בחוקותי תלכו ר\\\"ת אב\\\"ת, להורות דגם כשתלכו בין אוה\\\"ע המלעיגים עליכם ג\\\"כ תשמרו חוקותי [- ואז] ונתתי גשמיכם בעתם].\",\n            \"source_ref\": \"בית אשר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"ישראל\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ו\",\n        \"title\": \"לכלל ישראל בכללו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אך כביכול דין הרבים שהעולם נידון בכללו לזכות ולזה יש שכר אף בעוה\\\"ז.\",\n            \"source_ref\": \"קומץ המנחה, ראה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ז\",\n        \"title\": \"ישראל שקיבלו התורה, והוי כמציל מחוטו של ים,\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומ\\\"כ בזה שקיבלנו ישראל את התורה הרי דינם כמציל מן הנהר דהרי זה שלו, ומ\\\"כ כל טובת העוה\\\"ז הוא לישראל.\",\n            \"source_ref\": \"טללי אורות, ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ח\",\n        \"title\": \"מכיון שהשפעת עוה\\\"ז לאוה\\\"ע הוא בשביל ישראל, ע\\\"כ מגיע גם להם טובת עוה\\\"ז.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וא\\\"כ איפוא אחר שע\\\"י ישראל נשפעת הטובה, דין שיהיה להם חלק בטובה.\",\n            \"source_ref\": \"קומץ המנחה, עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ט\",\n        \"title\": \"כשישראל מאוחדים עם השי\\\"ת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כלל העולה כשישראל מקושרים במלכות הבורא ית' אז מקבלים רק טובות וכו'.\",\n            \"source_ref\": \"ודודאים בשדה ראה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"י\",\n        \"title\": \"רצון השי\\\"ת שיהנו ישראל מהעוה\\\"ז כפי המותר.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וזה העיקר וכוונת התורה ולא תהו כרמה וכו' שיהנו בני אדם מהעוה\\\"ז על פי התורה והמצוה\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 64,
+    "book_page": 80,
+    "overall_quality": "good",
+    "summary": "The structural parsing, section numbering, and source extraction are excellent. However, there are several specific text substitution errors where the OCR seemingly auto-corrected or misidentified letters (e.g., 'ואהרן' vs 'והכהן', 'כבהמה' vs 'כרמה') or missed visual nuances (e.g., 'מחוטו' vs 'מווטו').",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ד, paragraph 1",
+        "description": "Word substitution: The visual text is 'שקונה לחלקיו' (shin-kuf-vav-nun-he). The OCR output 'שהניח לחלקיו'.",
+        "original_text": "שהניח לחלקיו",
+        "corrected_text": "שקונה לחלקיו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ד, paragraph 1",
+        "description": "Word substitution: The visual text is 'והכהן' (vav-he-kaf-he-nun). The OCR output 'ואהרן'.",
+        "original_text": "של אלעזר ואהרן",
+        "corrected_text": "של אלעזר והכהן"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ז, title",
+        "description": "Letter misidentifiction: The visual text is 'מחוטו' (mem-chet-vav-tet-vav). The OCR output 'מווטו'.",
+        "original_text": "כמציל מווטו של ים",
+        "corrected_text": "כמציל מחוטו של ים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ח, paragraph 1",
+        "description": "Abbreviation typo: Visual clearly shows 'וא\"כ' (And if so), OCR output 'ומ\"כ'.",
+        "original_text": "ומ\"כ איפוא",
+        "corrected_text": "וא\"כ איפוא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section י, paragraph 1",
+        "description": "Text substitution: Visual shows 'ולא' (vav-lamed-aleph). OCR output 'שלא' (shin-lamed-aleph).",
+        "original_text": "שלא תהו",
+        "corrected_text": "ולא תהו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section י, paragraph 1",
+        "description": "Transcription fidelity: The visual text is 'כרמה' (kaf-resh-mem-he), likely a print error for 'כבהמה', but transcription should match the visual. OCR extracted 'כבהמה'.",
+        "original_text": "כבהמה",
+        "corrected_text": "כרמה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סד",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "י",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "ד",
+          "title": "אם מתנהגים בדרכי אבות,",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ללמד שכלו על מצוה זו שקונה לחלקיו, אבל רק בזכות אבותיו של אלעזר והכהן נתן לו כהונת עולם וכו' שע\"י זכות אבות נותן הקב\"ה לבניהם ההולכים ומתנהגים בדרכי אבותיהם וכו'.",
+              "source_ref": "חת\"ס - מש\"מ פנחס"
+            },
+            {
+              "is_makor": false,
+              "text": "עתיד הקב\"ה להנחיל וכו' ואוכלותיהם למלח, ומפרש בתויו\"ט בעוה\"ז וכו', והטעם כי נגד מטעי שהם הולכים בדרכי אבות וכו'.",
+              "source_ref": "דברי אליעזר, הדרנים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ה",
+          "title": "מי שהולך בדרכי אבות גם בין האוה\"ע המלעיגים עליו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם בחוקותי תלכו ר\"ת אב\"ת, להורות דגם כשתלכו בין אוה\"ע המלעיגים עליכם ג\"כ תשמרו חוקותי [- ואז] ונתתי גשמיכם בעתם].",
+              "source_ref": "בית אשר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "ישראל"
+        },
+        {
+          "type": "section",
+          "number": "ו",
+          "title": "לכלל ישראל בכללו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אך כביכול דין הרבים שהעולם נידון בכללו לזכות ולזה יש שכר אף בעוה\"ז.",
+              "source_ref": "קומץ המנחה, ראה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ז",
+          "title": "ישראל שקיבלו התורה, והוי כמציל מחוטו של ים,",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומ\"כ בזה שקיבלנו ישראל את התורה הרי דינם כמציל מן הנהר דהרי זה שלו, ומ\"כ כל טובת העוה\"ז הוא לישראל.",
+              "source_ref": "טללי אורות, ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ח",
+          "title": "מכיון שהשפעת עוה\"ז לאוה\"ע הוא בשביל ישראל, ע\"כ מגיע גם להם טובת עוה\"ז.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וא\"כ איפוא אחר שע\"י ישראל נשפעת הטובה, דין שיהיה להם חלק בטובה.",
+              "source_ref": "קומץ המנחה, עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ט",
+          "title": "כשישראל מאוחדים עם השי\"ת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כלל העולה כשישראל מקושרים במלכות הבורא ית' אז מקבלים רק טובות וכו'.",
+              "source_ref": "ודודאים בשדה ראה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "י",
+          "title": "רצון השי\"ת שיהנו ישראל מהעוה\"ז כפי המותר.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וזה העיקר וכוונת התורה ולא תהו כרמה וכו' שיהנו בני אדם מהעוה\"ז על פי התורה והמצוה"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

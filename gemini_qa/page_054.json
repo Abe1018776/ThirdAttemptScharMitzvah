@@ -1,0 +1,170 @@
+{
+  "page": 54,
+  "book_page": 90,
+  "raw_response": "```json\n{\n  \"page\": 74,\n  \"book_page\": 90,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is perfect, handling column flow and section alignment correctly. There are a few text recognition errors (character confusion) and one short phrase omitted from the end of a legal text block. One critical word ('השבטים') was misrecognized due to visual noise but is contextually clear.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section סב (62), text body\",\n      \"description\": \"OCR misread 'השבטים' (The Tribes) as 'הקנטים'. While the print is blurry, the context of Chasam Sofer on Pinchas ('שהיו השבטים מבזים אותו') confirms 'השבטים'.\",\n      \"original_text\": \"שהיו הקנטים מכניס מומו\",\n      \"corrected_text\": \"שהיו השבטים מכניס מומו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section סד (64), text body\",\n      \"description\": \"OCR misread 'מבין' (understands) as 'מכין' (prepares/hits). Visual inspection shows a Bet.\",\n      \"original_text\": \"הוא מכין שלא עשה כלום\",\n      \"corrected_text\": \"הוא מבין שלא עשה כלום\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section סד (64), end of text body\",\n      \"description\": \"Missing parenthetical text before the source reference.\",\n      \"original_text\": \"שיקבל שכר כמתנת חינם\",\n      \"corrected_text\": \"שיקבל שכר כמתנת חינם (בעוה\\\"ז)\"\n    },\n    {\n      \"type\": \"other\",\n      \"severity\": \"minor\",\n      \"location\": \"Section סו (66), text body\",\n      \"description\": \"Unnecessary uncertain marker '[?]'. The text is clear.\",\n      \"original_text\": \"דלהוי [?] כעשה\",\n      \"corrected_text\": \"דלהוי כעשה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section סז (67), text body\",\n      \"description\": \"Misspelling: Final Nun vs Final Mem.\",\n      \"original_text\": \"שנותנים\",\n      \"corrected_text\": \"שנותנין\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Section סח (68), source_ref\",\n      \"description\": \"Missing initial Vav in source title.\",\n      \"original_text\": \"בקובץ 'חדשים גם ישנים'\",\n      \"corrected_text\": \"ובקובץ 'חדשים גם ישנים'\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"סב\",\n        \"title\": \"המקיים מצוה ואינו מתגאה אח\\\"כ\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ע\\\"כ מאת ה' היתה נסבה שהיו השבטים מכניס מומו וכו' כדי שלא יתגאה וישמח אח\\\"כ עיי\\\"ז בדין הוא שיטול שכרו.\",\n            \"source_ref\": \"חת\\\"ס פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סג\",\n        \"title\": \"מי שנראה לו תמיד שהמצות שעשה עד עכשיו לא היו כהוגן\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז נמי שמתעלה מדריגה אחר מדריגה באופן הנ\\\"ל עד שנראין לו כל המצות שעשה בבחינת עבירות, בדין הוא שיקבל שכרן בעוה\\\"ז.\",\n            \"source_ref\": \"מגדלות מרקחים, וירא.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סד\",\n        \"title\": \"מי שמבין שמצותיו אינם כהוגן, ומצפה לקיים אותם עה\\\"פ, שיהיו אז כהוגן.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם בכל פעם שעושה המצוה הוא מבין שלא עשה כלום ועי\\\"ז עומד ומצפה מתי תבא לידו עוד ומקיימנה, לזה ראוי שיקבל שכר כמתנת חינם (בעוה\\\"ז)\",\n            \"source_ref\": \"ערוגת הבושם פ' עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"עבירה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סה\",\n        \"title\": \"מי שפירש מעבירה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אף דשכר מצוה בהאי עלמא ליכא, אבל אי פירש מעבירה ונותנין לו שכר כעושה מצוה יש שכר בעוה\\\"ז.\",\n            \"source_ref\": \"פרד\\\"י בא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סו\",\n        \"title\": \"בא דבר עבירה לידו, לעבור על לא תעשה, וניצול מזה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז יצא לנו דין חדש דל\\\"ת בבא דבר עבירה לידו וניצול דלהוי כעשה מצוה ממש יש שכר בהאי עלמא.\",\n            \"source_ref\": \"תיבת גמא משפטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סז\",\n        \"title\": \"ישב אדם ולא עבר עבירה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז ישב אדם ולא עבר עבירה שנותנין לו שכר כעושה מצוה ע\\\"ז יש שכר בעוה\\\"ז.\",\n            \"source_ref\": \"יד אהרן תזריע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סח\",\n        \"title\": \"המונע עצמו מלעבור על נדנוד איסור עריות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דע\\\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\\\"ז.\",\n            \"source_ref\": \"ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\\\"ה\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 74,
+    "book_page": 90,
+    "overall_quality": "good",
+    "summary": "The structural parsing is perfect, handling column flow and section alignment correctly. There are a few text recognition errors (character confusion) and one short phrase omitted from the end of a legal text block. One critical word ('השבטים') was misrecognized due to visual noise but is contextually clear.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section סב (62), text body",
+        "description": "OCR misread 'השבטים' (The Tribes) as 'הקנטים'. While the print is blurry, the context of Chasam Sofer on Pinchas ('שהיו השבטים מבזים אותו') confirms 'השבטים'.",
+        "original_text": "שהיו הקנטים מכניס מומו",
+        "corrected_text": "שהיו השבטים מכניס מומו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section סד (64), text body",
+        "description": "OCR misread 'מבין' (understands) as 'מכין' (prepares/hits). Visual inspection shows a Bet.",
+        "original_text": "הוא מכין שלא עשה כלום",
+        "corrected_text": "הוא מבין שלא עשה כלום"
+      },
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "Section סד (64), end of text body",
+        "description": "Missing parenthetical text before the source reference.",
+        "original_text": "שיקבל שכר כמתנת חינם",
+        "corrected_text": "שיקבל שכר כמתנת חינם (בעוה\"ז)"
+      },
+      {
+        "type": "other",
+        "severity": "minor",
+        "location": "Section סו (66), text body",
+        "description": "Unnecessary uncertain marker '[?]'. The text is clear.",
+        "original_text": "דלהוי [?] כעשה",
+        "corrected_text": "דלהוי כעשה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section סז (67), text body",
+        "description": "Misspelling: Final Nun vs Final Mem.",
+        "original_text": "שנותנים",
+        "corrected_text": "שנותנין"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "Section סח (68), source_ref",
+        "description": "Missing initial Vav in source title.",
+        "original_text": "בקובץ 'חדשים גם ישנים'",
+        "corrected_text": "ובקובץ 'חדשים גם ישנים'"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עד",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "סב",
+          "title": "המקיים מצוה ואינו מתגאה אח\"כ",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ע\"כ מאת ה' היתה נסבה שהיו השבטים מכניס מומו וכו' כדי שלא יתגאה וישמח אח\"כ עיי\"ז בדין הוא שיטול שכרו.",
+              "source_ref": "חת\"ס פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סג",
+          "title": "מי שנראה לו תמיד שהמצות שעשה עד עכשיו לא היו כהוגן",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז נמי שמתעלה מדריגה אחר מדריגה באופן הנ\"ל עד שנראין לו כל המצות שעשה בבחינת עבירות, בדין הוא שיקבל שכרן בעוה\"ז.",
+              "source_ref": "מגדלות מרקחים, וירא."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סד",
+          "title": "מי שמבין שמצותיו אינם כהוגן, ומצפה לקיים אותם עה\"פ, שיהיו אז כהוגן.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם בכל פעם שעושה המצוה הוא מבין שלא עשה כלום ועי\"ז עומד ומצפה מתי תבא לידו עוד ומקיימנה, לזה ראוי שיקבל שכר כמתנת חינם (בעוה\"ז)",
+              "source_ref": "ערוגת הבושם פ' עקב"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "עבירה"
+        },
+        {
+          "type": "section",
+          "number": "סה",
+          "title": "מי שפירש מעבירה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אף דשכר מצוה בהאי עלמא ליכא, אבל אי פירש מעבירה ונותנין לו שכר כעושה מצוה יש שכר בעוה\"ז.",
+              "source_ref": "פרד\"י בא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סו",
+          "title": "בא דבר עבירה לידו, לעבור על לא תעשה, וניצול מזה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז יצא לנו דין חדש דל\"ת בבא דבר עבירה לידו וניצול דלהוי כעשה מצוה ממש יש שכר בהאי עלמא.",
+              "source_ref": "תיבת גמא משפטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סז",
+          "title": "ישב אדם ולא עבר עבירה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז ישב אדם ולא עבר עבירה שנותנין לו שכר כעושה מצוה ע\"ז יש שכר בעוה\"ז.",
+              "source_ref": "יד אהרן תזריע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סח",
+          "title": "המונע עצמו מלעבור על נדנוד איסור עריות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דע\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\"ז.",
+              "source_ref": "ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\"ה"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

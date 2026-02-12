@@ -1,0 +1,41 @@
+{
+  "page": 49,
+  "book_page": 85,
+  "overall_quality": "good",
+  "summary": "Page 49 (book page 69/85) continues Chapter 5 with continuation of section lamed-heh, then sections lamed-vav through mem-bet. Section mem-bet at bottom is cut off (continues to next page). Structure is correct with proper continuation handling.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment",
+      "description": "OCR has 'ועל\"ז שמעתי מחלמ\"ו' - the abbreviation 'מחלמ\"ו' could mean 'from my father-in-law' (mechutani). This reading appears correct from the image.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section lamed-tet (39), makor paragraph",
+      "description": "OCR has 'קנאת ה\"ל' but the image shows 'קנאת ה' ל' - i.e. 'kinas Hashem' with the lamed being part of the next word or a printing artifact. It should be 'קנאת ה' בשעת מעשה'.",
+      "original_text": "כאשר קנא קנאת ה\"ל בשעת מעשה",
+      "corrected_text": "כאשר קנא קנאת ה' בשעת מעשה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section lamed-chet (38), makor paragraph",
+      "description": "OCR has 'מקום לזיכה את הרבים' - the word 'מקום' seems off, image suggests 'מקום' or 'במקום' - need to verify. Also 'לזיכה' should likely be 'לזכות'.",
+      "original_text": "מקום לזיכה את הרבים בדבר שאין מצוה מפורשת בה",
+      "corrected_text": "במקום לזכות את הרבים בדבר שאין מצוה מפורשת בה"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section mem-aleph (41), source_ref",
+      "description": "Source ref is 'ודברי מהרי\"א ראה' - the 'ו' prefix may not belong, image shows '(דברי מהרי\"א ראה)'.",
+      "original_text": "ודברי מהרי\"א ראה",
+      "corrected_text": "דברי מהרי\"א ראה"
+    }
+  ],
+  "corrected_json": null
+}

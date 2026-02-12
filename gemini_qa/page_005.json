@@ -1,0 +1,119 @@
+{
+  "page": 5,
+  "book_page": 41,
+  "raw_response": "{\n  \"page\": 25,\n  \"book_page\": 41,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR result is of very high quality. The complex RTL column structure was parsed correctly, merging lines appropriately. All sections, titles, and source references were identified and extracted accurately. There is only a very minor transcription inaccuracy regarding an abbreviation.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"continuation_fragment\",\n      \"description\": \"The abbreviation in the image 'עה\\\"ז' was transcribed as 'עוה\\\"ז'. Instructions require exact transcription.\",\n      \"original_text\": \"לכן מגיע ליעקב גם עוה\\\"ז דהוה\",\n      \"corrected_text\": \"לכן מגיע ליעקב גם עה\\\"ז דהוה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"כה\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ראשון\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"יז\",\n        \"level\": \"makor\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"לכן מגיע ליעקב גם עה\\\"ז דהוה כמלא חוטו של ים [?], דהרי הוא שלו, דתנאי התנה הקב\\\"ה עם מעשה בראשית דאם לא יקבלו את התורה יחזור העולם לתוהו ובוהו.\",\n        \"source_ref\": \"בנין דוד וישלח\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יח\",\n        \"title\": \"מצד החסד\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומה שנראה מקבל בעוה\\\"ז הוא רק ולך ה' החסד בתורת חסד וכו'.\",\n            \"source_ref\": \"תיקון משה, חנוכה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יט\",\n        \"title\": \"טבע המצות שמביאים טוב לעולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אע\\\"פ שבכל מצוה בהאי עלמא ליכא, אמנם טבע המצוות שיביאו טוב לעולם, כמו טבע השלג קור, והאש חום, כן טבע המצות לטוב.\",\n            \"source_ref\": \"כנסת יחזקאל פי' עקב בשם רקנטי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כ\",\n        \"title\": \"מכיון שבכל מצוה מזכה כל ישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"נמצא העושה מצוה אחת זוכה ומזכה גם את אחיו עמו וכו' מ\\\"מ ע\\\"י זכות שמזכה לחבירו מגיע לו שכר בהאי עלמא.\",\n            \"source_ref\": \"ולאשר אמר אחרי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כא\",\n        \"title\": \"ע\\\"י קיום המצוה מתקיים העולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואך מה שע\\\"י מצוה נתקיים העולם על זה מגיע להם שכר, כיון להמלוה הוא ג\\\"כ שיתקיים העולם הגשמי. ומה שאמרו שכר מצוה בהאי עלמא ליכא, היינו שכר מה שאנו מקיימין מצות ה' ית' שזהו רוחניות.\",\n            \"source_ref\": \"ראשי בשמים אבות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כב\",\n        \"title\": \"הקב\\\"ה זורע המצות, והפירות הגדלים משלם בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אפשר כמ\\\"ש שוחר טוב על פ' בלאה [?] וישראל ממליכים דהקב\\\"ה זורע המצות ועושין פירות, והוא נותן לבעלי המצות וכו' הפירות בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"דבש לפי ש'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כג\",\n        \"title\": \"כדי שלא יתחלל שמו בעולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אף שעיקר מצותיהן של ישראל שמור להם לעוה\\\"ב וכו' מ\\\"מ בדין הוא שיתן הקב\\\"ה לישראל כל טוב בעוה\\\"ז וכו' שאם לא הגיע מעלתן של ישראל וגדולתן למעלת העכו\\\"ם ח\\\"ו יתחלל שם שמים לעיני הגוים וכו'.\",\n            \"source_ref\": \"דברי יואל בחוקותי\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 25,
+    "book_page": 41,
+    "overall_quality": "excellent",
+    "summary": "The OCR result is of very high quality. The complex RTL column structure was parsed correctly, merging lines appropriately. All sections, titles, and source references were identified and extracted accurately. There is only a very minor transcription inaccuracy regarding an abbreviation.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "continuation_fragment",
+        "description": "The abbreviation in the image 'עה\"ז' was transcribed as 'עוה\"ז'. Instructions require exact transcription.",
+        "original_text": "לכן מגיע ליעקב גם עוה\"ז דהוה",
+        "corrected_text": "לכן מגיע ליעקב גם עה\"ז דהוה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "כה",
+        "page_side": "left",
+        "chapter_context": "פרק ראשון",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "יז",
+          "level": "makor"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "לכן מגיע ליעקב גם עה\"ז דהוה כמלא חוטו של ים [?], דהרי הוא שלו, דתנאי התנה הקב\"ה עם מעשה בראשית דאם לא יקבלו את התורה יחזור העולם לתוהו ובוהו.",
+          "source_ref": "בנין דוד וישלח"
+        },
+        {
+          "type": "section",
+          "number": "יח",
+          "title": "מצד החסד",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומה שנראה מקבל בעוה\"ז הוא רק ולך ה' החסד בתורת חסד וכו'.",
+              "source_ref": "תיקון משה, חנוכה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יט",
+          "title": "טבע המצות שמביאים טוב לעולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אע\"פ שבכל מצוה בהאי עלמא ליכא, אמנם טבע המצוות שיביאו טוב לעולם, כמו טבע השלג קור, והאש חום, כן טבע המצות לטוב.",
+              "source_ref": "כנסת יחזקאל פי' עקב בשם רקנטי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כ",
+          "title": "מכיון שבכל מצוה מזכה כל ישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "נמצא העושה מצוה אחת זוכה ומזכה גם את אחיו עמו וכו' מ\"מ ע\"י זכות שמזכה לחבירו מגיע לו שכר בהאי עלמא.",
+              "source_ref": "ולאשר אמר אחרי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כא",
+          "title": "ע\"י קיום המצוה מתקיים העולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואך מה שע\"י מצוה נתקיים העולם על זה מגיע להם שכר, כיון להמלוה הוא ג\"כ שיתקיים העולם הגשמי. ומה שאמרו שכר מצוה בהאי עלמא ליכא, היינו שכר מה שאנו מקיימין מצות ה' ית' שזהו רוחניות.",
+              "source_ref": "ראשי בשמים אבות"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כב",
+          "title": "הקב\"ה זורע המצות, והפירות הגדלים משלם בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אפשר כמ\"ש שוחר טוב על פ' בלאה [?] וישראל ממליכים דהקב\"ה זורע המצות ועושין פירות, והוא נותן לבעלי המצות וכו' הפירות בעוה\"ז וכו'.",
+              "source_ref": "דבש לפי ש'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כג",
+          "title": "כדי שלא יתחלל שמו בעולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אף שעיקר מצותיהן של ישראל שמור להם לעוה\"ב וכו' מ\"מ בדין הוא שיתן הקב\"ה לישראל כל טוב בעוה\"ז וכו' שאם לא הגיע מעלתן של ישראל וגדולתן למעלת העכו\"ם ח\"ו יתחלל שם שמים לעיני הגוים וכו'.",
+              "source_ref": "דברי יואל בחוקותי"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

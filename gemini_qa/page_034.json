@@ -1,0 +1,14 @@
+{
+  "page": 34,
+  "book_page": 70,
+  "raw_response": "{\n  \"page\": 54,\n  \"book_page\": 54,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is accurate and robust. It correctly identified the page number, section structure, and text content. The cross-column text joining is seamless, and the source reference extraction follows the provided rules perfectly. The slight visual ambiguity of the letter Aleph (resembling Chet in the print) was correctly interpreted as 'אני' based on context.\",\n  \"issues\": [],\n  \"corrected_json\": null\n}",
+  "parsed_qa": {
+    "page": 54,
+    "book_page": 54,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is accurate and robust. It correctly identified the page number, section structure, and text content. The cross-column text joining is seamless, and the source reference extraction follows the provided rules perfectly. The slight visual ambiguity of the letter Aleph (resembling Chet in the print) was correctly interpreted as 'אני' based on context.",
+    "issues": [],
+    "corrected_json": null
+  },
+  "status": "success"
+}

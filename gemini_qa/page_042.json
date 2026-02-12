@@ -1,0 +1,101 @@
+{
+  "page": 42,
+  "book_page": 78,
+  "raw_response": "Based on the comparison between the provided image and the OCR result, here is the analysis:\n\n**Overall Assessment**:\nThe OCR extraction is excellent in terms of structure, column flow handling, and identification of sections/headers. The complicated layout where text flows from the bottom of the right column to the top of the left column within Section 43 (מג) was handled perfectly.\n\nHowever, there are text transcription errors in the **continuation fragment** (top right of the page). The first word of the second line is spelled with an 'Aleph' in Aramaic style in the image (\"כעפרא\"), but extracted as Hebrew style (\"כעפרה\") in the OCR. Additionally, visual inspection and context suggests the second word is \"שכל\" (all/entirety of) rather than \"שכר\" (reward), as the letter shape is a generic block/Kaf rather than the rounded Resh seen elsewhere on the page, and the source text (*Beit Avraham*) typically reads \"שכל מקיום\".\n\n**Issues Detected**:\n\n1.  **Wrong Text (Continuation Fragment)**\n    *   **Location**: Top right paragraph (Continuation fragment).\n    *   **Description**: Typo in the last word of the sentence. The image shows the Aramaic form ending in Aleph. The OCR standardized it to Hey.\n    *   **Original**: \"כעפרה\"\n    *   **Corrected**: \"כעפרא\"\n    *   **Severity**: Minor\n\n2.  **Wrong Text (Continuation Fragment)**\n    *   **Location**: Top right paragraph (Continuation fragment), second word.\n    *   **Description**: The OCR transcribed the word as \"שכר\" (Reward). Visual inspection (square bottom corner of the letter) and context (\"...that all fulfillment... is like dust\") indicate the word is \"שכל\" (All/The entirety of).\n    *   **Original**: \"שכר\"\n    *   **Corrected**: \"שכל\"\n    *   **Severity**: Major (Changes meaning significantly).\n\n3.  **Missing Text (Source Reference)**\n    *   **Location**: Top right paragraph source reference.\n    *   **Description**: The source in the image clearly starts with a Vav inside the parentheses.\n    *   **Original**: \"בית אברהם פ' תצא\"\n    *   **Corrected**: \"ובית אברהם פ' תצא\"\n    *   **Severity**: Minor\n\n```json\n{\n  \"page\": 62,\n  \"book_page\": 62,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Excellent structural parsing and column joining. The only errors found were distinct transcription typos in the partial text fragment at the very top of the page.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"continuation_fragment\",\n      \"description\": \"The second word appears to be 'שכל' (shin-kaf-lamed) based on the square glyph shape and semantic context ('that the entirety of fulfillment is like dust'), rather than 'שכר' (reward).\",\n      \"original_text\": \"אז שכר מקיום\",\n      \"corrected_text\": \"אז שכל מקיום\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"continuation_fragment\",\n      \"description\": \"Last word of the fragment is spelled with an Aleph in the image (Aramaic style), but transcribed with a He.\",\n      \"original_text\": \"כעפרה\",\n      \"corrected_text\": \"כעפרא\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"continuation_fragment\",\n      \"description\": \"Source reference is missing the initial Vav present in the image.\",\n      \"original_text\": \"בית אברהם פ' תצא\",\n      \"corrected_text\": \"ובית אברהם פ' תצא\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סב\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"מא\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"אז שכל מקיום המצות שנעשו ימי החול כעפרא.\",\n        \"source_ref\": \"ובית אברהם פ' תצא\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מב\",\n        \"title\": \"כל מצות שעושין בשבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ביום השביעי יהיה לכם קודש שגם הגוף יתקדש מהנאה רבה וא\\\"כ על כל זה יש שכר גם בהאי עלמא.\",\n            \"source_ref\": \"דברי אליעזר ויקהל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מקום מסויים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מג\",\n        \"title\": \"בארץ ישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהא דשכר מצוה בהאי עלמא ליכא ה\\\"ד בחו\\\"ל אבל בארץ ישראל שם השראת השכינה יוכל להיות שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"ילקוט הגרשוני, ברכות\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דבחי' מגיע שכר בהאי עלמא וכו' והוא למעלה מן המזל יכולים לקבל אף בט\\\"ע.\",\n            \"source_ref\": \"אמרי יצחק לך\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"עוד י\\\"ל כי אין העוה\\\"ז כדאי לשכר מצוה, וא\\\"כ יש לומר דבא\\\"י שם השראת הקדושה יוכל להיות שם איזה השפעה כל דהוא מפירות שכר מצוה.\",\n            \"source_ref\": \"ערבי נחל ראה א'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 62,
+    "book_page": 62,
+    "overall_quality": "good",
+    "summary": "Excellent structural parsing and column joining. The only errors found were distinct transcription typos in the partial text fragment at the very top of the page.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "continuation_fragment",
+        "description": "The second word appears to be 'שכל' (shin-kaf-lamed) based on the square glyph shape and semantic context ('that the entirety of fulfillment is like dust'), rather than 'שכר' (reward).",
+        "original_text": "אז שכר מקיום",
+        "corrected_text": "אז שכל מקיום"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "continuation_fragment",
+        "description": "Last word of the fragment is spelled with an Aleph in the image (Aramaic style), but transcribed with a He.",
+        "original_text": "כעפרה",
+        "corrected_text": "כעפרא"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "continuation_fragment",
+        "description": "Source reference is missing the initial Vav present in the image.",
+        "original_text": "בית אברהם פ' תצא",
+        "corrected_text": "ובית אברהם פ' תצא"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סב",
+        "page_side": "left",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "מא",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "אז שכל מקיום המצות שנעשו ימי החול כעפרא.",
+          "source_ref": "ובית אברהם פ' תצא"
+        },
+        {
+          "type": "section",
+          "number": "מב",
+          "title": "כל מצות שעושין בשבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ביום השביעי יהיה לכם קודש שגם הגוף יתקדש מהנאה רבה וא\"כ על כל זה יש שכר גם בהאי עלמא.",
+              "source_ref": "דברי אליעזר ויקהל"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "מקום מסויים"
+        },
+        {
+          "type": "section",
+          "number": "מג",
+          "title": "בארץ ישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהא דשכר מצוה בהאי עלמא ליכא ה\"ד בחו\"ל אבל בארץ ישראל שם השראת השכינה יוכל להיות שכר מצוה בהאי עלמא.",
+              "source_ref": "ילקוט הגרשוני, ברכות"
+            },
+            {
+              "is_makor": false,
+              "text": "דבחי' מגיע שכר בהאי עלמא וכו' והוא למעלה מן המזל יכולים לקבל אף בט\"ע.",
+              "source_ref": "אמרי יצחק לך"
+            },
+            {
+              "is_makor": false,
+              "text": "עוד י\"ל כי אין העוה\"ז כדאי לשכר מצוה, וא\"כ יש לומר דבא\"י שם השראת הקדושה יוכל להיות שם איזה השפעה כל דהוא מפירות שכר מצוה.",
+              "source_ref": "ערבי נחל ראה א'"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

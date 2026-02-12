@@ -1,0 +1,41 @@
+{
+  "page": 39,
+  "book_page": 59,
+  "overall_quality": "good",
+  "summary": "Page contains sections כו through לא (with לא continuing to next page). Right column has sections כו, כז, כח. Left column has sections כט, ל, לא. Structure and numbering are correct. Section ל has two paragraphs (makor + body) which is correctly captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כז, makor text",
+      "description": "OCR: 'אמר רבא רב חילי אפלח לי'. The phrase 'רב חילי אפלח לי' is unusual. The image should be checked - this may be a misread of 'רב חסד אפלח לי' or other Talmudic phrase. The standard text from Kiddushin is about 'אמרו צדיק כי טוב'.",
+      "original_text": "אמר רבא רב חילי אפלח לי",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section ל, second paragraph (body)",
+      "description": "OCR: 'פסיקת הדרר שאין לצדיקים שכר בעוה\"ז'. The word 'הדרר' (dalet-resh-resh) should be 'הדבר' (dalet-bet-resh). This is a clear OCR error confusing ב with ר.",
+      "original_text": "פסיקת הדרר",
+      "corrected_text": "פסיקת הדבר"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section ל, second paragraph source_ref",
+      "description": "Source: 'וראש יוסף מנחות נ\"ג'. The prefix 'ו' on 'וראש' may be incorrect - the source name is likely 'ראש יוסף' without the conjunctive vav.",
+      "original_text": "וראש יוסף",
+      "corrected_text": "ראש יוסף (verify)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כח (צדיק גמור), source_ref",
+      "description": "The source ref 'זרע ישראל [נדפס בקובץ 'חדשים גם ישנים' חוברת ב']' is quite detailed with bibliographic information. This matches the format visible in the image where the source includes bracket notation.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

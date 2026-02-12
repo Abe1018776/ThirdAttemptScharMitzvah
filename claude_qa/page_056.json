@@ -1,0 +1,49 @@
+{
+  "page": 56,
+  "book_page": 92,
+  "overall_quality": "fair",
+  "summary": "Page 56 (book page 76) captures continuation of section עה, then sections עו through פ. Structural issue: the OCR incorrectly creates a grouping_header 'פ. המשכים ומעריב לעבודת ה'.' that duplicates section פ's title. Some text issues including garbled text in section עז.",
+  "issues": [
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "grouping_header before section פ",
+      "description": "The OCR creates a grouping_header with title 'פ. המשכים ומעריב לעבודת ה'.' then a section with number 'פ' and the same title. The image does NOT show a separate bold unnumbered grouping header here. Section פ is just a regular numbered section. The grouping_header should be removed.",
+      "original_text": "{\"type\": \"grouping_header\", \"title\": \"פ. המשכים ומעריב לעבודת ה'.\"}",
+      "corrected_text": "Remove this grouping_header - section פ is a regular section, not preceded by a grouping header"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עז, makor text",
+      "description": "OCR has 'כדי שלא יחסרו הבריות חיה מחקימו לכל מסיו בו על כן נותן לו' - the phrase 'חיה מחקימו לכל מסיו בו' appears to be garbled OCR. The image text is difficult to read but this phrase is clearly wrong.",
+      "original_text": "חיה מחקימו לכל מסיו בו",
+      "corrected_text": "Garbled OCR - needs verification against original"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פ, makor text",
+      "description": "OCR has 'קוב\"ה טפי ליה לחגריה גם בעוה\"ז' - 'לחגריה' should be 'לאגריה' (Aramaic for 'his reward').",
+      "original_text": "טפי ליה לחגריה",
+      "corrected_text": "טפי ליה לאגריה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment (first), text",
+      "description": "OCR text begins with 'מקור המצוה: אבל מי שעובד הקב\"ה שלא ע\"מ לק\"פ'. The 'מקור המצוה:' label should have been stripped from the text (as is standard for makor paragraphs).",
+      "original_text": "מקור המצוה: אבל מי שעובד",
+      "corrected_text": "אבל מי שעובד (remove 'מקור המצוה:' prefix)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עו, makor text",
+      "description": "OCR has 'וחמץ את כוחו לזכך עצמו' - 'וחמץ' seems wrong. Likely 'וחימץ' or another reading.",
+      "original_text": "וחמץ את כוחו",
+      "corrected_text": "Verify - possibly 'וחימץ את כוחו'"
+    }
+  ],
+  "corrected_json": null
+}

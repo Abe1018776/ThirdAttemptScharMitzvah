@@ -1,0 +1,65 @@
+{
+  "page": 59,
+  "book_page": 95,
+  "overall_quality": "fair",
+  "summary": "Page 59 (book page 79) captures continuation of section צב, then sections צג through צז. Several structural issues: the continuation of צב is typed as a section with null number instead of continuation_fragment. Two sections (צה, צז) have missing source_refs. Garbled text 'בחיק חקר' appears in both צה and צו.",
+  "issues": [
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "first item - continuation of section צב",
+      "description": "The first item on this page is a continuation of section צב from page 58. The OCR has it as type 'section' with number null and title 'ענינים גשמיים הוא עושה לשם שמים'. This should be type 'continuation_fragment' since it continues the previous page's section צב.",
+      "original_text": "{\"type\": \"section\", \"number\": null}",
+      "corrected_text": "Should be type 'continuation_fragment'"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "major",
+      "location": "section צה, makor paragraph",
+      "description": "Section צה has source_ref: null. The image appears to show a source reference after the makor text. This needs to be extracted from the image.",
+      "original_text": "null",
+      "corrected_text": "Verify and add source_ref from image"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section צז, makor paragraph",
+      "description": "Section צז has source_ref: null. This section continues to the next page, so the source ref likely appears there. This is expected for a continues_to situation.",
+      "original_text": "null",
+      "corrected_text": "Source ref expected on next page (continues)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section צה, makor text",
+      "description": "OCR has 'אמנם בחיק חקר משתמש בהנאת עוה\"ז לכבוד התוה\"ק ית\"ק' - the phrase 'בחיק חקר' is garbled OCR and does not match the image. Needs verification.",
+      "original_text": "בחיק חקר",
+      "corrected_text": "Garbled - needs correction from original"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section צו, makor text",
+      "description": "Same garbled text: 'אמנם בחיק חקר משתמש בהנאת עוח\"ז' - 'בחיק חקר' is wrong AND 'עוח\"ז' should be 'עוה\"ז'.",
+      "original_text": "בחיק חקר...עוח\"ז",
+      "corrected_text": "Fix garbled text and 'עוח\"ז' -> 'עוה\"ז'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation of צב, makor text",
+      "description": "OCR has 'ואוכל ה' [?] במאכל ומשתה' with uncertainty marker. The unclear word needs verification.",
+      "original_text": "ואוכל ה' [?] במאכל",
+      "corrected_text": "Verify unclear word"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation of צב, makor text",
+      "description": "OCR has 'להרים אלו גשמיים המה' - 'להרים' does not seem right in context. Image may show different wording.",
+      "original_text": "להרים אלו גשמיים המה",
+      "corrected_text": "Verify against original"
+    }
+  ],
+  "corrected_json": null
+}

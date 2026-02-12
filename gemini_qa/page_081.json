@@ -1,0 +1,164 @@
+{
+  "page": 81,
+  "book_page": 117,
+  "raw_response": "{\n  \"page\": 101,\n  \"book_page\": 101,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, including column ordering and cross-column merging, is handled excellently. However, there are several text accuracy issues involving letter substitutions (e.g., 'הבשר' vs 'הכשר', 'בהחי' vs 'בהאי') and one instance of a source reference name being split between the text and the source field.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section עא, end of paragraph\",\n      \"description\": \"The book name 'Kedushat Levi' was split. The word 'וקדושת' was left in the main text, while the rest of the source '(לוי פי' פנחס)' was extracted. 'וקדושת' belongs in the source field.\",\n      \"original_text\": \"...לשון נסתר מחמת שהגוף היה נסתר כנ\\\"ל מהראוי ליטול שכרו וקדושת\",\n      \"corrected_text\": \"...לשון נסתר מחמת שהגוף היה נסתר כנ\\\"ל מהראוי ליטול שכרו\"\n    },\n    {\n      \"type\": \"missing_source_ref\",\n      \"severity\": \"major\",\n      \"location\": \"Section עא, source field\",\n      \"description\": \"The source name 'קדושת לוי' was incomplete.\",\n      \"original_text\": \"לוי פי' פנחס\",\n      \"corrected_text\": \"קדושת לוי פי' פנחס\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section עב, paragraph 1\",\n      \"description\": \"Word transcription error. Visually looks like 'פנה' (turned) rather than 'פניה'.\",\n      \"original_text\": \"אז פניה בשעת\",\n      \"corrected_text\": \"אז פנה בשעת\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"Section עג, Title\",\n      \"description\": \"Critical typo in section header. 'הכשר' (Preparation) was misread as 'הבשר' (Meat).\",\n      \"original_text\": \"על הבשר מצוה ולבוש\",\n      \"corrected_text\": \"על הכשר מצוה ולבוש\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section עג, paragraph 1 (merged part)\",\n      \"description\": \"Typo in Aramaic phrase. 'בהאי' (In this) misread as 'בהחי'.\",\n      \"original_text\": \"נהנים משכר המצות בהחי עלמא\",\n      \"corrected_text\": \"נהנים משכר המצות בהאי עלמא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section עד, paragraph 1\",\n      \"description\": \"Word misread. 'חלף' (exchange) misread as 'חיות' (livelihood).\",\n      \"original_text\": \"ונותנים לו חיות שכר\",\n      \"corrected_text\": \"ונותנים לו חלף שכר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section עד, paragraph 2\",\n      \"description\": \"Word misread. 'לבד' (alone/apart/except) misread as 'לכך' (therefore/to that).\",\n      \"original_text\": \"אך אם מוסיף לכך שלא\",\n      \"corrected_text\": \"אך אם מוסיף לבד שלא\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"קא\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"ע\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"עה\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"משלמים בהאי עלמא.\",\n        \"source_ref\": \"מרדכי בשער המלך, פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עא\",\n        \"title\": \"העושה מצוה ע\\\"י זיכוך הגוף בשלימות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כאשר בארנו שהגוף של פנחס בשעת מעשה מלא היה, והיה הגוף נסתר, וזהו הרמז במדרש בדין הוא לשון נסתר מחמת שהגוף היה נסתר כנ\\\"ל מהראוי ליטול שכרו\",\n            \"source_ref\": \"קדושת לוי פי' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עב\",\n        \"title\": \"מי שדבוק ע\\\"י המצוה לקדושה עליונה ומופשט מעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם בעת עשיית המצוה הוא 'בהאי עלמא' ואינו מחוסר אל הקדושה, וק\\\"ו אם יש לו כוונה זרה ח\\\"ו אז פנה בשעת קיום המצוה, אין לו שכר מצוה [בעוה\\\"ז].\",\n            \"source_ref\": \"וביאורי החסידות, קידושין ל\\\"ט\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עג\",\n        \"title\": \"על הכשר מצוה ולבוש המצוה שניתוסף ע\\\"י גדולי כל דור\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"חשב הש\\\"י לזכות עמו ועמל ומסר התורה לצדיקי גדולי הדור שהם יעשו כילין ופרחין והכשר מצוה, אוכלין פירותיהם בעוה\\\"ז, כי אין מצוה שאין לה הכשר מצוה והוא כמו רצון להמלוה וכו' רצה הקב\\\"ה לזכות את ישראל שיהיו נהנים משכר המצות בהאי עלמא לפיכך הרבה להם תורה ומצות הרבה דייקא שמרבה בכל דור ודור לבושי המצות ע\\\"י חסידיו ויראיו וכו'\",\n            \"source_ref\": \"שפתי צדיקים במדבר\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עד\",\n        \"title\": \"מי שעושה יותר מחובתו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שמי שעושה יותר על חובתו, אף מן השמים עושין עמו לפנים משורת הדין ונותנים לו חלף שכר אף בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"זרע שמשון עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ומ\\\"ש רז\\\"ל שכר מצות בהאי עלמא ליכא היינו מצות לפי שיעור מה שהוא חייב מן הדין אך אם מוסיף לבד שלא נתחייב מקבל ליטול שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"פתח עינים שבת פט\\\"ז\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עה\",\n        \"title\": \"אינו מצוה ועושה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר מצוה בהאי עלמא ליכא וכו' זהו דוקא במצוה ועושה וכו' אבל באינו מצוה ועושה יש שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"אמרי שפר לך\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"בהא דשכר מצוה בהאי עלמא ליכא וכו' משא\\\"כ אינו מצוה ועושה שאין\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 101,
+    "book_page": 101,
+    "overall_quality": "good",
+    "summary": "The structural parsing, including column ordering and cross-column merging, is handled excellently. However, there are several text accuracy issues involving letter substitutions (e.g., 'הבשר' vs 'הכשר', 'בהחי' vs 'בהאי') and one instance of a source reference name being split between the text and the source field.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section עא, end of paragraph",
+        "description": "The book name 'Kedushat Levi' was split. The word 'וקדושת' was left in the main text, while the rest of the source '(לוי פי' פנחס)' was extracted. 'וקדושת' belongs in the source field.",
+        "original_text": "...לשון נסתר מחמת שהגוף היה נסתר כנ\"ל מהראוי ליטול שכרו וקדושת",
+        "corrected_text": "...לשון נסתר מחמת שהגוף היה נסתר כנ\"ל מהראוי ליטול שכרו"
+      },
+      {
+        "type": "missing_source_ref",
+        "severity": "major",
+        "location": "Section עא, source field",
+        "description": "The source name 'קדושת לוי' was incomplete.",
+        "original_text": "לוי פי' פנחס",
+        "corrected_text": "קדושת לוי פי' פנחס"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section עב, paragraph 1",
+        "description": "Word transcription error. Visually looks like 'פנה' (turned) rather than 'פניה'.",
+        "original_text": "אז פניה בשעת",
+        "corrected_text": "אז פנה בשעת"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "Section עג, Title",
+        "description": "Critical typo in section header. 'הכשר' (Preparation) was misread as 'הבשר' (Meat).",
+        "original_text": "על הבשר מצוה ולבוש",
+        "corrected_text": "על הכשר מצוה ולבוש"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section עג, paragraph 1 (merged part)",
+        "description": "Typo in Aramaic phrase. 'בהאי' (In this) misread as 'בהחי'.",
+        "original_text": "נהנים משכר המצות בהחי עלמא",
+        "corrected_text": "נהנים משכר המצות בהאי עלמא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section עד, paragraph 1",
+        "description": "Word misread. 'חלף' (exchange) misread as 'חיות' (livelihood).",
+        "original_text": "ונותנים לו חיות שכר",
+        "corrected_text": "ונותנים לו חלף שכר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section עד, paragraph 2",
+        "description": "Word misread. 'לבד' (alone/apart/except) misread as 'לכך' (therefore/to that).",
+        "original_text": "אך אם מוסיף לכך שלא",
+        "corrected_text": "אך אם מוסיף לבד שלא"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "קא",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "ע",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "עה",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "משלמים בהאי עלמא.",
+          "source_ref": "מרדכי בשער המלך, פנחס"
+        },
+        {
+          "type": "section",
+          "number": "עא",
+          "title": "העושה מצוה ע\"י זיכוך הגוף בשלימות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כאשר בארנו שהגוף של פנחס בשעת מעשה מלא היה, והיה הגוף נסתר, וזהו הרמז במדרש בדין הוא לשון נסתר מחמת שהגוף היה נסתר כנ\"ל מהראוי ליטול שכרו",
+              "source_ref": "קדושת לוי פי' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עב",
+          "title": "מי שדבוק ע\"י המצוה לקדושה עליונה ומופשט מעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם בעת עשיית המצוה הוא 'בהאי עלמא' ואינו מחוסר אל הקדושה, וק\"ו אם יש לו כוונה זרה ח\"ו אז פנה בשעת קיום המצוה, אין לו שכר מצוה [בעוה\"ז].",
+              "source_ref": "וביאורי החסידות, קידושין ל\"ט"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עג",
+          "title": "על הכשר מצוה ולבוש המצוה שניתוסף ע\"י גדולי כל דור",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "חשב הש\"י לזכות עמו ועמל ומסר התורה לצדיקי גדולי הדור שהם יעשו כילין ופרחין והכשר מצוה, אוכלין פירותיהם בעוה\"ז, כי אין מצוה שאין לה הכשר מצוה והוא כמו רצון להמלוה וכו' רצה הקב\"ה לזכות את ישראל שיהיו נהנים משכר המצות בהאי עלמא לפיכך הרבה להם תורה ומצות הרבה דייקא שמרבה בכל דור ודור לבושי המצות ע\"י חסידיו ויראיו וכו'",
+              "source_ref": "שפתי צדיקים במדבר"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עד",
+          "title": "מי שעושה יותר מחובתו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שמי שעושה יותר על חובתו, אף מן השמים עושין עמו לפנים משורת הדין ונותנים לו חלף שכר אף בעוה\"ז וכו'.",
+              "source_ref": "זרע שמשון עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "ומ\"ש רז\"ל שכר מצות בהאי עלמא ליכא היינו מצות לפי שיעור מה שהוא חייב מן הדין אך אם מוסיף לבד שלא נתחייב מקבל ליטול שכרו בעוה\"ז.",
+              "source_ref": "פתח עינים שבת פט\"ז"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עה",
+          "title": "אינו מצוה ועושה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר מצוה בהאי עלמא ליכא וכו' זהו דוקא במצוה ועושה וכו' אבל באינו מצוה ועושה יש שכר בהאי עלמא וכו'.",
+              "source_ref": "אמרי שפר לך"
+            },
+            {
+              "is_makor": false,
+              "text": "בהא דשכר מצוה בהאי עלמא ליכא וכו' משא\"כ אינו מצוה ועושה שאין"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

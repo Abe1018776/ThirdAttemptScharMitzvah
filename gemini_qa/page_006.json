@@ -1,0 +1,14 @@
+{
+  "page": 6,
+  "book_page": 42,
+  "raw_response": "{\n  \"page\": 6,\n  \"book_page\": 26,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is highly accurate. It correctly followed all structural parsing rules, including the critical Right-to-Left column reading order and the seamless joining of text split across columns (Section 25). Section numbering, titles, source extraction, and 'Makor HaMitzvah' label stripping were handled correctly. No text transcription errors were found.\",\n  \"issues\": [],\n  \"corrected_json\": null\n}",
+  "parsed_qa": {
+    "page": 6,
+    "book_page": 26,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is highly accurate. It correctly followed all structural parsing rules, including the critical Right-to-Left column reading order and the seamless joining of text split across columns (Section 25). Section numbering, titles, source extraction, and 'Makor HaMitzvah' label stripping were handled correctly. No text transcription errors were found.",
+    "issues": [],
+    "corrected_json": null
+  },
+  "status": "success"
+}

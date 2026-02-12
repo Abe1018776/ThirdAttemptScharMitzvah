@@ -1,0 +1,25 @@
+{
+  "page": 60,
+  "book_page": 96,
+  "overall_quality": "good",
+  "summary": "Page 81 (right side), chapter 5. Covers continuation fragment, sections 98-105, with grouping header 'shalom'. OCR captures all sections and structure well. A few minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קד, makor text",
+      "description": "OCR has 'ושבר מריב' but image shows 'ושכך מריב' - the word should be 'ושכך' (and calmed) not 'ושבר' (and broke).",
+      "original_text": "ושבר מריב",
+      "corrected_text": "ושכך מריב"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קה, makor paragraph 1",
+      "description": "OCR has 'באחדות בלב אחד כאיש אחד' but image shows 'באחדות כלב אחד כאיש אחד' - 'בלב' should be 'כלב' (one word, meaning 'as one heart').",
+      "original_text": "באחדות בלב אחד",
+      "corrected_text": "באחדות כלב אחד"
+    }
+  ],
+  "corrected_json": null
+}

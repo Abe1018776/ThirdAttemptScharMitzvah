@@ -1,0 +1,130 @@
+{
+  "page": 83,
+  "book_page": 119,
+  "raw_response": "```json\n{\n  \"page\": 150,\n  \"book_page\": 150,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The layout detection, structural parsing (headers, section numbering, column flow), and source extraction are excellent. The OCR correctly handled the complex column layout and extracted sources flawlessly. However, there are a few text transcription errors, including a misinterpreted Aramaic phrase, a missing word, and a grammatical gender error.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פ, paragraph 1\",\n      \"description\": \"Transcription error in Aramaic phrase.\",\n      \"original_text\": \"כלום עשה לו לית על וכו'\",\n      \"corrected_text\": \"כלום עשה לו לית טב וכו'\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פג, paragraph 1\",\n      \"description\": \"Unresolved character sequence marked as [?]. Visually identified as 'הזמנה'.\",\n      \"original_text\": \"צריך עוד גם [?], היינו\",\n      \"corrected_text\": \"צריך עוד גם הזמנה, היינו\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פג, paragraph 1\",\n      \"description\": \"Missing word 'ה'' (Hashem) in phrase 'מצות ה''.\",\n      \"original_text\": \"ולא יעשה את מצות כמצות אנשים\",\n      \"corrected_text\": \"ולא יעשה את מצות ה' כמצות אנשים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פד, paragraph 1\",\n      \"description\": \"Grammatical transcription error (Singular 'אותו' vs Plural 'אותן' referring to 'מצות').\",\n      \"original_text\": \"אנחנו מקיימים אותו מצד\",\n      \"corrected_text\": \"אנחנו מקיימים אותן מצד\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"קנ\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"פ\",\n        \"title\": \"כאשר הקב\\\"ה נותן לאדם הזדמנות ואפשריות לקיים המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כבר אמרתי מענין שכר עוה\\\"ז שאינו בדין כי הכל בתורת חסד ומתנה שהמתחיל הוא השי\\\"ת ואינו מגיע לו שום שכר, אמנם כ\\\"ז במצות שמחויב לעשות, כלום עשה לו לית טב וכו' דכשהיה לו נגד היה מחוייב לעשות וכבר שילם לו השי\\\"ת וכו'.\",\n            \"source_ref\": \"ומעגלי צדק פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פא\",\n        \"title\": \"במצוה שלא היה עליו התעוררות מלמעלה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"במצוה וכו' דהוא הלכה ואין מורין וכו' וכמו דאין מורין מלמטה כן יש לומר מכלל שאין מורין מלמעלה ליתן התעוררות לזה וכו' אח\\\"כ שוב מגיע שכרו בדין וכו'.\",\n            \"source_ref\": \"וקני המנורה עקב לאאמו\\\"ר הרה\\\"ג מוהר\\\"ר יצחק נפתלי קנאפפלער זצ\\\"ל אבד\\\"ק טוניע יצ\\\"ו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"שונות\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פב\",\n        \"title\": \"השומע לעצת חכמים האיך לקיים המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"על השמיעה בעצת חכמים כדי לקיים המצוה ע\\\"ז מגיע שכר טוב גם בעוה\\\"ז.\",\n            \"source_ref\": \"אמרי אברהם עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פג\",\n        \"title\": \"מי שמקיים מצות ה' בהבנה, ולא כמצות אנשים מלומדה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם לזה צריך עוד גם הזמנה, היינו לבון הכנה, שיעשה ויקיים את מצות ה' מתוך הכנה, ולא יעשה את מצות ה' כמצות אנשים מלומדה וכו' שאז יקוים אצלו גם כל הברכות האמורות אחריו, ואהבך וברכך וגו'.\",\n            \"source_ref\": \"בית נפתלי פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פד\",\n        \"title\": \"כשמקיים המצוה מצד השמועה, שבן קיבל מאבותיו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כל המצות אנחנו מקיימים אותן מצד השמועה בדרך קבלה מאבותינו, על זה שפיר מגיע שכר.\",\n            \"source_ref\": \"דברי אליעזר, הדרנים, שבת\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 150,
+    "book_page": 150,
+    "overall_quality": "good",
+    "summary": "The layout detection, structural parsing (headers, section numbering, column flow), and source extraction are excellent. The OCR correctly handled the complex column layout and extracted sources flawlessly. However, there are a few text transcription errors, including a misinterpreted Aramaic phrase, a missing word, and a grammatical gender error.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section פ, paragraph 1",
+        "description": "Transcription error in Aramaic phrase.",
+        "original_text": "כלום עשה לו לית על וכו'",
+        "corrected_text": "כלום עשה לו לית טב וכו'"
+      },
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "section פג, paragraph 1",
+        "description": "Unresolved character sequence marked as [?]. Visually identified as 'הזמנה'.",
+        "original_text": "צריך עוד גם [?], היינו",
+        "corrected_text": "צריך עוד גם הזמנה, היינו"
+      },
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "section פג, paragraph 1",
+        "description": "Missing word 'ה'' (Hashem) in phrase 'מצות ה''.",
+        "original_text": "ולא יעשה את מצות כמצות אנשים",
+        "corrected_text": "ולא יעשה את מצות ה' כמצות אנשים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section פד, paragraph 1",
+        "description": "Grammatical transcription error (Singular 'אותו' vs Plural 'אותן' referring to 'מצות').",
+        "original_text": "אנחנו מקיימים אותו מצד",
+        "corrected_text": "אנחנו מקיימים אותן מצד"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "קנ",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "פ",
+          "title": "כאשר הקב\"ה נותן לאדם הזדמנות ואפשריות לקיים המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כבר אמרתי מענין שכר עוה\"ז שאינו בדין כי הכל בתורת חסד ומתנה שהמתחיל הוא השי\"ת ואינו מגיע לו שום שכר, אמנם כ\"ז במצות שמחויב לעשות, כלום עשה לו לית טב וכו' דכשהיה לו נגד היה מחוייב לעשות וכבר שילם לו השי\"ת וכו'.",
+              "source_ref": "ומעגלי צדק פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פא",
+          "title": "במצוה שלא היה עליו התעוררות מלמעלה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "במצוה וכו' דהוא הלכה ואין מורין וכו' וכמו דאין מורין מלמטה כן יש לומר מכלל שאין מורין מלמעלה ליתן התעוררות לזה וכו' אח\"כ שוב מגיע שכרו בדין וכו'.",
+              "source_ref": "וקני המנורה עקב לאאמו\"ר הרה\"ג מוהר\"ר יצחק נפתלי קנאפפלער זצ\"ל אבד\"ק טוניע יצ\"ו"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "שונות"
+        },
+        {
+          "type": "section",
+          "number": "פב",
+          "title": "השומע לעצת חכמים האיך לקיים המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "על השמיעה בעצת חכמים כדי לקיים המצוה ע\"ז מגיע שכר טוב גם בעוה\"ז.",
+              "source_ref": "אמרי אברהם עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פג",
+          "title": "מי שמקיים מצות ה' בהבנה, ולא כמצות אנשים מלומדה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם לזה צריך עוד גם הזמנה, היינו לבון הכנה, שיעשה ויקיים את מצות ה' מתוך הכנה, ולא יעשה את מצות ה' כמצות אנשים מלומדה וכו' שאז יקוים אצלו גם כל הברכות האמורות אחריו, ואהבך וברכך וגו'.",
+              "source_ref": "בית נפתלי פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פד",
+          "title": "כשמקיים המצוה מצד השמועה, שבן קיבל מאבותיו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כל המצות אנחנו מקיימים אותן מצד השמועה בדרך קבלה מאבותינו, על זה שפיר מגיע שכר.",
+              "source_ref": "דברי אליעזר, הדרנים, שבת"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

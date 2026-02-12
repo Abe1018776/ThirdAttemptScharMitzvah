@@ -1,0 +1,49 @@
+{
+  "page": 51,
+  "book_page": 87,
+  "overall_quality": "good",
+  "summary": "Page 51 (book page 71/87) continues Chapter 5 with sections mem-zayin through nun-bet. Contains grouping header 'Masa UMatan'. Section nun-bet at bottom is cut off (continues to next page). Structure is correct. The page_side is listed as 'left' and page_number as 'עא' (71) which appears correct from the image.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section mem-zayin (47), makor paragraph",
+      "description": "OCR has 'להמלוה נעשית רק בעולם העשיה' and later 'דהמלוה נעשית לא לבד בעולם העשיה'. The word 'המלוה' should be 'המצוה' in both instances - 'the mitzvah is only done in the world of action'.",
+      "original_text": "דהיינו להמלוה נעשית רק בעולם העשיה, אבל אם עשה המצוה גם במחשבות קדושות באופן דהמלוה נעשית לא לבד בעולם העשיה",
+      "corrected_text": "דהיינו להמצוה נעשית רק בעולם העשיה, אבל אם עשה המצוה גם במחשבות קדושות באופן דהמצוה נעשית לא לבד בעולם העשיה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section mem-tet (49), makor paragraph",
+      "description": "OCR has 'לא שת לבם גם לזאת ובמרה נפשם מהטות משפט עליון' - the phrase 'ובמרה נפשם' is unusual. Image shows 'ובמרת נפשם' possibly, or 'ובמרה נפשם'. Also 'מהטות' should likely be 'מהטות' (from turning away from). The phrase 'חלף עוה\"ז' uses 'חלף' (in exchange for) which is correct.",
+      "original_text": "ובמרה נפשם מהטות משפט עליון",
+      "corrected_text": "ובמרת נפשם מהטות משפט עליון"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section nun (50), makor paragraph",
+      "description": "OCR has 'ונושא ונותן ביהודים' - the word 'ביהודים' (with Jews) is unusual in this context. Looking at the image, it appears to show 'ביהודים' though the context suggests it might be 'ביושר' (honestly). The image does seem to confirm 'ביהודים'.",
+      "original_text": "ונושא ונותן ביהודים ובשכל ובחכמה",
+      "corrected_text": "ונושא ונותן ביהודים ובשכל ובחכמה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section nun-aleph (51), makor paragraph",
+      "description": "OCR has 'וזש\"ה חשבתי דרכי שכל יום' - the abbreviation 'וזש\"ה' means 'and this is what is written'. The text 'שכל יום היה לו לעשות מה לצרכי גופו' - looking at the image this seems correct.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section nun-bet (52), makor paragraph",
+      "description": "Section nun-bet is cut off at the bottom of the page and missing its source_ref. The continues_to flag is correctly set. The partial text 'ועד\"ז הוא ביאור הכתוב ג\"כ אם בחוקותי תלכו, פירוש' ends mid-sentence.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

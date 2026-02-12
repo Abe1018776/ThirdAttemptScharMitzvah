@@ -1,0 +1,49 @@
+{
+  "page": 36,
+  "book_page": 56,
+  "overall_quality": "good",
+  "summary": "Page contains sections ו through יב. Structure and section numbering are correct. Right column has sections ו, ז, ח. Left column has sections ט, י, יא, יב. Most text captured reasonably well with some minor issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section י (הזכר), makor text",
+      "description": "The OCR text reads 'כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\"ז'. The word 'בניגוד' seems incorrect or at least unusual in this context. The image text needs careful verification - it may read 'בנגלה' or another word rather than 'בניגוד'. The meaning in context (about the male's actions being 'in opposition') doesn't fit well with the theme of the book.",
+      "original_text": "כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\"ז",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section י (הזכר), title and content",
+      "description": "Section י is titled 'הזכר' (the male). The makor text about male vs female distinction and reward in this world appears brief. The OCR source ref 'ויגד משה תזריע' matches what appears in the image.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יב, makor text",
+      "description": "The OCR reads 'אין הברכה מצויה בתוך ביתו של אדם אלא בזכות האשה, ולכך אם היא קיימה את התורה מעוני זכה אף הבעל לעשירות בזכותה.' The image shows the makor text for section יב. The text 'אין הברכה מצויה' at the start may actually read 'כיון על אדם שלא בזכות האשה' or 'כיון של אדם אלא בזכות האשה' based on what's visible. The beginning of the makor needs verification.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section יב, source_ref",
+      "description": "Source ref is 'אמרי שפר לך'. The image shows the source at end which may read 'ואמרי שפר לך' or 'אמרי שפר לך לך'. Worth verifying if the parsha reference should be 'לך לך'.",
+      "original_text": "אמרי שפר לך",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ח, makor text",
+      "description": "OCR: 'וז\"ש פינחס ביו\"ד וכו' וא\"כ היה לו נשמה מעלמא עילאה וגמירי שאינו חוטא'. The image shows matching text. The source 'בגדי אהרן פנחס' appears correct.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

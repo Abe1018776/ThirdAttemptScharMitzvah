@@ -1,0 +1,25 @@
+{
+  "page": 33,
+  "book_page": 69,
+  "overall_quality": "good",
+  "summary": "Page 33 (book page 53/nun-gimel). Covers continuation of section 132, then sections 133-137. The grouping header 'חינוך' is correctly identified. All section numbers match. The page transitions from gemilut chasadim to chinuch topics.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 133 (קלג), second paragraph text",
+      "description": "The text reads 'אין אדם מתחזק שיקוים עוה\"ב מצוה זו' - the phrasing seems slightly garbled. Looking at the image, it likely reads 'אין אדם מתחייב שיקיים עוה\"ב מצוה זו' or similar, discussing that a person is not obligated for olam haba through this specific mitzvah.",
+      "original_text": "אין אדם מתחזק שיקוים עוה\"ב מצוה זו",
+      "corrected_text": "אין אדם מתחזק שיקוים עוה\"ב מצוה זו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 135 (קלה), second paragraph source_ref",
+      "description": "The source ref 'ולאשר אמר חיי' has a leading vav which may be part of the original text or an OCR artifact.",
+      "original_text": "ולאשר אמר חיי",
+      "corrected_text": "ולאשר אמר חיי"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,17 @@
+{
+  "page": 24,
+  "book_page": 60,
+  "overall_quality": "good",
+  "summary": "Page 24 (book page 44/mem-dalet). Covers continuation of section 76 into sections 77-81. Grouping header 'שבת, מועדים וזמנים' correctly identified. Section numbers are accurate. Column order (right then left) is correct. Section 81 cuts off at the bottom as continuation.",
+  "issues": [
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section 81 (פא), makor paragraph",
+      "description": "The makor paragraph for section 81 is cut off at the bottom of the page (continuation to next page) and has no source_ref. This is acceptable as the source ref likely appears on the next page where the text continues.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

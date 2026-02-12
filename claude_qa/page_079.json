@@ -1,0 +1,41 @@
+{
+  "page": 79,
+  "book_page": 115,
+  "overall_quality": "good",
+  "summary": "Page 79 (book page 99) captures all 5 sections (נט through סג) and the grouping header תוספת ברכה correctly. Column order is correct (right then left). Some text accuracy issues in the makor paragraphs, and the source ref for section נט appears misread.",
+  "issues": [
+    {
+      "type": "wrong_source_ref",
+      "severity": "major",
+      "location": "section נט, makor source_ref",
+      "description": "The source ref reads 'הישיבה - נצבים' which does not appear correct. Looking at the image, the source in parentheses at the end of the makor paragraph does not clearly read 'הישיבה'. The actual reference may be a different sefer name.",
+      "original_text": "הישיבה - נצבים",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ס, makor text",
+      "description": "The makor text says 'שמונע ממנה' but image appears to read 'שמונע ממנו' (masculine suffix referring to the person, not feminine).",
+      "original_text": "שמונע ממנה בכל כוחו",
+      "corrected_text": "שמונע ממנו בכל כוחו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סא, makor text",
+      "description": "OCR text 'צדקה שהקב\"ה עושה עם ישראל, הוא עושה בפרהסיא' appears to be a reasonable reading but some words in the middle of the paragraph may be slightly off. The general sense is preserved.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section סא, source_ref",
+      "description": "OCR has 'וזרע יעקב רות' - the leading vav 'ו' should not be part of the source name. It should be 'זרע יעקב רות'.",
+      "original_text": "וזרע יעקב רות",
+      "corrected_text": "זרע יעקב רות"
+    }
+  ],
+  "corrected_json": null
+}

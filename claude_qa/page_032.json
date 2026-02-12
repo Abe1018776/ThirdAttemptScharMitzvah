@@ -1,0 +1,17 @@
+{
+  "page": 32,
+  "book_page": 68,
+  "overall_quality": "good",
+  "summary": "Page 32 (book page 52/nun-bet). Covers continuation of section 125, then sections 126-132. All section numbers match correctly. Sections cover tzedakah/gemilut chasadim topics. Section 132 title appears but makor text begins on next page.",
+  "issues": [
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "section 132 (קלב), paragraphs",
+      "description": "Section 132 has an empty paragraphs array []. The section header and title appear on this page but the makor text (which begins with 'מקור המצוה: ישלם ה' פעלך...') starts on the next page. The makor paragraph should have been included from the next page's continuation, or at minimum this should have been noted. The continues_to meta correctly flags this.",
+      "original_text": "paragraphs: []",
+      "corrected_text": "paragraphs should contain at least the beginning of the makor from the visible text"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,125 @@
+{
+  "page": 48,
+  "book_page": 84,
+  "raw_response": "```json\n{\n  \"page\": 65,\n  \"book_page\": 84,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR performed exceptionally well, correctly identifying the non-standard column order (Left Column then Right Column) used on this specific page. Structural parsing, section numbering, and source extraction are accurate. Only one minor transcription error was found.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section לא (31), paragraph 1\",\n      \"description\": \"Transcription error in the joined text crossing the columns.\",\n      \"original_text\": \"ואין חטא בא על ידם ואז יש שכר מצוה\",\n      \"corrected_text\": \"ואין חטא בא על ידם וכו' יש שכר מצוה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סה\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"כח\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"לה\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"לצעוק וכו' אם כן מי שזיכה את הרבים, ומובטח שלא יחטא, הרי שלים עבידתיה, לכך בדין הוא שיטול את כל שכרו תיכף.\",\n        \"source_ref\": \"ישמח משה ח\\\"ב דף ע\\\"ו\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כט\",\n        \"title\": \"כשכופים את הרבים לעשות מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ובזה בארתי למרז\\\"ל גדול המעשה יותר מן העושה, המעשה כלומר הכופה את הרבים לעשות, לאפוקי להנחיל שכר מצוה בהאי עלמא ליכא.\",\n            \"source_ref\": \"ערכי יהושע מערכת מ' אות כז\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ל\",\n        \"title\": \"מי ששוקד לטובת אחרים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ונמצא דאם האדם שוקד לטובת נפשו טוב לפניו התורה, אבל אם הוא שוקד לטובת חבריו טוב לפניו יותר המעשה הנ\\\"ל וכו' ובז\\\"ה ג\\\"כ והיה עקב תשמעון את המשפטים האלה ושמרתם ועשית\\\"ם אותם בזה והיה העיקר אליכם, לכן נאמר ד\\\"א לך וגו' שהוא ית' ישפיע לכם ג\\\"כ כל טוב.\",\n            \"source_ref\": \"ואך פרי תבואה עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לא\",\n        \"title\": \"המגייר אנשים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם רמז עוד על זה שגיירו אנשים ונשים א\\\"כ היו מזכי הרבים ואין חטא בא על ידם וכו' יש שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"יד אהרן, חיי שרה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לב\",\n        \"title\": \"המחזיר רבים למוטב\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז לפעמים משלם הקב\\\"ה שכר מצוה אף בעוה\\\"ז, דהיינו למי שזכה וזיכה את הרבים להחזיר רבים למוטב וכו' משלם הקב\\\"ה שכרו אף בעוה\\\"ז.\",\n            \"source_ref\": \"אמרי שפר חיי שרה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לג\",\n        \"title\": \"מי שע\\\"י קנאותו מכניס רוח קנאה גם בלב אחרים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בקנאו את קנאתי בתוכם, היינו שהכניס בתוך לבות בני ישראל רוח קנאה לקנא קנאת ה', ע\\\"ז מגיע לו שפיר שכרו גם בעוה\\\"ז.\",\n            \"source_ref\": \"מנורת אהרן, פנחס, לאא\\\"ז הגה\\\"צ מוה\\\"ר רפאל אהרן קנאפפלער זצ\\\"ל הי\\\"ד אבד\\\"ק טיניע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לד\",\n        \"title\": \"המעורר ומוכיח אחרים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"א\\\"כ מי שמעורר ומוכיח אחרים מגיע לו שכר מצותיו בעוה\\\"ז.\",\n            \"source_ref\": \"ויגד משה חיי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לה\",\n        \"title\": \"המשגיח על אחרים שישמרו שבת.\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 65,
+    "book_page": 84,
+    "overall_quality": "excellent",
+    "summary": "The OCR performed exceptionally well, correctly identifying the non-standard column order (Left Column then Right Column) used on this specific page. Structural parsing, section numbering, and source extraction are accurate. Only one minor transcription error was found.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section לא (31), paragraph 1",
+        "description": "Transcription error in the joined text crossing the columns.",
+        "original_text": "ואין חטא בא על ידם ואז יש שכר מצוה",
+        "corrected_text": "ואין חטא בא על ידם וכו' יש שכר מצוה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סה",
+        "page_side": "right",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "כח",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "לה",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "לצעוק וכו' אם כן מי שזיכה את הרבים, ומובטח שלא יחטא, הרי שלים עבידתיה, לכך בדין הוא שיטול את כל שכרו תיכף.",
+          "source_ref": "ישמח משה ח\"ב דף ע\"ו"
+        },
+        {
+          "type": "section",
+          "number": "כט",
+          "title": "כשכופים את הרבים לעשות מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ובזה בארתי למרז\"ל גדול המעשה יותר מן העושה, המעשה כלומר הכופה את הרבים לעשות, לאפוקי להנחיל שכר מצוה בהאי עלמא ליכא.",
+              "source_ref": "ערכי יהושע מערכת מ' אות כז"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ל",
+          "title": "מי ששוקד לטובת אחרים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ונמצא דאם האדם שוקד לטובת נפשו טוב לפניו התורה, אבל אם הוא שוקד לטובת חבריו טוב לפניו יותר המעשה הנ\"ל וכו' ובז\"ה ג\"כ והיה עקב תשמעון את המשפטים האלה ושמרתם ועשית\"ם אותם בזה והיה העיקר אליכם, לכן נאמר ד\"א לך וגו' שהוא ית' ישפיע לכם ג\"כ כל טוב.",
+              "source_ref": "ואך פרי תבואה עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לא",
+          "title": "המגייר אנשים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם רמז עוד על זה שגיירו אנשים ונשים א\"כ היו מזכי הרבים ואין חטא בא על ידם וכו' יש שכר מצוה בהאי עלמא.",
+              "source_ref": "יד אהרן, חיי שרה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לב",
+          "title": "המחזיר רבים למוטב",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז לפעמים משלם הקב\"ה שכר מצוה אף בעוה\"ז, דהיינו למי שזכה וזיכה את הרבים להחזיר רבים למוטב וכו' משלם הקב\"ה שכרו אף בעוה\"ז.",
+              "source_ref": "אמרי שפר חיי שרה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לג",
+          "title": "מי שע\"י קנאותו מכניס רוח קנאה גם בלב אחרים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בקנאו את קנאתי בתוכם, היינו שהכניס בתוך לבות בני ישראל רוח קנאה לקנא קנאת ה', ע\"ז מגיע לו שפיר שכרו גם בעוה\"ז.",
+              "source_ref": "מנורת אהרן, פנחס, לאא\"ז הגה\"צ מוה\"ר רפאל אהרן קנאפפלער זצ\"ל הי\"ד אבד\"ק טיניע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לד",
+          "title": "המעורר ומוכיח אחרים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "א\"כ מי שמעורר ומוכיח אחרים מגיע לו שכר מצותיו בעוה\"ז.",
+              "source_ref": "ויגד משה חיי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לה",
+          "title": "המשגיח על אחרים שישמרו שבת.",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,89 @@
+{
+  "page": 74,
+  "book_page": 110,
+  "overall_quality": "fair",
+  "summary": "Page 74 (book page צד) continues section לא from previous page, then covers sections לב through לז, with grouping headers 'הידור וכבוד' and 'מס\"נ'. The OCR has several significant text quality issues, particularly in sections לב, לג, לה, and לז where text appears garbled or poorly read. Source references for some sections are missing.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Continuation fragment",
+      "description": "OCR reads '...שייך שכר גם בעוה\"ז וכו'.' with source 'דברי תורה ג עה'. The image shows at the top of the right column text continuing from previous page. The ellipsis indicates incomplete capture. The text in the image appears more complete.",
+      "original_text": "...שייך שכר גם בעוה\"ז וכו'.",
+      "corrected_text": "Needs full text from image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "critical",
+      "location": "Section לב, makor text",
+      "description": "OCR reads 'מכל ההוספה שעושה זה שממהרת למשרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\"כ בעולם הזה. וקדושה וברכה' - this text is significantly garbled. 'שממהרת למשרת' should likely be 'שממהר למצות', 'במרוצתו' needs verification. The ending 'וקדושה וברכה' appears to be a misread fragment. The image shows different text.",
+      "original_text": "מכל ההוספה שעושה זה שממהרת למשרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\"כ בעולם הזה. וקדושה וברכה",
+      "corrected_text": "Text is significantly garbled - needs complete re-extraction from image"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "major",
+      "location": "Section לב, source_ref",
+      "description": "Source listed as 'ברכות פ\"א'. The image shows a different source reference in the parenthetical at the end of the section text. Needs verification.",
+      "original_text": "ברכות פ\"א",
+      "corrected_text": "Needs verification against image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section לג, makor text",
+      "description": "OCR reads 'חז\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.' This text appears incomplete and garbled - 'חז\"ל על וכו'' is not a proper sentence opening. The image shows more complete text.",
+      "original_text": "חז\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.",
+      "corrected_text": "Needs re-extraction - text is incomplete"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section לה, makor text",
+      "description": "OCR reads 'חז\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.' Same issue as section לג - text appears incomplete with 'חז\"ל על כיבוד וכו'' not being a proper extraction.",
+      "original_text": "חז\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.",
+      "corrected_text": "Needs re-extraction - text is incomplete"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section לג, source_ref",
+      "description": "Source has 'מזאריג' but section לה has 'מזאריק'. These likely refer to the same person (Zarikov/Zarig). The image should be checked to see which spelling is used in each case.",
+      "original_text": "מזאריג / מזאריק",
+      "corrected_text": "Check consistent spelling against image"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "major",
+      "location": "Section לד, source_ref",
+      "description": "Source_ref is null but the image shows a source reference in the parenthetical at the end of section לד text. The Gemara reference (ב\"ק ט:) is embedded in the text but there should also be an extracted source_ref.",
+      "original_text": "null",
+      "corrected_text": "Needs extraction from image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "critical",
+      "location": "Section לז, makor text",
+      "description": "OCR reads 'חמנס יש מילה וכו' מסירת נפש חוץ מהשלשה דברים [המשך בעמוד הבא]' - the text 'חמנס יש מילה' is completely garbled and makes no sense in Hebrew. The image shows different text that should be properly extracted. The '[המשך בעמוד הבא]' is an editorial note not in the original.",
+      "original_text": "חמנס יש מילה וכו' מסירת נפש חוץ מהשלשה דברים",
+      "corrected_text": "Completely garbled - needs full re-extraction"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "major",
+      "location": "Section לז, source_ref",
+      "description": "Source_ref is null. The image shows the text continues to the next page but the beginning of the section should have identifiable source information.",
+      "original_text": "null",
+      "corrected_text": "Needs extraction from image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section לו, body paragraph 2 (יודעי בינה)",
+      "description": "OCR reads 'ואמר הקדוש הנ\"ל (ההיל\"מ) עלה לקבל שכר מצוה גם בהאי עלמא'. The abbreviation 'ההיל\"מ' and 'עלה' need verification against the image. The image may show 'החיל\"מ' or different text.",
+      "original_text": "ההיל\"מ",
+      "corrected_text": "Needs verification"
+    }
+  ],
+  "corrected_json": null
+}

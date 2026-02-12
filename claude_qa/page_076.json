@@ -1,0 +1,73 @@
+{
+  "page": 76,
+  "book_page": 112,
+  "overall_quality": "good",
+  "summary": "Page 76 (book page צו) covers sections מד through מט, with grouping header 'לשם המצוה'. The structure is well-captured with correct section numbering. Section מט continues to the next page. Some text accuracy issues and one section with garbled text.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מד, makor text",
+      "description": "OCR reads 'כי זה גורם מחמת שמחשיב וכולל עצמו עם הרבים'. The image shows text in the right column. The word 'מחמת' may be different.",
+      "original_text": "מחמת שמחשיב",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מה, makor text",
+      "description": "OCR reads 'דשכר מצוה בהאי עלמא ליכא שהוא משום דעשה המצוה נגד הקב\"ה לאין סוף, ולפי\"ז אם מתכוין נגד כלל ישראל א\"כ עשה גם נגד בו\"ד'. The abbreviation 'בו\"ד' (בשר ודם) should be verified. The image may show 'בו\"ד' or a different reading.",
+      "original_text": "נגד בו\"ד",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מז, makor text",
+      "description": "OCR reads 'כשם שאמה עושה בלי טעם'. The word 'שאמה' is unusual - likely should be 'שאתה' (you). The image shows the text, and 'שאתה' makes more grammatical sense.",
+      "original_text": "שאמה עושה",
+      "corrected_text": "שאתה עושה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מז, makor text",
+      "description": "OCR reads 'כך ה' יתן גמולכם וכו' בלי טעם וגבול לטבע.' The phrase 'וגבול לטבע' is unusual. The image may show 'וגבול הטבע' or different phrasing.",
+      "original_text": "בלי טעם וגבול לטבע",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section מח, makor text",
+      "description": "OCR reads 'על כן מנע ממנו השכל תעה\"ז וכו' כדי שלא יהיה קשה לעבדו בלי פנייה וכו' אבל הוא לא נקט רק לכבוד ה' וכו' בדין ביטול שכרו גם בעוה\"ז'. The phrase 'השכל תעה\"ז' seems garbled - likely 'השכר דעה\"ז' or 'שכר עוה\"ז'. Also 'בדין ביטול שכרו' seems problematic - if the section is about doing things for the sake of heaven, 'ביטול' (cancellation) of reward doesn't fit well. May be 'בדין שיטול שכרו'.",
+      "original_text": "השכל תעה\"ז",
+      "corrected_text": "Needs verification - likely השכר דעה\"ז or שכר עוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section מח, makor text",
+      "description": "OCR reads 'כי לא נהיה לו לחם לנסיון'. The word 'לחם' (bread) seems out of place. May be 'נחשב' or different word in the image.",
+      "original_text": "לא נהיה לו לחם לנסיון",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section מט, makor text (continuation)",
+      "description": "OCR reads 'הגם כי שכר מצוה בהאי עלמא ליכא, אמנם מקום מצוה זו שאר מצות שהם בעדו ולתקן נשמתו ולקבל שכרו לעתיד, אמנם מצוה זו להקב\"ה להצילו מכעס וחימה שלא'. The phrase 'אמנם מקום מצוה זו שאר מצות' seems garbled. Likely 'אמנם רוב מצות... שאר מצות' or different phrasing. The text is cut off at the end as it continues to next page.",
+      "original_text": "אמנם מקום מצוה זו שאר מצות",
+      "corrected_text": "Needs re-extraction - text appears garbled"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "Section מט, source_ref",
+      "description": "Source_ref is null because the section continues to the next page. This is expected behavior but noted for completeness.",
+      "original_text": "null",
+      "corrected_text": "Expected - continues to next page"
+    }
+  ],
+  "corrected_json": null
+}

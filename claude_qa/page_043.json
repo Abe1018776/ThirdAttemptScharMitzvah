@@ -1,0 +1,41 @@
+{
+  "page": 43,
+  "book_page": 79,
+  "overall_quality": "good",
+  "summary": "Start of Chapter 5 (Perek Chamishi) with subtitle Inyonim Meyuchadim and grouping header Zchus Avos. Contains sections aleph through gimmel. Structure is correct. Several minor textual misreadings in section aleph makor and section gimmel makor.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section aleph, makor paragraph",
+      "description": "OCR has '[?]' marker for uncertain word. The image shows the word is 'עדיין'.",
+      "original_text": "עוד מלינו שישראל [?] אוכלים זכות אבות",
+      "corrected_text": "עוד מלינו שישראל עדיין אוכלים זכות אבות"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section aleph, makor paragraph",
+      "description": "The word 'הוטמנו' should be 'הטמינו' based on the image.",
+      "original_text": "והם הוטמנו בגן זכותם על בניהם אחריהם",
+      "corrected_text": "והם הטמינו בגן זכותם על בניהם אחריהם"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section aleph, paragraph 4 (באר שלמה א ב)",
+      "description": "The notarikon of אבות should include תורה. Image reads 'אורה ותורה וגדולה במקום אחד'.",
+      "original_text": "אבות נוטריקון אורה וגדולה במקום אחד",
+      "corrected_text": "אבות נוטריקון אורה ותורה וגדולה במקום אחד"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section gimmel, makor paragraph",
+      "description": "Multiple garbled words: 'שכל לפיעל' should be 'שכר לפועל', 'שכר המלוה' should be 'שכר המצוה', 'ולדיק' should be 'וצדיק', 'שכר חציו' should be 'שכר אביו'.",
+      "original_text": "אינו ניתן באופן שנכרת הקרן שכל לפיעל, אלא שכר המלוה ממתין ליו\"ח, אם יזדמן איש ראוי לקבל, אהוב למעלה ולדיק, אז משלם לו שכר חציו",
+      "corrected_text": "אינו ניתן באופן שנכרת הקרן שכר לפועל, אלא שכר המצוה ממתין ליו\"ח, אם יזדמן איש ראוי לקבל, אהוב למעלה וצדיק, אז משלם לו שכר אביו"
+    }
+  ],
+  "corrected_json": null
+}

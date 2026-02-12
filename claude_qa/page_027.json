@@ -1,0 +1,33 @@
+{
+  "page": 27,
+  "book_page": 63,
+  "overall_quality": "good",
+  "summary": "Page 27 (book page 47/mem-zayin). Covers continuation of section 95, then sections 96-100. The grouping header 'אהבה ויראה' is correctly identified. Section numbers are accurate. Two continuation fragments at top for the multi-part continuation from section 95.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 96 (צו), makor text Gemara reference",
+      "description": "Same as page 26 issue: the text references 'קידושין לג:' but should be 'קידושין לד.' for the standard mitzvot aseh shehazman grama sugya.",
+      "original_text": "(קידושין לג:)",
+      "corrected_text": "(קידושין לד.)"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section 100 (ק), second body paragraph",
+      "description": "The second body paragraph of section 100 has no source_ref field at all. The text ends mid-sentence ('אוכל פירות בעוה\"ז') suggesting it continues to the next page where the source ref may appear.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 98 (צח), makor text",
+      "description": "The text reads 'איכא מ\"ד לתינוקות שמוליכים לבית רבן בכל ר\"ח' - looking at the image, this appears to be correctly captured. The source ref 'מטבע שטבעו חכמים אות איתי, ב\"ח או\"ח תיט' also matches.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

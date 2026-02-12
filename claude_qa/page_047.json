@@ -1,0 +1,49 @@
+{
+  "page": 47,
+  "book_page": 83,
+  "overall_quality": "good",
+  "summary": "Page 47 (book page 67/83) continues Chapter 5 with sections kaf-bet through kaf-chet. Contains grouping header 'Mezakeh HaRabim'. Section kaf-chet at bottom is cut off (continues to next page). The meta page_number is listed as 'סד' but the image shows page number 67 at bottom - this appears to be the Hebrew page number סז.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "meta.page_number",
+      "description": "The page_number in meta is 'סד' (64) but the image clearly shows page number סז (67) at the bottom of the page.",
+      "original_text": "סד",
+      "corrected_text": "סז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf-gimel (23), makor paragraph",
+      "description": "OCR has 'למעט קילוס ה'' which is unclear. The image shows 'למען קילוס ה'' - 'למעט' should be 'למען' (for the sake of praising God).",
+      "original_text": "למעט קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא",
+      "corrected_text": "למען קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf-heh (25), makor paragraph",
+      "description": "OCR has 'בדין הוא ביטול שכרו' but the image shows 'בדין הוא שיטול שכרו' - 'ביטול' (cancellation) should be 'שיטול' (that he should receive).",
+      "original_text": "וא\"כ נגמר המצוה ולכך בדין הוא ביטול שכרו",
+      "corrected_text": "וא\"כ נגמר המצוה ולכך בדין הוא שיטול שכרו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf-bet (22), title (continuation)",
+      "description": "The continuation title 'להשי\"ת נח\"ר בשכרו שיכול להיטיב' - image confirms this reading is reasonable as continuation from the previous page's 'העושה מצוה בכוונה, שיהיה'.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf-vav (26), makor paragraph",
+      "description": "OCR reads 'זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות' - the image shows 'זכות הרבים ומעשיהם הטובים מגיעים להם כל הברכות'. The word 'מניחים' may be 'מגיעים'.",
+      "original_text": "זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות",
+      "corrected_text": "זכות הרבים ומעשיהם הטובים מגיעים להם כל הברכות"
+    }
+  ],
+  "corrected_json": null
+}

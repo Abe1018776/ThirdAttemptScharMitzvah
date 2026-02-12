@@ -1,0 +1,192 @@
+{
+  "page": 15,
+  "book_page": 51,
+  "raw_response": "```json\n{\n  \"page\": 35,\n  \"book_page\": 51,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is excellent, correctly handling column flow and section nesting. Source extraction is accurate. However, there are several transcription errors mainly due to letter confusion (ב/כ), hallucinations of abbreviations that contradict the visual text, and one instance of summarizing text ('וכו') instead of transcribing it.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Right Column, Top Continuation Fragment\",\n      \"description\": \"OCR mistook Bet for Kaf.\",\n      \"original_text\": \"כמה שהז\\\"ג\",\n      \"corrected_text\": \"במה שהז\\\"ג\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Right Column, Second Fragment\",\n      \"description\": \"OCR mistook Bet for Kaf.\",\n      \"original_text\": \"כאלו המצות\",\n      \"corrected_text\": \"באלו המצות\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Right Column, Second Fragment\",\n      \"description\": \"Misread vocalization/spelling.\",\n      \"original_text\": \"רק שכור חיי\",\n      \"corrected_text\": \"רק שכר חיי\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כג, paragraph 1 (Left Column Top)\",\n      \"description\": \"OCR changed text 'חס' (visually clear) to 'אם'. While 'אם' makes grammatical sense, the visual text is 'חס' (likely a typo in the print or specific usage). OCR should transcribe what is seen.\",\n      \"original_text\": \"וכיון שיש להם עונג אם לא יקבלו\",\n      \"corrected_text\": \"וכיון שיש להם עונג חס לא יקבלו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כג, paragraph 2\",\n      \"description\": \"OCR transcribed 'מ\\\"ב' (Maaseh Bereshit) where the image reads 'הים' (The Sea - referencing the Midrash about splitting the sea).\",\n      \"original_text\": \"תנאי דהתנה הקב\\\"ה עם מ\\\"ב\",\n      \"corrected_text\": \"תנאי דהתנה הקב\\\"ה עם הים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כג, paragraph 2, last line\",\n      \"description\": \"OCR transcribed 'ויש' instead of 'וירש' (will inherit).\",\n      \"original_text\": \"וכו' ויש והעוה\\\"ז\",\n      \"corrected_text\": \"וכו' וירש והעוה\\\"ז\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כה, paragraph 1\",\n      \"description\": \"OCR hallucinated an abbreviation 'ק\\\"ת' where the text clearly spells out 'קרי' (Krei).\",\n      \"original_text\": \"תשמעו ק\\\"ת תורה\",\n      \"corrected_text\": \"תשמעו קרי תורה\"\n    },\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section כה, paragraph 2\",\n      \"description\": \"OCR replaced valid text with 'וכו'', failing to transcribe exactly.\",\n      \"original_text\": \"בעוה\\\"ז וכו' ואלו הן\",\n      \"corrected_text\": \"בעוה\\\"ז והקרן קיימת לו לעוה\\\"ב ואלו הן\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לה\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"כ\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"במה שהז\\\"ג וכו' אותו הטרדא שייכת גם גבי שמיטה, כיון שעיקר השמיטה תליא בזמן גרמא זמן גרמא מקרי עכת\\\"ד.\",\n        \"source_ref\": \"ובירורי השיטות בשם המקנה, קידושין לד.\"\n      },\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"באלו המצות שהזמן גרמא בהם שייך רק שכר חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n        \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כא\",\n        \"title\": \"על שמירת נדה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שאם משמר ז' ימי נדה וכו' איכא שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"אמרי אש, השמטה, תזריע\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אך ענין טבילת נדה הכי הוא לא תעשה ועיין קי\\\"ל יש שכר בעוה\\\"ז.\",\n            \"source_ref\": \"יד אהרן תזריע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כב\",\n        \"title\": \"המונע עצמו מלעבור על נדנוד איסור עריות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דע\\\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\\\"ז.\",\n            \"source_ref\": \"ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\\\"ה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"תורה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כג\",\n        \"title\": \"על קבלת התורה בכללות.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכיון שיש להם עונג חס לא יקבלו, ממילא יש להם שכר בעוה\\\"ז עכ\\\"פ על קבלת הטורח.\",\n            \"source_ref\": \"עצי חיים, במדבר\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ותירץ מהר\\\"ק פרימו כי תנאי דהתנה הקב\\\"ה עם הים אם מקבלים יקבלו מוטב ואם לאו אחזיר אתכם לתוהו ובוהו, וא\\\"כ הוו כאילו מושבע ועומד וכו' וירש העוה\\\"ז ג\\\"כ שלהם ואין לעשו חלק בה.\",\n            \"source_ref\": \"בני יששכר סיון מאמר ב יא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כד\",\n        \"title\": \"על תושבע\\\"פ\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי על תורה שבעל פה איכא שכר אף בהאי עלמא.\",\n            \"source_ref\": \"ברך משה, תשא\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אע\\\"ג דשכר מצוה בהאי עלמא ליכא, והיינו לבטחון ומהר לקבל שכרן, עכ\\\"ז על תורה שבע\\\"פ מגיע שכר גם בהאי עלמא.\",\n            \"source_ref\": \"טל חיים, בא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כה\",\n        \"title\": \"על לימוד התורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"את הברכה אשר תשמעו קרי תורה, שבזכות התורה ינחלו הברכות.\",\n            \"source_ref\": \"בעה\\\"ט ראה\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אלו דברים שאדם אוכל פירותיהם בעוה\\\"ז והקרן קיימת לו לעוה\\\"ב ואלו הן וכו' ותלמוד תורה כנגד כולם.\",\n            \"source_ref\": \"פאה מ\\\"א\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 35,
+    "book_page": 51,
+    "overall_quality": "good",
+    "summary": "The structural parsing is excellent, correctly handling column flow and section nesting. Source extraction is accurate. However, there are several transcription errors mainly due to letter confusion (ב/כ), hallucinations of abbreviations that contradict the visual text, and one instance of summarizing text ('וכו') instead of transcribing it.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Right Column, Top Continuation Fragment",
+        "description": "OCR mistook Bet for Kaf.",
+        "original_text": "כמה שהז\"ג",
+        "corrected_text": "במה שהז\"ג"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Right Column, Second Fragment",
+        "description": "OCR mistook Bet for Kaf.",
+        "original_text": "כאלו המצות",
+        "corrected_text": "באלו המצות"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Right Column, Second Fragment",
+        "description": "Misread vocalization/spelling.",
+        "original_text": "רק שכור חיי",
+        "corrected_text": "רק שכר חיי"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section כג, paragraph 1 (Left Column Top)",
+        "description": "OCR changed text 'חס' (visually clear) to 'אם'. While 'אם' makes grammatical sense, the visual text is 'חס' (likely a typo in the print or specific usage). OCR should transcribe what is seen.",
+        "original_text": "וכיון שיש להם עונג אם לא יקבלו",
+        "corrected_text": "וכיון שיש להם עונג חס לא יקבלו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section כג, paragraph 2",
+        "description": "OCR transcribed 'מ\"ב' (Maaseh Bereshit) where the image reads 'הים' (The Sea - referencing the Midrash about splitting the sea).",
+        "original_text": "תנאי דהתנה הקב\"ה עם מ\"ב",
+        "corrected_text": "תנאי דהתנה הקב\"ה עם הים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section כג, paragraph 2, last line",
+        "description": "OCR transcribed 'ויש' instead of 'וירש' (will inherit).",
+        "original_text": "וכו' ויש והעוה\"ז",
+        "corrected_text": "וכו' וירש והעוה\"ז"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section כה, paragraph 1",
+        "description": "OCR hallucinated an abbreviation 'ק\"ת' where the text clearly spells out 'קרי' (Krei).",
+        "original_text": "תשמעו ק\"ת תורה",
+        "corrected_text": "תשמעו קרי תורה"
+      },
+      {
+        "type": "missing_text",
+        "severity": "major",
+        "location": "Section כה, paragraph 2",
+        "description": "OCR replaced valid text with 'וכו'', failing to transcribe exactly.",
+        "original_text": "בעוה\"ז וכו' ואלו הן",
+        "corrected_text": "בעוה\"ז והקרן קיימת לו לעוה\"ב ואלו הן"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לה",
+        "page_side": "right",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "כ",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "במה שהז\"ג וכו' אותו הטרדא שייכת גם גבי שמיטה, כיון שעיקר השמיטה תליא בזמן גרמא זמן גרמא מקרי עכת\"ד.",
+          "source_ref": "ובירורי השיטות בשם המקנה, קידושין לד."
+        },
+        {
+          "type": "continuation_fragment",
+          "text": "באלו המצות שהזמן גרמא בהם שייך רק שכר חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+          "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+        },
+        {
+          "type": "section",
+          "number": "כא",
+          "title": "על שמירת נדה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שאם משמר ז' ימי נדה וכו' איכא שכר בהאי עלמא וכו'.",
+              "source_ref": "אמרי אש, השמטה, תזריע"
+            },
+            {
+              "is_makor": false,
+              "text": "אך ענין טבילת נדה הכי הוא לא תעשה ועיין קי\"ל יש שכר בעוה\"ז.",
+              "source_ref": "יד אהרן תזריע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כב",
+          "title": "המונע עצמו מלעבור על נדנוד איסור עריות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דע\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\"ז.",
+              "source_ref": "ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\"ה"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "תורה"
+        },
+        {
+          "type": "section",
+          "number": "כג",
+          "title": "על קבלת התורה בכללות.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכיון שיש להם עונג חס לא יקבלו, ממילא יש להם שכר בעוה\"ז עכ\"פ על קבלת הטורח.",
+              "source_ref": "עצי חיים, במדבר"
+            },
+            {
+              "is_makor": false,
+              "text": "ותירץ מהר\"ק פרימו כי תנאי דהתנה הקב\"ה עם הים אם מקבלים יקבלו מוטב ואם לאו אחזיר אתכם לתוהו ובוהו, וא\"כ הוו כאילו מושבע ועומד וכו' וירש העוה\"ז ג\"כ שלהם ואין לעשו חלק בה.",
+              "source_ref": "בני יששכר סיון מאמר ב יא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כד",
+          "title": "על תושבע\"פ",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי על תורה שבעל פה איכא שכר אף בהאי עלמא.",
+              "source_ref": "ברך משה, תשא"
+            },
+            {
+              "is_makor": false,
+              "text": "אע\"ג דשכר מצוה בהאי עלמא ליכא, והיינו לבטחון ומהר לקבל שכרן, עכ\"ז על תורה שבע\"פ מגיע שכר גם בהאי עלמא.",
+              "source_ref": "טל חיים, בא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כה",
+          "title": "על לימוד התורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "את הברכה אשר תשמעו קרי תורה, שבזכות התורה ינחלו הברכות.",
+              "source_ref": "בעה\"ט ראה"
+            },
+            {
+              "is_makor": false,
+              "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז והקרן קיימת לו לעוה\"ב ואלו הן וכו' ותלמוד תורה כנגד כולם.",
+              "source_ref": "פאה מ\"א"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

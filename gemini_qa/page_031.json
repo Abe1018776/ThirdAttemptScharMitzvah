@@ -1,0 +1,146 @@
+{
+  "page": 31,
+  "book_page": 67,
+  "raw_response": "{\n  \"page\": 51,\n  \"book_page\": 51,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR correctly identified the structure, including the complex right-to-left column flow where section 122 starts on bottom-right and continues top-left. It correctly extracted headers and sources. However, it failed in 'exact transcription' in two places: it silently 'autocorrected' print typos in section 122, and it misread two letters in section 124 resulting in incorrect words.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קכד, paragraph 1\",\n      \"description\": \"OCR misread 'מעצם' (from the essence of) as 'מעלס' (non-word). The letter combination 'צם' was misread as 'לס'.\",\n      \"original_text\": \"מעלס המצוה אינו יכול\",\n      \"corrected_text\": \"מעצם המצוה אינו יכול\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section קכד, paragraph 1\",\n      \"description\": \"OCR misread 'שחוץ' (that apart from) as 'שחון' (that pardons?). The final Tzadik (ץ) was misread as final Nun (ן).\",\n      \"original_text\": \"כיון שחון מקיים\",\n      \"corrected_text\": \"כיון שחוץ מקיים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קכב, paragraph 1\",\n      \"description\": \"OCR silently corrected print errors in the original text. The original image contains typos 'וליתוס ולחלמנה' (likely due to damaged type), which the OCR changed to 'וליתום ולאלמנה'. While the meaning is improved, strict transcription requires the original characters.\",\n      \"original_text\": \"וליתום ולאלמנה\",\n      \"corrected_text\": \"וליתוס ולחלמנה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נא\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"קיח\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"קכה\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"שכרו גדול, שכר והריקותי לכם ברכה עד בלי די.\",\n        \"source_ref\": \"דברי שאול על אגדות הש\\\"ס גיטין ז\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קיט\",\n        \"title\": \"הנותן צדקה בשעה שאינו מצליח כל כך\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מי שעושה צדקה בשעה שאינו מצליח כ\\\"כ ובוטח בה', ילויה בזכות הצדקה וכו' והריקותי לכם ברכה עד בלי די.\",\n            \"source_ref\": \"הגאון מוה\\\"ר חיים זאב אבד\\\"ק זלאטשוב זצ\\\"ל, כרם שלמה שנה יג ה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכ\",\n        \"title\": \"הנותן צדקה מחמת רחמנות.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שאם נותן צדקה מחמת רחמנות אז הקב\\\"ה נותן לו שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"דברי מהרי\\\"א שופטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכא\",\n        \"title\": \"מי שמקבל עליו לעשות צדקה וחסד\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מי שקבל לעשות צדקה וחסד משפיעין עליו מלמעלה ע\\\"י השכינה וכו'.\",\n            \"source_ref\": \"דבש לפי מערכת צדי\\\"ק\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכב\",\n        \"title\": \"במצות המרגילים את האדם לתת מכספו לגר לעני ליתום ולאלמנה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"במצות ביכורים ומעשר עני שתכליתה להרגיל את האדם לתת מכספו לגר לעני וליתוס ולחלמנה, לכן במצוה זו יש האפשרות לדבק אתו ית\\\"ש לתת גם בהאי עלמא שכר.\",\n            \"source_ref\": \"ושארית מנחם פי' תבוא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכג\",\n        \"title\": \"על הצדקה שנותנים אחר התענית\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אגרא לתעניתא צדקתא וכו' השכר שנותנים בעוה\\\"ז הוא על הצדקה ולאחריה.\",\n            \"source_ref\": \"יעב\\\"ץ ברכות ו:\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכד\",\n        \"title\": \"העושה חסד עם עני\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מעצם המצוה אינו יכול ליהנות בעוה\\\"ז כלל וכו' מ\\\"מ כיון שחוץ מקיים המצוה, הוא עושה חסד עם העני שעוזר לו בשעת דחקו, עבור חסד זה הוא מקבל שכרו גם בעוה\\\"ז.\",\n            \"source_ref\": \"ביאורי החסידות ב\\\"ב, אורח לחיים, בהר\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכה\",\n        \"title\": \"השכר בעוה\\\"ז לצדקה הוא שיקבל ממון הרבה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ליתכן אף שהשכר [על צדקה] הוא שיתעשר יחליף לו הקב\\\"ה\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 51,
+    "book_page": 51,
+    "overall_quality": "good",
+    "summary": "The OCR correctly identified the structure, including the complex right-to-left column flow where section 122 starts on bottom-right and continues top-left. It correctly extracted headers and sources. However, it failed in 'exact transcription' in two places: it silently 'autocorrected' print typos in section 122, and it misread two letters in section 124 resulting in incorrect words.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קכד, paragraph 1",
+        "description": "OCR misread 'מעצם' (from the essence of) as 'מעלס' (non-word). The letter combination 'צם' was misread as 'לס'.",
+        "original_text": "מעלס המצוה אינו יכול",
+        "corrected_text": "מעצם המצוה אינו יכול"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section קכד, paragraph 1",
+        "description": "OCR misread 'שחוץ' (that apart from) as 'שחון' (that pardons?). The final Tzadik (ץ) was misread as final Nun (ן).",
+        "original_text": "כיון שחון מקיים",
+        "corrected_text": "כיון שחוץ מקיים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קכב, paragraph 1",
+        "description": "OCR silently corrected print errors in the original text. The original image contains typos 'וליתוס ולחלמנה' (likely due to damaged type), which the OCR changed to 'וליתום ולאלמנה'. While the meaning is improved, strict transcription requires the original characters.",
+        "original_text": "וליתום ולאלמנה",
+        "corrected_text": "וליתוס ולחלמנה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נא",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "קיח",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "קכה",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "שכרו גדול, שכר והריקותי לכם ברכה עד בלי די.",
+          "source_ref": "דברי שאול על אגדות הש\"ס גיטין ז"
+        },
+        {
+          "type": "section",
+          "number": "קיט",
+          "title": "הנותן צדקה בשעה שאינו מצליח כל כך",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מי שעושה צדקה בשעה שאינו מצליח כ\"כ ובוטח בה', ילויה בזכות הצדקה וכו' והריקותי לכם ברכה עד בלי די.",
+              "source_ref": "הגאון מוה\"ר חיים זאב אבד\"ק זלאטשוב זצ\"ל, כרם שלמה שנה יג ה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכ",
+          "title": "הנותן צדקה מחמת רחמנות.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שאם נותן צדקה מחמת רחמנות אז הקב\"ה נותן לו שכרו בעוה\"ז.",
+              "source_ref": "דברי מהרי\"א שופטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכא",
+          "title": "מי שמקבל עליו לעשות צדקה וחסד",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מי שקבל לעשות צדקה וחסד משפיעין עליו מלמעלה ע\"י השכינה וכו'.",
+              "source_ref": "דבש לפי מערכת צדי\"ק"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכב",
+          "title": "במצות המרגילים את האדם לתת מכספו לגר לעני ליתום ולאלמנה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "במצות ביכורים ומעשר עני שתכליתה להרגיל את האדם לתת מכספו לגר לעני וליתוס ולחלמנה, לכן במצוה זו יש האפשרות לדבק אתו ית\"ש לתת גם בהאי עלמא שכר.",
+              "source_ref": "ושארית מנחם פי' תבוא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכג",
+          "title": "על הצדקה שנותנים אחר התענית",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אגרא לתעניתא צדקתא וכו' השכר שנותנים בעוה\"ז הוא על הצדקה ולאחריה.",
+              "source_ref": "יעב\"ץ ברכות ו:"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכד",
+          "title": "העושה חסד עם עני",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מעצם המצוה אינו יכול ליהנות בעוה\"ז כלל וכו' מ\"מ כיון שחוץ מקיים המצוה, הוא עושה חסד עם העני שעוזר לו בשעת דחקו, עבור חסד זה הוא מקבל שכרו גם בעוה\"ז.",
+              "source_ref": "ביאורי החסידות ב\"ב, אורח לחיים, בהר"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכה",
+          "title": "השכר בעוה\"ז לצדקה הוא שיקבל ממון הרבה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ליתכן אף שהשכר [על צדקה] הוא שיתעשר יחליף לו הקב\"ה"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

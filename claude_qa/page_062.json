@@ -1,0 +1,25 @@
+{
+  "page": 62,
+  "book_page": 98,
+  "overall_quality": "good",
+  "summary": "Page 83 (left side), chapter 5. Two continuation fragments from section 108, then sections 109-114 with grouping header 'shonot'. Section 114 cut off at bottom (continues to next page). Structure well captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קיא, makor text",
+      "description": "OCR has 'שבברכין בעין הרע' but image shows 'שמברכין בעין הרע'. The shin-bet (שב) should be shin-mem (שמ).",
+      "original_text": "שבברכין",
+      "corrected_text": "שמברכין"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קיב, makor text",
+      "description": "OCR has 'דלא חייקינן שכולם יחטאו' but the image shows 'דלא חיישינן שכולם יחטאו'. The word should be 'חיישינן' (we do not suspect), which is the standard Talmudic term.",
+      "original_text": "חייקינן",
+      "corrected_text": "חיישינן"
+    }
+  ],
+  "corrected_json": null
+}

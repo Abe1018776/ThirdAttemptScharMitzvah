@@ -1,0 +1,41 @@
+{
+  "page": 14,
+  "book_page": 50,
+  "overall_quality": "good",
+  "summary": "Page 14 (book page לד) contains sections יג through כ (beginning). Sections are correctly numbered. Most text and source refs are captured. The page correctly notes continuation to section כ. Some text accuracy concerns in section טז.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section יג, makor text",
+      "description": "The OCR makor text 'כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'' appears to be a generic formula reused from section יט. The text for section יג about פדיון הבן should have content specific to pidyon haben. Looking at the image, the right column shows 'מקור המצוה: כאלו מצות שהזמן גרמא בהם' etc. The word 'לנשים' may be incorrect - needs re-verification.",
+      "original_text": "כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז",
+      "corrected_text": "Needs careful re-reading - 'לנשים' may be misread"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section טז, makor text",
+      "description": "The OCR text contains 'ולזוכה לן הקב\"ה ע\"ש העתיד, וכאילו כבד בא' which is unclear. The phrase 'ולזוכה לן' is unusual Hebrew.",
+      "original_text": "ולזוכה לן הקב\"ה ע\"ש העתיד, וכאילו כבד בא",
+      "corrected_text": "Needs verification - text unclear in source image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יט, paragraph 1 structure",
+      "description": "First paragraph has source_ref as null with '(גור ארי')' included in text. This is correct treatment since the parenthetical is inline, not a final source ref.",
+      "original_text": "source_ref: null",
+      "corrected_text": "Correct as-is"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יח, makor text",
+      "description": "The OCR reads 'לזכות הקרבנות הקב\"ה נותן לנו מזונות כמ\"ש המטה יששכר דף ל\"ו ע\"ג בשם מהרש\"ח פ\"ק למנחות דף יו\"ד.' The source ref is 'דבש לפי מערכת מ''. The closing quote appears odd - should be מ' (letter mem).",
+      "original_text": "דבש לפי מערכת מ'",
+      "corrected_text": "דבש לפי מערכת מ'"
+    }
+  ],
+  "corrected_json": null
+}

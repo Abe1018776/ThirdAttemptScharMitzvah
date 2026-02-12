@@ -1,0 +1,25 @@
+{
+  "page": 31,
+  "book_page": 67,
+  "overall_quality": "good",
+  "summary": "Page 31 (book page 51/nun-aleph). Covers continuation of section 118, then sections 119-125. All section numbers match the image. The sections continue within the 'צדקה וגמילות חסדים' topic. Section 125 cuts off mid-sentence at the bottom.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 124 (קכד), makor text",
+      "description": "The text has 'מ\"מ כיון שחון מקיים המצוה' - the word 'שחון' seems like a misread. It likely should be 'שבזמן שמקיים' or simply 'שמקיים'. The word is unclear in the image.",
+      "original_text": "מ\"מ כיון שחון מקיים המצוה",
+      "corrected_text": "מ\"מ כיון שמקיים המצוה"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section 122 (קכב), source_ref",
+      "description": "The source ref has a leading vav: 'ושארית מנחם פי' תבוא'. Should be 'שארית מנחם פי' תבוא' without the conjunctive prefix.",
+      "original_text": "ושארית מנחם פי' תבוא",
+      "corrected_text": "שארית מנחם פי' תבוא"
+    }
+  ],
+  "corrected_json": null
+}

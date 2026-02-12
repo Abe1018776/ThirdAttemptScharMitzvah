@@ -1,0 +1,25 @@
+{
+  "page": 3,
+  "book_page": 39,
+  "overall_quality": "good",
+  "summary": "Page 3 captures sections vav through yod-bet correctly with appropriate source references. The continuation fragment from section heh is present. Section numbering is sequential and correct. Minor meta page_side error.",
+  "issues": [
+    {
+      "type": "other",
+      "severity": "minor",
+      "location": "meta.page_side",
+      "description": "Page side is marked as 'left' but page כג (23) is odd-numbered, which in Hebrew books is typically the right page.",
+      "original_text": "left",
+      "corrected_text": "right"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ח makor",
+      "description": "OCR reads 'כ\"א שכר מצוה מצוה' - looking at the image, it appears to read 'כ\"א שכר מצוה מצוה' which matches. The overall meaning is correct.",
+      "original_text": "כ\"א שכר מצוה מצוה",
+      "corrected_text": "כ\"א שכר מצוה מצוה"
+    }
+  ],
+  "corrected_json": null
+}

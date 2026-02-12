@@ -1,0 +1,49 @@
+{
+  "page": 69,
+  "book_page": 105,
+  "overall_quality": "fair",
+  "summary": "Page 69 (book page פט) covers continuation of section ה, then grouping header 'ממציא עצמו', and sections ו through י of chapter 6. The OCR captures the general structure but has section ordering issues - sections appear reordered vs. the right-then-left column reading order. The continuation fragment source_ref is wrong. Some body text has minor inaccuracies.",
+  "issues": [
+    {
+      "type": "column_order_error",
+      "severity": "critical",
+      "location": "Overall page structure",
+      "description": "The right column (read first) contains: continuation fragment with source (מקור המצוה/source), then section ז (מי שהולך למקום כדי שתזדמן לו מצוה שם), then section ח (המזמין את עצמו לקים). The left column contains: grouping header ממציא עצמו, section ו (מי שממציא את עצמו להתחייב במצוה), body paragraph starting with הגם דשכר, section ט (מי שמייגע עצמו), then section י (המשתדל לקיים). But OCR orders them as: continuation, ממציא עצמו header, ו, ט, ז, ח, י - which scrambles the column order.",
+      "original_text": "continuation -> ממציא עצמו -> ו -> ט -> ז -> ח -> י",
+      "corrected_text": "continuation -> ז -> ח -> ממציא עצמו -> ו -> (body paragraph) -> ט -> י"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "major",
+      "location": "Continuation fragment source_ref",
+      "description": "The continuation fragment source_ref is listed as 'תבואות בחוקותי' but the image clearly shows 'ש\"י, בחוקותי' as the parenthetical source at the end of that text block.",
+      "original_text": "תבואות בחוקותי",
+      "corrected_text": "ש\"י, בחוקותי"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section ז, makor text",
+      "description": "OCR reads 'אבל כשהינו לפניו רק הולך כדי שתזדמן לו המצוה וכו' גם שכר מצוה בהאי עלמא איכא.' The image shows the makor text as: 'אבל כשאינו לפניו רק הולך כדי שתזדמן לו המצוה וכו' גם שכר מצוה בהאי עלמא איכא.' - 'כשהינו' should be 'כשאינו'.",
+      "original_text": "כשהינו",
+      "corrected_text": "כשאינו"
+    },
+    {
+      "type": "missing_text",
+      "severity": "major",
+      "location": "Section ו, between makor and next section",
+      "description": "After section ו's makor paragraph, the image shows a body paragraph beginning with 'הגם דשכר מצוה בהאי עלמא ליכא, אבל אם הוא בעצמו טורח וממציא...' This paragraph appears to be incorrectly assigned to section ט as the makor. The text flow between sections ו and ט is confused.",
+      "original_text": "",
+      "corrected_text": "Body paragraph of section ו should be properly separated"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section ח, makor text",
+      "description": "OCR says 'אם היה יטרח מכין ומזמין' but the image seems to show 'אם לא היו לפניו' or similar. The phrase needs careful verification against the scan.",
+      "original_text": "אם היה יטרח",
+      "corrected_text": "Needs verification"
+    }
+  ],
+  "corrected_json": null
+}

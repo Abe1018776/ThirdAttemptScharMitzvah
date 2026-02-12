@@ -1,0 +1,41 @@
+{
+  "page": 84,
+  "book_page": 120,
+  "overall_quality": "good",
+  "summary": "Page 84 (book page 104) covers sections פה through פז. This is a shorter page with content only on the upper portion. The page_number 'קד' in meta is correct. All three sections are captured with correct numbering and proper structure. One major text accuracy issue in section פז with garbled Aramaic.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section פז, makor text",
+      "description": "OCR has 'כי מאן דכרן שׁל לקיס [?] לעתיד' which contains garbled text. 'מאן דכרן של לקיס' is not recognizable Hebrew/Aramaic. This passage needs re-reading from the original image. It may be something like 'כי מאן דבעי למשקל שכרו לעתיד' or another Aramaic phrase.",
+      "original_text": "כי מאן דכרן שׁל לקיס [?] לעתיד",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section פו, source_ref",
+      "description": "OCR has 'דבש לפי מ'' - the character after מ is unclear. In the image left column, the source appears to show 'דבש לפי מ'' but there may also be additional source text 'ורבש לפי מ\"ז' visible below.",
+      "original_text": "דבש לפי מ'",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פו, makor text",
+      "description": "OCR has 'כ\"כ הרב הנזכר שם, משם הרב מהרש\"א' - the final letter may be ל (maharshal) rather than א (maharsha). Looking at the image the exact reading is ambiguous.",
+      "original_text": "מהרש\"א",
+      "corrected_text": ""
+    },
+    {
+      "type": "missing_text",
+      "severity": "minor",
+      "location": "section פו, left column additional text",
+      "description": "In the left column under כשרבים עושים מצוה, there appears to be additional source text 'ורבש לפי מ\"ז' which may be a second source reference or part of the body text. This was not captured in the OCR.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

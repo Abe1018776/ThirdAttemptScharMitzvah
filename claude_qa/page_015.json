@@ -1,0 +1,41 @@
+{
+  "page": 15,
+  "book_page": 51,
+  "overall_quality": "good",
+  "summary": "Page 15 (book page לה) continues section כ from previous page, then has sections כא through כה. Includes the grouping header 'תורה'. Structure is correctly captured. Minor text accuracy issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Continuation fragment 2",
+      "description": "The OCR reads 'שייך רק שכור חיי העוה\"ז' - the word 'שכור' should be 'שכר' (reward) not 'שכור' (drunk/hired).",
+      "original_text": "שייך רק שכור חיי העוה\"ז",
+      "corrected_text": "שייך רק שכר חיי העוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כד, paragraph 2 (body)",
+      "description": "The OCR reads 'והיינו לביטחון ומהר לקבל שכרן'. The word 'לביטחון' seems unusual in this context, possibly misread.",
+      "original_text": "והיינו לביטחון ומהר לקבל שכרן",
+      "corrected_text": "Needs verification - possibly different word"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כא, paragraph 2 (body)",
+      "description": "The OCR reads 'אך ענין טבילת נדה הכי הוא לא תעשה ועיין קי\"ל יש שכר בעוה\"ז'. The phrase 'הכי הוא לא תעשה' may not accurately reflect the image text.",
+      "original_text": "הכי הוא לא תעשה ועיין קי\"ל",
+      "corrected_text": "Needs verification against original"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כה, makor text",
+      "description": "OCR reads 'את הברכה אשר תשמעו ק\"ת תורה'. The abbreviation 'ק\"ת' seems unusual - may be 'קר\"ת' or something else.",
+      "original_text": "את הברכה אשר תשמעו ק\"ת תורה",
+      "corrected_text": "Needs verification of abbreviation"
+    }
+  ],
+  "corrected_json": null
+}

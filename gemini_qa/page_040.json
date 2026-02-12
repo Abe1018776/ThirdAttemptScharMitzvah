@@ -1,0 +1,113 @@
+{
+  "page": 40,
+  "book_page": 76,
+  "raw_response": "Based on the review of the provided image and OCR result, here is the analysis:\n\n**Summary**: The OCR execution is excellent. The complex task of reading the Right column first, then the Left column, while handling a cross-column text wrap (from the bottom of Section 33 in the Right column to the top of the Left column) was performed correctly. The extracted text is highly accurate with only one minor textual insertion (\"hallucination\") found in Section 32. Metadata regarding page side appears incorrect based on standard Hebrew printing conventions, but this is minor.\n\n```json\n{\n  \"page\": 60,\n  \"book_page\": 60,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR is highly accurate, correctly handling the multi-column layout and the seamless text join between the bottom of the right column and top of the left column. Source extraction is precise. A single minor issue was found where a word was inserted into Section 32 that does not appear in the image.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section לב (32), Paragraph 1\",\n      \"description\": \"The OCR inserted the word 'שבידוע' (that it is known) which does not appear in the image. The text flows directly from 'שנותיו' to 'שלא'.\",\n      \"original_text\": \"וה\\\"ה שעברו רוב שנותיו שבידוע שלא יחטא\",\n      \"corrected_text\": \"וה\\\"ה שעברו רוב שנותיו שלא יחטא\"\n    },\n    {\n      \"type\": \"other\",\n      \"severity\": \"minor\",\n      \"location\": \"Metadata - page_side\",\n      \"description\": \"The page number 'ס' (60) appears on the top right corner along with the book title 'שכר', which typically indicates a Right-side page (Recto / Side A) in Hebrew printing. The OCR labeled it 'left'.\",\n      \"original_text\": \"left\",\n      \"corrected_text\": \"right\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"ס\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": null,\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"בדין הוא שיטול שכרו.\",\n        \"source_ref\": \"אמרי יצחק פנחס\"\n      },\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"אם זכי' ראה ג' דורות, ואין תורה פוסקת מזרעו וכו' איכא שכר עוה\\\"ז.\",\n        \"source_ref\": \"ברכת יצחק פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לב\",\n        \"title\": \"מי שעברו רוב שנותיו ולא חטא\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וה\\\"ה שעברו רוב שנותיו שלא יחטא עוד בטל יצה\\\"ר הנ\\\"ל ויש שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"פמ\\\"ג פתיחה כוללת או\\\"ח ח\\\"ד סי' ח\\\"י\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"טעם למאי דקיי\\\"ל שכר מצוה בהאי עלמא ליכא וכו' שאם יעשה אדם מצוה וכו' ויספקו לו שכר וכו' ולמחר יעבור עבירה וכו' לפעמים משכחת לניכא אדם זה וכו' כיון שעבר אדם רוב שנותיו ולא חטא שוב אינו חוטא וכו' לאיש כזה שפיר מגיע שכרו בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"חוט המשולש עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לג\",\n        \"title\": \"מי שהגיע לשנת הארבעים ואחת ולא חטא בכל שנותיו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ע\\\"כ מרמז הפסוק אם בחוקותי תלכו, כי ימי שנותינו בהם שבעים שנה, ואם בגבורות שמונים, והרוב של שמונים הוא מ\\\"א, גימטריא א\\\"ם, והיינו א\\\"ם בחוקותי, היינו שתלכו מ\\\"א שנה בחוקותי בלא חטא אז ושמרתם ועשיתם אותם, היינו אני בטוח שלא תחטאו עוד. ועכל\\\"ק. ולפי\\\"ז נמצא שגם כל יעודי עוה\\\"ז שאח\\\"כ קאי על זה.\",\n            \"source_ref\": \"שפת אמת להרב הצדיק מו\\\"ה משולם שרגא פייבוש מברעזאן זצוק\\\"ל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לד\",\n        \"title\": \"מי שכולם יעידו ויגידו עליו שראוי לשכרו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולא נחת שכר מצוה בהאי עלמא וכו' שיש לטועים בעולם שאין זוכה בכלל אלא יהיה קושיא מפני מה צדיק וטוב לו וצדיק ורע וכו' אבל בפנחס וכו' כולם יעידו ויגידו שראוי הוא לכך וכו' לכן אמור הנני נותן וכו'.\",\n            \"source_ref\": \"שבט מיהודה פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"לה\",\n        \"title\": \"מי שהשכינה שורה עליו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר מצוה בהאי עלמא ליכא י\\\"ל מטעם שמא יחטא, אך ליעקב אמר דממ\\\"נ היטיב לך וכו' דאם השכינה שורה על האדם שוב לא יחטא וכו' וא\\\"כ מכל זה ראוי להיטיב לו.\",\n            \"source_ref\": \"חינוך בית יהודה דרך ד דרוש ב\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 60,
+    "book_page": 60,
+    "overall_quality": "excellent",
+    "summary": "The OCR is highly accurate, correctly handling the multi-column layout and the seamless text join between the bottom of the right column and top of the left column. Source extraction is precise. A single minor issue was found where a word was inserted into Section 32 that does not appear in the image.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section לב (32), Paragraph 1",
+        "description": "The OCR inserted the word 'שבידוע' (that it is known) which does not appear in the image. The text flows directly from 'שנותיו' to 'שלא'.",
+        "original_text": "וה\"ה שעברו רוב שנותיו שבידוע שלא יחטא",
+        "corrected_text": "וה\"ה שעברו רוב שנותיו שלא יחטא"
+      },
+      {
+        "type": "other",
+        "severity": "minor",
+        "location": "Metadata - page_side",
+        "description": "The page number 'ס' (60) appears on the top right corner along with the book title 'שכר', which typically indicates a Right-side page (Recto / Side A) in Hebrew printing. The OCR labeled it 'left'.",
+        "original_text": "left",
+        "corrected_text": "right"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "ס",
+        "page_side": "right",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": null,
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "בדין הוא שיטול שכרו.",
+          "source_ref": "אמרי יצחק פנחס"
+        },
+        {
+          "type": "continuation_fragment",
+          "text": "אם זכי' ראה ג' דורות, ואין תורה פוסקת מזרעו וכו' איכא שכר עוה\"ז.",
+          "source_ref": "ברכת יצחק פנחס"
+        },
+        {
+          "type": "section",
+          "number": "לב",
+          "title": "מי שעברו רוב שנותיו ולא חטא",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וה\"ה שעברו רוב שנותיו שלא יחטא עוד בטל יצה\"ר הנ\"ל ויש שכר מצוה בהאי עלמא.",
+              "source_ref": "פמ\"ג פתיחה כוללת או\"ח ח\"ד סי' ח\"י"
+            },
+            {
+              "is_makor": false,
+              "text": "טעם למאי דקיי\"ל שכר מצוה בהאי עלמא ליכא וכו' שאם יעשה אדם מצוה וכו' ויספקו לו שכר וכו' ולמחר יעבור עבירה וכו' לפעמים משכחת לניכא אדם זה וכו' כיון שעבר אדם רוב שנותיו ולא חטא שוב אינו חוטא וכו' לאיש כזה שפיר מגיע שכרו בעוה\"ז וכו'.",
+              "source_ref": "חוט המשולש עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לג",
+          "title": "מי שהגיע לשנת הארבעים ואחת ולא חטא בכל שנותיו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ע\"כ מרמז הפסוק אם בחוקותי תלכו, כי ימי שנותינו בהם שבעים שנה, ואם בגבורות שמונים, והרוב של שמונים הוא מ\"א, גימטריא א\"ם, והיינו א\"ם בחוקותי, היינו שתלכו מ\"א שנה בחוקותי בלא חטא אז ושמרתם ועשיתם אותם, היינו אני בטוח שלא תחטאו עוד. ועכל\"ק. ולפי\"ז נמצא שגם כל יעודי עוה\"ז שאח\"כ קאי על זה.",
+              "source_ref": "שפת אמת להרב הצדיק מו\"ה משולם שרגא פייבוש מברעזאן זצוק\"ל"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לד",
+          "title": "מי שכולם יעידו ויגידו עליו שראוי לשכרו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולא נחת שכר מצוה בהאי עלמא וכו' שיש לטועים בעולם שאין זוכה בכלל אלא יהיה קושיא מפני מה צדיק וטוב לו וצדיק ורע וכו' אבל בפנחס וכו' כולם יעידו ויגידו שראוי הוא לכך וכו' לכן אמור הנני נותן וכו'.",
+              "source_ref": "שבט מיהודה פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "לה",
+          "title": "מי שהשכינה שורה עליו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר מצוה בהאי עלמא ליכא י\"ל מטעם שמא יחטא, אך ליעקב אמר דממ\"נ היטיב לך וכו' דאם השכינה שורה על האדם שוב לא יחטא וכו' וא\"כ מכל זה ראוי להיטיב לו.",
+              "source_ref": "חינוך בית יהודה דרך ד דרוש ב"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

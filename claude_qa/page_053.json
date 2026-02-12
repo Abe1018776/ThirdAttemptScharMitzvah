@@ -1,0 +1,41 @@
+{
+  "page": 53,
+  "book_page": 89,
+  "overall_quality": "good",
+  "summary": "Page 53 (book page 73) captures continuation of section נז, then sections נח through סא. Structure and section numbering correct. The grouping header 'נסיון' visible in the image at the bottom-right is missing from OCR. The 'עניו' header is captured.",
+  "issues": [
+    {
+      "type": "missing_text",
+      "severity": "major",
+      "location": "Between section ס and grouping header עניו",
+      "description": "The image shows a grouping header 'נסיון' at the bottom of the right column. The OCR only captures the 'עניו' grouping header but misses 'נסיון'. Looking at the page layout: right column has continuation + נח + נט, then at the bottom-right 'נסיון' header appears, followed by ס on the left column. The OCR should have a grouping_header 'נסיון' before section ס.",
+      "original_text": "(missing)",
+      "corrected_text": "Add grouping_header with title 'נסיון' before section ס"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ס, makor text",
+      "description": "OCR has 'היינו בלא לא היו לו נסיונות' - 'בלא' seems wrong. Image likely shows 'היינו דלא היו לו נסיונות' or 'היינו כשלא היו לו נסיונות'.",
+      "original_text": "היינו בלא לא היו לו נסיונות",
+      "corrected_text": "Verify - possibly 'היינו דלא היו לו נסיונות'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סא, makor text",
+      "description": "OCR text has 'דהיינו כלומר על גילוי תעשו מצות עשה' - the phrase 'על גילוי' seems incorrect OCR. Image appears to show different wording.",
+      "original_text": "דהיינו כלומר על גילוי תעשו מצות עשה",
+      "corrected_text": "Verify - 'על גילוי' seems like incorrect OCR"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section נט, second paragraph source_ref",
+      "description": "OCR has 'חת\"ס אבות, ת\"מ מהת\"ל תצא'. The abbreviations are complex. Verify against original.",
+      "original_text": "חת\"ס אבות, ת\"מ מהת\"ל תצא",
+      "corrected_text": "Verify source ref abbreviations"
+    }
+  ],
+  "corrected_json": null
+}

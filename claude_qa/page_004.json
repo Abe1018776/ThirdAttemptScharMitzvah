@@ -1,0 +1,33 @@
+{
+  "page": 4,
+  "book_page": 40,
+  "overall_quality": "good",
+  "summary": "Page 4 covers the continuation from section yod-bet, then sections yod-gimel through yod-zayin. The grouping header is correctly captured. Section yod-zayin has empty paragraphs - the makor text visible on the page was not captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section טו, paragraph 1 makor",
+      "description": "OCR has 'שמיוע לקיום העולם' - the word 'שמיוע' should likely be 'שמסייע' (helps).",
+      "original_text": "שמיוע לקיום העולם",
+      "corrected_text": "שמסייע לקיום העולם"
+    },
+    {
+      "type": "missing_text",
+      "severity": "major",
+      "location": "section יז",
+      "description": "Section יז has an empty paragraphs array. Looking at the image bottom-left, section יז begins with its title and there is makor text visible on this page starting with content about receiving the Torah. The beginning of the makor text should be captured even though it continues to the next page.",
+      "original_text": "paragraphs: []",
+      "corrected_text": "Should contain the beginning of the makor paragraph visible on this page"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section טו, paragraph 2",
+      "description": "Source ref 'ערוה\"ב' is an abbreviation that may be unclear. It likely stands for ערבי נחל ואתחנן ב'.",
+      "original_text": "ערוה\"ב",
+      "corrected_text": "ערוה\"ב"
+    }
+  ],
+  "corrected_json": null
+}

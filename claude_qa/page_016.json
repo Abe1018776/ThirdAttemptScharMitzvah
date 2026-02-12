@@ -1,0 +1,33 @@
+{
+  "page": 16,
+  "book_page": 52,
+  "overall_quality": "good",
+  "summary": "Page 16 (book page לו) continues section כה from previous page, then has sections כו through ל (beginning). Structure correctly noted with continues_from כה and continues_to ל. Section numbering is correct and sequential.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כז, makor text",
+      "description": "The OCR reads 'פן מנכה מצדקהו' - the word 'מצדקהו' may be 'מצדקתו' (from his righteousness).",
+      "original_text": "פן מנכה מצדקהו",
+      "corrected_text": "Possibly 'פן מנכה מצדקתו'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כט, makor text",
+      "description": "The OCR text contains complex halachic language 'דינא כנגעו בסימנים של בעה\"ב ולא קנאו בשינוי כלי' which is difficult to verify against the image. Some words may be misread.",
+      "original_text": "דינא כנגעו בסימנים של בעה\"ב ולא קנאו בשינוי כלי",
+      "corrected_text": "Needs careful verification - halachic terminology"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section כז, body paragraph source_ref",
+      "description": "Source ref reads 'וויגד משה תולדות' with double vav. Should likely be 'ויגד משה תולדות' with single vav prefix.",
+      "original_text": "וויגד משה תולדות",
+      "corrected_text": "ויגד משה תולדות"
+    }
+  ],
+  "corrected_json": null
+}

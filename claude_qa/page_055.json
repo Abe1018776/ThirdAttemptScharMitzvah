@@ -1,0 +1,41 @@
+{
+  "page": 55,
+  "book_page": 91,
+  "overall_quality": "good",
+  "summary": "Page 55 (book page 75) captures sections סט through עה plus grouping header 'עבודה'. Structure and section numbering are correct. Section עה continues to next page with empty paragraphs array (correct). Some minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סט, makor text",
+      "description": "OCR has 'הה\"ד אם מזדמן עבירה שראוי ליתן עליה שכר' - the abbreviation 'הה\"ד' seems wrong for this context. Image may show a different abbreviation.",
+      "original_text": "הה\"ד אם מזדמן עבירה",
+      "corrected_text": "Verify abbreviation - possibly different reading"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סט, makor text",
+      "description": "OCR has 'שמדת דינו הדק כן הוא' - 'הדק' seems like an OCR error. Image may show 'הדין' or similar.",
+      "original_text": "שמדת דינו הדק כן הוא",
+      "corrected_text": "Verify - possibly 'שמדת הדין כן הוא'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ע, source_ref",
+      "description": "Long source ref 'כרם שלמה בשם הגר\"י גר\"פ אבד\"ק סעמיהאלי זצ\"ל' - verify exact spelling of personal name 'סעמיהאלי'.",
+      "original_text": "סעמיהאלי",
+      "corrected_text": "Verify name spelling"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עג, makor text",
+      "description": "OCR has 'שבשכר החלט עובד עבודתא שפירתא' - 'החלט' seems like an OCR error. Image may show 'דשכבר' or 'דכשעובד'.",
+      "original_text": "שבשכר החלט עובד עבודתא שפירתא",
+      "corrected_text": "Verify - 'החלט' may be incorrect"
+    }
+  ],
+  "corrected_json": null
+}

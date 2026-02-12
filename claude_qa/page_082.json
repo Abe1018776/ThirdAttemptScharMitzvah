@@ -1,0 +1,49 @@
+{
+  "page": 82,
+  "book_page": 118,
+  "overall_quality": "good",
+  "summary": "Page 82 (book page 102) has correct continuation from section עה, then sections עו through עט. Column order is correct (right then left). The grouping header 'עזר מה' is present. Most sections are accurately captured. Some minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section עו, makor text",
+      "description": "OCR has 'אם מלך הדין שכל מצוה בהאי עלמא ליכא' - 'מלך הדין' is almost certainly a misread. Based on context, it should be 'מכלל הדין שכר מצוה בהאי עלמא ליכא' (from the rule that reward for mitzvot is not in this world).",
+      "original_text": "אם מלך הדין שכל מצוה בהאי עלמא ליכא",
+      "corrected_text": "אם מכלל הדין שכר מצוה בהאי עלמא ליכא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עו, body paragraph",
+      "description": "OCR has 'הא דשכר מצוה בה\"ע ליכא' - 'בה\"ע' is an abbreviation for 'בהאי עלמא'. This is acceptable but inconsistent with the full spelling used elsewhere.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section עז, makor source_ref",
+      "description": "OCR has 'מגן אבות, פ\"ו אבות.' - looking at the image, this appears to be 'מגן אבות, פ\"ו אבות' with the period being part of the OCR, not the text.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עח, makor text",
+      "description": "OCR has 'אם בחוקות הדין ח\"ו' - the image appears to read 'אם בחוקותי' followed by 'הדין'. The verse reference 'אם בחוקותי' (Lev. 26:3) may be split oddly.",
+      "original_text": "אם בחוקות הדין",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section עט, makor text",
+      "description": "OCR text mentions 'בתורת חסד ומתנה שהמתחיל הוא השי\"ת' - the image appears to read similarly. This text is also very close to section ע/פ text, which is expected as they may share a common source.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

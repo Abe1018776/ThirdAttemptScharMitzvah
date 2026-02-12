@@ -1,0 +1,165 @@
+{
+  "page": 25,
+  "book_page": 61,
+  "raw_response": "```json\n{\n  \"page\": 45,\n  \"book_page\": 45,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, section identification, and source extraction are excellent. Column handling is correct. However, there are several specific transcription errors in the body text of sections פד and פז, mostly involving misread abbreviations/ligatures (ש vs ק, שהז\\\"ג vs דאו\\\"ג) and character confusions (צ vs נ, כ for ס).\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פד, paragraph 2\",\n      \"description\": \"Misread abbreviation. 'וז\\\"ש' (VeZehu SheAmar/SheKatuv) read as 'וז\\\"ק'.\",\n      \"original_text\": \"וז\\\"ק ושמרתם\",\n      \"corrected_text\": \"וז\\\"ש ושמרתם\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section פז, paragraph 1\",\n      \"description\": \"Wrong abbreviation transcription. Image shows 'שהז\\\"ג' (SheHazman Grama), OCR produced 'דאו\\\"ג'.\",\n      \"original_text\": \"דמ\\\"ע דאו\\\"ג\",\n      \"corrected_text\": \"דמ\\\"ע שהז\\\"ג\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section פז, paragraph 1\",\n      \"description\": \"Word transcription error. 'המצות' (HaMitzvot) read as 'המנות'.\",\n      \"original_text\": \"בלאו המנות\",\n      \"corrected_text\": \"בלאו המצות\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section פז, paragraph 1\",\n      \"description\": \"Word transcription error resulting in non-word/nonsense. 'דבליכא' (DeBeLeicha) read as 'דבליס'. The combination 'כא' was misread as 'ס'.\",\n      \"original_text\": \"דבליס רק\",\n      \"corrected_text\": \"דבליכא רק\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"מה\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"פא\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"פח\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"שמתנהגים עמו בדרך הנקי שהוא בלא גבול.\",\n        \"source_ref\": \"פני אברהם מסכת שבת פט\\\"ו\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פב\",\n        \"title\": \"המקיים ג' סעודות שבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"להג' סעודות משפיעין בני חיי ומזוני וכו' כמ\\\"ש בזמרי יוסף בשם רבה\\\"ק מלובלין זללה\\\"ה\",\n            \"source_ref\": \"חקל יצחק פי' נח\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ויראה במה שכתבו חכמי המדע כי מי שהוא זוכה לקיים הג' סעודות כהלכתן ולא יפגע בכל סעודותיו בחול ויחול להם מקדושת שבת.\",\n            \"source_ref\": \"פתח עינים שבת פט\\\"ז\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פג\",\n        \"title\": \"על הוצאות שבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כל מזונותיו של אדם קצובין לו מר\\\"ה חוץ מהוצאות שבת.\",\n            \"source_ref\": \"ביצה טז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פד\",\n        \"title\": \"על תוספת שבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אלא יפלס לך הקב\\\"ה עכשיו אפילו על תוספות שבת להורייתא וכו'.\",\n            \"source_ref\": \"שם אליעזר, שבת\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וז\\\"ש ושמרתם את דברי הברית, ברית נקרא שבת, את לרבות תוספות שבת ועל זה מגיע שכר בהאי עלמא.\",\n            \"source_ref\": \"דברי אליעזר תבא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פה\",\n        \"title\": \"המקיים סעודת מלוה מלכה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כל מי שישמור סעודת מלוה מלכה בטוח הוא במזונות תמיד.\",\n            \"source_ref\": \"משמיע שלום\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פו\",\n        \"title\": \"על הוצאות יו''ט\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כל מזונותיו של אדם קצובין לו מר\\\"ה חוץ מהוצאות וכו' ויו\\\"ט.\",\n            \"source_ref\": \"ביצה טז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פז\",\n        \"title\": \"על מצות שמחה ביו''ט\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכללא הוא והרי וכו' שמחה וכו' דמ\\\"ע שהז\\\"ג וכו' (וקידושין לד.). וכתב הגרש\\\"ק זל\\\"ל וזל\\\"ק: אבל בלאו המצות שהזמן גרמא בהם דבליכא רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פח\",\n        \"title\": \"על שמחת יו''ט לשם שמים.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל יש מצות שיש בהם הנאת הגוף כמו וכו' ושמחת יו\\\"ט וכו' וזה אם יזכך עצמו וכו' אלא לקיים\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 45,
+    "book_page": 45,
+    "overall_quality": "good",
+    "summary": "The structural parsing, section identification, and source extraction are excellent. Column handling is correct. However, there are several specific transcription errors in the body text of sections פד and פז, mostly involving misread abbreviations/ligatures (ש vs ק, שהז\"ג vs דאו\"ג) and character confusions (צ vs נ, כ for ס).",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section פד, paragraph 2",
+        "description": "Misread abbreviation. 'וז\"ש' (VeZehu SheAmar/SheKatuv) read as 'וז\"ק'.",
+        "original_text": "וז\"ק ושמרתם",
+        "corrected_text": "וז\"ש ושמרתם"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section פז, paragraph 1",
+        "description": "Wrong abbreviation transcription. Image shows 'שהז\"ג' (SheHazman Grama), OCR produced 'דאו\"ג'.",
+        "original_text": "דמ\"ע דאו\"ג",
+        "corrected_text": "דמ\"ע שהז\"ג"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section פז, paragraph 1",
+        "description": "Word transcription error. 'המצות' (HaMitzvot) read as 'המנות'.",
+        "original_text": "בלאו המנות",
+        "corrected_text": "בלאו המצות"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section פז, paragraph 1",
+        "description": "Word transcription error resulting in non-word/nonsense. 'דבליכא' (DeBeLeicha) read as 'דבליס'. The combination 'כא' was misread as 'ס'.",
+        "original_text": "דבליס רק",
+        "corrected_text": "דבליכא רק"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "מה",
+        "page_side": "right",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "פא",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "פח",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "שמתנהגים עמו בדרך הנקי שהוא בלא גבול.",
+          "source_ref": "פני אברהם מסכת שבת פט\"ו"
+        },
+        {
+          "type": "section",
+          "number": "פב",
+          "title": "המקיים ג' סעודות שבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "להג' סעודות משפיעין בני חיי ומזוני וכו' כמ\"ש בזמרי יוסף בשם רבה\"ק מלובלין זללה\"ה",
+              "source_ref": "חקל יצחק פי' נח"
+            },
+            {
+              "is_makor": false,
+              "text": "ויראה במה שכתבו חכמי המדע כי מי שהוא זוכה לקיים הג' סעודות כהלכתן ולא יפגע בכל סעודותיו בחול ויחול להם מקדושת שבת.",
+              "source_ref": "פתח עינים שבת פט\"ז"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פג",
+          "title": "על הוצאות שבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כל מזונותיו של אדם קצובין לו מר\"ה חוץ מהוצאות שבת.",
+              "source_ref": "ביצה טז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פד",
+          "title": "על תוספת שבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אלא יפלס לך הקב\"ה עכשיו אפילו על תוספות שבת להורייתא וכו'.",
+              "source_ref": "שם אליעזר, שבת"
+            },
+            {
+              "is_makor": false,
+              "text": "וז\"ש ושמרתם את דברי הברית, ברית נקרא שבת, את לרבות תוספות שבת ועל זה מגיע שכר בהאי עלמא.",
+              "source_ref": "דברי אליעזר תבא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פה",
+          "title": "המקיים סעודת מלוה מלכה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כל מי שישמור סעודת מלוה מלכה בטוח הוא במזונות תמיד.",
+              "source_ref": "משמיע שלום"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פו",
+          "title": "על הוצאות יו''ט",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כל מזונותיו של אדם קצובין לו מר\"ה חוץ מהוצאות וכו' ויו\"ט.",
+              "source_ref": "ביצה טז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פז",
+          "title": "על מצות שמחה ביו''ט",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכללא הוא והרי וכו' שמחה וכו' דמ\"ע שהז\"ג וכו' (וקידושין לד.). וכתב הגרש\"ק זל\"ל וזל\"ק: אבל בלאו המצות שהזמן גרמא בהם דבליכא רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פח",
+          "title": "על שמחת יו''ט לשם שמים.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל יש מצות שיש בהם הנאת הגוף כמו וכו' ושמחת יו\"ט וכו' וזה אם יזכך עצמו וכו' אלא לקיים",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,49 @@
+{
+  "page": 42,
+  "book_page": 62,
+  "overall_quality": "good",
+  "summary": "Page contains continuation of section מא from previous page, then section מב, grouping header 'מקום מסויים', and section מג (בארץ ישראל) with three paragraphs. This is the final page in the batch. Right column has continuation fragment and section מב with additional body text. Left column has grouping header and section מג. Structure is correct.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment text",
+      "description": "OCR: 'אז שכר מקיום המצות שנעשו ימי החול כעפרה.' The word 'כעפרה' is unusual. It may be a different word in the image - possibly 'כעבורה' or similar. The source 'בית אברהם פ' תצא' should also be verified.",
+      "original_text": "כעפרה",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section מג, second paragraph (body)",
+      "description": "OCR: 'דבחי' מגיע שכר בהאי עלמא וכו' והוא למעלה מן המזל יכולים לקבל אף בט\"ע.' The word 'דבחי'' appears to be a misread of 'דבא\"י' (in Eretz Yisrael / בארץ ישראל). Given the context of section מג is specifically about ארץ ישראל, 'דבא\"י' makes much more sense than 'דבחי''. This is a significant misread.",
+      "original_text": "דבחי'",
+      "corrected_text": "דבא\"י"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section מב, makor text",
+      "description": "OCR: 'ביום השביעי יהיה לכם קודש שגם הגוף יתקדש מהנאה רבה'. The phrase 'מהנאה רבה' should be verified. The image text under section מב is somewhat hard to read and may contain different words. Also 'כיום' vs 'ביום' at the start should be checked.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section מב, full makor context",
+      "description": "The image for section מב shows text about Shabbat and the body becoming holy. The OCR captures the general meaning but specific words may differ from the image. The source 'דברי אליעזר ויקהל' appears to match.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Right column body text for section מא/מב",
+      "description": "The right column contains substantial body text between the continuation fragment and section מב. Looking at the image, there is body text discussing the concept of Shabbat and שכר. The OCR captures sections מב as a new section but there may be additional body text from section מא that extends beyond the simple continuation fragment. The text beginning with 'דכל\"ד מגיע שכר בהאי עלמא וכו'' and continuing for several lines in the right column may not be fully captured.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,25 @@
+{
+  "page": 30,
+  "book_page": 66,
+  "overall_quality": "good",
+  "summary": "Page 30 (book page 50/nun). Covers continuation of section 112, then sections 113-118. All section numbers are correctly sequential. The page stays within the 'צדקה וגמילות חסדים' topic area. Section 118 continues to the next page.",
+  "issues": [
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section 117 (קיז), source_ref",
+      "description": "The source ref has a leading vav prefix: 'ובית נפתלי ראה'. Source refs should not include conjunctive prefixes. Should be 'בית נפתלי ראה'.",
+      "original_text": "ובית נפתלי ראה",
+      "corrected_text": "בית נפתלי ראה"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section 118 (קיח), third paragraph",
+      "description": "The third body paragraph of section 118 has no source_ref. It starts with 'ובחנוני נא בזאת...' and the text continues to the next page, so the source ref likely appears there.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

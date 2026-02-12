@@ -1,0 +1,25 @@
+{
+  "page": 68,
+  "book_page": 104,
+  "overall_quality": "good",
+  "summary": "Page 88 (right side), new chapter 6 'Ofanim B'Kiyum HaMitzvah'. Contains chapter header, grouping header 'ratzon v'hishtokekut', sections 1-4, grouping header 'mekabel', and start of section 5 (continues to next page). Structure is well captured.",
+  "issues": [
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section ב, paragraph 2, source_ref",
+      "description": "OCR has 'וברכת שלמה' with a leading vav that may not be part of the sefer name. The image appears to show 'ברכת שלמה - ראדאמסק, וישלח' without the leading vav.",
+      "original_text": "וברכת שלמה - ראדאמסק, וישלח",
+      "corrected_text": "ברכת שלמה - ראדאמסק, וישלח"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ד, paragraph 2, makor text",
+      "description": "OCR has 'דתקבלו עליכם לעשותה' where the ending word may be 'לעשותם' (plural) rather than 'לעשותה' (singular), based on the image.",
+      "original_text": "לעשותה",
+      "corrected_text": "לעשותם"
+    }
+  ],
+  "corrected_json": null
+}

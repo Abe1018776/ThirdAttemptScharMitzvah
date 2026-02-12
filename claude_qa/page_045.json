@@ -1,0 +1,57 @@
+{
+  "page": 45,
+  "book_page": 81,
+  "overall_quality": "good",
+  "summary": "Page 45 (book page 65/81) continues Chapter 5. Starts with continuation fragment from section yud, then sections yud-aleph through tet-zayin. Contains grouping header 'Yisurim'. Structure is well captured overall. The page_side is marked 'left' but the Hebrew page number is סה which would typically be a right page - however this may be correct depending on binding.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment",
+      "description": "The continuation fragment text 'מה שהחסיר לנו הקב\"ה' is very short. Looking at the image, the continuation text at the top of the right column appears to say something like 'מה שהתיר לנו הקב\"ה' (what Hashem permitted us). The word 'החסיר' vs 'התיר' needs verification.",
+      "original_text": "מה שהחסיר לנו הקב\"ה.",
+      "corrected_text": "מה שהתיר לנו הקב\"ה."
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-bet (12), makor paragraph",
+      "description": "OCR has 'למאור זרע בירך' at the start. The image shows this appears to be a book title reference 'למאור'. Also 'בירך' may be part of a source reference rather than body text.",
+      "original_text": "למאור זרע בירך (פי' עקב)",
+      "corrected_text": "למאור זרע בירך (פי' עקב)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section tet-zayin (16), makor paragraph",
+      "description": "OCR has 'שת קבל שכר על שתיקתו' but image shows 'שתק קבל שכר על שתיקתו' - the word should be 'שתק' (he was silent), not 'שת'.",
+      "original_text": "וברש\"י שת קבל שכר על שתיקתו",
+      "corrected_text": "וברש\"י שתק קבל שכר על שתיקתו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section tet-zayin (16), makor paragraph",
+      "description": "The phrase 'שנאמר לו לבדו פ' שתויי יין' - the image shows 'שנאמרה לו לבדו פ' שתויי יין'. The source at end appears to be part of the text rather than a separate source_ref.",
+      "original_text": "שנאמר לו לבדו פ' שתויי יין",
+      "corrected_text": "שנאמרה לו לבדו פ' שתויי יין"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section tet-zayin (16), source_ref",
+      "description": "Source ref is 'ויקרא י ג' which is the biblical verse reference, not the sefer name. The image shows this is a reference to the Rashi on Vayikra 10:3, so the source should indicate the context better.",
+      "original_text": "ויקרא י ג",
+      "corrected_text": "ויקרא י ג"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section tet-vav (15), makor paragraph",
+      "description": "The text 'ושכרו שיראה זרע יאריך ימים' - in the image this reads correctly. No issue here, text matches.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

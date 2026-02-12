@@ -1,0 +1,130 @@
+{
+  "page": 32,
+  "book_page": 68,
+  "raw_response": "```json\n{\n  \"page\": 52,\n  \"book_page\": 52,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is highly accurate. It correctly handled the layout where the title for section 128 (קכח) is at the bottom of the right column and its content is at the top of the left column. Transcriptions and source extractions are precise, with only one minor error in a page number reference.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Continuation Fragment (top of page)\",\n      \"description\": \"The OCR transcribed the source page as 'דף רנ\\\"ו' (256). Tractate Shabbat ends at page 157. The image text is 'דף נ\\\"ו' (56). The character preceding 'נ' is 'דף' (Daf), not regular text.\",\n      \"original_text\": \"אגדות מהרי\\\"ט שבת דף רנ\\\"ו\",\n      \"corrected_text\": \"אגדות מהרי\\\"ט שבת דף נ\\\"ו\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נב\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"קכה\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"קלב\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"שכרו באופן אחר חלף העשירות, לזאת גילה הכתוב איש אשר יתן לכהן לו יהיה ממון הרבה, דלהן הבטיחה התורה שיהיה השכר כפשוטו ממון הרבה.\",\n        \"source_ref\": \"אגדות מהרי\\\"ט שבת דף נ\\\"ו\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכו\",\n        \"title\": \"בזכות קיום המצות מקבל שפע כדי שיוכל ליתן צדקה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ונראה לתרץ מהא דאיתא בפרקי אבות (פ\\\"ד מ\\\"ב) שכר מצוה מצוה, פירוש כי שכר מצוה בהאי עלמא ליכא, אלא שכר מצוה הוא שגוררת עוד מצוה אחרת. וזהו ונתתי גשמיכם בעתם, ומחמת הגשם יהיה ברכה בעולם, ויוכלו כל אחד ליתן צדקה.\",\n            \"source_ref\": \"קדושת לוי בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכז\",\n        \"title\": \"העושה גמילות חסדים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אלו דברים שאדם אוכל פירותיהם בעוה\\\"ז וכו' ואלו הן וכו' וגמילות חסדים וכו'\",\n            \"source_ref\": \"פאה מ\\\"א\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"היוצא לנו מזה, דבשכר גמילות חסדים יש שכר גם בהאי עלמא.\",\n            \"source_ref\": \"תפארת חיים אות נ\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכח\",\n        \"title\": \"מי שעושית גמילות חסד עם חמותה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ישלם ה' פעלך ותהי משכורתך שלימה וכו' שהשכר שהיתה לה בעוה\\\"ז היה על מה שעשתה עם חמותה וכו'.\",\n            \"source_ref\": \"בשורת אליהו, רות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קכט\",\n        \"title\": \"על החסד בין אדם לחבירו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כל יעודי טובות עוה\\\"ז וכו' על החסד שבין אדם לחבירו וכו' וע\\\"ז באו ברכת עוה\\\"ז.\",\n            \"source_ref\": \"אמרי אש בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קל\",\n        \"title\": \"על הכנסת אורחים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אר\\\"י ששה דברים אדם אוכל פירותיהן בעוה\\\"ז וכו' ואלו הן הכנסת אורחים וכו'.\",\n            \"source_ref\": \"שבת קכז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קלא\",\n        \"title\": \"הדן את חבירו לכף זכות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אר\\\"י ששה דברים אדם אוכל פירותיהן בעוה\\\"ז וכו' ואלו הן וכו' והדן את חבירו לכף זכות וכו'.\",\n            \"source_ref\": \"שבת קכז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קלב\",\n        \"title\": \"על מה שמשמח החתן ומשבחים בפניו הכלה בבי הילולא.\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 52,
+    "book_page": 52,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is highly accurate. It correctly handled the layout where the title for section 128 (קכח) is at the bottom of the right column and its content is at the top of the left column. Transcriptions and source extractions are precise, with only one minor error in a page number reference.",
+    "issues": [
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "Continuation Fragment (top of page)",
+        "description": "The OCR transcribed the source page as 'דף רנ\"ו' (256). Tractate Shabbat ends at page 157. The image text is 'דף נ\"ו' (56). The character preceding 'נ' is 'דף' (Daf), not regular text.",
+        "original_text": "אגדות מהרי\"ט שבת דף רנ\"ו",
+        "corrected_text": "אגדות מהרי\"ט שבת דף נ\"ו"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נב",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "קכה",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "קלב",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "שכרו באופן אחר חלף העשירות, לזאת גילה הכתוב איש אשר יתן לכהן לו יהיה ממון הרבה, דלהן הבטיחה התורה שיהיה השכר כפשוטו ממון הרבה.",
+          "source_ref": "אגדות מהרי\"ט שבת דף נ\"ו"
+        },
+        {
+          "type": "section",
+          "number": "קכו",
+          "title": "בזכות קיום המצות מקבל שפע כדי שיוכל ליתן צדקה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ונראה לתרץ מהא דאיתא בפרקי אבות (פ\"ד מ\"ב) שכר מצוה מצוה, פירוש כי שכר מצוה בהאי עלמא ליכא, אלא שכר מצוה הוא שגוררת עוד מצוה אחרת. וזהו ונתתי גשמיכם בעתם, ומחמת הגשם יהיה ברכה בעולם, ויוכלו כל אחד ליתן צדקה.",
+              "source_ref": "קדושת לוי בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכז",
+          "title": "העושה גמילות חסדים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז וכו' ואלו הן וכו' וגמילות חסדים וכו'",
+              "source_ref": "פאה מ\"א"
+            },
+            {
+              "is_makor": false,
+              "text": "היוצא לנו מזה, דבשכר גמילות חסדים יש שכר גם בהאי עלמא.",
+              "source_ref": "תפארת חיים אות נ"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכח",
+          "title": "מי שעושית גמילות חסד עם חמותה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ישלם ה' פעלך ותהי משכורתך שלימה וכו' שהשכר שהיתה לה בעוה\"ז היה על מה שעשתה עם חמותה וכו'.",
+              "source_ref": "בשורת אליהו, רות"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קכט",
+          "title": "על החסד בין אדם לחבירו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כל יעודי טובות עוה\"ז וכו' על החסד שבין אדם לחבירו וכו' וע\"ז באו ברכת עוה\"ז.",
+              "source_ref": "אמרי אש בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קל",
+          "title": "על הכנסת אורחים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אר\"י ששה דברים אדם אוכל פירותיהן בעוה\"ז וכו' ואלו הן הכנסת אורחים וכו'.",
+              "source_ref": "שבת קכז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קלא",
+          "title": "הדן את חבירו לכף זכות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אר\"י ששה דברים אדם אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והדן את חבירו לכף זכות וכו'.",
+              "source_ref": "שבת קכז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קלב",
+          "title": "על מה שמשמח החתן ומשבחים בפניו הכלה בבי הילולא.",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,123 @@
+{
+  "page": 76,
+  "book_page": 112,
+  "raw_response": "{\n  \"page\": 96,\n  \"book_page\": 112,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is highly accurate. Structural parsing of chapters, sections, paragraphs, and headers is perfect. Handling of cross-column flow and source references is correct. A single character substitution error was identified in Section 47.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section מז (47), Paragraph 1 (Makor HaMitzvah)\",\n      \"description\": \"Visual misinterpretation of a character. The printed word contains a Tav (ת), recognizable by its left 'leg', but the OCR transcribed it as a Mem (מ). Contextually, 'שאתה' (that you) fits the address to the reader/person, whereas 'שאמה' (that her mother/maid) is unlikely.\",\n      \"original_text\": \"כשם שאמה עושה בלי טעם\",\n      \"corrected_text\": \"כשם שאתה עושה בלי טעם\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"מט\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"מד\",\n        \"title\": \"מי שכולל את עצמו תמיד עם כל ישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי זה גורם מחמת שמחשיב וכולל עצמו עם הרבים, ועי\\\"ז מעלה עליו הכתוב כאילו בעצמו קיים כל התרי\\\"ג מצות וכו' עי\\\"ז יגיע לכל יחיד בפ\\\"ע שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"לחם אבירים עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מה\",\n        \"title\": \"העושה מצוה ומתכוין לטובת כלל ישראל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דשכר מצוה בהאי עלמא ליכא שהוא משום דעשה המצוה נגד הקב\\\"ה לאין סוף, ולפי\\\"ז אם מתכוין נגד כלל ישראל א\\\"כ עשה גם נגד בו\\\"ד, אז שייך שפיר שכר מצוה גם בהאי עלמא.\",\n            \"source_ref\": \"ומגדלות מרקחים, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"לשם המצוה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מו\",\n        \"title\": \"העושה מצוה לשמה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהעושה לשמה מגיע לו שכרו בהאי עלמא מן הדין וכו'.\",\n            \"source_ref\": \"אמרי יצחק ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מז\",\n        \"title\": \"כשמקיימים מצוה מבלי שום טעם רק מצד רצון ה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כשם שאתה עושה בלי טעם, כך ה' יתן גמולכם וכו' בלי טעם וגבול לטבע.\",\n            \"source_ref\": \"המגיד בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וזה אם בחוקותי תלכו בדרך קבלה ואמונה ועל זה מגיע שכר על כן ונתתי גמולכם וגו'.\",\n            \"source_ref\": \"דברי אליעזר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מח\",\n        \"title\": \"מי שעושה מעשיו לשם שמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"על כן מנע ממנו השכל תעה\\\"ז וכו' כדי שלא יהיה קשה לעבדו בלי פנייה וכו' אבל הוא לא נקט רק לכבוד ה' וכו' בדין ביטול שכרו גם בעוה\\\"ז כי לא נהיה לו לחם לנסיון, כי אף בכלל הרי לא התכוון רק לשם שמים כנ\\\"ל.\",\n            \"source_ref\": \"דעת סופר פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מט\",\n        \"title\": \"המקיים מצוה לא בעד תיקון נשמתו וקבלת שכר לעתיד רק שיש בזה איזה צורך להשי\\\"ת.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הגם כי שכר מצוה בהאי עלמא ליכא, אמנם מקום מצוה זו שאר מצות שהם בעדו ולתקן נשמתו ולקבל שכרו לעתיד, אמנם מצוה זו להקב\\\"ה להצילו מכעס וחימה שלא\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 96,
+    "book_page": 112,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is highly accurate. Structural parsing of chapters, sections, paragraphs, and headers is perfect. Handling of cross-column flow and source references is correct. A single character substitution error was identified in Section 47.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section מז (47), Paragraph 1 (Makor HaMitzvah)",
+        "description": "Visual misinterpretation of a character. The printed word contains a Tav (ת), recognizable by its left 'leg', but the OCR transcribed it as a Mem (מ). Contextually, 'שאתה' (that you) fits the address to the reader/person, whereas 'שאמה' (that her mother/maid) is unlikely.",
+        "original_text": "כשם שאמה עושה בלי טעם",
+        "corrected_text": "כשם שאתה עושה בלי טעם"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צו",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "מט",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "מד",
+          "title": "מי שכולל את עצמו תמיד עם כל ישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי זה גורם מחמת שמחשיב וכולל עצמו עם הרבים, ועי\"ז מעלה עליו הכתוב כאילו בעצמו קיים כל התרי\"ג מצות וכו' עי\"ז יגיע לכל יחיד בפ\"ע שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "לחם אבירים עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מה",
+          "title": "העושה מצוה ומתכוין לטובת כלל ישראל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דשכר מצוה בהאי עלמא ליכא שהוא משום דעשה המצוה נגד הקב\"ה לאין סוף, ולפי\"ז אם מתכוין נגד כלל ישראל א\"כ עשה גם נגד בו\"ד, אז שייך שפיר שכר מצוה גם בהאי עלמא.",
+              "source_ref": "ומגדלות מרקחים, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "לשם המצוה"
+        },
+        {
+          "type": "section",
+          "number": "מו",
+          "title": "העושה מצוה לשמה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהעושה לשמה מגיע לו שכרו בהאי עלמא מן הדין וכו'.",
+              "source_ref": "אמרי יצחק ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מז",
+          "title": "כשמקיימים מצוה מבלי שום טעם רק מצד רצון ה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כשם שאתה עושה בלי טעם, כך ה' יתן גמולכם וכו' בלי טעם וגבול לטבע.",
+              "source_ref": "המגיד בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "וזה אם בחוקותי תלכו בדרך קבלה ואמונה ועל זה מגיע שכר על כן ונתתי גמולכם וגו'.",
+              "source_ref": "דברי אליעזר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מח",
+          "title": "מי שעושה מעשיו לשם שמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "על כן מנע ממנו השכל תעה\"ז וכו' כדי שלא יהיה קשה לעבדו בלי פנייה וכו' אבל הוא לא נקט רק לכבוד ה' וכו' בדין ביטול שכרו גם בעוה\"ז כי לא נהיה לו לחם לנסיון, כי אף בכלל הרי לא התכוון רק לשם שמים כנ\"ל.",
+              "source_ref": "דעת סופר פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מט",
+          "title": "המקיים מצוה לא בעד תיקון נשמתו וקבלת שכר לעתיד רק שיש בזה איזה צורך להשי\"ת.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הגם כי שכר מצוה בהאי עלמא ליכא, אמנם מקום מצוה זו שאר מצות שהם בעדו ולתקן נשמתו ולקבל שכרו לעתיד, אמנם מצוה זו להקב\"ה להצילו מכעס וחימה שלא",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

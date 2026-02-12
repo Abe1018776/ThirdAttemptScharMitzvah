@@ -1,0 +1,25 @@
+{
+  "page": 26,
+  "book_page": 62,
+  "overall_quality": "good",
+  "summary": "Page 26 (book page 46/mem-vav). Covers continuation of section 88, then sections 89-95. All section numbers are correct and sequential. Right column first then left column is properly followed. Section 95 text continues to the next page.",
+  "issues": [
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "meta continues_to",
+      "description": "The meta says continues_to flag is false, but section 95 text ends mid-sentence with 'סגולה של ימי הסוכה וכו' and clearly continues to the next page (page 27 starts with continuation fragments from section 95). Should be continues_to: {flag: true, section_letter: 'צה', level: 'makor'}.",
+      "original_text": "continues_to: {flag: false}",
+      "corrected_text": "continues_to: {flag: true, section_letter: 'צה', level: 'makor'}"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 94 (צד), makor text Gemara reference",
+      "description": "The text references 'קידושין לג:' but the standard reference for the sugya about mitzvot aseh shehazman grama is Kiddushin 34a (לד.). The same error appears in section 96 on the next page.",
+      "original_text": "(קידושין לג:)",
+      "corrected_text": "(קידושין לד.)"
+    }
+  ],
+  "corrected_json": null
+}

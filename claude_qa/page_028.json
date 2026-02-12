@@ -1,0 +1,25 @@
+{
+  "page": 28,
+  "book_page": 64,
+  "overall_quality": "good",
+  "summary": "Page 28 (book page 48/mem-chet). Covers continuation of section 100, then sections 101-105. All section numbers match correctly. The page covers the 'אהבה ויראה' topic area. Section 102 has multiple body paragraphs correctly captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 104 (קד), makor text",
+      "description": "The OCR text includes 'וגרוס המטא' which is likely a misread. The Hebrew text in the image probably reads 'וגרע דהמצוה' or 'וגרס דהמצוה' - discussing the diminishment of the mitzvah when a person might later sin.",
+      "original_text": "הוא לחשב גמול וגרוס המטא אח\"כ ועבירה יכנה מצוה",
+      "corrected_text": "הוא לחשב גמול וגרס דהמצוה אח\"כ ועבירה יכנה מצוה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 105 (קה), makor text",
+      "description": "The text has 'והנה לדיק כזה' which should be 'והנה לצדיק כזה'. The word צדיק was truncated to 'לדיק'.",
+      "original_text": "והנה לדיק כזה",
+      "corrected_text": "והנה לצדיק כזה"
+    }
+  ],
+  "corrected_json": null
+}

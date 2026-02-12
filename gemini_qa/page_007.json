@@ -1,0 +1,133 @@
+{
+  "page": 7,
+  "book_page": 43,
+  "raw_response": "```json\n{\n  \"page\": 27,\n  \"book_page\": 27,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR correctly identified the structural layout, including the two-column reading order, section headers, and source references. However, there are several text accuracy issues involving word substitutions (hallucinations based on common phrases) and a structural error where a paragraph was incorrectly split.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ב, paragraph 1\",\n      \"description\": \"The OCR substituted the word 'דסבר' (that opines) with the abbreviation 'קיימ\\\"ל' (we hold/it is established) and added a prefix letter.\",\n      \"original_text\": \"דאף למען קיימ\\\"ל דשכר מצוה\",\n      \"corrected_text\": \"דאף למען דסבר שכר מצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ב, paragraph 3\",\n      \"description\": \"Misread word 'שנשמר' (who guards himself) as 'שנמנע' (who abstains), and added a conjunction 'ו' where there is none.\",\n      \"original_text\": \"מי שנמנע ומקבל\",\n      \"corrected_text\": \"מי שנשמר מקבל\"\n    },\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"minor\",\n      \"location\": \"section ד\",\n      \"description\": \"The OCR incorrectly split a single continuous paragraph into two separate paragraphs at the word 'לפי\\\"ז'. The text is continuous on the same line in the source image.\",\n      \"original_text\": \"[Paragraph Split after 'עיי\\\"ש.']\",\n      \"corrected_text\": \"[Merge paragraphs]\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ד, paragraph 1 (merged)\",\n      \"description\": \"Significant hallucination/substitution of phrase. The OCR replaced the Aramaic/Hebrew 'דיש בייהו' (that there is in them) with the Hebrew 'שיש בצידן' (that there is at their side).\",\n      \"original_text\": \"לפי\\\"ז במצות מילה וקרבן פסח שיש בצידן עונש\",\n      \"corrected_text\": \"לפי\\\"ז במצות מילה וקרבן פסח דיש בייהו עונש\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"כז\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק שני\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"ד\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"chapter_header\",\n        \"number\": \"פרק שני\",\n        \"subtitle\": \"סוגי מצוות\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"א\",\n        \"title\": \"על קיום מצות עשה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז הנה יש במכילתא פ' בא למען תקבלון שכר אלא על המעשה עיי\\\"ש, דמזה מוכח דבמעשה היינו מצות עשה יש שכר בהאי עלמא היינו שיש לו בעולם הזה קרן וגם פירות.\",\n            \"source_ref\": \"אמרי שפר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ב\",\n        \"title\": \"על שמירת לא תעשה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דאף למען דסבר שכר מצוה בהאי עלמא ליכא מ\\\"מ בפורש עצמו מאיסור לאו נותנין לו שכר כעושה.\",\n            \"source_ref\": \"בכור שור ריש ב\\\"ב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וידוע מה שאמר התולדות שור דהגם דשכר מצוה בהאי עלמא ליכא זו רק בקיום העשין, אבל בשמירת הל\\\"ת, כיון דאם עבר בל\\\"ת מלקין אותו, וא\\\"כ העונש בהאי עלמא, מכ\\\"ש שיש לו שכר בהאי עלמא, דהא קי\\\"ל מידה טובה מרובה על מידת פורעניות.\",\n            \"source_ref\": \"חקל יצחק פ' עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"יש הרבה מצות שמגיע עליהם שכר בעוה\\\"ז וכו' על מצות ל\\\"ת שמכין ועונשין גם בעוה\\\"ז, מי שנשמר מקבל שכר ג\\\"כ בעוה\\\"ז\",\n            \"source_ref\": \"לחם אבירים עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כי הגם דשכר מצוה בה\\\"ע ליכא הוא רק על העשין ולא על הלאוין, כמו שיש עונש עליהם בעוה\\\"ז, כן יש שכר בעוה\\\"ז על המצות שנעשים מהם וכו'.\",\n            \"source_ref\": \"ולאשר אמר חיי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ג\",\n        \"title\": \"על מצות עשה הזמן גרמא\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"נראה במצות שהזמן גרמא בהם להתיחס רק עבור חיי העה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ד\",\n        \"title\": \"המקיים מ\\\"ע שיש בה עונש בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהא דאמרינן שכר מצוה בהאי עלמא ליכא היינו דוקא על מצות עשה דכיון ליכא עונש בעוה\\\"ז בביטול מצות עשה, משו\\\"ה ליכא שכר בעוה\\\"ז בקיומה עיי\\\"ש. לפי\\\"ז במצות מילה וקרבן פסח דיש בייהו עונש\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 27,
+    "book_page": 27,
+    "overall_quality": "good",
+    "summary": "The OCR correctly identified the structural layout, including the two-column reading order, section headers, and source references. However, there are several text accuracy issues involving word substitutions (hallucinations based on common phrases) and a structural error where a paragraph was incorrectly split.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ב, paragraph 1",
+        "description": "The OCR substituted the word 'דסבר' (that opines) with the abbreviation 'קיימ\"ל' (we hold/it is established) and added a prefix letter.",
+        "original_text": "דאף למען קיימ\"ל דשכר מצוה",
+        "corrected_text": "דאף למען דסבר שכר מצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ב, paragraph 3",
+        "description": "Misread word 'שנשמר' (who guards himself) as 'שנמנע' (who abstains), and added a conjunction 'ו' where there is none.",
+        "original_text": "מי שנמנע ומקבל",
+        "corrected_text": "מי שנשמר מקבל"
+      },
+      {
+        "type": "wrong_structure",
+        "severity": "minor",
+        "location": "section ד",
+        "description": "The OCR incorrectly split a single continuous paragraph into two separate paragraphs at the word 'לפי\"ז'. The text is continuous on the same line in the source image.",
+        "original_text": "[Paragraph Split after 'עיי\"ש.']",
+        "corrected_text": "[Merge paragraphs]"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ד, paragraph 1 (merged)",
+        "description": "Significant hallucination/substitution of phrase. The OCR replaced the Aramaic/Hebrew 'דיש בייהו' (that there is in them) with the Hebrew 'שיש בצידן' (that there is at their side).",
+        "original_text": "לפי\"ז במצות מילה וקרבן פסח שיש בצידן עונש",
+        "corrected_text": "לפי\"ז במצות מילה וקרבן פסח דיש בייהו עונש"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "כז",
+        "page_side": "right",
+        "chapter_context": "פרק שני",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "ד",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "chapter_header",
+          "number": "פרק שני",
+          "subtitle": "סוגי מצוות"
+        },
+        {
+          "type": "section",
+          "number": "א",
+          "title": "על קיום מצות עשה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז הנה יש במכילתא פ' בא למען תקבלון שכר אלא על המעשה עיי\"ש, דמזה מוכח דבמעשה היינו מצות עשה יש שכר בהאי עלמא היינו שיש לו בעולם הזה קרן וגם פירות.",
+              "source_ref": "אמרי שפר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ב",
+          "title": "על שמירת לא תעשה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דאף למען דסבר שכר מצוה בהאי עלמא ליכא מ\"מ בפורש עצמו מאיסור לאו נותנין לו שכר כעושה.",
+              "source_ref": "בכור שור ריש ב\"ב"
+            },
+            {
+              "is_makor": false,
+              "text": "וידוע מה שאמר התולדות שור דהגם דשכר מצוה בהאי עלמא ליכא זו רק בקיום העשין, אבל בשמירת הל\"ת, כיון דאם עבר בל\"ת מלקין אותו, וא\"כ העונש בהאי עלמא, מכ\"ש שיש לו שכר בהאי עלמא, דהא קי\"ל מידה טובה מרובה על מידת פורעניות.",
+              "source_ref": "חקל יצחק פ' עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' על מצות ל\"ת שמכין ועונשין גם בעוה\"ז, מי שנשמר מקבל שכר ג\"כ בעוה\"ז",
+              "source_ref": "לחם אבירים עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "כי הגם דשכר מצוה בה\"ע ליכא הוא רק על העשין ולא על הלאוין, כמו שיש עונש עליהם בעוה\"ז, כן יש שכר בעוה\"ז על המצות שנעשים מהם וכו'.",
+              "source_ref": "ולאשר אמר חיי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ג",
+          "title": "על מצות עשה הזמן גרמא",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "נראה במצות שהזמן גרמא בהם להתיחס רק עבור חיי העה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ד",
+          "title": "המקיים מ\"ע שיש בה עונש בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהא דאמרינן שכר מצוה בהאי עלמא ליכא היינו דוקא על מצות עשה דכיון ליכא עונש בעוה\"ז בביטול מצות עשה, משו\"ה ליכא שכר בעוה\"ז בקיומה עיי\"ש. לפי\"ז במצות מילה וקרבן פסח דיש בייהו עונש"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

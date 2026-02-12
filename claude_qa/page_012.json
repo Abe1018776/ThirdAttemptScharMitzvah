@@ -1,0 +1,49 @@
+{
+  "page": 12,
+  "book_page": 48,
+  "overall_quality": "good",
+  "summary": "This page starts פרק שלישי (Chapter 3) with the subtitle 'מצוות והנהגות מיוחדות'. It contains a grouping header for 'מ\"ע ול\"ת מיוחדות' and sections א through ד. The chapter header and structure are correctly identified. Minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, makor text",
+      "description": "OCR has 'וכתב הגר\"ק ז\"ל וז\"ק' but the image appears to show 'וכתב הגר\"ק זצ\"ל ול\"ק' or 'וז\"ל'. The abbreviation could be different.",
+      "original_text": "וכתב הגר\"ק ז\"ל וז\"ק",
+      "corrected_text": "וכתב הגר\"ק זצ\"ל וז\"ל"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, makor text",
+      "description": "OCR has 'אבל בלאו המ\"ע שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא' - the image text in the right column for this section appears to say 'אבל בלאו המ\"ע שהזמן גרמא בהם' which seems close. However the phrase 'לנשים' may not be present or may read differently.",
+      "original_text": "אבל בלאו המ\"ע שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז",
+      "corrected_text": "אבל בלאו המ\"ע שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ג title",
+      "description": "OCR title reads 'על מצות תפילין שלובשין יותר מרגע' but image appears to show 'על מצות תפלין שלובשין יותר מרגע' - the spelling of 'תפלין' vs 'תפילין' varies in the OCR (title has תפילין, body has תפלין). The image consistently shows 'תפלין'.",
+      "original_text": "על מצות תפילין שלובשין יותר מרגע",
+      "corrected_text": "על מצות תפלין שלובשין יותר מרגע"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ד, second paragraph",
+      "description": "OCR has 'דהמזוה עצמה שומרת ביתו' - this should likely be 'דהמזוזה עצמה שומרת ביתו'. The word 'מזוה' is a typo/OCR error for 'מזוזה'.",
+      "original_text": "דהמזוה עצמה שומרת ביתו",
+      "corrected_text": "דהמזוזה עצמה שומרת ביתו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, second paragraph, source_ref",
+      "description": "OCR has 'כלי יקר פ' שלח'. Looking at the image the source in parentheses shows 'כלי יקר פ' שלח' which appears correct.",
+      "original_text": "כלי יקר פ' שלח",
+      "corrected_text": "כלי יקר פ' שלח"
+    }
+  ],
+  "corrected_json": null
+}

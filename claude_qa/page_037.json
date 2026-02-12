@@ -1,0 +1,57 @@
+{
+  "page": 37,
+  "book_page": 57,
+  "overall_quality": "good",
+  "summary": "Page contains sections יג through יט (with יט continuing to next page). Structure and section numbering are correct. Right column has sections יג, יד, טו. Left column has sections טז, יז, יח, יט. Text quality is generally good.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יג, makor text",
+      "description": "OCR: 'אלא אמרו להם לעשות עגל'. The image may show 'אמרו להן' (feminine form) instead of 'להם'. Given the subject is women (נשים), 'להן' would be grammatically expected.",
+      "original_text": "אמרו להם",
+      "corrected_text": "אמרו להן (verify)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יד, makor text",
+      "description": "OCR: 'ועל זה מקשה רב לר\"ח א\"כ נשים במאי זכיין'. The abbreviation 'לר\"ח' should be verified. Also 'ומתרץ' at the end may be 'ומתרצי' or 'ומתרץ'.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section טו, makor text",
+      "description": "OCR: 'וכל מי שחושדין אותו ואין בו, שכרו ניתן בעוה\"ז להיותו גלוי לכל שחשדוהו שלא כדין.' The words 'ניתן' and 'להיותו גלוי' need verification against the image - the text may be more concise.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יז (הצדיק שמוצא חן בעיני ה'), makor text",
+      "description": "The OCR text is short: 'ונח מצא חן בעיני ה' זה הצדיק ראוי להנצל כי מצא חן בעיני ה'.' But the image shows more text in section יז. The text may be incomplete or condensed. Looking at the image, there appears to be additional content after 'בעיני ה'' about the concept of reward.",
+      "original_text": "ונח מצא חן בעיני ה' זה הצדיק ראוי להנצל כי מצא חן בעיני ה'.",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section יז, source_ref",
+      "description": "Source: 'רבינו בחיי בראשית.' - appears to match image.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יט, continues_to metadata",
+      "description": "Section יט is correctly flagged as continuing to next page. The text ends with 'כי הדרכים הנצרכים לבוא על ידיהם לעוה\"ב אינם יכולים' which matches the image showing text cut at bottom of left column.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

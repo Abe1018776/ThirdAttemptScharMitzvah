@@ -1,0 +1,127 @@
+{
+  "page": 79,
+  "book_page": 115,
+  "raw_response": "{\n  \"page\": 99,\n  \"book_page\": 99,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is extremely high quality. Structure, column ordering, and section delineation are perfect. There are three very minor textual inaccuracies: one missing word in a source citation, one extra letter in a source citation, and one typo in a standard abbreviation.\",\n  \"issues\": [\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נט (59), source_ref\",\n      \"description\": \"The source reference is missing the first word 'בשבילי'.\",\n      \"original_text\": \"הישיבה - נצבים\",\n      \"corrected_text\": \"בשבילי הישיבה - נצבים\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section סא (61), source_ref\",\n      \"description\": \"Added an extra 'Vav' at the beginning of the source name.\",\n      \"original_text\": \"וזרע יעקב רות\",\n      \"corrected_text\": \"זרע יעקב רות\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section סב (62), paragraph 1\",\n      \"description\": \"Transcription error in abbreviation. Image shows 'לל\\\"ת' (Lamed-Lamed-Tav, meaning 'L'Lo Taaseh'), OCR has 'לי\\\"ת'.\",\n      \"original_text\": \"או לי\\\"ת, בזה\",\n      \"corrected_text\": \"או לל\\\"ת, בזה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צט\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"נט\",\n        \"title\": \"מי שאינו סר מדרך התורה אף מדוחק\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל אם אתה עושה כן, על אף העוני והדחק הנך ממשיך בדרך התורה אז תזכה לשני עולמות שיהיה לך ארוך וטוב לך גם בעוה\\\"ז.\",\n            \"source_ref\": \"בשבילי הישיבה - נצבים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ס\",\n        \"title\": \"על ההתגברות על היצה\\\"ר לקיום המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עבור ההתגברות על היצה\\\"ר שמונע ממנה בכל כוחו לעשותה, והאדם מכניס עצמו בסכנה להלחם עמו, על זה מקבל שכרו.\",\n            \"source_ref\": \"ביאורי החסידות, קידושין, חיים וחסד.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סא\",\n        \"title\": \"העושה מצות בפרהסיא אע\\\"פ שאין מרגיש בה טעם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וזה נראה פירוש המדרש, צדקה שהקב\\\"ה עושה עם ישראל, הוא עושה בפרהסיא, מחמת שעושה מצות בפרהסיא, אע\\\"פ שאינו יודע טעמו ואין לו תענוג מעבודתו, וזה אצלו ית' כמו צדקה.\",\n            \"source_ref\": \"זרע יעקב רות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"תוספת ברכה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סב\",\n        \"title\": \"על דקדוקי מצות וגדרים וסייגים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ורק על הדקדוקי מצות וגדרים וסייגים שהאדם עושה לכל מצוה או לל\\\"ת, בזה קונה לעצמו שלימות שהקב\\\"ה אוהב אותו ובעד זה הקב\\\"ה נותן לו שכר בעוה\\\"ז.\",\n            \"source_ref\": \"אלשיך בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"כוונת עוה\\\"ז הוי פינת קיום התורה וכו' שאם האדם רוצה לעשות לעצמו גדרים וסייגים למנוע כל המניעות המבטלים מהתורה אז וכו' גם הקב\\\"ה רוצה להיטיב עמו לעשות לו כל הכנות ולבטל ממנו מניעות המונעים מהתורה.\",\n            \"source_ref\": \"אמרי שפר עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"סג\",\n        \"title\": \"המרחיק מפניו צ\\\"ט שערי היתר שלא יגע ח\\\"ו בשער אחד של איסור\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומרחיק מפניו צ\\\"ט שערי היתר שלא יגיע ח\\\"ו בשער האיסור, וככה\\\"ג מגיע שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"בית נפתלי פנחס\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 99,
+    "book_page": 99,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is extremely high quality. Structure, column ordering, and section delineation are perfect. There are three very minor textual inaccuracies: one missing word in a source citation, one extra letter in a source citation, and one typo in a standard abbreviation.",
+    "issues": [
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "section נט (59), source_ref",
+        "description": "The source reference is missing the first word 'בשבילי'.",
+        "original_text": "הישיבה - נצבים",
+        "corrected_text": "בשבילי הישיבה - נצבים"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section סא (61), source_ref",
+        "description": "Added an extra 'Vav' at the beginning of the source name.",
+        "original_text": "וזרע יעקב רות",
+        "corrected_text": "זרע יעקב רות"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section סב (62), paragraph 1",
+        "description": "Transcription error in abbreviation. Image shows 'לל\"ת' (Lamed-Lamed-Tav, meaning 'L'Lo Taaseh'), OCR has 'לי\"ת'.",
+        "original_text": "או לי\"ת, בזה",
+        "corrected_text": "או לל\"ת, בזה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צט",
+        "page_side": "right",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "נט",
+          "title": "מי שאינו סר מדרך התורה אף מדוחק",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל אם אתה עושה כן, על אף העוני והדחק הנך ממשיך בדרך התורה אז תזכה לשני עולמות שיהיה לך ארוך וטוב לך גם בעוה\"ז.",
+              "source_ref": "בשבילי הישיבה - נצבים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ס",
+          "title": "על ההתגברות על היצה\"ר לקיום המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עבור ההתגברות על היצה\"ר שמונע ממנה בכל כוחו לעשותה, והאדם מכניס עצמו בסכנה להלחם עמו, על זה מקבל שכרו.",
+              "source_ref": "ביאורי החסידות, קידושין, חיים וחסד."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סא",
+          "title": "העושה מצות בפרהסיא אע\"פ שאין מרגיש בה טעם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וזה נראה פירוש המדרש, צדקה שהקב\"ה עושה עם ישראל, הוא עושה בפרהסיא, מחמת שעושה מצות בפרהסיא, אע\"פ שאינו יודע טעמו ואין לו תענוג מעבודתו, וזה אצלו ית' כמו צדקה.",
+              "source_ref": "זרע יעקב רות"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "תוספת ברכה"
+        },
+        {
+          "type": "section",
+          "number": "סב",
+          "title": "על דקדוקי מצות וגדרים וסייגים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ורק על הדקדוקי מצות וגדרים וסייגים שהאדם עושה לכל מצוה או לל\"ת, בזה קונה לעצמו שלימות שהקב\"ה אוהב אותו ובעד זה הקב\"ה נותן לו שכר בעוה\"ז.",
+              "source_ref": "אלשיך בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "כוונת עוה\"ז הוי פינת קיום התורה וכו' שאם האדם רוצה לעשות לעצמו גדרים וסייגים למנוע כל המניעות המבטלים מהתורה אז וכו' גם הקב\"ה רוצה להיטיב עמו לעשות לו כל הכנות ולבטל ממנו מניעות המונעים מהתורה.",
+              "source_ref": "אמרי שפר עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "סג",
+          "title": "המרחיק מפניו צ\"ט שערי היתר שלא יגע ח\"ו בשער אחד של איסור",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומרחיק מפניו צ\"ט שערי היתר שלא יגיע ח\"ו בשער האיסור, וככה\"ג מגיע שכרו בעוה\"ז.",
+              "source_ref": "בית נפתלי פנחס"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,160 @@
+{
+  "page": 43,
+  "book_page": 79,
+  "raw_response": "{\n  \"page\": 63,\n  \"book_page\": \"סג\",\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is excellent, correctly handling the right-to-left column flow and identifying headers. However, the OCR transcription accuracy degrades in the final section (Section ג), containing several typos and critical word substitutions (e.g., 'the loan' vs 'the mitzvah'). There is also a partial omission in one source reference.\",\n  \"issues\": [\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section א, Paragraph 1\",\n      \"description\": \"Word marked as unreadable [?]. Context and visual remnants suggest 'כביכול'.\",\n      \"original_text\": \"עוד מלינו שישראל [?] אוכלים\",\n      \"corrected_text\": \"עוד מלינו שישראל כביכול אוכלים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section א, Paragraph 1\",\n      \"description\": \"Transcription error: 'נעלמו' (disappeared) vs 'נעלמא' (World [of Truth] - Aramaic).\",\n      \"original_text\": \"כי האבות הם כבר נעלמו דקשוט\",\n      \"corrected_text\": \"כי האבות הם כבר נעלמא דקשוט\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section א, Paragraph 4\",\n      \"description\": \"Misread letter in acronym: 'Thora' (Starts with Tav) vs 'Orah' (Starts with Aleph).\",\n      \"original_text\": \"אבות נוטריקון אורה וגדולה\",\n      \"corrected_text\": \"אבות נוטריקון תורה וגדולה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section ג, Paragraph 1\",\n      \"description\": \"Typo in word spelling.\",\n      \"original_text\": \"שנכרת הקרן שכל לפיעל\",\n      \"corrected_text\": \"שנכרת הקרן שכל לפועל\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section ג, Paragraph 1\",\n      \"description\": \"Critical word substitution: 'Hamalveh' (the loan) vs 'Hamitzvah' (the commandment).\",\n      \"original_text\": \"אלא שכר המלוה ממתין\",\n      \"corrected_text\": \"אלא שכר המצוה ממתין\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section ג, Paragraph 1\",\n      \"description\": \"Misread word significantly: 'VeTzadik' (and righteous) vs 'VeLadik' (nonsense).\",\n      \"original_text\": \"אהוב למעלה ולדיק\",\n      \"corrected_text\": \"אהוב למעלה וצדיק\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Section ג, Paragraph 1\",\n      \"description\": \"Source reference is missing the book title prefix.\",\n      \"original_text\": \"הגר\\\"א, עקב\",\n      \"corrected_text\": \"ופנינים משולחן הגר\\\"א, עקב\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סג\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"chapter_header\",\n        \"number\": \"פרק חמישי\",\n        \"subtitle\": \"ענינים מיוחדים\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"זכות אבות\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"א\",\n        \"title\": \"בזכות האבות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עוד מלינו שישראל כביכול אוכלים זכות אבות וכו' והיינו כי האבות הם כבר נעלמא דקשוט והם הוטמנו בגן זכותם על בניהם אחריהם.\",\n            \"source_ref\": \"ערבי נחל ראה א'\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"יש הרבה מצות שמגיע עליהם שכר בעוה\\\"ז וכו' לזכות אבות מהני גם לטובת עוה\\\"ז.\",\n            \"source_ref\": \"לחם אבירים עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"הקשו המפרשים הרי שכר מצוה בהאי עלמא ליכא, ונראה לתוס' (שבת נה.) כתבו דאעפ\\\"י שזכות אבות תמה מ\\\"מ ברית אבות לא תמה וכו' ולבד זה הרי אנו מבקשים מהקב\\\"ה יחננו מאוצר מתנת חינם וכו'.\",\n            \"source_ref\": \"טל השמים עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אבות נוטריקון תורה וגדולה במקום אחד, שעל ידי זכות אבות זוכים לשתי שולחנות וכו'.\",\n            \"source_ref\": \"באר שלמה א ב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"הגם דשכר מצוה בהאי עלמא ליכא, אבל זכות אבות מהני גם לטובת עוה\\\"ז ע\\\"כ.\",\n            \"source_ref\": \"פרדס יוסף פנחס, בשם כסא דוד\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"מי שיש לו זכות אבות אין לו לירא, כי מה שאוכל בעוה\\\"ז הרי זה בזכות אבותיו\",\n            \"source_ref\": \"חת\\\"ס תולדות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ב\",\n        \"title\": \"בזכות הזריזות וההידור במצות שעשו אבותינו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל הענין כך הוא דבאמת המצוה עצמה אין לה תשלומים בעוה\\\"ז, אבל הזריזות וההידור וכיו\\\"ב ממצות אבותינו אותו הזכות אנו אוכלים.\",\n            \"source_ref\": \"קול אליהו פ' וירא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ג\",\n        \"title\": \"שכר המצוה בעוה\\\"ז ממתין ליוצאי חלציו אם יוזמן איש ראוי לקבל\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי שכר מצוה בהאי עלמא ליכא פירוש, כי שכר המצוה אינו ניתן באופן שנכרת הקרן שכל לפועל, אלא שכר המצוה ממתין ליו\\\"ח, אם יזדמן איש ראוי לקבל, אהוב למעלה וצדיק, אז משלם לו שכר חציו, וממתין עד אלף דור.\",\n            \"source_ref\": \"ופנינים משולחן הגר\\\"א, עקב\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 63,
+    "book_page": "סג",
+    "overall_quality": "good",
+    "summary": "The structural parsing is excellent, correctly handling the right-to-left column flow and identifying headers. However, the OCR transcription accuracy degrades in the final section (Section ג), containing several typos and critical word substitutions (e.g., 'the loan' vs 'the mitzvah'). There is also a partial omission in one source reference.",
+    "issues": [
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "Section א, Paragraph 1",
+        "description": "Word marked as unreadable [?]. Context and visual remnants suggest 'כביכול'.",
+        "original_text": "עוד מלינו שישראל [?] אוכלים",
+        "corrected_text": "עוד מלינו שישראל כביכול אוכלים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section א, Paragraph 1",
+        "description": "Transcription error: 'נעלמו' (disappeared) vs 'נעלמא' (World [of Truth] - Aramaic).",
+        "original_text": "כי האבות הם כבר נעלמו דקשוט",
+        "corrected_text": "כי האבות הם כבר נעלמא דקשוט"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section א, Paragraph 4",
+        "description": "Misread letter in acronym: 'Thora' (Starts with Tav) vs 'Orah' (Starts with Aleph).",
+        "original_text": "אבות נוטריקון אורה וגדולה",
+        "corrected_text": "אבות נוטריקון תורה וגדולה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section ג, Paragraph 1",
+        "description": "Typo in word spelling.",
+        "original_text": "שנכרת הקרן שכל לפיעל",
+        "corrected_text": "שנכרת הקרן שכל לפועל"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section ג, Paragraph 1",
+        "description": "Critical word substitution: 'Hamalveh' (the loan) vs 'Hamitzvah' (the commandment).",
+        "original_text": "אלא שכר המלוה ממתין",
+        "corrected_text": "אלא שכר המצוה ממתין"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section ג, Paragraph 1",
+        "description": "Misread word significantly: 'VeTzadik' (and righteous) vs 'VeLadik' (nonsense).",
+        "original_text": "אהוב למעלה ולדיק",
+        "corrected_text": "אהוב למעלה וצדיק"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "Section ג, Paragraph 1",
+        "description": "Source reference is missing the book title prefix.",
+        "original_text": "הגר\"א, עקב",
+        "corrected_text": "ופנינים משולחן הגר\"א, עקב"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סג",
+        "page_side": "right",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "chapter_header",
+          "number": "פרק חמישי",
+          "subtitle": "ענינים מיוחדים"
+        },
+        {
+          "type": "grouping_header",
+          "title": "זכות אבות"
+        },
+        {
+          "type": "section",
+          "number": "א",
+          "title": "בזכות האבות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עוד מלינו שישראל כביכול אוכלים זכות אבות וכו' והיינו כי האבות הם כבר נעלמא דקשוט והם הוטמנו בגן זכותם על בניהם אחריהם.",
+              "source_ref": "ערבי נחל ראה א'"
+            },
+            {
+              "is_makor": false,
+              "text": "יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' לזכות אבות מהני גם לטובת עוה\"ז.",
+              "source_ref": "לחם אבירים עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "הקשו המפרשים הרי שכר מצוה בהאי עלמא ליכא, ונראה לתוס' (שבת נה.) כתבו דאעפ\"י שזכות אבות תמה מ\"מ ברית אבות לא תמה וכו' ולבד זה הרי אנו מבקשים מהקב\"ה יחננו מאוצר מתנת חינם וכו'.",
+              "source_ref": "טל השמים עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "אבות נוטריקון תורה וגדולה במקום אחד, שעל ידי זכות אבות זוכים לשתי שולחנות וכו'.",
+              "source_ref": "באר שלמה א ב"
+            },
+            {
+              "is_makor": false,
+              "text": "הגם דשכר מצוה בהאי עלמא ליכא, אבל זכות אבות מהני גם לטובת עוה\"ז ע\"כ.",
+              "source_ref": "פרדס יוסף פנחס, בשם כסא דוד"
+            },
+            {
+              "is_makor": false,
+              "text": "מי שיש לו זכות אבות אין לו לירא, כי מה שאוכל בעוה\"ז הרי זה בזכות אבותיו",
+              "source_ref": "חת\"ס תולדות"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ב",
+          "title": "בזכות הזריזות וההידור במצות שעשו אבותינו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל הענין כך הוא דבאמת המצוה עצמה אין לה תשלומים בעוה\"ז, אבל הזריזות וההידור וכיו\"ב ממצות אבותינו אותו הזכות אנו אוכלים.",
+              "source_ref": "קול אליהו פ' וירא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ג",
+          "title": "שכר המצוה בעוה\"ז ממתין ליוצאי חלציו אם יוזמן איש ראוי לקבל",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי שכר מצוה בהאי עלמא ליכא פירוש, כי שכר המצוה אינו ניתן באופן שנכרת הקרן שכל לפועל, אלא שכר המצוה ממתין ליו\"ח, אם יזדמן איש ראוי לקבל, אהוב למעלה וצדיק, אז משלם לו שכר חציו, וממתין עד אלף דור.",
+              "source_ref": "ופנינים משולחן הגר\"א, עקב"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

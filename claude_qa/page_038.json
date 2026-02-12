@@ -1,0 +1,41 @@
+{
+  "page": 38,
+  "book_page": 58,
+  "overall_quality": "good",
+  "summary": "Page contains continuation of section יט from previous page, then sections כ through כה. Right column has the continuation fragment and sections כ, כא, כב. Left column has sections כג, כד, כה. Structure is correct with proper continuation handling.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment text",
+      "description": "OCR continuation: 'להעשות נס לו כל צרכי עוה\"ז.' The image at the top of the right column shows the continuation text. The word 'נס' should be verified - could be a different word.",
+      "original_text": "להעשות נס לו כל צרכי עוה\"ז.",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כג, makor text parenthetical",
+      "description": "OCR has '(לצדיק זה יש גם עוה\"ז)' as a parenthetical insertion within the makor text. This appears to be an editorial addition by the OCR that may not appear in this exact form in the image. The parenthetical should be verified against the image.",
+      "original_text": "(לצדיק זה יש גם עוה\"ז)",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כב (צדיקים ההולכים מחיל אל חיל), makor text",
+      "description": "OCR: 'אצל צדיקים שגם לעוה\"ב עוסקים בתורה בברכות (סד) ילכו מחיל אל חיל'. The parenthetical '(סד)' refers to Berachot page 64. This matches the standard citation format.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section כד, makor text",
+      "description": "OCR: 'רק כשהדור כולו זכאי אז אפשר להצדיק העובד מאהבה ג\"כ שיהיה לו טוב'. The phrase 'אם אפשר להסיר הרע והעונש מהעולם' may read slightly differently in the image - needs verification.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

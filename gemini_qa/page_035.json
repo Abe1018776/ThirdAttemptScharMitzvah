@@ -1,0 +1,156 @@
+{
+  "page": 35,
+  "book_page": 71,
+  "raw_response": "```json\n{\n  \"page\": 55,\n  \"book_page\": 71,\n  \"overall_quality\": \"poor\",\n  \"summary\": \"The OCR output correctly identified the section boundaries but failed significantly in two areas: (1) It reordered the sections logically (1,2,3,4,5) instead of following the strict column-based reading order (Right: 1,4,5; Left: 3,2) required by the prompt. (2) Text transcription in Section A is severe garbled/halucinated, and critical word errors exist in Sections B and E changing the theological meaning (e.g., 'forgiveness' vs 'inheritance', 'mitzvah' vs 'reward').\",\n  \"issues\": [\n    {\n      \"type\": \"column_order_error\",\n      \"severity\": \"major\",\n      \"location\": \"Entire Page\",\n      \"description\": \"The OCR sorted the sections by number (A, B, C, D, E) instead of following the visual column layout (Right Column: A, D, E; Left Column: C, B). The specific instructions required reading the Right Column then the Left Column.\",\n      \"original_text\": \"Order: A, B, C, D, E\",\n      \"corrected_text\": \"Order: A (Right), D (Right), E (Right), C (Left), B (Left)\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"critical\",\n      \"location\": \"section א, paragraph 1\",\n      \"description\": \"Severe transcription errors. The text does not match the image. Phrases like 'ומבטחת לה' (instead of 'ומובטח לו') and 'לחיות מנות שלא נצטוה עליהן' (hallucinated/wrong) replace the correct ending 'לחסות תחת כנפי השכינה...'.\",\n      \"original_text\": \"ומבטחת לה דגר הבא להתגייר ומניח עולמו לחיות מנות שלא נצטוה עליהן.\",\n      \"corrected_text\": \"ומובטח לו דגר הבא להתגייר ומניח עמו וכל אשר לו ובא לחסות תחת כנפי השכינה וזכה בו יתברך.\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ב (via Left Col), paragraph 1\",\n      \"description\": \"Word substitution changing meaning. 'Mechilah' (forgiveness) vs 'Nachalah' (inheritance/portion). Context discusses priests having a portion from God.\",\n      \"original_text\": \"והיה להם מחילה בפ\\\"ע\",\n      \"corrected_text\": \"והיה להם נחלה בפ\\\"ע\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ה (Right Col Bottom), paragraph 1\",\n      \"description\": \"Word substitution. 'Kibel Mitzvah' vs 'Kibel Schar'. The topic is receiving reward in this world.\",\n      \"original_text\": \"הטעם דקבל מצוה בהאי עלמא\",\n      \"corrected_text\": \"הטעם דקבל שכר בהאי עלמא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ה (Right Col Bottom), paragraph 1\",\n      \"description\": \"Misread abbreviation/phrase.\",\n      \"original_text\": \"ליכא להקב\\\"ה אינו מאמין\",\n      \"corrected_text\": \"משום דהקב\\\"ה אינו מאמין\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ד, paragraph 1\",\n      \"description\": \"Missing prefix/slightly inaccurate transcription.\",\n      \"original_text\": \"לרבים צריכים לו\",\n      \"corrected_text\": \"דלרבים צריכין ליה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נה\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"chapter_header\",\n        \"number\": \"פרק רביעי\",\n        \"subtitle\": \"אנשים, זמנים ומקומות מסויימים\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"אנשים מסויימים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"א\",\n        \"title\": \"גר שהוא מקבל עליו המצות מעצמו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל המקבל עליו מצות צדקות השכר בהאי עלמא, ומובטח לו דגר הבא להתגייר ומניח עמו וכל אשר לו ובא לחסות תחת כנפי השכינה וזכה בו יתברך.\",\n            \"source_ref\": \"חקל יצחק דרושים לשבועות\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ולפי\\\"ז ישלם ה' פעלך גם בעוה\\\"ז, ונתן טעם לזה, תחת אשר באת, ולא היית מחויב להתגייר על זה ישולם גם בעוה\\\"ז.\",\n            \"source_ref\": \"בהיות הבוקר רות תט\\\"ו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ד\",\n        \"title\": \"מי שרבים צריכים לו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וגם כיון דלרבים צריכין ליה כרבים דמי לזה יש שכרו בעוה\\\"ז ג\\\"כ.\",\n            \"source_ref\": \"יד אהרן סיום ש\\\"ס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ה\",\n        \"title\": \"מי שמת ועמד בתחיה ע\\\"י נס\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ויל\\\"פ וכו' הטעם דקבל שכר בהאי עלמא משום דהקב\\\"ה אינו מאמין באדם וכו' והנה וכו' כתב בספ' הזה\\\"ק דכל מי שמת ויחיה ע\\\"י נס שוב אין יצה\\\"ר שולט בו וכו' דפנחס פרחה נשמתו ונכנס בו נשמת נדב ואביהוא וכו' ואין לחוש שיקלקל ויהיה על הראשונות ולכך הדין נותן שיטול שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"גן רוה, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ג\",\n        \"title\": \"הכהנים בברכת כהנים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כתב הגרש\\\"ק ז\\\"ל וזל\\\"ק: אבל באלו המצות שהזמן גרמא בהם דלאו רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n            \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ב\",\n        \"title\": \"הכהנים הנגשים אל ה' קבלו שכר בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל הכהנים הנגשים אל ה' והיה להם נחלה בפ\\\"ע הם שמעו הכל מפי הגבורה ולכן יש להם שכר מצוה בהאי עלמא.\",\n            \"source_ref\": \"תורת משה פ' פנחס\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 55,
+    "book_page": 71,
+    "overall_quality": "poor",
+    "summary": "The OCR output correctly identified the section boundaries but failed significantly in two areas: (1) It reordered the sections logically (1,2,3,4,5) instead of following the strict column-based reading order (Right: 1,4,5; Left: 3,2) required by the prompt. (2) Text transcription in Section A is severe garbled/halucinated, and critical word errors exist in Sections B and E changing the theological meaning (e.g., 'forgiveness' vs 'inheritance', 'mitzvah' vs 'reward').",
+    "issues": [
+      {
+        "type": "column_order_error",
+        "severity": "major",
+        "location": "Entire Page",
+        "description": "The OCR sorted the sections by number (A, B, C, D, E) instead of following the visual column layout (Right Column: A, D, E; Left Column: C, B). The specific instructions required reading the Right Column then the Left Column.",
+        "original_text": "Order: A, B, C, D, E",
+        "corrected_text": "Order: A (Right), D (Right), E (Right), C (Left), B (Left)"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "critical",
+        "location": "section א, paragraph 1",
+        "description": "Severe transcription errors. The text does not match the image. Phrases like 'ומבטחת לה' (instead of 'ומובטח לו') and 'לחיות מנות שלא נצטוה עליהן' (hallucinated/wrong) replace the correct ending 'לחסות תחת כנפי השכינה...'.",
+        "original_text": "ומבטחת לה דגר הבא להתגייר ומניח עולמו לחיות מנות שלא נצטוה עליהן.",
+        "corrected_text": "ומובטח לו דגר הבא להתגייר ומניח עמו וכל אשר לו ובא לחסות תחת כנפי השכינה וזכה בו יתברך."
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ב (via Left Col), paragraph 1",
+        "description": "Word substitution changing meaning. 'Mechilah' (forgiveness) vs 'Nachalah' (inheritance/portion). Context discusses priests having a portion from God.",
+        "original_text": "והיה להם מחילה בפ\"ע",
+        "corrected_text": "והיה להם נחלה בפ\"ע"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ה (Right Col Bottom), paragraph 1",
+        "description": "Word substitution. 'Kibel Mitzvah' vs 'Kibel Schar'. The topic is receiving reward in this world.",
+        "original_text": "הטעם דקבל מצוה בהאי עלמא",
+        "corrected_text": "הטעם דקבל שכר בהאי עלמא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ה (Right Col Bottom), paragraph 1",
+        "description": "Misread abbreviation/phrase.",
+        "original_text": "ליכא להקב\"ה אינו מאמין",
+        "corrected_text": "משום דהקב\"ה אינו מאמין"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ד, paragraph 1",
+        "description": "Missing prefix/slightly inaccurate transcription.",
+        "original_text": "לרבים צריכים לו",
+        "corrected_text": "דלרבים צריכין ליה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נה",
+        "page_side": "right",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "chapter_header",
+          "number": "פרק רביעי",
+          "subtitle": "אנשים, זמנים ומקומות מסויימים"
+        },
+        {
+          "type": "grouping_header",
+          "title": "אנשים מסויימים"
+        },
+        {
+          "type": "section",
+          "number": "א",
+          "title": "גר שהוא מקבל עליו המצות מעצמו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל המקבל עליו מצות צדקות השכר בהאי עלמא, ומובטח לו דגר הבא להתגייר ומניח עמו וכל אשר לו ובא לחסות תחת כנפי השכינה וזכה בו יתברך.",
+              "source_ref": "חקל יצחק דרושים לשבועות"
+            },
+            {
+              "is_makor": false,
+              "text": "ולפי\"ז ישלם ה' פעלך גם בעוה\"ז, ונתן טעם לזה, תחת אשר באת, ולא היית מחויב להתגייר על זה ישולם גם בעוה\"ז.",
+              "source_ref": "בהיות הבוקר רות תט\"ו"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ד",
+          "title": "מי שרבים צריכים לו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וגם כיון דלרבים צריכין ליה כרבים דמי לזה יש שכרו בעוה\"ז ג\"כ.",
+              "source_ref": "יד אהרן סיום ש\"ס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ה",
+          "title": "מי שמת ועמד בתחיה ע\"י נס",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ויל\"פ וכו' הטעם דקבל שכר בהאי עלמא משום דהקב\"ה אינו מאמין באדם וכו' והנה וכו' כתב בספ' הזה\"ק דכל מי שמת ויחיה ע\"י נס שוב אין יצה\"ר שולט בו וכו' דפנחס פרחה נשמתו ונכנס בו נשמת נדב ואביהוא וכו' ואין לחוש שיקלקל ויהיה על הראשונות ולכך הדין נותן שיטול שכרו בעוה\"ז.",
+              "source_ref": "גן רוה, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ג",
+          "title": "הכהנים בברכת כהנים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כתב הגרש\"ק ז\"ל וזל\"ק: אבל באלו המצות שהזמן גרמא בהם דלאו רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+              "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ב",
+          "title": "הכהנים הנגשים אל ה' קבלו שכר בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל הכהנים הנגשים אל ה' והיה להם נחלה בפ\"ע הם שמעו הכל מפי הגבורה ולכן יש להם שכר מצוה בהאי עלמא.",
+              "source_ref": "תורת משה פ' פנחס"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

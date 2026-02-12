@@ -1,0 +1,57 @@
+{
+  "page": 73,
+  "book_page": 109,
+  "overall_quality": "good",
+  "summary": "Page 73 (book page צג) continues section כה from previous page, then covers sections כו through לא, with grouping header 'זריזות'. The continuation fragment and body_paragraph are properly captured. Section לא cuts off at page bottom with continuation to next page. Minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Continuation fragment",
+      "description": "OCR reads 'וכל מה שהצדיקים נהנים בעוה\"ז הכל הוא בשכר השמחה של מצוה מה ששמחים וטובים בהאבה ונחת המצוה'. The word 'בהאבה' likely should be 'באהבה'. The image shows 'באהבה ונחת המצוה' - this is a simple transposition.",
+      "original_text": "בהאבה",
+      "corrected_text": "באהבה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "Section כח, makor text",
+      "description": "OCR reads 'הכוונה שמי שלא עובד השי\"ת מתוך שמחה ואהבה וכו' אז שפיר מגיע שכר בהאי עלמא.' The word 'שלא' is likely wrong - the image and context suggest it should be 'שכן' or simply omitted. The section title says 'העובד השי\"ת מתוך אהבה ושמחה' (one who DOES serve), so the makor should say something positive. Likely 'שמי שעובד' (without the 'לא').",
+      "original_text": "שמי שלא עובד",
+      "corrected_text": "שמי שעובד (or needs verification - the 'לא' contradicts the title)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section ל, makor text",
+      "description": "OCR reads 'אבל מי שמזלזל בהמצוה ואינו ממתין זמנה כל היום'. The word 'שמזלזל' seems incorrect - the section is about someone who is EAGER (זריז). It should likely be 'שמזדרז' or similar positive term. The image shows 'שאינו ממתין' which means he does NOT wait - i.e. he rushes, which is positive. But 'מזלזל' means belittles which is negative. Possibly 'שמזרז' (who hurries).",
+      "original_text": "שמזלזל",
+      "corrected_text": "Needs verification - likely 'שאינו מזלזל' or different word entirely"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section כו, source_ref",
+      "description": "Source listed as 'כתב סופר פ' דברים' - the image shows the parenthetical source reference. Needs verification that it says 'כתב סופר' and not 'וכתב סופר'.",
+      "original_text": "כתב סופר פ' דברים",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כו, makor text",
+      "description": "OCR has 'נ\"ל כי בשלמת שכר מצוה' - the word 'בשלמת' should likely be 'בשלמא' (a common Talmudic term).",
+      "original_text": "בשלמת",
+      "corrected_text": "בשלמא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כז, makor text",
+      "description": "OCR reads 'שהברכה בעוה\"ז יהיה, אשר תשמעו את המצות בשמחה, כאלו היום ניתנו, ויהיו תמיד חדשים בעיניכם זה ישכר לכם ברכה גם היום בעוה\"ז.' The image shows 'כאלו היום ניתנו ויהיו תמיד חדשים' matching. The word 'ישכר' may read 'יישכר' or needs verification.",
+      "original_text": "ישכר",
+      "corrected_text": "Needs verification"
+    }
+  ],
+  "corrected_json": null
+}

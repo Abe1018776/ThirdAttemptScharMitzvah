@@ -1,0 +1,136 @@
+{
+  "page": 61,
+  "book_page": 97,
+  "raw_response": "```json\n{\n  \"page\": 82,\n  \"book_page\": 82,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \" The structural parsing is perfect, including the complex column merging of Section 108, Paragraph 1. The extraction of headers, sections, and source references is accurate. There are a few minor text transcription errors where characters were misidentified or where the OCR likely corrected a typo present in the original book (instructions specify exact transcription).\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קח, paragraph 1 (makor)\",\n      \"description\": \"Misidentified word at start of paragraph.\",\n      \"original_text\": \"כי הנה דשכר מצוה\",\n      \"corrected_text\": \"כי הגם דשכר מצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קח, paragraph 3\",\n      \"description\": \"Added extraneous letter (yud).\",\n      \"original_text\": \"דכיון דיקודם מעבירה\",\n      \"corrected_text\": \"דכיון דקודם מעבירה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קח, paragraph 5\",\n      \"description\": \"OCR 'corrected' a typo in the book. The book visually says 'גדול' (likely a typo for 'גבול'), but instructions require exact transcription.\",\n      \"original_text\": \"כיון שיש לה גבול שפיר\",\n      \"corrected_text\": \"כיון שיש לה גדול שפיר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section קח, paragraph 5\",\n      \"description\": \"OCR 'corrected' a likely typo/malformed word in the book. Visually appears as 'ומטלו'.\",\n      \"original_text\": \"ונטלו שכר עליה\",\n      \"corrected_text\": \"ומטלו שכר עליה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"פב\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": null,\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"להם השכר ממילא שפיר בעוה”ז”.\",\n        \"source_ref\": \"(ובית נפתלי פנחס)\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קו\",\n        \"title\": \"המשתדל לעשות את ישראל לאגודה אחת ויהיה שלום ביניהם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וא”כ במצוה החמורה כזו דהיינו ההשתדלות לעשות את ישראל לאגודה אחת ויהיה שלום ביניהם וכו’ ממילא שכר מצוה איכא בהאי עלמא עבור מצוה זו.\",\n            \"source_ref\": \"(מגדלות מרקחים ויקהל)\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"תשובה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קז\",\n        \"title\": \"ע”י תשובה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שובה ישראל וכו’ כי כשלת בעוניך ואז היה לך הנחה, א”כ ע”י התשובה ג”כ יהיה לך הנחה וכו’ ואז שכר מצוה איכא וכו’.\",\n            \"source_ref\": \"(דברי אליעזר, שבת תשובה)\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"קח\",\n        \"title\": \"העושה תשובה מאהבה ונעשה מעבירות זכיות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי הגם דשכר מצוה בהאי עלמא ליכא, הוא רק על המצות שבתורה, משא”כ אם האדם עושה תשובה מאהבה, ומהעבירות נעשים מצות, על המצות כולן מגיע שכר גם בזה העולם.\",\n            \"source_ref\": \"(וולאשר אמר - עניני שבת)\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דאף דקיי”ל שכר מצוה בהאי עלמא ליכא, מ”מ על מצות כאלו שנתהפכו מזדונות לזכיות ע”י תשובה מאהבה על זה איכא שכר גם בהאי עלמא.\",\n            \"source_ref\": \"(ובאר שבע טאלטשאווא פ' חיי וראה גם בערבי נחל לש”ש דרוש ד')\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דע”י תשובה מאהבה זדונות נעשו זכיות וכו’ דעל מצות כאלו הקב”ה משלם בעוה”ז, דכיון דקודם מעבירה, ועל עבירה הקב”ה משלם לצדיקים בעוה”ז”.\",\n            \"source_ref\": \"(מגדלות מרקחים, בחוקותי)\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"שבתשובה מאהבה שנעשה מהעבירות זכיות וכו’ שיש עליהם שכר בהאי עלמא.\",\n            \"source_ref\": \"(קדו”ט ואתחנן)\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ומעתה אם ע”י תשובה מאהבה נעשה מעבירה מצוה וכו’ וא”כ כיון שיש לה גדול שפיר יכול להיות בזה העולם וכו’ ומטלו שכר עליה בהאי עלמא.\",\n            \"source_ref\": \"(קול אריה עקב)\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ואם שב מאהבה וכו’ השכר ממצוה שתהוה ממנה יש לה גבול, וכיון שיש לה גבול טוב שפיר יוכל להיות השכר על זה גם בעוה”ז”.\",\n            \"source_ref\": \"(וולאשר אמר, בא)\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 82,
+    "book_page": 82,
+    "overall_quality": "excellent",
+    "summary": " The structural parsing is perfect, including the complex column merging of Section 108, Paragraph 1. The extraction of headers, sections, and source references is accurate. There are a few minor text transcription errors where characters were misidentified or where the OCR likely corrected a typo present in the original book (instructions specify exact transcription).",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קח, paragraph 1 (makor)",
+        "description": "Misidentified word at start of paragraph.",
+        "original_text": "כי הנה דשכר מצוה",
+        "corrected_text": "כי הגם דשכר מצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קח, paragraph 3",
+        "description": "Added extraneous letter (yud).",
+        "original_text": "דכיון דיקודם מעבירה",
+        "corrected_text": "דכיון דקודם מעבירה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קח, paragraph 5",
+        "description": "OCR 'corrected' a typo in the book. The book visually says 'גדול' (likely a typo for 'גבול'), but instructions require exact transcription.",
+        "original_text": "כיון שיש לה גבול שפיר",
+        "corrected_text": "כיון שיש לה גדול שפיר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section קח, paragraph 5",
+        "description": "OCR 'corrected' a likely typo/malformed word in the book. Visually appears as 'ומטלו'.",
+        "original_text": "ונטלו שכר עליה",
+        "corrected_text": "ומטלו שכר עליה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "פב",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": null,
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "להם השכר ממילא שפיר בעוה”ז”.",
+          "source_ref": "(ובית נפתלי פנחס)"
+        },
+        {
+          "type": "section",
+          "number": "קו",
+          "title": "המשתדל לעשות את ישראל לאגודה אחת ויהיה שלום ביניהם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וא”כ במצוה החמורה כזו דהיינו ההשתדלות לעשות את ישראל לאגודה אחת ויהיה שלום ביניהם וכו’ ממילא שכר מצוה איכא בהאי עלמא עבור מצוה זו.",
+              "source_ref": "(מגדלות מרקחים ויקהל)"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "תשובה"
+        },
+        {
+          "type": "section",
+          "number": "קז",
+          "title": "ע”י תשובה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שובה ישראל וכו’ כי כשלת בעוניך ואז היה לך הנחה, א”כ ע”י התשובה ג”כ יהיה לך הנחה וכו’ ואז שכר מצוה איכא וכו’.",
+              "source_ref": "(דברי אליעזר, שבת תשובה)"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "קח",
+          "title": "העושה תשובה מאהבה ונעשה מעבירות זכיות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי הגם דשכר מצוה בהאי עלמא ליכא, הוא רק על המצות שבתורה, משא”כ אם האדם עושה תשובה מאהבה, ומהעבירות נעשים מצות, על המצות כולן מגיע שכר גם בזה העולם.",
+              "source_ref": "(וולאשר אמר - עניני שבת)"
+            },
+            {
+              "is_makor": false,
+              "text": "דאף דקיי”ל שכר מצוה בהאי עלמא ליכא, מ”מ על מצות כאלו שנתהפכו מזדונות לזכיות ע”י תשובה מאהבה על זה איכא שכר גם בהאי עלמא.",
+              "source_ref": "(ובאר שבע טאלטשאווא פ' חיי וראה גם בערבי נחל לש”ש דרוש ד')"
+            },
+            {
+              "is_makor": false,
+              "text": "דע”י תשובה מאהבה זדונות נעשו זכיות וכו’ דעל מצות כאלו הקב”ה משלם בעוה”ז, דכיון דקודם מעבירה, ועל עבירה הקב”ה משלם לצדיקים בעוה”ז”.",
+              "source_ref": "(מגדלות מרקחים, בחוקותי)"
+            },
+            {
+              "is_makor": false,
+              "text": "שבתשובה מאהבה שנעשה מהעבירות זכיות וכו’ שיש עליהם שכר בהאי עלמא.",
+              "source_ref": "(קדו”ט ואתחנן)"
+            },
+            {
+              "is_makor": false,
+              "text": "ומעתה אם ע”י תשובה מאהבה נעשה מעבירה מצוה וכו’ וא”כ כיון שיש לה גדול שפיר יכול להיות בזה העולם וכו’ ומטלו שכר עליה בהאי עלמא.",
+              "source_ref": "(קול אריה עקב)"
+            },
+            {
+              "is_makor": false,
+              "text": "ואם שב מאהבה וכו’ השכר ממצוה שתהוה ממנה יש לה גבול, וכיון שיש לה גבול טוב שפיר יוכל להיות השכר על זה גם בעוה”ז”.",
+              "source_ref": "(וולאשר אמר, בא)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

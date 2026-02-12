@@ -1,0 +1,49 @@
+{
+  "page": 58,
+  "book_page": 94,
+  "overall_quality": "good",
+  "summary": "Page 58 (book page 78) captures sections פו through צב. Structure is mostly correct with two grouping headers 'רוצה' and 'רשות לשם מצוה'. Section צב continues to next page with empty paragraphs (correct). Some minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פט, makor text",
+      "description": "OCR has 'נמצא כי המצוה נעלמה הוא ג\"כ גשמית' - the word 'נעלמה' seems uncertain. Image may show a different word.",
+      "original_text": "המצוה נעלמה הוא ג\"כ גשמית",
+      "corrected_text": "Verify 'נעלמה' against image"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פח, makor text",
+      "description": "OCR has 'כיון דנתבעו מגיע תיכף שכרו' - 'דנתבעו' (plural) may be 'דנתבע' (singular).",
+      "original_text": "כיון דנתבעו",
+      "corrected_text": "Verify - possibly 'כיון דנתבע'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פו, source_ref",
+      "description": "Source ref 'תיקון משה, מילה' - verify 'מילה' is correct word or could be different.",
+      "original_text": "תיקון משה, מילה",
+      "corrected_text": "Verify source ref"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section צא, makor text",
+      "description": "OCR has 'דע\"י שמקדיש עניני עוה\"ז עם עניני עוה\"ב' - the verb 'שמקדיש' may be different. Image may show 'שמקדש' or 'שמחבר'.",
+      "original_text": "דע\"י שמקדיש עניני עוה\"ז עם עניני עוה\"ב",
+      "corrected_text": "Verify exact wording"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section צב, title",
+      "description": "Title 'מי שכל מעשיו לשם שמים, ואף באכילה ושתיה ושאר' is cut off because section continues to next page. This is expected behavior.",
+      "original_text": "מי שכל מעשיו לשם שמים, ואף באכילה ושתיה ושאר",
+      "corrected_text": "Correct - title continues to next page"
+    }
+  ],
+  "corrected_json": null
+}

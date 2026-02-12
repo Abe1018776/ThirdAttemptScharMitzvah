@@ -1,0 +1,49 @@
+{
+  "page": 44,
+  "book_page": 80,
+  "overall_quality": "good",
+  "summary": "Page 44 (book page 64/80) continues Chapter 5 with sections dalet through yud. Contains grouping header 'Yisrael'. Structure is correctly captured. Some minor textual discrepancies. Section yud at bottom correctly noted as continuing to next page (missing source_ref).",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section dalet, makor paragraph",
+      "description": "OCR has 'ללמד שכלו על מצוה זו שהניח לחלקיו' but the image reads more like 'ללמד שכלו על מצוה זו שהניח לחלציו' (lamed-chet-lamed-tzadi-yud-vav, meaning 'his descendants', not 'lchalkav').",
+      "original_text": "שהניח לחלקיו",
+      "corrected_text": "שהניח לחלציו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section dalet, second paragraph (דברי אליעזר)",
+      "description": "The word 'ואוכלותיהם למלח' does not parse well. The image suggests 'ואכלותיהם למלח' or similar. Also 'נגד מטעי' is unclear.",
+      "original_text": "ואוכלותיהם למלח, ומפרש בתויו\"ט בעוה\"ז וכו', והטעם כי נגד מטעי שהם הולכים בדרכי אבות",
+      "corrected_text": "ואוכלותיהם למלח, ומפרש בתויו\"ט בעוה\"ז וכו', והטעם כי נגד מה שהם הולכים בדרכי אבות"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section zayin, title",
+      "description": "OCR has 'כמציל מווטו של ים' but image reads 'כמציל מזוטו של ים' (mizmuto shel yam).",
+      "original_text": "כמציל מווטו של ים",
+      "corrected_text": "כמציל מזוטו של ים"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section yud, makor paragraph",
+      "description": "Section yud is missing its source_ref. The text continues to next page where the source ref would appear. This is acceptable since continues_to flag is set.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section heh, makor paragraph",
+      "description": "The brackets '[- ואז]' seem editorially inserted. The image shows this text with a dash before 'ואז'. The closing bracket after 'בעתם]' matches an opening bracket earlier. This is acceptable editorial notation.",
+      "original_text": "[- ואז] ונתתי גשמיכם בעתם]",
+      "corrected_text": "[- ואז] ונתתי גשמיכם בעתם"
+    }
+  ],
+  "corrected_json": null
+}

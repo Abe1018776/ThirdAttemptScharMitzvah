@@ -1,0 +1,41 @@
+{
+  "page": 8,
+  "book_page": 44,
+  "overall_quality": "good",
+  "summary": "Page 8 continues from section dalet and covers sections heh through yod-aleph of chapter 2. Continuation fragment is properly captured. All section numbers are sequential. Section yod-aleph has empty paragraphs because it continues to next page. A few text-level issues found.",
+  "issues": [
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section ח makor",
+      "description": "Source ref is 'הוויו\"ט פאה פ\"א מ\"א'. This is an unusual abbreviation. It should likely be 'תוי\"ט פאה פ\"א מ\"א' referring to Tosefot Yom Tov on Mishnah Peah, a well-known commentary.",
+      "original_text": "הוויו\"ט פאה פ\"א מ\"א",
+      "corrected_text": "תוי\"ט פאה פ\"א מ\"א"
+    },
+    {
+      "type": "missing_text",
+      "severity": "major",
+      "location": "section יא",
+      "description": "Section yod-aleph has empty paragraphs array. Looking at the image bottom-left, section יא begins with its title 'על סייגים וגדרי חכמים' and there appears to be makor text starting on this page before it continues to page 9. The beginning of the makor text should be captured.",
+      "original_text": "paragraphs: []",
+      "corrected_text": "Should contain the beginning of the makor paragraph visible on this page"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section י makor",
+      "description": "OCR reads 'ממילא לצריך הקב\"ה כביכול' - the word 'לצריך' is unusual. It should likely be 'צריך' without the lamed prefix.",
+      "original_text": "ממילא לצריך הקב\"ה",
+      "corrected_text": "ממילא צריך הקב\"ה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section י makor",
+      "description": "OCR reads 'טרם יבא השמש מהשלם' - 'מהשלם' seems incorrect. This likely reads 'מלהשלם' (from paying/completing).",
+      "original_text": "טרם יבא השמש מהשלם",
+      "corrected_text": "טרם יבא השמש מלהשלם"
+    }
+  ],
+  "corrected_json": null
+}

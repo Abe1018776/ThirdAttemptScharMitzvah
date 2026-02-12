@@ -1,0 +1,25 @@
+{
+  "page": 7,
+  "book_page": 43,
+  "overall_quality": "good",
+  "summary": "Page 7 starts פרק שני with subtitle סוגי מצוות. Sections aleph through dalet of chapter 2 are captured. Section bet has multiple paragraphs with correct source refs. Section dalet is cut at the bottom continuing to next page. Chapter header and structure are correct.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ב, paragraph 2 (Chakol Yitzchak)",
+      "description": "OCR reads 'וידוע מה שאמר התולדות שור' referencing a sefer. The actual sefer name is 'תבואות שור' (Tevuot Shor), a known halachic work. The OCR misread תבואות as תולדות.",
+      "original_text": "התולדות שור",
+      "corrected_text": "התבואות שור"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section ד makor (first paragraph)",
+      "description": "The makor paragraph has no source_ref because section ד continues to the next page. The source ref appears on page 8's continuation fragment. Acceptable for cross-page sections.",
+      "original_text": null,
+      "corrected_text": null
+    }
+  ],
+  "corrected_json": null
+}

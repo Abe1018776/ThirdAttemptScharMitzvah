@@ -1,0 +1,33 @@
+{
+  "page": 64,
+  "book_page": 100,
+  "overall_quality": "good",
+  "summary": "Page 85 (left side), chapter 5. Continuation of section 120 from previous page, then sections 121-126. All sections well captured with minor text issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment text",
+      "description": "OCR added nikud (vowel points) on the word 'הֵשִׁיב' which are not present in the original printed text. Also, OCR uses 'ה'' for Hashem's name but the image uses 'ד'' (dalet with geresh) as is typical in printed sefarim.",
+      "original_text": "ככר הֵשִׁיב חמת ה'",
+      "corrected_text": "ככר השיב חמת ד'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קכד, makor text",
+      "description": "OCR has 'העוסקי' (defective) where image shows 'העוסקים' (full spelling).",
+      "original_text": "העוסקי",
+      "corrected_text": "העוסקים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קכו, makor text",
+      "description": "OCR has 'מקרע\"ה' but the standard abbreviation for Moshe Rabbeinu Alav HaShalom is 'מרע\"ה'. The extra kuf is likely an OCR error.",
+      "original_text": "מקרע\"ה",
+      "corrected_text": "מרע\"ה"
+    }
+  ],
+  "corrected_json": null
+}

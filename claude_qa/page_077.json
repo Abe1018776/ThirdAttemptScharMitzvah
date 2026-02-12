@@ -1,0 +1,49 @@
+{
+  "page": 77,
+  "book_page": 113,
+  "overall_quality": "good",
+  "summary": "Page 77 covers sections 50-53 of chapter 6, with a continuation fragment from the previous page. The OCR captures the structure and section numbering accurately. Some minor text variations exist. The continuation fragment source_ref 'פנחס' appears to be a truncation - the image shows a longer reference. Section 52 text has 'בלי לוו התורה' which should be 'בלי צווי התורה'. Section 51 title and body text are well captured. The last paragraph of section 53 is correctly shown as cut off (continues to next page).",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 52, makor paragraph",
+      "description": "OCR reads 'בלי לוו התורה' but the image shows 'בלי צווי התורה'",
+      "original_text": "אבל אותם המצות שאף בלי לוו התורה",
+      "corrected_text": "אבל אותם המצות שאף בלי צווי התורה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 52, makor paragraph",
+      "description": "OCR reads 'שצריכות בשוה\"ז' but should be 'שצריכות בעוה\"ז' (bet vs shin)",
+      "original_text": "שצריכות בשוה\"ז",
+      "corrected_text": "שצריכות בעוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment",
+      "description": "The continuation text appears to read 'יכלה בניו ישראל וכו' ומרדכי בשער המלך' - the OCR has 'וקראו' instead of 'ישראל'. Hard to read precisely in the image but the word appears different.",
+      "original_text": "יכלה בניו וקראו וכו'",
+      "corrected_text": "יכלה בניו ישראלו וכו'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 53, title",
+      "description": "Title reads 'מצוה שיש בו הנאת הגוף' but the image appears to show 'מצוה שיש בה הנאת הגוף' (feminine 'בה' not masculine 'בו')",
+      "original_text": "מצוה שיש בו הנאת הגוף",
+      "corrected_text": "מצוה שיש בה הנאת הגוף"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 53, third paragraph (last on page)",
+      "description": "OCR reads 'אבל בלאו [המלות]' which seems uncertain; image shows 'אבל בכלאו' or 'אבל בלאו'. The bracketed '[המלות]' is an OCR insertion not visible in text.",
+      "original_text": "אבל בלאו [המלות] שיש בהם הנאת הגוף",
+      "corrected_text": "אבל בלאו שיש בהם הנאת הגוף"
+    }
+  ],
+  "corrected_json": null
+}

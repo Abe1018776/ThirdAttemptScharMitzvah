@@ -1,0 +1,156 @@
+{
+  "page": 59,
+  "book_page": 95,
+  "raw_response": "```json\n{\n  \"page\": 79,\n  \"book_page\": 79,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR correctly identified the structure, column flow, and cross-column join for section 94. However, there are significant text errors in the first paragraph (wrong words changing meaning), a missing source reference in section 95, and minor typos in section 96.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"minor\",\n      \"location\": \"Right Column, Top\",\n      \"description\": \"The first element is treated as an unnumbered section. While valid for data capture, the prompt defines sections as numbered. It functions as a titled introduction.\",\n      \"original_text\": \"section (number: null)\",\n      \"corrected_text\": \"N/A (Keep as section for content preservation, just noted)\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"First section (Top Right), Paragraph 1\",\n      \"description\": \"Critical text misrecognition changing 'serves God' to 'eats God'.\",\n      \"original_text\": \"ואוכל ה' [?] במאכל\",\n      \"corrected_text\": \"ועובד ה' במאכל\"\n    },\n    {\n      \"type\": \"missing_source_ref\",\n      \"severity\": \"major\",\n      \"location\": \"Section 95 (Left Column)\",\n      \"description\": \"The source reference at the end of the text was not extracted.\",\n      \"original_text\": \"null\",\n      \"corrected_text\": \"פני מבין פ' לך\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 96, Title\",\n      \"description\": \"Spelling error in title (Tav vs Tet/Tav confusion).\",\n      \"original_text\": \"ללמד לתוהים בינה\",\n      \"corrected_text\": \"ללמד לתועים בינה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 96, Body Paragraph\",\n      \"description\": \"Typo in abbreviation for 'This World'.\",\n      \"original_text\": \"עוח\\\"ז\",\n      \"corrected_text\": \"עוה\\\"ז\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עט\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"צז\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": null,\n        \"title\": \"ענינים גשמיים הוא עושה לשם שמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בודאי שכל מצוה שהיא רוחניות וגשמיות גם שכרה רוחניות וגשמיות, אבל מי שכל מעשיו לשם שמים, ועובד ה' במאכל ומשתה ושינה ומסחר ועושה כולו הכנה לעבודת ה', להרים אלו גשמיים המה, ולכן יש שכר עבור זה בגשמיות בעולם הזה. וכתב\",\n            \"source_ref\": \"סופר החדש פ' בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אם גם התכלית הגשמיים וכו' נתכון ג\\\"כ וכו' לשם שמים וכו' שע\\\"ז יקבל שכר גם בהאי עלמא.\",\n            \"source_ref\": \"בית אשר עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אבל העושה דבר הרשות ומכוין לש\\\"ש בזה מקבל שכר בעוה\\\"ז.\",\n            \"source_ref\": \"יד אהרן לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"צג\",\n        \"title\": \"ע\\\"י שאוכלים אכילת רשות בדרך מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הרי מלינו בזכות אכילת הרשות בדרך מצוה, מגיע לנו נשיאות פנים לטובה וכו'.\",\n            \"source_ref\": \"צמח דוד, ר\\\"ה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"צד\",\n        \"title\": \"מי שעושה מצוה מדברים שברשות.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וה\\\"נ י\\\"ל כיון דגם בחוקותי תלכו היינו שגם ההליכה בעניני עוה\\\"ז יהיה חקותי, היינו שיעשו מצוה מדבר הרשות אז ונתתי גשמיכם בעתם וכו' ושפיר מגיע לו עבור זה שכר בעוה\\\"ז.\",\n            \"source_ref\": \"מגדלות מרקחים, בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"צה\",\n        \"title\": \"המשתמש בהנאת עוה\\\"ז לכבוד התוה\\\"ק יתן לו הקב\\\"ה עושר וכבוד בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם בחיק חקר משתמש בהנאת עוה\\\"ז לכבוד התוה\\\"ק ית\\\"ק וכו' בודאי יתן לו הקב\\\"ה עושר וכבוד.\",\n            \"source_ref\": \"פני מבין פ' לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"צו\",\n        \"title\": \"המשתמש בהנאת עוה\\\"ז ללמד לתועים בינה, יתן לו הקב\\\"ה עושר וכבוד בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם בחיק חקר משתמש בהנאת עוה\\\"ז וכו' ללמד תועים בינה בודאי יתן לו הקב\\\"ה עושר וכבוד.\",\n            \"source_ref\": \"פני מבין פ' לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"צז\",\n        \"title\": \"מי שאוכל ביחודים ובשכל ובחכמה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אצל מי שאוכל כו' ביחודים ובשכל ובחכמה נותנין לו\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 79,
+    "book_page": 79,
+    "overall_quality": "good",
+    "summary": "The OCR correctly identified the structure, column flow, and cross-column join for section 94. However, there are significant text errors in the first paragraph (wrong words changing meaning), a missing source reference in section 95, and minor typos in section 96.",
+    "issues": [
+      {
+        "type": "wrong_structure",
+        "severity": "minor",
+        "location": "Right Column, Top",
+        "description": "The first element is treated as an unnumbered section. While valid for data capture, the prompt defines sections as numbered. It functions as a titled introduction.",
+        "original_text": "section (number: null)",
+        "corrected_text": "N/A (Keep as section for content preservation, just noted)"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "First section (Top Right), Paragraph 1",
+        "description": "Critical text misrecognition changing 'serves God' to 'eats God'.",
+        "original_text": "ואוכל ה' [?] במאכל",
+        "corrected_text": "ועובד ה' במאכל"
+      },
+      {
+        "type": "missing_source_ref",
+        "severity": "major",
+        "location": "Section 95 (Left Column)",
+        "description": "The source reference at the end of the text was not extracted.",
+        "original_text": "null",
+        "corrected_text": "פני מבין פ' לך"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 96, Title",
+        "description": "Spelling error in title (Tav vs Tet/Tav confusion).",
+        "original_text": "ללמד לתוהים בינה",
+        "corrected_text": "ללמד לתועים בינה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section 96, Body Paragraph",
+        "description": "Typo in abbreviation for 'This World'.",
+        "original_text": "עוח\"ז",
+        "corrected_text": "עוה\"ז"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עט",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "צז",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": null,
+          "title": "ענינים גשמיים הוא עושה לשם שמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בודאי שכל מצוה שהיא רוחניות וגשמיות גם שכרה רוחניות וגשמיות, אבל מי שכל מעשיו לשם שמים, ועובד ה' במאכל ומשתה ושינה ומסחר ועושה כולו הכנה לעבודת ה', להרים אלו גשמיים המה, ולכן יש שכר עבור זה בגשמיות בעולם הזה. וכתב",
+              "source_ref": "סופר החדש פ' בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "אם גם התכלית הגשמיים וכו' נתכון ג\"כ וכו' לשם שמים וכו' שע\"ז יקבל שכר גם בהאי עלמא.",
+              "source_ref": "בית אשר עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "אבל העושה דבר הרשות ומכוין לש\"ש בזה מקבל שכר בעוה\"ז.",
+              "source_ref": "יד אהרן לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "צג",
+          "title": "ע\"י שאוכלים אכילת רשות בדרך מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הרי מלינו בזכות אכילת הרשות בדרך מצוה, מגיע לנו נשיאות פנים לטובה וכו'.",
+              "source_ref": "צמח דוד, ר\"ה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "צד",
+          "title": "מי שעושה מצוה מדברים שברשות.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וה\"נ י\"ל כיון דגם בחוקותי תלכו היינו שגם ההליכה בעניני עוה\"ז יהיה חקותי, היינו שיעשו מצוה מדבר הרשות אז ונתתי גשמיכם בעתם וכו' ושפיר מגיע לו עבור זה שכר בעוה\"ז.",
+              "source_ref": "מגדלות מרקחים, בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "צה",
+          "title": "המשתמש בהנאת עוה\"ז לכבוד התוה\"ק יתן לו הקב\"ה עושר וכבוד בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם בחיק חקר משתמש בהנאת עוה\"ז לכבוד התוה\"ק ית\"ק וכו' בודאי יתן לו הקב\"ה עושר וכבוד.",
+              "source_ref": "פני מבין פ' לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "צו",
+          "title": "המשתמש בהנאת עוה\"ז ללמד לתועים בינה, יתן לו הקב\"ה עושר וכבוד בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם בחיק חקר משתמש בהנאת עוה\"ז וכו' ללמד תועים בינה בודאי יתן לו הקב\"ה עושר וכבוד.",
+              "source_ref": "פני מבין פ' לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "צז",
+          "title": "מי שאוכל ביחודים ובשכל ובחכמה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אצל מי שאוכל כו' ביחודים ובשכל ובחכמה נותנין לו",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

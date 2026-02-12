@@ -1,0 +1,41 @@
+{
+  "page": 52,
+  "book_page": 88,
+  "overall_quality": "good",
+  "summary": "Page 52 (book page 72) captures sections נג through נז plus continuation fragment and grouping header מתנת שכר. Structure is mostly correct. Some text inaccuracies in OCR body text. The makor source ref for section נז is missing (continues to next page).",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section נג, makor text",
+      "description": "OCR text 'ינוויי ג\"כ היום ברכה' appears wrong. The image shows 'ירוויי ג\"כ היום ברכה' (with ר not נ).",
+      "original_text": "ינוויי ג\"כ היום ברכה",
+      "corrected_text": "ירוויי ג\"כ היום ברכה"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "major",
+      "location": "section נז, makor paragraph",
+      "description": "The makor paragraph for section נז is missing its source_ref. The text continues to page 53 where the continuation fragment has source_ref 'תולדות יצחק בחוקותי'. Since this is a continues_to situation, the null source_ref is understandable but should be noted.",
+      "original_text": null,
+      "corrected_text": "source_ref resolves to 'תולדות יצחק בחוקותי' from continuation on page 53"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section נד, source_ref",
+      "description": "Source ref 'שנות חיים פ' חיי' - image is hard to read precisely. May be 'שנות חיים פ\"ח חי\"ש' or similar abbreviation.",
+      "original_text": "שנות חיים פ' חיי",
+      "corrected_text": "Verify against original"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment text",
+      "description": "Some minor OCR variations in the continuation text. 'ומילת בחוקותי' should likely be 'ומלת בחוקותי'.",
+      "original_text": "ומילת בחוקותי",
+      "corrected_text": "ומלת בחוקותי"
+    }
+  ],
+  "corrected_json": null
+}

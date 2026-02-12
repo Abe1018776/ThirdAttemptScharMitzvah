@@ -1,0 +1,174 @@
+{
+  "page": 36,
+  "book_page": 72,
+  "raw_response": "```json\n{\n  \"page\": 56,\n  \"book_page\": 72,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Structure and field extraction are excellent. Column ordering and text joining are handled correctly. However, there are several precise transcription errors where the OCR substituted similar-looking letters or 'corrected' words rather than transcribing the printed text exactly.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Transcription error: printed text is 'שמא' (lest), OCR transcribed 'שמה' (there).\",\n      \"original_text\": \"משום שאם יחיה שמה יחטא\",\n      \"corrected_text\": \"משום שאם יחיה שמא יחטא\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, source\",\n      \"description\": \"Missing initial Vav in source reference.\",\n      \"original_text\": \"בגדי אהרן פנחס\",\n      \"corrected_text\": \"ובגדי אהרן פנחס\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ט, paragraph 1\",\n      \"description\": \"OCR 'corrected' a likely typo in the book instead of transcribing exactly. Visual text is 'כלחוי' (likely a misprint of 'כראוי'), OCR output 'כראוי'.\",\n      \"original_text\": \"מי שנוהג ברבנות בכשרות ובתמימות כראוי\",\n      \"corrected_text\": \"מי שנוהג ברבנות בכשרות ובתמימות כלחוי\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section י, paragraph 1\",\n      \"description\": \"Pronoun transcription error.\",\n      \"original_text\": \"כי הזכר שפעולתו הוא בניגוד\",\n      \"corrected_text\": \"כי הזכר שפעולתו היא בניגוד\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יא, paragraph 1\",\n      \"description\": \"Acronym transcription error: printed 'חז\\\"ל' (ends with Lamed), OCR 'רז\\\"ל'.\",\n      \"original_text\": \"רז\\\"ל גדולה הבטחה\",\n      \"corrected_text\": \"חז\\\"ל גדולה הבטחה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יא, paragraph 1\",\n      \"description\": \"Suffix transcription error: printed 'שנתנן' (final Nun), OCR 'שנתנו'.\",\n      \"original_text\": \"שנתנו ג' עולמות\",\n      \"corrected_text\": \"שנתנן ג' עולמות\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section יא, source\",\n      \"description\": \"Source page number mismatch. Visual appears to be 'קמ\\\"ז' (147), OCR captured 'קפח' (188).\",\n      \"original_text\": \"עין יעקב מבואר ברכות קפח\",\n      \"corrected_text\": \"עין יעקב מבואר ברכות קמ\\\"ז\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"ו\",\n        \"title\": \"פנחס שחי לעולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"פנחס כיון שחי וקיים לעולם ולא שייך לומר בו היום לעשותם ומחר לקבל וכו' מגיע לו שכרו בדין בעוה\\\"ז\",\n            \"source_ref\": \"ובית נפתלי פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ז\",\n        \"title\": \"מי שקיבל נשמה חדשה בחייו, ותיקן כבר נשמתו הראשונה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כיון שנתחלפה נשמת פנחס, וכבר תקנה את אשר היה לו לתקן וכו' בדין הוא שיטול שכרו (בעוה\\\"ז).\",\n            \"source_ref\": \"בני יוסף, בהר\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ח\",\n        \"title\": \"מי שיש לו נשמה מעלמא עילאה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה המפרשים כתבו הטעם למה שכר בהאי עלמא ליכא, משום שאם יחיה שמא יחטא ויתחרט על המצות וכו' וז\\\"ש פינחס ביו\\\"ד וכו' וא\\\"כ היה לו נשמה מעלמא עילאה וגמירי שאינו חוטא, לכן אמר הקב\\\"ה בדין הוא שיטול שכרו וכו'.\",\n            \"source_ref\": \"ובגדי אהרן פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ט\",\n        \"title\": \"מי שמתנהג ברבנות בכשרות ובתמימות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מי שנוהג ברבנות בכשרות ובתמימות כלחוי וכו' נותנין לו שכרו קודם שיצא מן העולם וכו'.\",\n            \"source_ref\": \"באר שלמה, רבנות, ליקוטי מהר\\\"ן רל\\\"ו\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"י\",\n        \"title\": \"הזכר\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\\\"ז\",\n            \"source_ref\": \"ויגד משה תזריע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יא\",\n        \"title\": \"נשים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"חז\\\"ל גדולה הבטחה שהבטיחן הקב\\\"ה לנשים וכו' שנתנן ג' עולמות עוה\\\"ז ועוה\\\"ב וכו'.\",\n            \"source_ref\": \"עין יעקב מבואר ברכות קמ\\\"ז\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יב\",\n        \"title\": \"כשהאשה מקיימת את התורה מעוני, זוכה הבעל לעשירות בזכותה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אין הברכה מצויה בתוך ביתו של אדם אלא בזכות האשה, ולכך אם היא קיימה את התורה מעוני זכה אף הבעל לעשירות בזכותה.\",\n            \"source_ref\": \"אמרי שפר לך\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 56,
+    "book_page": 72,
+    "overall_quality": "good",
+    "summary": "Structure and field extraction are excellent. Column ordering and text joining are handled correctly. However, there are several precise transcription errors where the OCR substituted similar-looking letters or 'corrected' words rather than transcribing the printed text exactly.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ח, paragraph 1",
+        "description": "Transcription error: printed text is 'שמא' (lest), OCR transcribed 'שמה' (there).",
+        "original_text": "משום שאם יחיה שמה יחטא",
+        "corrected_text": "משום שאם יחיה שמא יחטא"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section ח, source",
+        "description": "Missing initial Vav in source reference.",
+        "original_text": "בגדי אהרן פנחס",
+        "corrected_text": "ובגדי אהרן פנחס"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ט, paragraph 1",
+        "description": "OCR 'corrected' a likely typo in the book instead of transcribing exactly. Visual text is 'כלחוי' (likely a misprint of 'כראוי'), OCR output 'כראוי'.",
+        "original_text": "מי שנוהג ברבנות בכשרות ובתמימות כראוי",
+        "corrected_text": "מי שנוהג ברבנות בכשרות ובתמימות כלחוי"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section י, paragraph 1",
+        "description": "Pronoun transcription error.",
+        "original_text": "כי הזכר שפעולתו הוא בניגוד",
+        "corrected_text": "כי הזכר שפעולתו היא בניגוד"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יא, paragraph 1",
+        "description": "Acronym transcription error: printed 'חז\"ל' (ends with Lamed), OCR 'רז\"ל'.",
+        "original_text": "רז\"ל גדולה הבטחה",
+        "corrected_text": "חז\"ל גדולה הבטחה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יא, paragraph 1",
+        "description": "Suffix transcription error: printed 'שנתנן' (final Nun), OCR 'שנתנו'.",
+        "original_text": "שנתנו ג' עולמות",
+        "corrected_text": "שנתנן ג' עולמות"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section יא, source",
+        "description": "Source page number mismatch. Visual appears to be 'קמ\"ז' (147), OCR captured 'קפח' (188).",
+        "original_text": "עין יעקב מבואר ברכות קפח",
+        "corrected_text": "עין יעקב מבואר ברכות קמ\"ז"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נו",
+        "page_side": "left",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "ו",
+          "title": "פנחס שחי לעולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "פנחס כיון שחי וקיים לעולם ולא שייך לומר בו היום לעשותם ומחר לקבל וכו' מגיע לו שכרו בדין בעוה\"ז",
+              "source_ref": "ובית נפתלי פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ז",
+          "title": "מי שקיבל נשמה חדשה בחייו, ותיקן כבר נשמתו הראשונה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כיון שנתחלפה נשמת פנחס, וכבר תקנה את אשר היה לו לתקן וכו' בדין הוא שיטול שכרו (בעוה\"ז).",
+              "source_ref": "בני יוסף, בהר"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ח",
+          "title": "מי שיש לו נשמה מעלמא עילאה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה המפרשים כתבו הטעם למה שכר בהאי עלמא ליכא, משום שאם יחיה שמא יחטא ויתחרט על המצות וכו' וז\"ש פינחס ביו\"ד וכו' וא\"כ היה לו נשמה מעלמא עילאה וגמירי שאינו חוטא, לכן אמר הקב\"ה בדין הוא שיטול שכרו וכו'.",
+              "source_ref": "ובגדי אהרן פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ט",
+          "title": "מי שמתנהג ברבנות בכשרות ובתמימות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מי שנוהג ברבנות בכשרות ובתמימות כלחוי וכו' נותנין לו שכרו קודם שיצא מן העולם וכו'.",
+              "source_ref": "באר שלמה, רבנות, ליקוטי מהר\"ן רל\"ו"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "י",
+          "title": "הזכר",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\"ז",
+              "source_ref": "ויגד משה תזריע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יא",
+          "title": "נשים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "חז\"ל גדולה הבטחה שהבטיחן הקב\"ה לנשים וכו' שנתנן ג' עולמות עוה\"ז ועוה\"ב וכו'.",
+              "source_ref": "עין יעקב מבואר ברכות קמ\"ז"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יב",
+          "title": "כשהאשה מקיימת את התורה מעוני, זוכה הבעל לעשירות בזכותה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אין הברכה מצויה בתוך ביתו של אדם אלא בזכות האשה, ולכך אם היא קיימה את התורה מעוני זכה אף הבעל לעשירות בזכותה.",
+              "source_ref": "אמרי שפר לך"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

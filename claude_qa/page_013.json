@@ -1,0 +1,41 @@
+{
+  "page": 13,
+  "book_page": 49,
+  "overall_quality": "good",
+  "summary": "Page 13 (book page לג) contains sections ה through יב. Section numbers, titles, and source refs are generally well captured. A few minor text issues and one potentially misread word.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section ט, makor text",
+      "description": "The OCR reads 'שפיר מגיע עליהם שכר בעוה\"ז' but the image appears to show 'שפיר תגיע עליהם שכר בעוה\"ז' with 'תגיע' instead of 'מגיע'.",
+      "original_text": "שפיר מגיע עליהם שכר בעוה\"ז",
+      "corrected_text": "שפיר תגיע עליהם שכר בעוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section י, makor text",
+      "description": "The OCR reads 'לעשות חמדות כידוע דהסעודה גורם לחמדות' but the image may show 'אחדות' (unity) rather than 'חמדות' (desires). Print quality makes this uncertain.",
+      "original_text": "לעשות חמדות כידוע דהסעודה גורם לחמדות",
+      "corrected_text": "Possibly 'לעשות אחדות כידוע דהסעודה גורם לאחדות' - needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יב, makor text",
+      "description": "The OCR reads 'היינו קיומא לגופא אות ברית קודש' but the image appears to show 'היינו קיומא דגופא לאות ברית קודש' - minor word differences.",
+      "original_text": "היינו קיומא לגופא אות ברית קודש",
+      "corrected_text": "היינו קיומא דגופא לאות ברית קודש"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section ט, source_ref",
+      "description": "Source ref has trailing apostrophe: 'הלב אריה'' which should be 'הלב אריה' without the extra quote mark.",
+      "original_text": "בשם הלב אריה'",
+      "corrected_text": "בשם הלב אריה"
+    }
+  ],
+  "corrected_json": null
+}

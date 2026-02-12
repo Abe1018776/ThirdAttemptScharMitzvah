@@ -1,0 +1,41 @@
+{
+  "page": 21,
+  "book_page": 57,
+  "overall_quality": "good",
+  "summary": "Page 21 (book page מא) contains sections נה through סב. All section numbers are sequential and correct. Structure is clean with one makor paragraph per section. Source refs are well captured. A few minor text issues with potentially misread words.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section נה, title",
+      "description": "Title reads 'על הוצאות בניו לת\"ח' (talmidei chachamim) but it might be 'לת\"ת' (talmud Torah). The image is ambiguous.",
+      "original_text": "על הוצאות בניו לת\"ח",
+      "corrected_text": "Possibly 'על הוצאות בניו לת\"ת'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section נח, makor text",
+      "description": "The OCR reads 'שימולא לו שכר מיל וגיל רחבה'. The word 'שימולא' should likely be 'שימלא' (will fill). The phrase 'מיל וגיל רחבה' is unclear.",
+      "original_text": "שימולא לו שכר מיל וגיל רחבה",
+      "corrected_text": "Possibly 'שימלא לו שכר מלא וגילה רחבה'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section נט, makor text",
+      "description": "The OCR reads 'יש שכר מלוה בעלמא הדין'. The word 'מלוה' may be 'מצוה' (commandment reward rather than loan).",
+      "original_text": "יש שכר מלוה בעלמא הדין",
+      "corrected_text": "Possibly 'יש שכר מצוה בעלמא הדין'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section ס, source_ref",
+      "description": "Source ref reads 'ובנין דוד תולדות' with a leading vav. May just be 'בנין דוד תולדות'.",
+      "original_text": "ובנין דוד תולדות",
+      "corrected_text": "בנין דוד תולדות"
+    }
+  ],
+  "corrected_json": null
+}

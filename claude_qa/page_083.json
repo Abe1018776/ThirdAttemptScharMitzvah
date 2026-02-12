@@ -1,0 +1,57 @@
+{
+  "page": 83,
+  "book_page": 119,
+  "overall_quality": "fair",
+  "summary": "Page 83 (book page 103) covers sections פ through פד plus the grouping header שונות. The page_number in meta is critically wrong - it says 'קנ' (150) instead of 'קג' (103). There is also a major text duplication problem: section פ's makor text appears to be duplicated from section ע (page 80). Some other minor issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "critical",
+      "location": "meta.page_number",
+      "description": "The page_number in meta is 'קנ' (=150) but the image clearly shows 'קג' at the bottom of the page (=103). This is a misread of the Hebrew page number.",
+      "original_text": "קנ",
+      "corrected_text": "קג"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section פ, makor text",
+      "description": "The makor text for section פ ('והנה כבר אמרתי מענין שכר עוה\"ז שאינו בדין כי הכל בתורת חסד ומתנה שהמתחיל הוא השי\"ת...') is essentially identical to section ע on page 80. While the source (מעגלי צדק פנחס) is the same source as section ע, the actual image text for section פ appears different - it discusses the concept of when Hashem gives opportunity and ability to fulfill the mitzvah. The OCR appears to have duplicated/confused the text.",
+      "original_text": "והנה כבר אמרתי מענין שכר עוה\"ז שאינו בדין כי הכל בתורת חסד ומתנה שהמתחיל הוא השי\"ת ואינו מגיע לו שום שכר, אמנם כ\"ז במצות שמחויב לעשות, כלום עשה לו לית על וכו' דכשהיה לו נגד היה מחוייב לעשות וכבר שילם לו השי\"ת וכו'.",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section פ, source_ref",
+      "description": "OCR has 'ומעגלי צדק פנחס' with a leading vav. The vav should not be part of the source name.",
+      "original_text": "ומעגלי צדק פנחס",
+      "corrected_text": "מעגלי צדק פנחס"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section פא, source_ref",
+      "description": "The source_ref has a leading vav: 'וקני המנורה עקב...' - should be 'קני המנורה עקב...'",
+      "original_text": "וקני המנורה עקב",
+      "corrected_text": "קני המנורה עקב"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פג, makor text",
+      "description": "OCR has '[?]' uncertainty marker in 'צריך עוד גם [?]' indicating an unreadable word.",
+      "original_text": "צריך עוד גם [?]",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section פג, makor text",
+      "description": "OCR has 'היינו לבון הכנה' - 'לבון' seems incorrect. Should likely be 'לבוש הכנה' or another word.",
+      "original_text": "לבון הכנה",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

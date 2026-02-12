@@ -1,0 +1,119 @@
+{
+  "page": 78,
+  "book_page": 114,
+  "raw_response": "{\n  \"page\": 98,\n  \"book_page\": 98,\n  \"overall_quality\": \"good\",\n  \"summary\": \" The OCR extraction is structurally excellent; it correctly handles the column flow (Right-to-Left), section delineation, and joins the running text fragments. Source references are correctly identified and extracted. However, there are a few notable text recognition errors in the body text involving letter confusion (e.g., ד vs ש, ח vs מ, ל vs ז) that change the meaning and require correction.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section נד, paragraph 1\",\n      \"description\": \"Several visual misrecognitions. 'שפתוך' should be 'דפתוך' (Dalet vs Shin). 'בהיה' combines two words (likely 'בה יה' or 'בה יצ''). The parenthetical word '(תמר)' (Tamar) after 'לשמה' was omitted or collapsed into 'וכו''.\",\n      \"original_text\": \"בעושה עבירה לשמה וכו' מחמת שפתוך בהיה עבירה\",\n      \"corrected_text\": \"בעושה עבירה לשמה (תמר) וכו' מחמת דפתוך בה יה עבירה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section נח, paragraph 1\",\n      \"description\": \"Words misread changing context. 'אמר' (said) should be 'אחר' (after). 'אזדכך' is likely 'שנזדכך' (that was purified). 'לה' should be 'זה' (this).\",\n      \"original_text\": \"אמר אזדכך החומר וא\\\"כ היה לה צער גדול\",\n      \"corrected_text\": \"אחר שנזדכך החומר וא\\\"כ היה זה צער גדול\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צח\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"נג\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"כפול גם בעוה\\\"ז וכו'.\",\n        \"source_ref\": \"בית אהרן, עקב, בשם פנים יפות\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"צער והעדר תענוג\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נד\",\n        \"title\": \"מי שיש לו צער גדול לש\\\"ש בעת עשיית המצוה, ועי\\\"ז אינו יכול להרגיש במתיקות המצוה בעת עשייתה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"בעושה עבירה לשמה (תמר) וכו' מחמת דפתוך בה יה עבירה וכו' אינו מרגיש מתיקות בעשייתה וכו' הקב\\\"ה מחויב לשלם שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"אמרי יוסף פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נה\",\n        \"title\": \"מי שעשה מצוה ונתבזה על ידה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז במעשה הטוב אשר עשה פנחס, והיו השבטים מבזין אותו על הטוב אשר עשה, בדין הוא שיטול שכרו.\",\n            \"source_ref\": \"זכרון יצחק פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נו\",\n        \"title\": \"אם מלעיגים עליו כשעושה מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דהנה גוף המלוה שכרו לעוה\\\"ב וכו' אמנם מה שיש עמל וטורח נגד בני אדם המקטינים ומלעיגים, לזה הקב\\\"ה משלם שכר בעוה\\\"ז.\",\n            \"source_ref\": \"פני מבין בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נז\",\n        \"title\": \"הסובל צער ממלעיגים על עבודתו ואינו מתפתה מהם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אע\\\"פ שבכל מצוה בהאי עלמא ליכא, מ\\\"מ אם עומדים לנגד האדם מפתים ומדיחים המלעיגים על עבודתו, והוא סובל הצער והיסורים ואינו מתפתה מהם, על זה מגיע לו שכרו גם בעוה\\\"ז, כי השי\\\"ת ברא את האדם שיהיה לו נסיונות ושכרו רק מהיצר הרע וכו', וידוע מן הזוה\\\"ק כי להנצל מבעלי בחירה קשה ביותר, ומעתה כיון שמתגבר האדם גם על בעלי בחירה, יותר מאשר הוסת עליו מן השמים, על זה מקבל שכר גם בהאי עלמא.\",\n            \"source_ref\": \"דברי יואל, עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נח\",\n        \"title\": \"על מה שהגוף סובל צער, שמכניעים תאותה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם בחוקותי תלכו ואת מצותי תשמרו וכו' אחר שנזדכך החומר וא\\\"כ היה זה צער גדול להגוף, ולזה ונתתי גשמיכם בעתם, שבכל הגוף שסבל הצער יקח שכר גשמי תענוגי הגוף.\",\n            \"source_ref\": \"דודאים בשדה בחוקותי\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 98,
+    "book_page": 98,
+    "overall_quality": "good",
+    "summary": " The OCR extraction is structurally excellent; it correctly handles the column flow (Right-to-Left), section delineation, and joins the running text fragments. Source references are correctly identified and extracted. However, there are a few notable text recognition errors in the body text involving letter confusion (e.g., ד vs ש, ח vs מ, ל vs ז) that change the meaning and require correction.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section נד, paragraph 1",
+        "description": "Several visual misrecognitions. 'שפתוך' should be 'דפתוך' (Dalet vs Shin). 'בהיה' combines two words (likely 'בה יה' or 'בה יצ''). The parenthetical word '(תמר)' (Tamar) after 'לשמה' was omitted or collapsed into 'וכו''.",
+        "original_text": "בעושה עבירה לשמה וכו' מחמת שפתוך בהיה עבירה",
+        "corrected_text": "בעושה עבירה לשמה (תמר) וכו' מחמת דפתוך בה יה עבירה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section נח, paragraph 1",
+        "description": "Words misread changing context. 'אמר' (said) should be 'אחר' (after). 'אזדכך' is likely 'שנזדכך' (that was purified). 'לה' should be 'זה' (this).",
+        "original_text": "אמר אזדכך החומר וא\"כ היה לה צער גדול",
+        "corrected_text": "אחר שנזדכך החומר וא\"כ היה זה צער גדול"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צח",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "נג",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "כפול גם בעוה\"ז וכו'.",
+          "source_ref": "בית אהרן, עקב, בשם פנים יפות"
+        },
+        {
+          "type": "grouping_header",
+          "title": "צער והעדר תענוג"
+        },
+        {
+          "type": "section",
+          "number": "נד",
+          "title": "מי שיש לו צער גדול לש\"ש בעת עשיית המצוה, ועי\"ז אינו יכול להרגיש במתיקות המצוה בעת עשייתה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "בעושה עבירה לשמה (תמר) וכו' מחמת דפתוך בה יה עבירה וכו' אינו מרגיש מתיקות בעשייתה וכו' הקב\"ה מחויב לשלם שכר בהאי עלמא וכו'.",
+              "source_ref": "אמרי יוסף פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נה",
+          "title": "מי שעשה מצוה ונתבזה על ידה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז במעשה הטוב אשר עשה פנחס, והיו השבטים מבזין אותו על הטוב אשר עשה, בדין הוא שיטול שכרו.",
+              "source_ref": "זכרון יצחק פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נו",
+          "title": "אם מלעיגים עליו כשעושה מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דהנה גוף המלוה שכרו לעוה\"ב וכו' אמנם מה שיש עמל וטורח נגד בני אדם המקטינים ומלעיגים, לזה הקב\"ה משלם שכר בעוה\"ז.",
+              "source_ref": "פני מבין בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נז",
+          "title": "הסובל צער ממלעיגים על עבודתו ואינו מתפתה מהם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אע\"פ שבכל מצוה בהאי עלמא ליכא, מ\"מ אם עומדים לנגד האדם מפתים ומדיחים המלעיגים על עבודתו, והוא סובל הצער והיסורים ואינו מתפתה מהם, על זה מגיע לו שכרו גם בעוה\"ז, כי השי\"ת ברא את האדם שיהיה לו נסיונות ושכרו רק מהיצר הרע וכו', וידוע מן הזוה\"ק כי להנצל מבעלי בחירה קשה ביותר, ומעתה כיון שמתגבר האדם גם על בעלי בחירה, יותר מאשר הוסת עליו מן השמים, על זה מקבל שכר גם בהאי עלמא.",
+              "source_ref": "דברי יואל, עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נח",
+          "title": "על מה שהגוף סובל צער, שמכניעים תאותה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם בחוקותי תלכו ואת מצותי תשמרו וכו' אחר שנזדכך החומר וא\"כ היה זה צער גדול להגוף, ולזה ונתתי גשמיכם בעתם, שבכל הגוף שסבל הצער יקח שכר גשמי תענוגי הגוף.",
+              "source_ref": "דודאים בשדה בחוקותי"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

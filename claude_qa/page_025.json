@@ -1,0 +1,33 @@
+{
+  "page": 25,
+  "book_page": 61,
+  "overall_quality": "fair",
+  "summary": "Page 25 (book page 45/mem-heh). Covers continuation of section 81, then sections 82-88. All section numbers match the image. Right column first then left column is correctly followed. Section 88 is cut off at the bottom continuing to next page. Some text inaccuracies in section 87.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "section 87 (פז), makor text",
+      "description": "The OCR text has 'בלאו המנות' which is a misread. Comparing to the parallel formulations in sections 89, 91, 93, 94 on the next page (all quoting the same source), it should read 'באלו המצות'. Also 'דבליס' is a misread - should be 'דליכא' based on the parallel texts.",
+      "original_text": "אבל בלאו המנות שהזמן גרמא בהם דבליס רק עבור חיי העוה\"ז",
+      "corrected_text": "אבל באלו המצות שהזמן גרמא בהם דליכא רק עבור חיי העוה\"ז"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 82 (פב), second paragraph text",
+      "description": "The OCR reads 'ויראה במה שכתבו חכמי המדע' which seems unusual for this genre of text. The image text might read 'ויראה כמה שכתבו חכמי הקדש' or similar, though the image is somewhat hard to parse precisely.",
+      "original_text": "ויראה במה שכתבו חכמי המדע",
+      "corrected_text": "ויראה במה שכתבו חכמי המדע"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section 82 (פב), second paragraph source_ref",
+      "description": "Source ref reads 'פתח עינים שבת פט\"ו' but looking at the image it may be 'פתח עינים שבת קי\"ח'. The page number reference is hard to read precisely.",
+      "original_text": "פתח עינים שבת פט\"ו",
+      "corrected_text": "פתח עינים שבת פט\"ז"
+    }
+  ],
+  "corrected_json": null
+}

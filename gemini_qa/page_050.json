@@ -1,0 +1,123 @@
+{
+  "page": 50,
+  "book_page": 86,
+  "raw_response": "```json\n{\n  \"page\": 70,\n  \"book_page\": 86,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is exceptionally high quality. It correctly handled the Right-to-Left column flow, the seamless joining of text across columns (in Section 44), and the identification of all structural elements including section headers and source references. There are only two specific text errors: one ambiguous letter misrecognition and one incorrect transcription of a Divine Name abbreviation.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section מג (43), Paragraph 1\",\n      \"description\": \"The word 'שמצילים' (saving/rescuing) was likely misread as 'שמגילים'. While the font's Tzadik is visually distinct, it can resemble a Gimel + Yod in low resolution, but the context ('ניצול העולם', saving the world) dictates 'שמצילים'.\",\n      \"original_text\": \"היינו שמגילים את העולם\",\n      \"corrected_text\": \"היינו שמצילים את העולם\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section מד (44), Paragraph 3\",\n      \"description\": \"Misinterpretation of the abbreviation for God's name. The text 'קוית ה'' (Kivita Hashem) was transcribed as 'קוית ה\\\"ל', which changes the meaning/validity of the text.\",\n      \"original_text\": \"שקיוה קוית ה\\\"ל במחשבה\",\n      \"corrected_text\": \"שקיוה קוית ה' במחשבה\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"ע\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"מב\",\n        \"level\": \"makor\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"וי\\\"ל שמה שמזכה האדם את הרבים שיעשו מצות ע\\\"י שהצילם ממון לחיים על זה מקבל האדם שכר לעולם הזה.\",\n        \"source_ref\": \"כתב סופר פנחס\",\n        \"comment\": \"Continuation of Section 42 from previous page\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מג\",\n        \"title\": \"המענג השבת בכוונה זו שעל ידיה ניצול העולם הזה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מענגיה לעולם, היינו אותן המענגים את השבת רק בשביל העולם, היינו שמצילים את העולם וזוכים בו, ומתענגים תיכף מטוב עולם הזה לזכות בו, הנה כבוד ינחלו, זוכה לטוב ועושר ונכסים וכבוד עולם הזה וכו'.\",\n            \"source_ref\": \"בני יששכר שבת מאמר ז'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מחשבה ורצון\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מד\",\n        \"title\": \"על מחשבה טובה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כתבו המפרשים דאף דשכר מצוה בהאי עלמא ליכא מ\\\"מ שכר מחשבה טובה איכא בהאי עלמא.\",\n            \"source_ref\": \"ערבי נחל ראה א'\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"לפי\\\"ז נמצא דעל מחשבה טובה שזה הוא ע\\\"י האדם בעצמו ע\\\"ז שפיר הקב\\\"ה משלם שכר בעוה\\\"ז.\",\n            \"source_ref\": \"מגדלות מרקחים, בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"שבדין הוא שיקבל שכרו בשביל שקיוה קוית ה' במחשבה ועל מחשבה יש שכר בעוה\\\"ז.\",\n            \"source_ref\": \"יד אהרן פנחס\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אף דעל גוף המצוה אינו מגיע שכר בעוה\\\"ז מ\\\"מ על מחשבה טובה שפיר מגיע שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"ויהי יוסף בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מה\",\n        \"title\": \"על רצון טוב לקיים מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"זכות רצון טוב של ישראל לקיים המצוה שעל זה יש שכר בהאי עלמא.\",\n            \"source_ref\": \"ויגד משה אמור\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"מו\",\n        \"title\": \"חישב לעשות מצוה ונאנס ולא עשאה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עפי\\\"מ מה שמוכח דעל מחשבה טובה הקב\\\"ה מצרפה למעשה מקבלים שכר בעוה\\\"ז. ומבואר בספה\\\"ק הטעם דהנה מה ששכר מצוה בהאי עלמא ליכא, שכיון שתלוי מעשי האדם כשהוא עדיין בעוה\\\"ז, יתכן שיערבב בו איזו צד פגם, וע\\\"כ אין השכר שלם עליה, משא\\\"כ כשהקב\\\"ה מצרפה, אז הוא נקי בלי פגם ושפיר שייך לקבל שכר בעוה\\\"ז. ולפי\\\"ז גם חישב לעשות מצוה ונאנס ולא עשאה שמעלה עליו הכתוב כאילו עשאה, ובאופן כזה בודאי שאין בה פגם כל שהוא, מכיון שאינו לפי עשייתו רק לפי מה שמעלה עליו הכתוב, וא\\\"כ שפיר יכול לקבל שכר גם בעוה\\\"ז והדבר פשוט.\",\n            \"source_ref\": \"המלקט\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 70,
+    "book_page": 86,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is exceptionally high quality. It correctly handled the Right-to-Left column flow, the seamless joining of text across columns (in Section 44), and the identification of all structural elements including section headers and source references. There are only two specific text errors: one ambiguous letter misrecognition and one incorrect transcription of a Divine Name abbreviation.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section מג (43), Paragraph 1",
+        "description": "The word 'שמצילים' (saving/rescuing) was likely misread as 'שמגילים'. While the font's Tzadik is visually distinct, it can resemble a Gimel + Yod in low resolution, but the context ('ניצול העולם', saving the world) dictates 'שמצילים'.",
+        "original_text": "היינו שמגילים את העולם",
+        "corrected_text": "היינו שמצילים את העולם"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section מד (44), Paragraph 3",
+        "description": "Misinterpretation of the abbreviation for God's name. The text 'קוית ה'' (Kivita Hashem) was transcribed as 'קוית ה\"ל', which changes the meaning/validity of the text.",
+        "original_text": "שקיוה קוית ה\"ל במחשבה",
+        "corrected_text": "שקיוה קוית ה' במחשבה"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "ע",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "מב",
+          "level": "makor"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "וי\"ל שמה שמזכה האדם את הרבים שיעשו מצות ע\"י שהצילם ממון לחיים על זה מקבל האדם שכר לעולם הזה.",
+          "source_ref": "כתב סופר פנחס",
+          "comment": "Continuation of Section 42 from previous page"
+        },
+        {
+          "type": "section",
+          "number": "מג",
+          "title": "המענג השבת בכוונה זו שעל ידיה ניצול העולם הזה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מענגיה לעולם, היינו אותן המענגים את השבת רק בשביל העולם, היינו שמצילים את העולם וזוכים בו, ומתענגים תיכף מטוב עולם הזה לזכות בו, הנה כבוד ינחלו, זוכה לטוב ועושר ונכסים וכבוד עולם הזה וכו'.",
+              "source_ref": "בני יששכר שבת מאמר ז'"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "מחשבה ורצון"
+        },
+        {
+          "type": "section",
+          "number": "מד",
+          "title": "על מחשבה טובה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כתבו המפרשים דאף דשכר מצוה בהאי עלמא ליכא מ\"מ שכר מחשבה טובה איכא בהאי עלמא.",
+              "source_ref": "ערבי נחל ראה א'"
+            },
+            {
+              "is_makor": false,
+              "text": "לפי\"ז נמצא דעל מחשבה טובה שזה הוא ע\"י האדם בעצמו ע\"ז שפיר הקב\"ה משלם שכר בעוה\"ז.",
+              "source_ref": "מגדלות מרקחים, בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "שבדין הוא שיקבל שכרו בשביל שקיוה קוית ה' במחשבה ועל מחשבה יש שכר בעוה\"ז.",
+              "source_ref": "יד אהרן פנחס"
+            },
+            {
+              "is_makor": false,
+              "text": "אף דעל גוף המצוה אינו מגיע שכר בעוה\"ז מ\"מ על מחשבה טובה שפיר מגיע שכר גם בעוה\"ז.",
+              "source_ref": "ויהי יוסף בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מה",
+          "title": "על רצון טוב לקיים מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "זכות רצון טוב של ישראל לקיים המצוה שעל זה יש שכר בהאי עלמא.",
+              "source_ref": "ויגד משה אמור"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "מו",
+          "title": "חישב לעשות מצוה ונאנס ולא עשאה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עפי\"מ מה שמוכח דעל מחשבה טובה הקב\"ה מצרפה למעשה מקבלים שכר בעוה\"ז. ומבואר בספה\"ק הטעם דהנה מה ששכר מצוה בהאי עלמא ליכא, שכיון שתלוי מעשי האדם כשהוא עדיין בעוה\"ז, יתכן שיערבב בו איזו צד פגם, וע\"כ אין השכר שלם עליה, משא\"כ כשהקב\"ה מצרפה, אז הוא נקי בלי פגם ושפיר שייך לקבל שכר בעוה\"ז. ולפי\"ז גם חישב לעשות מצוה ונאנס ולא עשאה שמעלה עליו הכתוב כאילו עשאה, ובאופן כזה בודאי שאין בה פגם כל שהוא, מכיון שאינו לפי עשייתו רק לפי מה שמעלה עליו הכתוב, וא\"כ שפיר יכול לקבל שכר גם בעוה\"ז והדבר פשוט.",
+              "source_ref": "המלקט"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

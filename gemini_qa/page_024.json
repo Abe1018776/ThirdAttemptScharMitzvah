@@ -1,0 +1,151 @@
+{
+  "page": 24,
+  "book_page": 60,
+  "raw_response": "{\n  \"page\": 44,\n  \"book_page\": 60,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Output is structurally correct and mostly accurate. However, there are two significant text errors in Section 79 where 'וצוה' was OCR'd as 'ולוה' and 'מצות' as 'מלות', altering the meaning. Additionally, the source reference for the last paragraph of Section 77 is incorrect.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section עט, paragraph 2\",\n      \"description\": \"Text misread due to confusion between letters צ and ל/ו.\",\n      \"original_text\": \"ולוה לנו מלות עונג שבת\",\n      \"corrected_text\": \"וצוה לנו מצות עונג שבת\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"major\",\n      \"location\": \"section עז, paragraph 5\",\n      \"description\": \"The source reference was hallucinated or badly misread. Visual inspection shows 'מאמר מרדכי'.\",\n      \"original_text\": \"ולאשר אמר נח\",\n      \"corrected_text\": \"מאמר מרדכי\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section עז, paragraph 5\",\n      \"description\": \"Visual text has a typo 'גס' (Samech), OCR corrected to 'גם' (Mem). Instructions asked for exact transcription, but this is a valid semantic correction.\",\n      \"original_text\": \"שכרו גם\",\n      \"corrected_text\": \"שכרו גס\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"מד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"עו\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"פא\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"שטבעו חכמים. (מטה משה) וכן ניצל ממאה תוכחות (חיד\\\"א) וזוכה לאריכות ימים\",\n        \"source_ref\": \"אגרות משה ח\\\"ד כא, ברכות המצות כתיקונן\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"שבת, מועדים וזמנים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עז\",\n        \"title\": \"במצות שמירת שבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"זולת במצות שבת יוכל להיות קצת שכר בעולם הזה, כי הוא מעין עולם הבא, על ידי שמצות שבת הוא שביתת השבת, ולכן יש בו נשמה יתירה וכו'.\",\n            \"source_ref\": \"שפת אמת עקב תרל\\\"ט\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ועפי״ז יובן מה שהקדים מצות שבת למלאכת המשכן כי במה שאמר השי״ת ויקחו לי תרומה וכו׳ דעל ידי מצות שבת יזכו לשכר בעוה״ז תכף, ויהיה התרומה משלנו.\",\n            \"source_ref\": \"ייטב פנים ח\\\"ב דף ס\\\"ח\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ומשו״ה י״ל דשכר שבת משלמין ג״כ בהאי עלמא.\",\n            \"source_ref\": \"שם אליעזר שבת\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אף דבכל המצות אין שכר בהאי עלמא, מ״מ בשבת יש שכר בהאי עלמא.\",\n            \"source_ref\": \"אמרי שפר עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דע״י שמירת שבת כהלכתו מגיע לו שכרו גס וכו׳ בעוה״ז.\",\n            \"source_ref\": \"מאמר מרדכי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עח\",\n        \"title\": \"על קידוש היום\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לפי דבאמת על מ״ע דקידוש היום משלם הקב״ה השכר גם בעוה״ז וכו'.\",\n            \"source_ref\": \"ילקוט הגרשוני כה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עט\",\n        \"title\": \"על ידי שמענגין את השבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וזה שאמר, שעל ידי שמענג את השבת אני נותן לו שכר. וזהו ענין מפרותיהן אתה אוכל בעולם הזה.\",\n            \"source_ref\": \"שפת אמת פ' עקב תרנ\\\"א\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"ע״כ נתן לנו הקב״ה את השבת, וצוה לנו מצות עונג שבת, וזה אפשרות לקיימו בודאי, וע״כ נזכה לעוה״ז ולעשירות ג״כ.\",\n            \"source_ref\": \"אמרי שפר עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פ\",\n        \"title\": \"המכבד את השבת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עשירים שבבבל במה הן זוכין, בשביל שמכבדים את השבת.\",\n            \"source_ref\": \"שבת קיט.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פא\",\n        \"title\": \"מי שמענג את השבת ואינו חושש על ממונו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וזה דאמר המענג את השבת שאינו חושש על ממונו בשבת ומענגו בשביל לכבד קדושת השבת ולא עוה״ז, נותנים לו נחלה בלי מצרים\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 44,
+    "book_page": 60,
+    "overall_quality": "good",
+    "summary": "Output is structurally correct and mostly accurate. However, there are two significant text errors in Section 79 where 'וצוה' was OCR'd as 'ולוה' and 'מצות' as 'מלות', altering the meaning. Additionally, the source reference for the last paragraph of Section 77 is incorrect.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section עט, paragraph 2",
+        "description": "Text misread due to confusion between letters צ and ל/ו.",
+        "original_text": "ולוה לנו מלות עונג שבת",
+        "corrected_text": "וצוה לנו מצות עונג שבת"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "major",
+        "location": "section עז, paragraph 5",
+        "description": "The source reference was hallucinated or badly misread. Visual inspection shows 'מאמר מרדכי'.",
+        "original_text": "ולאשר אמר נח",
+        "corrected_text": "מאמר מרדכי"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section עז, paragraph 5",
+        "description": "Visual text has a typo 'גס' (Samech), OCR corrected to 'גם' (Mem). Instructions asked for exact transcription, but this is a valid semantic correction.",
+        "original_text": "שכרו גם",
+        "corrected_text": "שכרו גס"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "מד",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "עו",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "פא",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "שטבעו חכמים. (מטה משה) וכן ניצל ממאה תוכחות (חיד\"א) וזוכה לאריכות ימים",
+          "source_ref": "אגרות משה ח\"ד כא, ברכות המצות כתיקונן"
+        },
+        {
+          "type": "grouping_header",
+          "title": "שבת, מועדים וזמנים"
+        },
+        {
+          "type": "section",
+          "number": "עז",
+          "title": "במצות שמירת שבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "זולת במצות שבת יוכל להיות קצת שכר בעולם הזה, כי הוא מעין עולם הבא, על ידי שמצות שבת הוא שביתת השבת, ולכן יש בו נשמה יתירה וכו'.",
+              "source_ref": "שפת אמת עקב תרל\"ט"
+            },
+            {
+              "is_makor": false,
+              "text": "ועפי״ז יובן מה שהקדים מצות שבת למלאכת המשכן כי במה שאמר השי״ת ויקחו לי תרומה וכו׳ דעל ידי מצות שבת יזכו לשכר בעוה״ז תכף, ויהיה התרומה משלנו.",
+              "source_ref": "ייטב פנים ח\"ב דף ס\"ח"
+            },
+            {
+              "is_makor": false,
+              "text": "ומשו״ה י״ל דשכר שבת משלמין ג״כ בהאי עלמא.",
+              "source_ref": "שם אליעזר שבת"
+            },
+            {
+              "is_makor": false,
+              "text": "אף דבכל המצות אין שכר בהאי עלמא, מ״מ בשבת יש שכר בהאי עלמא.",
+              "source_ref": "אמרי שפר עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "דע״י שמירת שבת כהלכתו מגיע לו שכרו גס וכו׳ בעוה״ז.",
+              "source_ref": "מאמר מרדכי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עח",
+          "title": "על קידוש היום",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לפי דבאמת על מ״ע דקידוש היום משלם הקב״ה השכר גם בעוה״ז וכו'.",
+              "source_ref": "ילקוט הגרשוני כה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עט",
+          "title": "על ידי שמענגין את השבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וזה שאמר, שעל ידי שמענג את השבת אני נותן לו שכר. וזהו ענין מפרותיהן אתה אוכל בעולם הזה.",
+              "source_ref": "שפת אמת פ' עקב תרנ\"א"
+            },
+            {
+              "is_makor": false,
+              "text": "ע״כ נתן לנו הקב״ה את השבת, וצוה לנו מצות עונג שבת, וזה אפשרות לקיימו בודאי, וע״כ נזכה לעוה״ז ולעשירות ג״כ.",
+              "source_ref": "אמרי שפר עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פ",
+          "title": "המכבד את השבת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עשירים שבבבל במה הן זוכין, בשביל שמכבדים את השבת.",
+              "source_ref": "שבת קיט."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פא",
+          "title": "מי שמענג את השבת ואינו חושש על ממונו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וזה דאמר המענג את השבת שאינו חושש על ממונו בשבת ומענגו בשביל לכבד קדושת השבת ולא עוה״ז, נותנים לו נחלה בלי מצרים"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

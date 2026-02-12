@@ -1,0 +1,49 @@
+{
+  "page": 48,
+  "book_page": 84,
+  "overall_quality": "good",
+  "summary": "Page 48 (book page 68/84) continues Chapter 5 with continuation of section kaf-chet, then sections kaf-tet through lamed-heh. Section lamed-heh at bottom is cut off. The meta page_number is listed as 'סה' (65) but the image shows page number 68 - this should be 'סח'.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "major",
+      "location": "meta.page_number",
+      "description": "The page_number in meta is 'סה' (65) but the image clearly shows page number סח (68) at the bottom of the page.",
+      "original_text": "סה",
+      "corrected_text": "סח"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment",
+      "description": "OCR has 'לצעוק' at the start of the continuation. The image shows 'לבסוף' - the continuation from previous page's 'ושכירות אינה משתלמת אלא' should continue with 'לבסוף' (at the end), not 'לצעוק' (to cry out).",
+      "original_text": "לצעוק וכו' אם כן מי שזיכה את הרבים",
+      "corrected_text": "לבסוף וכו' אם כן מי שזיכה את הרבים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf-tet (29), makor paragraph",
+      "description": "The text 'לאפוקי להנחיל שכר מצוה בהאי עלמא ליכא' is a bit garbled. The phrase 'לאפוקי להנחיל' seems off - may read 'לאפוקי דהנחלת' or similar.",
+      "original_text": "לאפוקי להנחיל שכר מצוה בהאי עלמא ליכא",
+      "corrected_text": "לאפוקי דהנחלה שכר מצוה בהאי עלמא ליכא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section lamed (30), makor paragraph",
+      "description": "OCR has 'ד\"א לך וגו'' but the image seems to show a different abbreviation. Text is dense and hard to verify exactly.",
+      "original_text": "לכן נאמר ד\"א לך וגו'",
+      "corrected_text": "לכן נאמר ד\"א לך וגו'"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section lamed-gimel (33), source_ref",
+      "description": "The long source reference is accurately captured including the full lineage description. Confirmed correct.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

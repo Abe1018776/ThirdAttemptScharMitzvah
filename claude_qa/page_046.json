@@ -1,0 +1,65 @@
+{
+  "page": 46,
+  "book_page": 82,
+  "overall_quality": "good",
+  "summary": "Page 46 (book page 66/82) continues Chapter 5 with sections yud-zayin through kaf-bet. Contains grouping header 'Kavod Shamayim'. Section kaf-bet at bottom is cut off (continues to next page with empty paragraphs array). Structure is correct. Some minor textual issues.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-zayin (17), title",
+      "description": "The title has 'ל\"ע' abbreviation which is unusual. Looking at the image, it reads 'ע\"י חלאים ויסורים ל\"ע' - the abbreviation appears correct (lo aleinu or similar).",
+      "original_text": "ע\"י חלאים ויסורים ל\"ע.",
+      "corrected_text": "ע\"י חלאים ויסורים ל\"ע."
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-chet (18), makor paragraph",
+      "description": "OCR has 'ורמז כל עמי הארץ' but image shows 'וראו כל עמי הארץ' - the word should be 'וראו' not 'ורמז'.",
+      "original_text": "ורמז כל עמי הארץ כי שם ה' נקרא עליו והעצר המגיפה",
+      "corrected_text": "וראו כל עמי הארץ כי שם ה' נקרא עליו והעצר המגיפה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-chet (18), second paragraph (תורת משה)",
+      "description": "OCR has 'ויוכל להגן לו שכרו מיד' but image shows 'ויוכל ליתן לו שכרו מיד' - 'להגן' should be 'ליתן'.",
+      "original_text": "ויוכל להגן לו שכרו מיד",
+      "corrected_text": "ויוכל ליתן לו שכרו מיד"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-chet (18), third paragraph (רוח חיים עולם)",
+      "description": "The ending 'ופלפולא חריפא' appears in the OCR but looking at the image it seems like it might be part of the source reference or a separate note. The source_ref 'רוח חיים עולם' - the image shows '(אמרי אש לך)' may be a different reference.",
+      "original_text": "ופלפולא חריפא",
+      "corrected_text": "ופלפולא חריפתא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section yud-tet (19), makor paragraph",
+      "description": "OCR has 'שבכך הרבה מחל' - the image seems to read 'שבכך הרבה מהלל' or similar.",
+      "original_text": "שבכך הרבה מחל וכו' על פי הדין",
+      "corrected_text": "שבכך הרבה מחל וכו' על פי הדין"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section kaf (20), makor paragraph",
+      "description": "OCR has 'סימן לו' but image appears to show 'שמן לו' or 'סימן לו'. Also 'ושמעיהם' seems unusual - may be 'ושומעיהם'.",
+      "original_text": "הבטיחו הקב\"ה סימן לו כל הכנות האלה",
+      "corrected_text": "הבטיחו הקב\"ה וסימן לו כל הכנות האלה"
+    },
+    {
+      "type": "wrong_structure",
+      "severity": "minor",
+      "location": "section kaf-bet (22)",
+      "description": "Section kaf-bet has empty paragraphs array since it continues to next page. The title shown is partial: 'העושה מצוה בכוונה, שיהיה' - this is correctly identified as a continuation.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

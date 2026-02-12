@@ -1,0 +1,49 @@
+{
+  "page": 35,
+  "book_page": 55,
+  "overall_quality": "good",
+  "summary": "Page opens chapter 4 (פרק רביעי) with subtitle and grouping header. Contains sections א through ה. The overall structure and section numbering are correct. A few textual inaccuracies in the OCR body text. The book_page in the original JSON was set to 71 (file-sequence) while the Hebrew page number shown is נה (=55).",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, makor paragraph text",
+      "description": "The OCR text reads 'ומניח עולמו לחיות מנות שלא נצטוה עליהן' but the image appears to show 'ומניח עצמו לחיות' or similar. The word 'עולמו' vs 'עצמו' should be verified. Also 'מנות' may be 'מצות'.",
+      "original_text": "ומניח עולמו לחיות מנות שלא נצטוה עליהן",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, second paragraph (body) text",
+      "description": "OCR: 'ולפי\"ז ישלם ה' פעלך גם בעוה\"ז, ונתן טעם לזה, תחת אשר באת, ולא היית מחויב להתגייר על זה ישולם גם בעוה\"ז.' The image shows 'ולפי\"ז ישלם ה' פעלך גם בעוה\"ז, ונתן טעם לזה, תחת אשר באת, ולא היו (or היית) מחויב להתגייר על זה ישולם גם בעוה\"ז.' Text is generally correct.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section א, second paragraph source_ref",
+      "description": "Source ref is 'בהיות הבוקר רות תט\"ו'. The image shows the source in parentheses. Should be verified - 'בהיות הבוקר' may be the name of a sefer on Megillat Ruth.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ג, makor text",
+      "description": "The image shows the makor starting with 'כתב הגרש\"ק זל\"ל'. The OCR has 'כתב הגרש\"ק ז\"ל'. Minor abbreviation difference - 'זל\"ל' vs 'ז\"ל'.",
+      "original_text": "הגרש\"ק ז\"ל",
+      "corrected_text": "הגרש\"ק זל\"ל (verify)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section ה, makor text",
+      "description": "The OCR reads 'ויל\"פ וכו' הטעם דקבל מצוה בהאי עלמא ליכא להקב\"ה אינו מאמין באדם'. The word 'דקבל' should likely be 'דקבלת' (with tav). Also 'ליכא להקב\"ה' may be 'ליכא דהקב\"ה' (with dalet prefix instead of lamed).",
+      "original_text": "דקבל מצוה... ליכא להקב\"ה",
+      "corrected_text": "דקבלת מצוה... ליכא דהקב\"ה (verify)"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,122 @@
+{
+  "page": 46,
+  "book_page": 82,
+  "raw_response": "```json\n{\n  \"page\": 66,\n  \"book_page\": 66,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is excellent. It successfully navigated the complex right-to-left two-column layout, including correctly stitching section 19 which wraps from the bottom of the right column to the top of the left. Structural elements and most text are accurate. A minor issue was found in the parsing of a parenthetical source reference in Section 18.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"Section 18 (יח), last paragraph\",\n      \"description\": \"The final source reference was split between the body text and the source field. The text 'ופלפולא חריפא' was included in the body (stripped of its opening parenthesis), while 'ורוח חיי עולם' was put in the source field with a typo ('חיים' instead of 'חיי'). The entire parenthetical block should be in the source reference.\",\n      \"original_text\": \"Text: ...שיטול שכרו. ופלפולא חריפא | Source: רוח חיים עולם\",\n      \"corrected_text\": \"Text: ...שיטול שכרו. | Source: ופלפולא חריפא ורוח חיי עולם\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"סו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"כב\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"יז\",\n        \"title\": \"ע\\\"י חלאים ויסורים ל\\\"ע.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולדעתי נראה עפי\\\"מ דאיתא וכו' לכל מה שישראל אוכלים בעוה\\\"ז הוא בשביל חולי ויסורים.\",\n            \"source_ref\": \"פנינים יקרים פ' משפטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"כבוד שמים\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יח\",\n        \"title\": \"המקדש שם שמים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה פנחס בקנאו קנאת ה' ורמז כל עמי הארץ כי שם ה' נקרא עליו והעצר המגיפה, ויגדל ויתקדש שמו יתעלה וכו' בדין הוא שיטול שכרו.\",\n            \"source_ref\": \"פני מבין פ' פנחס\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אחז\\\"ל המזכה את הרבים אין חטא בא על ידו, ופנחס קירב לב רבים לאבינו וזכה רבים ויוכל להגן לו שכרו מיד.\",\n            \"source_ref\": \"תורת משה פ' פנחס\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"עפי\\\"מ שפירש בספר מות יאיר וכו' שע\\\"פ שאמרינן שכר מצוה בהאי עלמא ליכא וכו' אך פנחס כיון שקידש ה' אין חטא בא לידו וליכא חשש זו, וע\\\"כ בדין שיטול שכרו.\",\n            \"source_ref\": \"ופלפולא חריפא ורוח חיי עולם\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יט\",\n        \"title\": \"המפרסם אלוקתו ית' בעולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לכן אין הקב\\\"ה משלם שכר בהאי עלמא כי אין השכר מן הדין וכו' שבכך הרבה מחל וכו' על פי הדין וכו' במה שפירסם מלכותו וחסדותו ית\\\"ש בעולם וכו' שפיר מגיע לו שכר (בעוה\\\"ז).\",\n            \"source_ref\": \"אמרי אש לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כ\",\n        \"title\": \"מי שהולך ומכריז אלקותו ית' בעולם השי\\\"ת נותן לו מטוב עוה\\\"ז כדי שיתקבלו דבריו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שאמנם היה הולך ומכריז ומפרסם אלקותו ית' וכו' והיה צריך להיות חכם ועשיר וגבור כדי שיתקבלו דבריו ושמעיהם וכו' לכן הבטיחו הקב\\\"ה סימן לו כל הכנות האלה אשר הוא צריך לשלימותו וכו'.\",\n            \"source_ref\": \"רחובות הנהר לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כא\",\n        \"title\": \"הגורם להרמת כבוד שמים בגוים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכיון שבאת מרחוק לקבל עליך עול מלכות שמים אשר בזה גרמת להרמת כבוד השי\\\"ת בגוים כו' ע\\\"כ ראוי את שישלם לך שכר פעולתך (בעוה\\\"ז).\",\n            \"source_ref\": \"תורת מהרי\\\"ץ נשא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כב\",\n        \"title\": \"העושה מצוה בכוונה, שיהיה\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 66,
+    "book_page": 66,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is excellent. It successfully navigated the complex right-to-left two-column layout, including correctly stitching section 19 which wraps from the bottom of the right column to the top of the left. Structural elements and most text are accurate. A minor issue was found in the parsing of a parenthetical source reference in Section 18.",
+    "issues": [
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "Section 18 (יח), last paragraph",
+        "description": "The final source reference was split between the body text and the source field. The text 'ופלפולא חריפא' was included in the body (stripped of its opening parenthesis), while 'ורוח חיי עולם' was put in the source field with a typo ('חיים' instead of 'חיי'). The entire parenthetical block should be in the source reference.",
+        "original_text": "Text: ...שיטול שכרו. ופלפולא חריפא | Source: רוח חיים עולם",
+        "corrected_text": "Text: ...שיטול שכרו. | Source: ופלפולא חריפא ורוח חיי עולם"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "סו",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "כב",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "יז",
+          "title": "ע\"י חלאים ויסורים ל\"ע.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולדעתי נראה עפי\"מ דאיתא וכו' לכל מה שישראל אוכלים בעוה\"ז הוא בשביל חולי ויסורים.",
+              "source_ref": "פנינים יקרים פ' משפטים"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "כבוד שמים"
+        },
+        {
+          "type": "section",
+          "number": "יח",
+          "title": "המקדש שם שמים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה פנחס בקנאו קנאת ה' ורמז כל עמי הארץ כי שם ה' נקרא עליו והעצר המגיפה, ויגדל ויתקדש שמו יתעלה וכו' בדין הוא שיטול שכרו.",
+              "source_ref": "פני מבין פ' פנחס"
+            },
+            {
+              "is_makor": false,
+              "text": "אחז\"ל המזכה את הרבים אין חטא בא על ידו, ופנחס קירב לב רבים לאבינו וזכה רבים ויוכל להגן לו שכרו מיד.",
+              "source_ref": "תורת משה פ' פנחס"
+            },
+            {
+              "is_makor": false,
+              "text": "עפי\"מ שפירש בספר מות יאיר וכו' שע\"פ שאמרינן שכר מצוה בהאי עלמא ליכא וכו' אך פנחס כיון שקידש ה' אין חטא בא לידו וליכא חשש זו, וע\"כ בדין שיטול שכרו.",
+              "source_ref": "ופלפולא חריפא ורוח חיי עולם"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יט",
+          "title": "המפרסם אלוקתו ית' בעולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לכן אין הקב\"ה משלם שכר בהאי עלמא כי אין השכר מן הדין וכו' שבכך הרבה מחל וכו' על פי הדין וכו' במה שפירסם מלכותו וחסדותו ית\"ש בעולם וכו' שפיר מגיע לו שכר (בעוה\"ז).",
+              "source_ref": "אמרי אש לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כ",
+          "title": "מי שהולך ומכריז אלקותו ית' בעולם השי\"ת נותן לו מטוב עוה\"ז כדי שיתקבלו דבריו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שאמנם היה הולך ומכריז ומפרסם אלקותו ית' וכו' והיה צריך להיות חכם ועשיר וגבור כדי שיתקבלו דבריו ושמעיהם וכו' לכן הבטיחו הקב\"ה סימן לו כל הכנות האלה אשר הוא צריך לשלימותו וכו'.",
+              "source_ref": "רחובות הנהר לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כא",
+          "title": "הגורם להרמת כבוד שמים בגוים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכיון שבאת מרחוק לקבל עליך עול מלכות שמים אשר בזה גרמת להרמת כבוד השי\"ת בגוים כו' ע\"כ ראוי את שישלם לך שכר פעולתך (בעוה\"ז).",
+              "source_ref": "תורת מהרי\"ץ נשא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כב",
+          "title": "העושה מצוה בכוונה, שיהיה",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

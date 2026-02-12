@@ -1,0 +1,135 @@
+{
+  "page": 38,
+  "book_page": 74,
+  "raw_response": "{\n  \"page\": 58,\n  \"book_page\": 58,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing, section numbering, and source extraction are excellent. However, there are three specific text transcription errors where characters were misread or hallucinated.\",\n  \"issues\": [\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section כא, paragraph 1\",\n      \"description\": \"The first word in the image appears to be 'לאף' (starting with a Lamed), though likely a typo in the original book for 'ואף' or 'אף'. The OCR logic 'corrected' it to 'אף' deleting the visible Lamed.\",\n      \"original_text\": \"אף שבכל מצוה\",\n      \"corrected_text\": \"לאף שבכל מצוה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section כא, paragraph 1\",\n      \"description\": \"Misread abbreviation. The text is 'שע\\\"י' (SheAl Yedei - through it), misread as 'שע\\\"ז' (SheAl Zeh - that on this).\",\n      \"original_text\": \"כדי שע\\\"ז ישפיע\",\n      \"corrected_text\": \"כדי שע\\\"י ישפיע\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section כה, paragraph 1\",\n      \"description\": \"Word misread/hallucinated. The word in the image is 'יותר' (more), misread as 'ית\\\"ש' (abbreviation for Yitbarach Shemo, which does not fit context/visuals).\",\n      \"original_text\": \"חלף עמלו ית\\\"ש מגיע לו\",\n      \"corrected_text\": \"חלף עמלו יותר מגיע לו\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נח\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"יט\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"להעשות נס לו כל צרכי עוה\\\"ז.\",\n        \"source_ref\": \"באהלי ישכר פ' לך\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כ\",\n        \"title\": \"הצדיק שבגללו נשפע טובה לעולם.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לכן הצדיק אם זכה להכריע במעשיו שיהיה העולם נידון לזכות ע\\\"פ מצוה שעשה, גם בעוה\\\"ז ישלם ה' גמולו תחת כפיו טוב.\",\n            \"source_ref\": \"וקומץ המנחה, עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כא\",\n        \"title\": \"לצדיק שע\\\"י שכרו נשפע טוב להעולם\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לאף שבכל מצוה בהאי עלמא ליכא שכר כשהשי\\\"ת רוצה להשפיע לצדיק שכרו כדי שע\\\"י ישפיע לכל העולם, בודאי מגיע גם בעוה\\\"ז.\",\n            \"source_ref\": \"מהרי\\\"ד מבעלזא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כב\",\n        \"title\": \"צדיקים ההולכים מחיל אל חיל גם בעולם הבא.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אצל צדיקים שגם לעוה\\\"ב עוסקים בתורה בברכות (סד) ילכו מחיל אל חיל וכו' ממילא שייך ליתן להם שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"שארית מנחם פ' בחקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כג\",\n        \"title\": \"צדיק ששומר עצמו מלדבר על רשע\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ויש אופן שיהיה לצדיק שכר גם בעוה\\\"ז וכו' אם הצדיק משמר עצמו מלדבר מטוב ועד רע על הרשע (לצדיק זה יש גם עוה\\\"ז).\",\n            \"source_ref\": \"כת\\\"ס מצורע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כד\",\n        \"title\": \"כשהדור זכאי, אז מקבל הצדיק שכרו בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"רק כשהדור כולו זכאי אז אפשר להצדיק העובד מאהבה ג\\\"כ שיהיה לו טוב וכו' אם אפשר להסיר הרע והעונש מהעולם. וכו' אז בודאי הדין נותן כ\\\"ש שיתן לו הקב\\\"ה להעובד מאהבה השכר בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"ברית אברם פ' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"כה\",\n        \"title\": \"בגלגול שני מקבל הצדיק שכר גם בעוה\\\"ז\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז לפעמים שמתגלגל הצדיק עה\\\"פ אל זה העולם לחיות פעם השנית חלף עמלו יותר מגיע לו גם בעוה\\\"ז שכר מעשיו אשר בגלגול ראשון.\",\n            \"source_ref\": \"ערבי נחל ואתחנן ט\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 58,
+    "book_page": 58,
+    "overall_quality": "good",
+    "summary": "The structural parsing, section numbering, and source extraction are excellent. However, there are three specific text transcription errors where characters were misread or hallucinated.",
+    "issues": [
+      {
+        "type": "missing_text",
+        "severity": "minor",
+        "location": "section כא, paragraph 1",
+        "description": "The first word in the image appears to be 'לאף' (starting with a Lamed), though likely a typo in the original book for 'ואף' or 'אף'. The OCR logic 'corrected' it to 'אף' deleting the visible Lamed.",
+        "original_text": "אף שבכל מצוה",
+        "corrected_text": "לאף שבכל מצוה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section כא, paragraph 1",
+        "description": "Misread abbreviation. The text is 'שע\"י' (SheAl Yedei - through it), misread as 'שע\"ז' (SheAl Zeh - that on this).",
+        "original_text": "כדי שע\"ז ישפיע",
+        "corrected_text": "כדי שע\"י ישפיע"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section כה, paragraph 1",
+        "description": "Word misread/hallucinated. The word in the image is 'יותר' (more), misread as 'ית\"ש' (abbreviation for Yitbarach Shemo, which does not fit context/visuals).",
+        "original_text": "חלף עמלו ית\"ש מגיע לו",
+        "corrected_text": "חלף עמלו יותר מגיע לו"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נח",
+        "page_side": "right",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "יט",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "להעשות נס לו כל צרכי עוה\"ז.",
+          "source_ref": "באהלי ישכר פ' לך"
+        },
+        {
+          "type": "section",
+          "number": "כ",
+          "title": "הצדיק שבגללו נשפע טובה לעולם.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לכן הצדיק אם זכה להכריע במעשיו שיהיה העולם נידון לזכות ע\"פ מצוה שעשה, גם בעוה\"ז ישלם ה' גמולו תחת כפיו טוב.",
+              "source_ref": "וקומץ המנחה, עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כא",
+          "title": "לצדיק שע\"י שכרו נשפע טוב להעולם",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לאף שבכל מצוה בהאי עלמא ליכא שכר כשהשי\"ת רוצה להשפיע לצדיק שכרו כדי שע\"י ישפיע לכל העולם, בודאי מגיע גם בעוה\"ז.",
+              "source_ref": "מהרי\"ד מבעלזא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כב",
+          "title": "צדיקים ההולכים מחיל אל חיל גם בעולם הבא.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אצל צדיקים שגם לעוה\"ב עוסקים בתורה בברכות (סד) ילכו מחיל אל חיל וכו' ממילא שייך ליתן להם שכר גם בעוה\"ז.",
+              "source_ref": "שארית מנחם פ' בחקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כג",
+          "title": "צדיק ששומר עצמו מלדבר על רשע",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ויש אופן שיהיה לצדיק שכר גם בעוה\"ז וכו' אם הצדיק משמר עצמו מלדבר מטוב ועד רע על הרשע (לצדיק זה יש גם עוה\"ז).",
+              "source_ref": "כת\"ס מצורע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כד",
+          "title": "כשהדור זכאי, אז מקבל הצדיק שכרו בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "רק כשהדור כולו זכאי אז אפשר להצדיק העובד מאהבה ג\"כ שיהיה לו טוב וכו' אם אפשר להסיר הרע והעונש מהעולם. וכו' אז בודאי הדין נותן כ\"ש שיתן לו הקב\"ה להעובד מאהבה השכר בעוה\"ז וכו'.",
+              "source_ref": "ברית אברם פ' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "כה",
+          "title": "בגלגול שני מקבל הצדיק שכר גם בעוה\"ז",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז לפעמים שמתגלגל הצדיק עה\"פ אל זה העולם לחיות פעם השנית חלף עמלו יותר מגיע לו גם בעוה\"ז שכר מעשיו אשר בגלגול ראשון.",
+              "source_ref": "ערבי נחל ואתחנן ט"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

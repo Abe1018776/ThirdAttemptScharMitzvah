@@ -1,0 +1,167 @@
+{
+  "page": 8,
+  "book_page": 44,
+  "raw_response": "```json\n{\n  \"page\": 28,\n  \"book_page\": 28,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is perfect, including column flow and section handling. However, there is a significant hallucination in the first line (continuation fragment) where the OCR invented words not present in the image. There are also a few minor character substitution errors in the body text.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"top of right column (continuation fragment)\",\n      \"description\": \"OCR Hallucinated words 'כך כביכול' instead of the visible text 'כרח בביטולה'.\",\n      \"original_text\": \"כך כביכול שפיר מגיע עליהם שכר בעוה\\\"ז בקיומן.\",\n      \"corrected_text\": \"כרח בביטולה שפיר מגיע עליהם שכר בעוה\\\"ז בקיומן.\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ז, paragraph 1\",\n      \"description\": \"Misread word 'לבי' (my heart) as 'בני' (my son).\",\n      \"original_text\": \"ע\\\"כ בני אומר לי\",\n      \"corrected_text\": \"ע\\\"כ לבי אומר לי\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section ז, paragraph 2 source\",\n      \"description\": \"Missing opening Vav in source name.\",\n      \"original_text\": \"ירבה תורה ואתחנן\",\n      \"corrected_text\": \"וירבה תורה ואתחנן\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section י, paragraph 1\",\n      \"description\": \"Misread 'מהעלם' (from the world/hiding) as 'מהשלם'. The letter is clearly Ayin, not Shin.\",\n      \"original_text\": \"טרם יבא השמש מהשלם היינו בעוה\\\"ז.\",\n      \"corrected_text\": \"טרם יבא השמש מהעלם היינו בעוה\\\"ז.\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section ח, paragraph 1 source\",\n      \"description\": \"Misread source acronym. Visual text appears to be 'הריו\\\"ט' or 'הרי\\\"ט' (Resh), not 'הוויו\\\"ט' (Vav-Vav).\",\n      \"original_text\": \"הוויו\\\"ט פאה פ\\\"א מ\\\"א\",\n      \"corrected_text\": \"הריו\\\"ט פאה פ\\\"א מ\\\"א\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"כח\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שני\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"ד\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"יא\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"כרח בביטולה שפיר מגיע עליהם שכר בעוה\\\"ז בקיומן.\",\n        \"source_ref\": \"תבואות שור ב\\\"ב ט\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ה\",\n        \"title\": \"על מצוה שהוא חק\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דוקא במצוה וכו' אבל בחוקיו יש שכר בהאי עלמא וכו'.\",\n            \"source_ref\": \"דברי שאול ואתחנן מובא פרד\\\"י משפטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ו\",\n        \"title\": \"על קיום המשפטים שהמה קיום עוה\\\"ז.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם בענין המשפטים אמר וכו', כי הם מדברים שאוכל פירותיהם בעוה\\\"ז, וז\\\"ש והיה עקב תשמעון את המשפטים וגו' ליהיה לך שני מיני שכר הן בעוה\\\"ז והן בעוה\\\"ב.\",\n            \"source_ref\": \"זכרון שמואל, פ' עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ז\",\n        \"title\": \"מצות שהשכל מחייבם.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ע\\\"כ לבי אומר לי דמצות שהשכל מחייבם ואין הטבע מנגד ומובן הטעם מגיע שכר בעוה\\\"ז.\",\n            \"source_ref\": \"מעגלי צדק, עקב\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אבל במצות המושכלות אמר למען יאריך ימים כי הם מהדברים שאוכל פירותיהם בעוה\\\"ז וכו'.\",\n            \"source_ref\": \"וירבה תורה ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ח\",\n        \"title\": \"על כל המצות שבין אדם לחבירו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכל המצות שבין אדם לחבירו נכנסות בגמילות חסדים, ושים לבך עליהם כי כן מתלהט.\",\n            \"source_ref\": \"הריו\\\"ט פאה פ\\\"א מ\\\"א\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"דעל מצות שבין אדם לחבירו מגיע שכר בעוה\\\"ז וכו'\",\n            \"source_ref\": \"בית נפתלי תצא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ט\",\n        \"title\": \"על השמר מעבירות בין אדם לחבירו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כל יעודי טובות עוה\\\"ז וכו' ועל השמר מעבירות שבין אדם לחבירו וכו' וע\\\"ז באו ברכת עוה\\\"ז.\",\n            \"source_ref\": \"אמרי אש בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"י\",\n        \"title\": \"על מצות דרבנן.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דוקא במצות לאורייתא אמרינן דשכר מצוה בהאי עלמא ליכא, אבל במצות דרבנן וכו', ממילא לצריך הקב\\\"ה כביכול לקיים ליומו מתן שכרו עוד טרם יבא השמש מהעלם היינו בעוה\\\"ז.\",\n            \"source_ref\": \"תפארת בנים פ׳ ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יא\",\n        \"title\": \"על סייגים וגדרי חכמים\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 28,
+    "book_page": 28,
+    "overall_quality": "good",
+    "summary": "The structural parsing is perfect, including column flow and section handling. However, there is a significant hallucination in the first line (continuation fragment) where the OCR invented words not present in the image. There are also a few minor character substitution errors in the body text.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "top of right column (continuation fragment)",
+        "description": "OCR Hallucinated words 'כך כביכול' instead of the visible text 'כרח בביטולה'.",
+        "original_text": "כך כביכול שפיר מגיע עליהם שכר בעוה\"ז בקיומן.",
+        "corrected_text": "כרח בביטולה שפיר מגיע עליהם שכר בעוה\"ז בקיומן."
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ז, paragraph 1",
+        "description": "Misread word 'לבי' (my heart) as 'בני' (my son).",
+        "original_text": "ע\"כ בני אומר לי",
+        "corrected_text": "ע\"כ לבי אומר לי"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section ז, paragraph 2 source",
+        "description": "Missing opening Vav in source name.",
+        "original_text": "ירבה תורה ואתחנן",
+        "corrected_text": "וירבה תורה ואתחנן"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section י, paragraph 1",
+        "description": "Misread 'מהעלם' (from the world/hiding) as 'מהשלם'. The letter is clearly Ayin, not Shin.",
+        "original_text": "טרם יבא השמש מהשלם היינו בעוה\"ז.",
+        "corrected_text": "טרם יבא השמש מהעלם היינו בעוה\"ז."
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section ח, paragraph 1 source",
+        "description": "Misread source acronym. Visual text appears to be 'הריו\"ט' or 'הרי\"ט' (Resh), not 'הוויו\"ט' (Vav-Vav).",
+        "original_text": "הוויו\"ט פאה פ\"א מ\"א",
+        "corrected_text": "הריו\"ט פאה פ\"א מ\"א"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "כח",
+        "page_side": "left",
+        "chapter_context": "פרק שני",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "ד",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "יא",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "כרח בביטולה שפיר מגיע עליהם שכר בעוה\"ז בקיומן.",
+          "source_ref": "תבואות שור ב\"ב ט"
+        },
+        {
+          "type": "section",
+          "number": "ה",
+          "title": "על מצוה שהוא חק",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דוקא במצוה וכו' אבל בחוקיו יש שכר בהאי עלמא וכו'.",
+              "source_ref": "דברי שאול ואתחנן מובא פרד\"י משפטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ו",
+          "title": "על קיום המשפטים שהמה קיום עוה\"ז.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם בענין המשפטים אמר וכו', כי הם מדברים שאוכל פירותיהם בעוה\"ז, וז\"ש והיה עקב תשמעון את המשפטים וגו' ליהיה לך שני מיני שכר הן בעוה\"ז והן בעוה\"ב.",
+              "source_ref": "זכרון שמואל, פ' עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ז",
+          "title": "מצות שהשכל מחייבם.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ע\"כ לבי אומר לי דמצות שהשכל מחייבם ואין הטבע מנגד ומובן הטעם מגיע שכר בעוה\"ז.",
+              "source_ref": "מעגלי צדק, עקב"
+            },
+            {
+              "is_makor": false,
+              "text": "אבל במצות המושכלות אמר למען יאריך ימים כי הם מהדברים שאוכל פירותיהם בעוה\"ז וכו'.",
+              "source_ref": "וירבה תורה ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ח",
+          "title": "על כל המצות שבין אדם לחבירו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכל המצות שבין אדם לחבירו נכנסות בגמילות חסדים, ושים לבך עליהם כי כן מתלהט.",
+              "source_ref": "הריו\"ט פאה פ\"א מ\"א"
+            },
+            {
+              "is_makor": false,
+              "text": "דעל מצות שבין אדם לחבירו מגיע שכר בעוה\"ז וכו'",
+              "source_ref": "בית נפתלי תצא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ט",
+          "title": "על השמר מעבירות בין אדם לחבירו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כל יעודי טובות עוה\"ז וכו' ועל השמר מעבירות שבין אדם לחבירו וכו' וע\"ז באו ברכת עוה\"ז.",
+              "source_ref": "אמרי אש בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "י",
+          "title": "על מצות דרבנן.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דוקא במצות לאורייתא אמרינן דשכר מצוה בהאי עלמא ליכא, אבל במצות דרבנן וכו', ממילא לצריך הקב\"ה כביכול לקיים ליומו מתן שכרו עוד טרם יבא השמש מהעלם היינו בעוה\"ז.",
+              "source_ref": "תפארת בנים פ׳ ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יא",
+          "title": "על סייגים וגדרי חכמים",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

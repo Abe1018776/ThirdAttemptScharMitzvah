@@ -1,0 +1,49 @@
+{
+  "page": 9,
+  "book_page": 45,
+  "overall_quality": "good",
+  "summary": "Page 9 continues from section yod-aleph and covers sections yod-bet through tet-zayin of chapter 2. The continuation fragment correctly captures the end of section yod-aleph. All section numbers are sequential. Source references appear mostly accurate. Page ends cleanly.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment (section יא ending)",
+      "description": "OCR reads 'אמנם קיימים וגדרי חכמים' - the word 'קיימים' should be 'סייגים' (fences/safeguards), matching the section title 'על סייגים וגדרי חכמים'.",
+      "original_text": "אמנם קיימים וגדרי חכמים",
+      "corrected_text": "אמנם סייגים וגדרי חכמים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יב makor",
+      "description": "OCR reads 'ומבואר בפקה\"ק' - this abbreviation is unusual. It should likely be 'בספה\"ק' (in the holy book), a standard abbreviation.",
+      "original_text": "בפקה\"ק",
+      "corrected_text": "בספה\"ק"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section יב makor",
+      "description": "OCR reads 'מה שעשיתם אתם המלוות' - the word 'המלוות' seems unusual in context. It may be 'המצוות' (the mitzvot) which makes more sense.",
+      "original_text": "מה שעשיתם אתם המלוות",
+      "corrected_text": "מה שעשיתם אתם המצוות"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section טו makor",
+      "description": "OCR reads 'אשר אין לו תוכח הגוף עליו' - the word 'תוכח' is likely 'תוכחת' (rebuke/proof of).",
+      "original_text": "אשר אין לו תוכח הגוף",
+      "corrected_text": "אשר אין לו תוכחת הגוף"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section יד makor",
+      "description": "Source ref is 'ויריעות שלמה, ש\"ח, ו' - the leading vav seems to be part of the abbreviation or a misread. Should likely be 'דרשות יריעות שלמה ש\"ח ו' or simply 'יריעות שלמה, ש\"ח ו''.",
+      "original_text": "ויריעות שלמה, ש\"ח, ו",
+      "corrected_text": "יריעות שלמה, ש\"ח ו'"
+    }
+  ],
+  "corrected_json": null
+}

@@ -1,0 +1,33 @@
+{
+  "page": 67,
+  "book_page": 103,
+  "overall_quality": "good",
+  "summary": "Page 88 (left side), chapter 5. Sections 140-145. All 6 sections captured correctly with good accuracy. Minor text issues in a few places.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קמב, makor text",
+      "description": "OCR has 'אבל במצות שעשה אביו וחיו כבר מת' - the phrase 'וחיו כבר מת' is awkward. The image appears to read 'דהוא כבר מת' or 'וכיון דכבר מת' (since he already died), which makes better sense contextually.",
+      "original_text": "וחיו כבר מת",
+      "corrected_text": "דהוא כבר מת"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section קמד, makor text",
+      "description": "OCR has 'ראוי שפיר לקייס' - the word 'לקייס' is a likely OCR error for 'לקיים' (to fulfill).",
+      "original_text": "לקייס",
+      "corrected_text": "לקיים"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section קמה, source_ref",
+      "description": "OCR has 'וסדר היום' with a leading vav. The image shows the source name is 'סדר היום' without the conjunction vav.",
+      "original_text": "וסדר היום",
+      "corrected_text": "סדר היום"
+    }
+  ],
+  "corrected_json": null
+}

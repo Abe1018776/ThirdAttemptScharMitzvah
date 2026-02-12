@@ -1,0 +1,138 @@
+{
+  "page": 77,
+  "book_page": 113,
+  "raw_response": "{\n  \"page\": 97,\n  \"book_page\": 113,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Structure and cross-column joining were handled perfectly. There are a few specific text recognition errors, notably misinterpreting letters in abbreviations and difficult words (Tzadik as Lamed-Vav).\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Top textual fragment\",\n      \"description\": \"Text reads 'וקראו' in OCR, but visual context and shape suggest 'יקראו' (Yod vs Vav).\",\n      \"original_text\": \"יכלה בניו וקראו\",\n      \"corrected_text\": \"יכלה בניו יקראו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נ, paragraph 1\",\n      \"description\": \"Verse citation abbreviation transcription error. The image shows 'ה\\\"א' (Hashem Elokecha) or similar, OCR output 'ה\\\"ח'.\",\n      \"original_text\": \"ושמר ה\\\"ח לך\",\n      \"corrected_text\": \"ושמר ה\\\"א לך\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section נב, paragraph 1\",\n      \"description\": \"Misread word 'ציווי' (command) as 'לוו'. The letter Tzadik was split into Lamed/Vav.\",\n      \"original_text\": \"שאף בלי לוו התורה\",\n      \"corrected_text\": \"שאף בלי ציווי התורה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section נג, paragraph 3\",\n      \"description\": \"Incorrect transcription of bracketed acronym. 'המל\\\"ת' (HaLavim/HaMitzvot Lo Taaseh) was transcribed as 'המלות' (The Words).\",\n      \"original_text\": \"אבל בלאו [המלות]\",\n      \"corrected_text\": \"אבל בלאו [המל\\\"ת]\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"צז\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"מט\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"נג\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"יכלה בניו יקראו וכו' ומרדכי בשער המלך\",\n        \"source_ref\": \"פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נ\",\n        \"title\": \"המקיים מצוה שכלית, ומכוין רק משום שכך צוה ה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דבמשפטים הקיום הוא נקל שהשכל מסכים לזה, אבל המחשבה לה' לבדו הוא קשה, שהרי גם השכל האנושי מסכים לזה והו\\\"ל ג\\\"כ מנימוסי המדינה וכו' וז\\\"ש והיה עקב תשמעון את המשפטים האלה ולא נימוסי המדינה וכו' ולכך ושמר ה\\\"א לך וגו'.\",\n            \"source_ref\": \"דברי שאול עקב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נא\",\n        \"title\": \"מצות שיכול להבין הטעם, ומקיים בתמימות בבחינת חוק, רק מצד צווי ה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ואמנם שלימות קיום המצות הוא לקיים גם המשפטים השכליים בגזירת חוקים וכו' וע\\\"ז מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"בית אהרן, עקב.\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אם בחוקותי וגו' בדרך חוק וכי א\\\"כ הוא ענין חוץ לטבע וכו' יוכלו לקבל יעודי הגשמיים.\",\n            \"source_ref\": \"אמרי יצחק בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"וז\\\"ש הכתוב אם בחוקותי תלכו ואת מצותי שיש בהם טעם וציויתם אותם וכו' תלכו בם בבחינת חוקותי שאין בהם טעם, אז ונתתי גשמיכם בעתם וכו' בתורת מתנה ברצון ולא בתורת שכר, כי שכר מצוה בהאי עלמא ליכא, כי אם בתורת חסד בלא טעם.\",\n            \"source_ref\": \"רב טוב קע\\\"ב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נב\",\n        \"title\": \"המצות שאף בלי צווי התורה היו מקיימים אותם, והוא שומרם לשם מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל אותם המצות שאף בלי ציווי התורה היו מקיימים אותם מפני שצריכות בשוה\\\"ז, מי ששומר אותם לשם מצוה בודאי שיטול שכרו בעוה\\\"ז.\",\n            \"source_ref\": \"זרע שמשון תבוא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נג\",\n        \"title\": \"מצוה שיש בו הנאת הגוף ומכוין לשם המצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"לע\\\"ג דשכר מצוה בהאי עלמא ליכא מ\\\"מ אם עושה מצוה שיש בה הנאת הגוף ועכ\\\"ז האדם עושה בלתי לה' לבדו מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"בנין דוד ויצא\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אבל במצוה שיש בה הנאת הגוף והוא מקבל תאותו ואינו עושה כדי למלאות תאותו אלא בלתי לה' לבדו על זה יש שכר בהאי עלמא.\",\n            \"source_ref\": \"חמדת ישראל, וילך\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"אבל בלאו [המל\\\"ת] שיש בהם הנאת הגוף והוא כובש את יצרו ומשבר תאותו מעוה\\\"ז ועושה רק לש\\\"ש שכרו\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 97,
+    "book_page": 113,
+    "overall_quality": "good",
+    "summary": "Structure and cross-column joining were handled perfectly. There are a few specific text recognition errors, notably misinterpreting letters in abbreviations and difficult words (Tzadik as Lamed-Vav).",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Top textual fragment",
+        "description": "Text reads 'וקראו' in OCR, but visual context and shape suggest 'יקראו' (Yod vs Vav).",
+        "original_text": "יכלה בניו וקראו",
+        "corrected_text": "יכלה בניו יקראו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section נ, paragraph 1",
+        "description": "Verse citation abbreviation transcription error. The image shows 'ה\"א' (Hashem Elokecha) or similar, OCR output 'ה\"ח'.",
+        "original_text": "ושמר ה\"ח לך",
+        "corrected_text": "ושמר ה\"א לך"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section נב, paragraph 1",
+        "description": "Misread word 'ציווי' (command) as 'לוו'. The letter Tzadik was split into Lamed/Vav.",
+        "original_text": "שאף בלי לוו התורה",
+        "corrected_text": "שאף בלי ציווי התורה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section נג, paragraph 3",
+        "description": "Incorrect transcription of bracketed acronym. 'המל\"ת' (HaLavim/HaMitzvot Lo Taaseh) was transcribed as 'המלות' (The Words).",
+        "original_text": "אבל בלאו [המלות]",
+        "corrected_text": "אבל בלאו [המל\"ת]"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "צז",
+        "page_side": "right",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "מט",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "נג",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "יכלה בניו יקראו וכו' ומרדכי בשער המלך",
+          "source_ref": "פנחס"
+        },
+        {
+          "type": "section",
+          "number": "נ",
+          "title": "המקיים מצוה שכלית, ומכוין רק משום שכך צוה ה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דבמשפטים הקיום הוא נקל שהשכל מסכים לזה, אבל המחשבה לה' לבדו הוא קשה, שהרי גם השכל האנושי מסכים לזה והו\"ל ג\"כ מנימוסי המדינה וכו' וז\"ש והיה עקב תשמעון את המשפטים האלה ולא נימוסי המדינה וכו' ולכך ושמר ה\"א לך וגו'.",
+              "source_ref": "דברי שאול עקב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נא",
+          "title": "מצות שיכול להבין הטעם, ומקיים בתמימות בבחינת חוק, רק מצד צווי ה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ואמנם שלימות קיום המצות הוא לקיים גם המשפטים השכליים בגזירת חוקים וכו' וע\"ז מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "בית אהרן, עקב."
+            },
+            {
+              "is_makor": false,
+              "text": "אם בחוקותי וגו' בדרך חוק וכי א\"כ הוא ענין חוץ לטבע וכו' יוכלו לקבל יעודי הגשמיים.",
+              "source_ref": "אמרי יצחק בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "וז\"ש הכתוב אם בחוקותי תלכו ואת מצותי שיש בהם טעם וציויתם אותם וכו' תלכו בם בבחינת חוקותי שאין בהם טעם, אז ונתתי גשמיכם בעתם וכו' בתורת מתנה ברצון ולא בתורת שכר, כי שכר מצוה בהאי עלמא ליכא, כי אם בתורת חסד בלא טעם.",
+              "source_ref": "רב טוב קע\"ב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נב",
+          "title": "המצות שאף בלי צווי התורה היו מקיימים אותם, והוא שומרם לשם מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל אותם המצות שאף בלי ציווי התורה היו מקיימים אותם מפני שצריכות בשוה\"ז, מי ששומר אותם לשם מצוה בודאי שיטול שכרו בעוה\"ז.",
+              "source_ref": "זרע שמשון תבוא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נג",
+          "title": "מצוה שיש בו הנאת הגוף ומכוין לשם המצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "לע\"ג דשכר מצוה בהאי עלמא ליכא מ\"מ אם עושה מצוה שיש בה הנאת הגוף ועכ\"ז האדם עושה בלתי לה' לבדו מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "בנין דוד ויצא"
+            },
+            {
+              "is_makor": false,
+              "text": "אבל במצוה שיש בה הנאת הגוף והוא מקבל תאותו ואינו עושה כדי למלאות תאותו אלא בלתי לה' לבדו על זה יש שכר בהאי עלמא.",
+              "source_ref": "חמדת ישראל, וילך"
+            },
+            {
+              "is_makor": false,
+              "text": "אבל בלאו [המל\"ת] שיש בהם הנאת הגוף והוא כובש את יצרו ומשבר תאותו מעוה\"ז ועושה רק לש\"ש שכרו"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

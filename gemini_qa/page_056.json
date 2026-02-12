@@ -1,0 +1,144 @@
+{
+  "page": 56,
+  "book_page": 92,
+  "raw_response": "```json\n{\n  \"page\": 76,\n  \"book_page\": 92,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR correctly identified the structural layout, column order, and cross-column text joining (which is complex on this page). Source extraction is precise. However, there are several distinct text recognition errors in the Hebrew body text (wrong words/letters) and one structural error where a section header was duplicated as a grouping header.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_structure\",\n      \"severity\": \"major\",\n      \"location\": \"Section פ (80)\",\n      \"description\": \"The section header 'פ. המשכים ומעריב לעבודת ה'.' was incorrectly identified as a 'grouping_header' immediately before being correctly identified as a 'section'. The grouping_header entry should be removed.\",\n      \"original_text\": \"{type: 'grouping_header', title: 'פ. המשכים ומעריב לעבודת ה'.'}\",\n      \"corrected_text\": \"(Remove entire object)\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section עו, paragraph 1\",\n      \"description\": \"Word misrecognition. Image says 'וימץ' (exerted/strengthened), OCR says 'וחמץ' (leavened).\",\n      \"original_text\": \"וחמץ את כוחו\",\n      \"corrected_text\": \"וימץ את כוחו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"Section עז, paragraph 1\",\n      \"description\": \"Multiple word errors in a difficult phrase. Image: 'חיות' (or חיו'), OCR: 'חיה'. Image: 'מחלקו' (from his portion), OCR: 'מחקימו'. Image: 'חוסיו' (those trusting in him), OCR: 'מסיו'.\",\n      \"original_text\": \"יחסרו הבריות חיה מחקימו לכל מסיו בו\",\n      \"corrected_text\": \"יחסרו הבריות חיות מחלקו לכל חוסיו בו\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section עט, paragraph 1\",\n      \"description\": \"Word mismatch at start of paragraph.\",\n      \"original_text\": \"כי ראית עיקר הדבר\",\n      \"corrected_text\": \"כי ראיתי עיקר הכלל\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"Section פ, paragraph 1\",\n      \"description\": \"Letter confusion: Final Mem vs Samech.\",\n      \"original_text\": \"אמנס יש לחלק\",\n      \"corrected_text\": \"אמנם יש לחלק\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עו\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"עה\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"מקור המצוה: אבל מי שעובד הקב\\\"ה שלא ע\\\"מ לק\\\"פ וכו' ואח\\\"כ מגיע לו שכר גם בעוה\\\"ז.\",\n        \"source_ref\": \"דברי אליעזר\"\n      },\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"עוד נ\\\"ל כי מי שעובד על מנת לקבל פרס אין בדין שיטול שכרו וכו' אבל העובד שלא על מנת לקבל פרס ראוי לקבל וכו'.\",\n        \"source_ref\": \"וכתב סופר פנחס\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עו\",\n        \"title\": \"מי שעובד השי\\\"ת בכל לב ונפש ומזכך עצמו לקרב החומר אל הצורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה אף כי שכר מצוה בהאי עלמא ליכא עכ\\\"ז מאחר שעבד את ה' בכל לב ובכל נפש ומסר נפשו ורוחו ונשמתו על קדושת שמו ית' וימץ את כוחו לזכך עצמו לקרב החומר אל הצורה מגיע לו שכר גם בהאי עלמא כי וכו' עבד עבודתו תמה ושלמה וכו' וקירב החומר אל הצורה ע\\\"כ מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"באר מנחם נח\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עז\",\n        \"title\": \"מי שעובד השי\\\"ת בכל לבבו ובכל נפשו.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי הנה באמת מי שעובד השי\\\"ת בכל לבבו ובכל נפשו וכו' כדי שלא יחסרו הבריות חיות מחלקו לכל חוסיו בו על כן נותן לו הקב\\\"ה כל טוב גם בעוה\\\"ז.\",\n            \"source_ref\": \"באר מנחם ליקוטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עח\",\n        \"title\": \"מי שמקבל שפע מרובה ופרנסה גדולה ואפ\\\"ה עובד השי\\\"ת\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וא\\\"כ אם הקב\\\"ה נותן שפע מרובה ופרנסה גדולה ואפ\\\"ה עובד הקב\\\"ה אזי מובטח שברכתו לא תפסוק ממנו וכו'.\",\n            \"source_ref\": \"אמרות ה' בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עט\",\n        \"title\": \"המתגבר כארי לעבודת ה' ולעמלה של תורה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כי ראיתי עיקר הכלל שצריך להיות עמלים בתורה וכו' יתגבר כארי לעמוד וכו' שאם מתגבר כארי לעבודת ה' ולעמלה של תורה אז ונתתי גשמיכם בעתם וכו'.\",\n            \"source_ref\": \"קני המנורה עה\\\"ת, בחוקותי לאאמו\\\"ר הרה\\\"ג מוהר\\\"ר יצחק נפתלי קנאפפלער זצ\\\"ל אבד\\\"ק טשילע\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פ\",\n        \"title\": \"המשכים ומעריב לעבודת ה'.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם יש לחלק ולומר שכאשר האדם וכו' משכים ומעריב לעבודת הוי\\\"ת קוב\\\"ה טפי ליה לחגריה גם בעוה\\\"ז.\",\n            \"source_ref\": \"ברך משה ויצא\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 76,
+    "book_page": 92,
+    "overall_quality": "good",
+    "summary": "The OCR correctly identified the structural layout, column order, and cross-column text joining (which is complex on this page). Source extraction is precise. However, there are several distinct text recognition errors in the Hebrew body text (wrong words/letters) and one structural error where a section header was duplicated as a grouping header.",
+    "issues": [
+      {
+        "type": "wrong_structure",
+        "severity": "major",
+        "location": "Section פ (80)",
+        "description": "The section header 'פ. המשכים ומעריב לעבודת ה'.' was incorrectly identified as a 'grouping_header' immediately before being correctly identified as a 'section'. The grouping_header entry should be removed.",
+        "original_text": "{type: 'grouping_header', title: 'פ. המשכים ומעריב לעבודת ה'.'}",
+        "corrected_text": "(Remove entire object)"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section עו, paragraph 1",
+        "description": "Word misrecognition. Image says 'וימץ' (exerted/strengthened), OCR says 'וחמץ' (leavened).",
+        "original_text": "וחמץ את כוחו",
+        "corrected_text": "וימץ את כוחו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "Section עז, paragraph 1",
+        "description": "Multiple word errors in a difficult phrase. Image: 'חיות' (or חיו'), OCR: 'חיה'. Image: 'מחלקו' (from his portion), OCR: 'מחקימו'. Image: 'חוסיו' (those trusting in him), OCR: 'מסיו'.",
+        "original_text": "יחסרו הבריות חיה מחקימו לכל מסיו בו",
+        "corrected_text": "יחסרו הבריות חיות מחלקו לכל חוסיו בו"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section עט, paragraph 1",
+        "description": "Word mismatch at start of paragraph.",
+        "original_text": "כי ראית עיקר הדבר",
+        "corrected_text": "כי ראיתי עיקר הכלל"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "Section פ, paragraph 1",
+        "description": "Letter confusion: Final Mem vs Samech.",
+        "original_text": "אמנס יש לחלק",
+        "corrected_text": "אמנם יש לחלק"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עו",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "עה",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "מקור המצוה: אבל מי שעובד הקב\"ה שלא ע\"מ לק\"פ וכו' ואח\"כ מגיע לו שכר גם בעוה\"ז.",
+          "source_ref": "דברי אליעזר"
+        },
+        {
+          "type": "continuation_fragment",
+          "text": "עוד נ\"ל כי מי שעובד על מנת לקבל פרס אין בדין שיטול שכרו וכו' אבל העובד שלא על מנת לקבל פרס ראוי לקבל וכו'.",
+          "source_ref": "וכתב סופר פנחס"
+        },
+        {
+          "type": "section",
+          "number": "עו",
+          "title": "מי שעובד השי\"ת בכל לב ונפש ומזכך עצמו לקרב החומר אל הצורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה אף כי שכר מצוה בהאי עלמא ליכא עכ\"ז מאחר שעבד את ה' בכל לב ובכל נפש ומסר נפשו ורוחו ונשמתו על קדושת שמו ית' וימץ את כוחו לזכך עצמו לקרב החומר אל הצורה מגיע לו שכר גם בהאי עלמא כי וכו' עבד עבודתו תמה ושלמה וכו' וקירב החומר אל הצורה ע\"כ מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "באר מנחם נח"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עז",
+          "title": "מי שעובד השי\"ת בכל לבבו ובכל נפשו.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי הנה באמת מי שעובד השי\"ת בכל לבבו ובכל נפשו וכו' כדי שלא יחסרו הבריות חיות מחלקו לכל חוסיו בו על כן נותן לו הקב\"ה כל טוב גם בעוה\"ז.",
+              "source_ref": "באר מנחם ליקוטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עח",
+          "title": "מי שמקבל שפע מרובה ופרנסה גדולה ואפ\"ה עובד השי\"ת",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וא\"כ אם הקב\"ה נותן שפע מרובה ופרנסה גדולה ואפ\"ה עובד הקב\"ה אזי מובטח שברכתו לא תפסוק ממנו וכו'.",
+              "source_ref": "אמרות ה' בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עט",
+          "title": "המתגבר כארי לעבודת ה' ולעמלה של תורה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כי ראיתי עיקר הכלל שצריך להיות עמלים בתורה וכו' יתגבר כארי לעמוד וכו' שאם מתגבר כארי לעבודת ה' ולעמלה של תורה אז ונתתי גשמיכם בעתם וכו'.",
+              "source_ref": "קני המנורה עה\"ת, בחוקותי לאאמו\"ר הרה\"ג מוהר\"ר יצחק נפתלי קנאפפלער זצ\"ל אבד\"ק טשילע"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פ",
+          "title": "המשכים ומעריב לעבודת ה'.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם יש לחלק ולומר שכאשר האדם וכו' משכים ומעריב לעבודת הוי\"ת קוב\"ה טפי ליה לחגריה גם בעוה\"ז.",
+              "source_ref": "ברך משה ויצא"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

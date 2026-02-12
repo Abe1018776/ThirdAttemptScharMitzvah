@@ -1,0 +1,25 @@
+{
+  "page": 29,
+  "book_page": 65,
+  "overall_quality": "good",
+  "summary": "Page 29 (book page 49/mem-tet). Covers sections 106-112 with two grouping headers ('אמונה' and 'צדקה וגמילות חסדים'). All section numbers are correct. The structure properly captures the transition between topic areas. Section 112 continues to next page.",
+  "issues": [
+    {
+      "type": "wrong_structure",
+      "severity": "major",
+      "location": "section 110 (קי), paragraph ordering",
+      "description": "In section 110, the first paragraph is marked is_makor: false and the second is marked is_makor: true. Per the standard structure, the makor paragraph should come first. Looking at the image, the text labeled 'מקור המצוה:' appears to be the second paragraph 'ומה שאוכלין בעוה\"ז...' with source 'יכ\"ס ש\"ע ט'. The first paragraph (about the midrash) is additional body text. The makor/body ordering is reversed from convention.",
+      "original_text": "first paragraph is_makor: false, second is_makor: true",
+      "corrected_text": "first paragraph should be is_makor: true, second should be is_makor: false"
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section 111 (קיא), makor paragraph",
+      "description": "Section 111 about מצות צדקה has no source_ref on the makor paragraph. The sources are embedded inline in the text ([דברים יד כב], [תענית ט.], [מלאכי ג י]) rather than appearing in a final parenthetical. This is a structural difference from other sections.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

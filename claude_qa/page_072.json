@@ -1,0 +1,49 @@
+{
+  "page": 72,
+  "book_page": 108,
+  "overall_quality": "good",
+  "summary": "Page 72 (book page צב) covers sections כא through כה, with grouping header 'שמחה'. The structure is well-captured with correct section numbering. Section כה has multiple body paragraphs with source refs which are all properly extracted. Minor text issues exist.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כא, title",
+      "description": "OCR title reads 'מי שלומד תורת דיני המצות'. The image right column header shows 'כא. מי שלומד תורת דיני המצות' which matches. The makor text 'יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' על לימוד תורת ודיני המצות' - the image shows 'גם תלמוד תורה, והיא מדברכם שאדם אוכל פירותיהם בעוה\"ז' or similar. The condensed text may have missed some words.",
+      "original_text": "יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' על לימוד תורת ודיני המצות.",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כב, makor text",
+      "description": "OCR reads 'ע\"י התוה\"ק שוב אינה יכולה העבירה לכבות מצוה'. The image in the right column shows 'ע\"י התורה\"ק שוב אינה יכולה העבירה לכבות מצוה'. The abbreviation 'התוה\"ק' vs 'התורה\"ק' should be verified.",
+      "original_text": "התוה\"ק",
+      "corrected_text": "התוה\"ק (likely correct abbreviation for התורה הקדושה)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כה, body paragraph 3",
+      "description": "OCR reads 'לכן המתחיל במלת והיה הרומזת לשמחה, שלא תשמעון המשפטים ותשמרון אותם בשמחה שתקבלו שכר בעוה\"ז'. The image shows 'לכן המתחיל במלת והיה הרומזת לשמחה, שאם תשמעון המשפטים ותשמרון אותם בשמחה'. The word 'שלא' should likely be 'שאם'.",
+      "original_text": "שלא תשמעון",
+      "corrected_text": "שאם תשמעון"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כה, body paragraph 2",
+      "description": "OCR reads 'והמפרשים תירצו דעבור השמחה שהוא שמח בקיום המצות וכו' על זה קובע לו ה' שכר גם בהאי עלמא'. The image appears to show 'והמפרשים תרצו' (without yod). Minor spelling variant.",
+      "original_text": "תירצו",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section כה, body paragraph 4",
+      "description": "OCR reads 'דבשביל שמחת המצוה מגיע שכר עוה\"ז וכו' בגלל שלא ירע לבבך ונתן בשמחה, יברכך בעוה\"ז'. The image may show 'דבשביל שמחת המצוה מגיע שכר בעוה\"ז' (with ב prefix). Also 'בגלל' in the image looks like 'כי בגלל'.",
+      "original_text": "מגיע שכר עוה\"ז",
+      "corrected_text": "מגיע שכר בעוה\"ז (needs verification)"
+    }
+  ],
+  "corrected_json": null
+}

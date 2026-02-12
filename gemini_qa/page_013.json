@@ -1,0 +1,170 @@
+{
+  "page": 13,
+  "book_page": 49,
+  "raw_response": "{\n  \"page\": 33,\n  \"book_page\": 49,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Structural parsing, column ordering, and source extraction are excellent. However, there are several distinct OCR recognition errors where letters were confused (resulting in different words), specifically in sections ח, י, יא, and יב.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Word recognition error: 'הרצוי' should be 'הרבוי' (multitude).\",\n      \"original_text\": \"לפיכך נתן להם מצות שיש בהם חשיבות הרצוי\",\n      \"corrected_text\": \"לפיכך נתן להם מצות שיש בהם חשיבות הרבוי\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section ח, paragraph 1\",\n      \"description\": \"Word recognition error: 'רוויים' should be 'זוכין' (merit/win).\",\n      \"original_text\": \"בזכות זה רוויים כל ישראל בשכר\",\n      \"corrected_text\": \"בזכות זה זוכין כל ישראל בשכר\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section י, paragraph 1\",\n      \"description\": \"Word recognition error: 'חמדות' should be 'חסדים' (kindness). Occurs twice.\",\n      \"original_text\": \"ממילא גורם לעשות חמדות כידוע דהסעודה גורם לחמדות\",\n      \"corrected_text\": \"ממילא גורם לעשות חסדים כידוע דהסעודה גורם לחסדים\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יא, paragraph 1\",\n      \"description\": \"Grammatical/Recognition error: 'ענינים' should be 'עניניה' (its matters).\",\n      \"original_text\": \"וכל ענינים הצריכים לה\",\n      \"corrected_text\": \"וכל עניניה הצריכים לה\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section יב, paragraph 1\",\n      \"description\": \"Word recognition error: 'טובות' should be 'טוב'.\",\n      \"original_text\": \"ויתן לך כל טובות העוה\\\"ז\",\n      \"corrected_text\": \"ויתן לך כל טוב העוה\\\"ז\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"לג\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק שלישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"ה\",\n        \"title\": \"הזהיר בבדיקת המזוזה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הזהיר במזוזה, ורגיל לבדוק אותה, זוכה לדירה נאה וכו'\",\n            \"source_ref\": \"ראה פתחי שערים אות ו'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ו\",\n        \"title\": \"הזהיר בנשיקת המזוזה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הזהיר במזוזה, ורגיל וכו' ומנשקה וכו' זוכה לדירה נאה וכו'\",\n            \"source_ref\": \"ראה פתחי שערים אות ו'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ז\",\n        \"title\": \"הזהיר לקבוע מזוזה בכל פתח ואינו סומך על המקילים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"הזהיר במזוזה וכו' וקובע בכל פתח ואינו סומך על המקילים וכו' זוכה לדירה נאה וכו'.\",\n            \"source_ref\": \"ראה פתחי שערים אות ו'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ח\",\n        \"title\": \"על מצות מילה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אלא רצה הקב\\\"ה לזכות את ישראל גם בשכר עוה\\\"ז, לפיכך נתן להם מצות שיש בהם חשיבות הרבוי, כמו מילה ששקולה כנגד כל המצות וכו' בזכות זה זוכין כל ישראל בשכר אף בעוה\\\"ז.\",\n            \"source_ref\": \"דברי ישראל, בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ט\",\n        \"title\": \"על מצות דם מילה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל על וכו' ודם מילה הרי יש עונש כרת על ביטולו וא\\\"כ שפיר מגיע עליהם שכר בעוה\\\"ז.\",\n            \"source_ref\": \"ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\\\"ה בשם הלב אריה'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"י\",\n        \"title\": \"מי שהוא סנדק\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכיון דהסנדק עושה הסעודה ממילא גורם לעשות חסדים כידוע דהסעודה גורם לחסדים ממילא מגיע לו שכר גם בעוה\\\"ז.\",\n            \"source_ref\": \"מגדלות מרקחים, ויקהל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יא\",\n        \"title\": \"הלוקח חלק באחד מעניני מצות מילה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וגם לפי\\\"ז כל מי שעסק במצות מילה, וכל עניניה הצריכים לה, והסנדק וכו' אז יגיע לנו אכילת פירות בדין בעוה\\\"ז.\",\n            \"source_ref\": \"בית נפתלי, פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יב\",\n        \"title\": \"ע\\\"י שמירת הברית\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והיה עקב תשמעון היינו קיומא לגופא אות ברית קודש וכו' ושמר ה\\\"א לך את הברית, ויתן לך כל טוב העוה\\\"ז.\",\n            \"source_ref\": \"ערוגת הבושם, עקב\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 33,
+    "book_page": 49,
+    "overall_quality": "good",
+    "summary": "Structural parsing, column ordering, and source extraction are excellent. However, there are several distinct OCR recognition errors where letters were confused (resulting in different words), specifically in sections ח, י, יא, and יב.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ח, paragraph 1",
+        "description": "Word recognition error: 'הרצוי' should be 'הרבוי' (multitude).",
+        "original_text": "לפיכך נתן להם מצות שיש בהם חשיבות הרצוי",
+        "corrected_text": "לפיכך נתן להם מצות שיש בהם חשיבות הרבוי"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section ח, paragraph 1",
+        "description": "Word recognition error: 'רוויים' should be 'זוכין' (merit/win).",
+        "original_text": "בזכות זה רוויים כל ישראל בשכר",
+        "corrected_text": "בזכות זה זוכין כל ישראל בשכר"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section י, paragraph 1",
+        "description": "Word recognition error: 'חמדות' should be 'חסדים' (kindness). Occurs twice.",
+        "original_text": "ממילא גורם לעשות חמדות כידוע דהסעודה גורם לחמדות",
+        "corrected_text": "ממילא גורם לעשות חסדים כידוע דהסעודה גורם לחסדים"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יא, paragraph 1",
+        "description": "Grammatical/Recognition error: 'ענינים' should be 'עניניה' (its matters).",
+        "original_text": "וכל ענינים הצריכים לה",
+        "corrected_text": "וכל עניניה הצריכים לה"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section יב, paragraph 1",
+        "description": "Word recognition error: 'טובות' should be 'טוב'.",
+        "original_text": "ויתן לך כל טובות העוה\"ז",
+        "corrected_text": "ויתן לך כל טוב העוה\"ז"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "לג",
+        "page_side": "left",
+        "chapter_context": "פרק שלישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "ה",
+          "title": "הזהיר בבדיקת המזוזה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הזהיר במזוזה, ורגיל לבדוק אותה, זוכה לדירה נאה וכו'",
+              "source_ref": "ראה פתחי שערים אות ו'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ו",
+          "title": "הזהיר בנשיקת המזוזה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הזהיר במזוזה, ורגיל וכו' ומנשקה וכו' זוכה לדירה נאה וכו'",
+              "source_ref": "ראה פתחי שערים אות ו'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ז",
+          "title": "הזהיר לקבוע מזוזה בכל פתח ואינו סומך על המקילים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "הזהיר במזוזה וכו' וקובע בכל פתח ואינו סומך על המקילים וכו' זוכה לדירה נאה וכו'.",
+              "source_ref": "ראה פתחי שערים אות ו'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ח",
+          "title": "על מצות מילה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אלא רצה הקב\"ה לזכות את ישראל גם בשכר עוה\"ז, לפיכך נתן להם מצות שיש בהם חשיבות הרבוי, כמו מילה ששקולה כנגד כל המצות וכו' בזכות זה זוכין כל ישראל בשכר אף בעוה\"ז.",
+              "source_ref": "דברי ישראל, בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ט",
+          "title": "על מצות דם מילה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל על וכו' ודם מילה הרי יש עונש כרת על ביטולו וא\"כ שפיר מגיע עליהם שכר בעוה\"ז.",
+              "source_ref": "ובקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\"ה בשם הלב אריה'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "י",
+          "title": "מי שהוא סנדק",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכיון דהסנדק עושה הסעודה ממילא גורם לעשות חסדים כידוע דהסעודה גורם לחסדים ממילא מגיע לו שכר גם בעוה\"ז.",
+              "source_ref": "מגדלות מרקחים, ויקהל"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יא",
+          "title": "הלוקח חלק באחד מעניני מצות מילה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וגם לפי\"ז כל מי שעסק במצות מילה, וכל עניניה הצריכים לה, והסנדק וכו' אז יגיע לנו אכילת פירות בדין בעוה\"ז.",
+              "source_ref": "בית נפתלי, פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יב",
+          "title": "ע\"י שמירת הברית",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והיה עקב תשמעון היינו קיומא לגופא אות ברית קודש וכו' ושמר ה\"א לך את הברית, ויתן לך כל טוב העוה\"ז.",
+              "source_ref": "ערוגת הבושם, עקב"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

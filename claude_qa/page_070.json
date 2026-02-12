@@ -1,0 +1,49 @@
+{
+  "page": 70,
+  "book_page": 106,
+  "overall_quality": "good",
+  "summary": "Page 70 (book page צ) continues section י from the previous page, introduces grouping header 'טירחא', and covers sections יא through יג. The OCR captures the structure well. Section י's continuation is properly handled. The טירחא section with its multiple source paragraphs is well-captured. Minor text issues detected.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section י, makor text",
+      "description": "OCR has 'הטעם דשכר מצוה בהאי עלמא ליכא, כי המצוה רוחני והשכר גשמי, איך חל השכר רוחני, אפשר שיהיה שכר מצוה בהאי עלמא.' The image shows the makor text starting with 'טעם דשכר מצוה בהאי עלמא ליכא, כי המצוה רוחני ואיך חל השכר רוחני...' Some words may be slightly rearranged. The phrase 'והשכר גשמי' needs verification - the image flow reads more like 'כי המצוה רוחני' directly followed by reasoning.",
+      "original_text": "כי המצוה רוחני והשכר גשמי, איך חל השכר רוחני",
+      "corrected_text": "Needs detailed verification - overall meaning is preserved"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section י, body paragraph",
+      "description": "The OCR text has 'גם לקט שכחה ופאה' but the image appears to show 'גם לקט שכחת ופאה' or similar minor variant. Also 'ומצות שפיר יש שכר בהאי עלמא' - the word 'ומצות' in the image may read 'ובמצות'.",
+      "original_text": "ומצות שפיר",
+      "corrected_text": "Needs verification"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יב, makor text",
+      "description": "OCR reads 'כשטרח טירחא במצוה מזה, חזי השי\"ת משלם הטירחא בעוה\"ז' - the word 'מזה' is unclear in the image and may be a different word. Also 'באשר היה ישראל עומדים' - image shows 'באשר היו ישראל עומדים' (plural 'היו').",
+      "original_text": "באשר היה ישראל עומדים",
+      "corrected_text": "באשר היו ישראל עומדים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "Section יב, makor text",
+      "description": "OCR has 'אף שלא היה צריך באשר היה ישראל עומדים לפניו, מ\"מ הלך להראות שה' משלם שכר על הטורח' - the image shows 'אף שלא היה צריך באשר היו ישראל עומדים לפניו, מ\"מ הלך להראות' - minor grammatical difference.",
+      "original_text": "היה ישראל",
+      "corrected_text": "היו ישראל"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "Section יא, paragraph 3 source_ref",
+      "description": "Source listed as 'תורת משה, בחוקותי' for the third paragraph. The image shows this source ref matches.",
+      "original_text": "תורת משה, בחוקותי",
+      "corrected_text": "תורת משה, בחוקותי"
+    }
+  ],
+  "corrected_json": null
+}

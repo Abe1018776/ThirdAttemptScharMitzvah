@@ -1,0 +1,126 @@
+{
+  "page": 37,
+  "book_page": 73,
+  "raw_response": "```json\n{\n  \"page\": 57,\n  \"book_page\": 57,\n  \"overall_quality\": \"good\",\n  \"summary\": \"Structure, headers, and source extraction are handled perfectly. There is one text transcription error in Section יג where a phrase was skipped and replaced with a shorter phrase, likely due to visual similarity or an OCR glitch. All other sections are accurate.\",\n  \"issues\": [\n    {\n      \"type\": \"missing_text\",\n      \"severity\": \"major\",\n      \"location\": \"section יג, paragraph 1\",\n      \"description\": \"Text segment skipped and partially misread. The phrase 'אין לנו כח להאיל, לא' was transcribed as 'אין אנו'.\",\n      \"original_text\": \"אלא אמרו להם לעשות עגל ומסכה אין אנו נשמע לכם\",\n      \"corrected_text\": \"אלא אמרו להם לעשות עגל ומסכה אין לנו כח להאיל, לא נשמע לכם\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"נז\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק רביעי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"יט\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"יג\",\n        \"title\": \"בזכות שלא רצו הנשים ליתן נזמיהם בעשיית העגל קבלו שכרן בעוה\\\"ז לשמור ראשי חדשים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שמעו הנשים ולא רצו ולא קבלו עליהן ליתן נזמיהן לבעליהן אלא אמרו להם לעשות עגל ומסכה אין לנו כח להאיל, לא נשמע לכם, ונתן להם הקב\\\"ה שכרם בעוה\\\"ז שהן משמרות ראשי חדשים יותר מן האנשים.\",\n            \"source_ref\": \"פרדר\\\"א פמ\\\"ה\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יד\",\n        \"title\": \"נשים הגורמים לבעליהם לשמירת תורה ומצות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ועל זה מקשה רב לר\\\"ח א\\\"כ נשים במאי זכיין, דהא ודאי על חינם לא הבטיחן הקב\\\"ה שני עולמות, ומתרץ לפי שהם גורמים לתורה ומצות.\",\n            \"source_ref\": \"שפתי חכמים ברכות יז.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טו\",\n        \"title\": \"כל מי שחושדין אותו ואין בו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכל מי שחושדין אותו ואין בו, שכרו ניתן בעוה\\\"ז להיותו גלוי לכל שחשדוהו שלא כדין.\",\n            \"source_ref\": \"ירושלמי כתובות י\\\"ב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טז\",\n        \"title\": \"צדיקים\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם כיון שהוא י\\\"ש היינו דנמלא תיכף, לכן הצדיקים אוכלים הפירות גם בעוה\\\"ז.\",\n            \"source_ref\": \"עצי חיים, ויצא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יז\",\n        \"title\": \"הצדיק שמוצא חן בעיני ה'\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ונח מצא חן בעיני ה' זה הצדיק ראוי להנצל כי מצא חן בעיני ה'.\",\n            \"source_ref\": \"רבינו בחיי בראשית.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יח\",\n        \"title\": \"צדיקים מקבלים שכר דוגמת מוסיפין מחול אל הקודש\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"דמה שיש לצדיקים בהאי עלמא הוי דוגמא מוסיפין מחול אל הקודש, לכך שורת הדין נותן להיות להם טובות בעוה\\\"ז.\",\n            \"source_ref\": \"כסף נבחר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יט\",\n        \"title\": \"השי\\\"ת משפיע להצדיק כל צרכיו בעוה\\\"ז כדי שעי\\\"ז יוכל לבא לעוה\\\"ב\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"עפ\\\"י מ\\\"ש בריש ספר ליקוטי שושנה וכו' שכל מה שטוב להצדיק בעוה\\\"ז הכל הוא כדי שיבא על ידו לעולם הבא, כי הדרכים הנצרכים לבוא על ידיהם לעוה\\\"ב אינם יכולים\",\n            \"source_ref\": null\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 57,
+    "book_page": 57,
+    "overall_quality": "good",
+    "summary": "Structure, headers, and source extraction are handled perfectly. There is one text transcription error in Section יג where a phrase was skipped and replaced with a shorter phrase, likely due to visual similarity or an OCR glitch. All other sections are accurate.",
+    "issues": [
+      {
+        "type": "missing_text",
+        "severity": "major",
+        "location": "section יג, paragraph 1",
+        "description": "Text segment skipped and partially misread. The phrase 'אין לנו כח להאיל, לא' was transcribed as 'אין אנו'.",
+        "original_text": "אלא אמרו להם לעשות עגל ומסכה אין אנו נשמע לכם",
+        "corrected_text": "אלא אמרו להם לעשות עגל ומסכה אין לנו כח להאיל, לא נשמע לכם"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "נז",
+        "page_side": "left",
+        "chapter_context": "פרק רביעי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "יט",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "יג",
+          "title": "בזכות שלא רצו הנשים ליתן נזמיהם בעשיית העגל קבלו שכרן בעוה\"ז לשמור ראשי חדשים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שמעו הנשים ולא רצו ולא קבלו עליהן ליתן נזמיהן לבעליהן אלא אמרו להם לעשות עגל ומסכה אין לנו כח להאיל, לא נשמע לכם, ונתן להם הקב\"ה שכרם בעוה\"ז שהן משמרות ראשי חדשים יותר מן האנשים.",
+              "source_ref": "פרדר\"א פמ\"ה"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יד",
+          "title": "נשים הגורמים לבעליהם לשמירת תורה ומצות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ועל זה מקשה רב לר\"ח א\"כ נשים במאי זכיין, דהא ודאי על חינם לא הבטיחן הקב\"ה שני עולמות, ומתרץ לפי שהם גורמים לתורה ומצות.",
+              "source_ref": "שפתי חכמים ברכות יז."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טו",
+          "title": "כל מי שחושדין אותו ואין בו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכל מי שחושדין אותו ואין בו, שכרו ניתן בעוה\"ז להיותו גלוי לכל שחשדוהו שלא כדין.",
+              "source_ref": "ירושלמי כתובות י\"ב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טז",
+          "title": "צדיקים",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם כיון שהוא י\"ש היינו דנמלא תיכף, לכן הצדיקים אוכלים הפירות גם בעוה\"ז.",
+              "source_ref": "עצי חיים, ויצא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יז",
+          "title": "הצדיק שמוצא חן בעיני ה'",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ונח מצא חן בעיני ה' זה הצדיק ראוי להנצל כי מצא חן בעיני ה'.",
+              "source_ref": "רבינו בחיי בראשית."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יח",
+          "title": "צדיקים מקבלים שכר דוגמת מוסיפין מחול אל הקודש",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "דמה שיש לצדיקים בהאי עלמא הוי דוגמא מוסיפין מחול אל הקודש, לכך שורת הדין נותן להיות להם טובות בעוה\"ז.",
+              "source_ref": "כסף נבחר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יט",
+          "title": "השי\"ת משפיע להצדיק כל צרכיו בעוה\"ז כדי שעי\"ז יוכל לבא לעוה\"ב",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "עפ\"י מ\"ש בריש ספר ליקוטי שושנה וכו' שכל מה שטוב להצדיק בעוה\"ז הכל הוא כדי שיבא על ידו לעולם הבא, כי הדרכים הנצרכים לבוא על ידיהם לעוה\"ב אינם יכולים",
+              "source_ref": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

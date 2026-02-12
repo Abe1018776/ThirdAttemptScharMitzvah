@@ -1,0 +1,33 @@
+{
+  "page": 1,
+  "book_page": 37,
+  "overall_quality": "good",
+  "summary": "Page 1 captures the chapter header and section aleph well. Most text and source references are accurate. A few minor text issues detected in the long paragraph and word-level discrepancies.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, paragraph 5 (long Spinke paragraph)",
+      "description": "OCR reads 'דף הקר המונח להעביר המים' but the image appears to say 'דף הקרש המונח להעביר המים' (a plank/board over water).",
+      "original_text": "דף הקר המונח להעביר המים",
+      "corrected_text": "דף הקרש המונח להעביר המים"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, last paragraph (paragraph 7)",
+      "description": "OCR text ends with 'וכטוב' but the image seems to show 'ובטוב' (with bet not kaf).",
+      "original_text": "א\"כ עכ\"פ הוא דבוק בקדושה וכטוב,",
+      "corrected_text": "א\"כ עכ\"פ הוא דבוק בקדושה ובטוב,"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section א, paragraph 6 (Imrei Yitzchak)",
+      "description": "OCR has 'דדי שכר בלאו' but the image reads 'דדי שכר בלא\"ה' (abbreviation for בלאו הכי).",
+      "original_text": "דדי שכר בלאו",
+      "corrected_text": "דדי שכר בלא\"ה"
+    }
+  ],
+  "corrected_json": null
+}

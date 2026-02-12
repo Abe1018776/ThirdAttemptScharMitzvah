@@ -1,0 +1,57 @@
+{
+  "page": 80,
+  "book_page": 116,
+  "overall_quality": "good",
+  "summary": "Page 80 (book page 100) covers sections סד through ע. Seven sections captured correctly, with section ע properly marked as continuing to next page. Column order (right then left) is correct. Some text accuracy concerns, notably section סח has a '(?)' uncertainty marker and section סז has a source_ref issue.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סד, makor text",
+      "description": "The OCR text 'אמנם וכו׳ אז בודאי עצמו עושה לו משמרת למשמרת איכא בהאי עלמא' seems to have accuracy issues in the middle part. Some words may be misread.",
+      "original_text": "אמנם וכו' אז בודאי עצמו עושה לו משמרת למשמרת איכא בהאי עלמא.",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סה, makor text",
+      "description": "OCR has 'על מדינו דברים' - the word 'מדינו' appears to be a misread. It should likely be 'מידיו' or 'מדעתו'.",
+      "original_text": "על מדינו דברים",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סו, makor text",
+      "description": "OCR has 'גם כעוה\"ז' - the כ (like) should be ב (in), reading 'גם בעוה\"ז'.",
+      "original_text": "גם כעוה\"ז",
+      "corrected_text": "גם בעוה\"ז"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "major",
+      "location": "section סז, source_ref and makor text boundary",
+      "description": "The makor text ends with 'ומגדלות' which is actually the first word of the source reference. The source_ref 'מרקחים, פסח' should be 'מגדלות מרקחים, פסח' and the word 'ומגדלות' should be removed from the end of the makor text.",
+      "original_text": "מרקחים, פסח",
+      "corrected_text": "מגדלות מרקחים, פסח"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סח, makor text",
+      "description": "OCR has '(?)' uncertainty marker in 'שכר ו (?) לא יקופח' which indicates the OCR was unsure of a word. The correct reading is likely 'שכרו לא יקופח'.",
+      "original_text": "שכר ו (?) לא יקופח בהאי עלמא",
+      "corrected_text": "שכרו לא יקופח בהאי עלמא"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section סח, makor text",
+      "description": "OCR has 'אשר יבדו מלבם שמירה יתירה' - 'יבדו' is unclear. May be 'יבדו' (invent) or 'יבדה'. Needs verification.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

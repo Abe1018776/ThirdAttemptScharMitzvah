@@ -1,0 +1,132 @@
+{
+  "page": 4,
+  "book_page": 40,
+  "raw_response": "```json\n{\n  \"page\": 24,\n  \"book_page\": 24,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR successfully navigated a complex column layout (Right column items 13-14 and start of 15; Left column items end of 15, 16-17) and merged the cross-column text of Section 15 correctly. However, there are significant text hallucinations in Section 14 where words were misread resulting in wrong meaning, and a typo in Section 15. One source abbreviation was incorrectly expanded contrary to instructions.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section יד, paragraph 1\",\n      \"description\": \"OCR hallucinated words, changing 'sh'mafrish s'char mitzvot' to 'shelfi s'char yechasim'. The word 'mitzvot' is clear in the context and physically looks like 'מצות', not 'יחסים'.\",\n      \"original_text\": \"במה שלפי שכר יחסים לעוה\\\"ב\",\n      \"corrected_text\": \"במה שמפריש שכר מצות לעוה\\\"ב\"\n    },\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"minor\",\n      \"location\": \"section יד, paragraph 1\",\n      \"description\": \"The OCR expanded the abbreviation 'כת\\\"ס' to 'כתב סופר'. Instructions specified to preserve abbreviations exactly.\",\n      \"original_text\": \"כתב סופר לך\",\n      \"corrected_text\": \"כת\\\"ס לך\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section טו, paragraph 1\",\n      \"description\": \"Typo/cut-off word 'שמיוע'. Context and image suggest 'שמיועד'.\",\n      \"original_text\": \"שמיוע לקיום העולם\",\n      \"corrected_text\": \"שמיועד לקיום העולם\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"כד\",\n      \"page_side\": \"right\",\n      \"chapter_context\": \"פרק ראשון\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"יב\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"יז\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"והנה השכר על המחשבה דהיינו הנשמה מתקיים לעוה\\\"ב אבל שכר המעשה שיקבל הגוף עיקר שכרו בעוה\\\"ז\",\n        \"source_ref\": \"דברי מהרי\\\"א תצא\"\n      },\n      {\n        \"type\": \"paragraph\",\n        \"is_makor\": false,\n        \"text\": \"יש הרבה מצות שמגיע עליהם שכר בעוה\\\"ז וכו' אבל על המעשה גם בעוה\\\"ז יש שכר ולחם אבירים עקבו.\",\n        \"source_ref\": \"לחם אבירים עקב\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יג\",\n        \"title\": \"על קבלת עול מלך מלכי המלכים הקב\\\"ה לקיים המצות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה כבר הוכחתי דעת הרמב\\\"ם שבכל המצוה אין לו שייכות אל המצוה, רק שמקבל שכר עבור שקיבל עול מלך מלכי המלכים, ואף אם נאמר וכו' מ\\\"מ שכר עוה\\\"ז אין לו שייכות אליה.\",\n            \"source_ref\": \"ערבי נחל ואתחנן ב'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יד\",\n        \"title\": \"על מה שמוסיפין טובה להשי\\\"ת כביכול\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"מה רב טובך אשר צפנת, כי נעשה טובה לה' במה שמפריש שכר מצות לעוה\\\"ב, וע\\\"ז מקבלים שכר בעוה\\\"ז\",\n            \"source_ref\": \"כת\\\"ס לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טו\",\n        \"title\": \"על מה שעל ידי קיום מצותיו מתקיים העולם.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אחכז\\\"ל עשה מצוה אחת הכריע את עצמו וכל העולם לכף זכות וכו' נמצא דכשאחד מקיים מצוה לא עשה טוב רק לעצמו אלא גם לזולתו, והנה על חלק המצוה שמקיים בשביל עצמו אין מגיע שכר אלא בעלמא דאתי, אבל על החלק שעשה טובה לכל ישראל שמיועד לקיום העולם ע\\\"ז שפיר מגיע שכר גם בעלמא הדין.\",\n            \"source_ref\": \"ויחי יוסף בחוקותי\"\n          },\n          {\n            \"is_makor\": false,\n            \"text\": \"והנה בכל מצוה אחז\\\"ל דמכריע את כה\\\"ע לכף זכות, א\\\"כ אף שעל המצוה גופא אין מגיע שכר עוה\\\"ז אבל כמה שעשה טובה לחבירו במצוה זו מגיע לו שכר בעוה\\\"ז.\",\n            \"source_ref\": \"ערוה\\\"ב\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"טז\",\n        \"title\": \"על זה שהשי\\\"ת שמח ליתן שכר למקיים מצוה.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שכר מצוה מצוה וכו' ואם אדם עושה מצוה שראוי לקבל שכר, בזה גורם נחת רוח ליוצרו וע\\\"ז מקבל שכר וכו' אבל שכר זה השני שמרויח לו כביכול השכר שניתן לו זה נותן לו הקב\\\"ה בעוה\\\"ז.\",\n            \"source_ref\": \"כת\\\"ס אבות\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"סיבות שכל מצוה מביא אתו שכר:\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"יז\",\n        \"title\": \"על שישראל הצילו העולם בזה שקבלו התורה\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 24,
+    "book_page": 24,
+    "overall_quality": "good",
+    "summary": "The OCR successfully navigated a complex column layout (Right column items 13-14 and start of 15; Left column items end of 15, 16-17) and merged the cross-column text of Section 15 correctly. However, there are significant text hallucinations in Section 14 where words were misread resulting in wrong meaning, and a typo in Section 15. One source abbreviation was incorrectly expanded contrary to instructions.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section יד, paragraph 1",
+        "description": "OCR hallucinated words, changing 'sh'mafrish s'char mitzvot' to 'shelfi s'char yechasim'. The word 'mitzvot' is clear in the context and physically looks like 'מצות', not 'יחסים'.",
+        "original_text": "במה שלפי שכר יחסים לעוה\"ב",
+        "corrected_text": "במה שמפריש שכר מצות לעוה\"ב"
+      },
+      {
+        "type": "wrong_source_ref",
+        "severity": "minor",
+        "location": "section יד, paragraph 1",
+        "description": "The OCR expanded the abbreviation 'כת\"ס' to 'כתב סופר'. Instructions specified to preserve abbreviations exactly.",
+        "original_text": "כתב סופר לך",
+        "corrected_text": "כת\"ס לך"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section טו, paragraph 1",
+        "description": "Typo/cut-off word 'שמיוע'. Context and image suggest 'שמיועד'.",
+        "original_text": "שמיוע לקיום העולם",
+        "corrected_text": "שמיועד לקיום העולם"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "כד",
+        "page_side": "right",
+        "chapter_context": "פרק ראשון",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "יב",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "יז",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "והנה השכר על המחשבה דהיינו הנשמה מתקיים לעוה\"ב אבל שכר המעשה שיקבל הגוף עיקר שכרו בעוה\"ז",
+          "source_ref": "דברי מהרי\"א תצא"
+        },
+        {
+          "type": "paragraph",
+          "is_makor": false,
+          "text": "יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' אבל על המעשה גם בעוה\"ז יש שכר ולחם אבירים עקבו.",
+          "source_ref": "לחם אבירים עקב"
+        },
+        {
+          "type": "section",
+          "number": "יג",
+          "title": "על קבלת עול מלך מלכי המלכים הקב\"ה לקיים המצות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה כבר הוכחתי דעת הרמב\"ם שבכל המצוה אין לו שייכות אל המצוה, רק שמקבל שכר עבור שקיבל עול מלך מלכי המלכים, ואף אם נאמר וכו' מ\"מ שכר עוה\"ז אין לו שייכות אליה.",
+              "source_ref": "ערבי נחל ואתחנן ב'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "יד",
+          "title": "על מה שמוסיפין טובה להשי\"ת כביכול",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "מה רב טובך אשר צפנת, כי נעשה טובה לה' במה שמפריש שכר מצות לעוה\"ב, וע\"ז מקבלים שכר בעוה\"ז",
+              "source_ref": "כת\"ס לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טו",
+          "title": "על מה שעל ידי קיום מצותיו מתקיים העולם.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אחכז\"ל עשה מצוה אחת הכריע את עצמו וכל העולם לכף זכות וכו' נמצא דכשאחד מקיים מצוה לא עשה טוב רק לעצמו אלא גם לזולתו, והנה על חלק המצוה שמקיים בשביל עצמו אין מגיע שכר אלא בעלמא דאתי, אבל על החלק שעשה טובה לכל ישראל שמיועד לקיום העולם ע\"ז שפיר מגיע שכר גם בעלמא הדין.",
+              "source_ref": "ויחי יוסף בחוקותי"
+            },
+            {
+              "is_makor": false,
+              "text": "והנה בכל מצוה אחז\"ל דמכריע את כה\"ע לכף זכות, א\"כ אף שעל המצוה גופא אין מגיע שכר עוה\"ז אבל כמה שעשה טובה לחבירו במצוה זו מגיע לו שכר בעוה\"ז.",
+              "source_ref": "ערוה\"ב"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "טז",
+          "title": "על זה שהשי\"ת שמח ליתן שכר למקיים מצוה.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שכר מצוה מצוה וכו' ואם אדם עושה מצוה שראוי לקבל שכר, בזה גורם נחת רוח ליוצרו וע\"ז מקבל שכר וכו' אבל שכר זה השני שמרויח לו כביכול השכר שניתן לו זה נותן לו הקב\"ה בעוה\"ז.",
+              "source_ref": "כת\"ס אבות"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "סיבות שכל מצוה מביא אתו שכר:"
+        },
+        {
+          "type": "section",
+          "number": "יז",
+          "title": "על שישראל הצילו העולם בזה שקבלו התורה",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

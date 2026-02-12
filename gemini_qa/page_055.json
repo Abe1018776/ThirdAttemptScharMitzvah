@@ -1,0 +1,164 @@
+{
+  "page": 55,
+  "book_page": 91,
+  "raw_response": "{\n  \"page\": 75,\n  \"book_page\": 75,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The structural parsing is excellent, correctly identifying sections, headers, and column flow. However, there are several distinct textual errors: a hallucinated word ('כפול'), word substitutions ('השכר' instead of 'הכל'), and minor misreadings of text ('מלצדיק' vs 'מצדיק', 'עבודתא' vs 'עבידתא').\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section סט, body text\",\n      \"description\": \"OCR reads 'הדק' which appears to be 'רק' (only) or 'דק' in the image. 'הדק' is unlikely. The phrase is likely 'כיון שמדת דינו [רק] כן הוא'.\",\n      \"original_text\": \"כיון שמדת דינו הדק כן הוא\",\n      \"corrected_text\": \"כיון שמדת דינו רק כן הוא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section סט, body text\",\n      \"description\": \"OCR adds an extra Lamed, changing 'מצדיק' to 'מלצדיק'.\",\n      \"original_text\": \"לא יגרע מלצדיק\",\n      \"corrected_text\": \"לא יגרע מצדיק\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section ע, source reference\",\n      \"description\": \"Missing Yod in acronym.\",\n      \"original_text\": \"הגר\\\"י גר\\\"פ\",\n      \"corrected_text\": \"הגר\\\"י גרי\\\"פ\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section עא, body text (left column top)\",\n      \"description\": \"Word substitution. OCR reads 'השכר' where image clearly shows 'הכל'.\",\n      \"original_text\": \"ולהם משלם הקב\\\"ה השכר גם בעוה\\\"ז\",\n      \"corrected_text\": \"ולהם משלם הקב\\\"ה הכל גם בעוה\\\"ז\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"major\",\n      \"location\": \"section עב, body text\",\n      \"description\": \"Hallucinated word inserted. The word 'כפול' does not appear in the image.\",\n      \"original_text\": \"ששכרו כפול יטול\",\n      \"corrected_text\": \"ששכרו יטול\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section עג, body text\",\n      \"description\": \"Misreading of Aramaic form. Image has 'עבידתא' (matching title), OCR has 'עבודתא'.\",\n      \"original_text\": \"עבודתא שפירתא\",\n      \"corrected_text\": \"עבידתא שפירתא\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עה\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"עה\",\n        \"level\": \"body_paragraph\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"סט\",\n        \"title\": \"על עבירה לשמה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה קיימ\\\"ל דשכר מצוה בהאי עלמא ליכא, וטעמא זה שכל עבירה עיקר תשלומי' בעוה\\\"ז כדי ששכר מצותיו יהיה שמור לעוה\\\"ב, והנה כי כן אם מזדמן לאיש רשע דבר טוב בעד עבירה, כיון שמדת דינו רק כן הוא שעל עבירה משלמין בעוה\\\"ז העונש, הה\\\"ד אם מזדמן עבירה שראוי ליתן עליה שכר ג\\\"כ לא יגרע מצדיק שכר עבירה בעוה\\\"ז.\",\n            \"source_ref\": \"ערוגת הבושם פ' פנחס\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"ע\",\n        \"title\": \"העושה מצוה ע\\\"י שקדם לה איזה עבירה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה בעשות אדם מצוה שאי אפשר לקיימה זולת אם קדם לה עבירה, שפיר מסתבר לומר שמגיע שכר עפ\\\"י דין על עשיית המצוה וכו' לכן כשעשה פנחס המצוה, בדין הוא שיטול שכרו וכו'.\",\n            \"source_ref\": \"כרם שלמה בשם הגר\\\"י גרי\\\"פ אבד\\\"ק סעמיהאלי זצ\\\"ל\"\n          }\n        ]\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"עבודה\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עא\",\n        \"title\": \"מי שכל מגמתו רק לעבוד את ה'.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אבל באנשים צדיקים אשר כל מגמתם רק לעבוד את ה' וכו' ולהם משלם הקב\\\"ה הכל גם בעוה\\\"ז.\",\n            \"source_ref\": \"דעת סופר ליקוטים\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עב\",\n        \"title\": \"העובד לשמה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ומעתה בעובד ה' לשמה וכו' ששכרו יטול לו גם בהאי עלמא.\",\n            \"source_ref\": \"ולאשר אמר בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עג\",\n        \"title\": \"העובד את ה' בעבידתא שפירתא.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אמנם יש לחלק ולומר שבשכר החלט עובד עבידתא שפירתא וכו' קוב\\\"ה טפי ליה אגריה גם בעוה\\\"ז.\",\n            \"source_ref\": \"ברך משה, ויצא\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עד\",\n        \"title\": \"מי שעובד השי\\\"ת נותנין לו שכר בעוה\\\"ז, כדי שיוכל לעבוד מתוך הרחבה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"א\\\"כ כיון שיש למעלה נח\\\"ר מעבודתו וכו' מכ\\\"ש שיתנו לו עושר וכבוד כי מבלעדי אלה לא יוכל לעבוד ה'.\",\n            \"source_ref\": \"מראה יחזקאל פ' לך\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"עה\",\n        \"title\": \"מי שעובד השי\\\"ת שלא על מנת לקבל פרס\",\n        \"paragraphs\": []\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 75,
+    "book_page": 75,
+    "overall_quality": "good",
+    "summary": "The structural parsing is excellent, correctly identifying sections, headers, and column flow. However, there are several distinct textual errors: a hallucinated word ('כפול'), word substitutions ('השכר' instead of 'הכל'), and minor misreadings of text ('מלצדיק' vs 'מצדיק', 'עבודתא' vs 'עבידתא').",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section סט, body text",
+        "description": "OCR reads 'הדק' which appears to be 'רק' (only) or 'דק' in the image. 'הדק' is unlikely. The phrase is likely 'כיון שמדת דינו [רק] כן הוא'.",
+        "original_text": "כיון שמדת דינו הדק כן הוא",
+        "corrected_text": "כיון שמדת דינו רק כן הוא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section סט, body text",
+        "description": "OCR adds an extra Lamed, changing 'מצדיק' to 'מלצדיק'.",
+        "original_text": "לא יגרע מלצדיק",
+        "corrected_text": "לא יגרע מצדיק"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section ע, source reference",
+        "description": "Missing Yod in acronym.",
+        "original_text": "הגר\"י גר\"פ",
+        "corrected_text": "הגר\"י גרי\"פ"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section עא, body text (left column top)",
+        "description": "Word substitution. OCR reads 'השכר' where image clearly shows 'הכל'.",
+        "original_text": "ולהם משלם הקב\"ה השכר גם בעוה\"ז",
+        "corrected_text": "ולהם משלם הקב\"ה הכל גם בעוה\"ז"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "major",
+        "location": "section עב, body text",
+        "description": "Hallucinated word inserted. The word 'כפול' does not appear in the image.",
+        "original_text": "ששכרו כפול יטול",
+        "corrected_text": "ששכרו יטול"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section עג, body text",
+        "description": "Misreading of Aramaic form. Image has 'עבידתא' (matching title), OCR has 'עבודתא'.",
+        "original_text": "עבודתא שפירתא",
+        "corrected_text": "עבידתא שפירתא"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עה",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "עה",
+          "level": "body_paragraph"
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "סט",
+          "title": "על עבירה לשמה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה קיימ\"ל דשכר מצוה בהאי עלמא ליכא, וטעמא זה שכל עבירה עיקר תשלומי' בעוה\"ז כדי ששכר מצותיו יהיה שמור לעוה\"ב, והנה כי כן אם מזדמן לאיש רשע דבר טוב בעד עבירה, כיון שמדת דינו רק כן הוא שעל עבירה משלמין בעוה\"ז העונש, הה\"ד אם מזדמן עבירה שראוי ליתן עליה שכר ג\"כ לא יגרע מצדיק שכר עבירה בעוה\"ז.",
+              "source_ref": "ערוגת הבושם פ' פנחס"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "ע",
+          "title": "העושה מצוה ע\"י שקדם לה איזה עבירה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה בעשות אדם מצוה שאי אפשר לקיימה זולת אם קדם לה עבירה, שפיר מסתבר לומר שמגיע שכר עפ\"י דין על עשיית המצוה וכו' לכן כשעשה פנחס המצוה, בדין הוא שיטול שכרו וכו'.",
+              "source_ref": "כרם שלמה בשם הגר\"י גרי\"פ אבד\"ק סעמיהאלי זצ\"ל"
+            }
+          ]
+        },
+        {
+          "type": "grouping_header",
+          "title": "עבודה"
+        },
+        {
+          "type": "section",
+          "number": "עא",
+          "title": "מי שכל מגמתו רק לעבוד את ה'.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אבל באנשים צדיקים אשר כל מגמתם רק לעבוד את ה' וכו' ולהם משלם הקב\"ה הכל גם בעוה\"ז.",
+              "source_ref": "דעת סופר ליקוטים"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עב",
+          "title": "העובד לשמה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ומעתה בעובד ה' לשמה וכו' ששכרו יטול לו גם בהאי עלמא.",
+              "source_ref": "ולאשר אמר בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עג",
+          "title": "העובד את ה' בעבידתא שפירתא.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אמנם יש לחלק ולומר שבשכר החלט עובד עבידתא שפירתא וכו' קוב\"ה טפי ליה אגריה גם בעוה\"ז.",
+              "source_ref": "ברך משה, ויצא"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עד",
+          "title": "מי שעובד השי\"ת נותנין לו שכר בעוה\"ז, כדי שיוכל לעבוד מתוך הרחבה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "א\"כ כיון שיש למעלה נח\"ר מעבודתו וכו' מכ\"ש שיתנו לו עושר וכבוד כי מבלעדי אלה לא יוכל לעבוד ה'.",
+              "source_ref": "מראה יחזקאל פ' לך"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "עה",
+          "title": "מי שעובד השי\"ת שלא על מנת לקבל פרס",
+          "paragraphs": []
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

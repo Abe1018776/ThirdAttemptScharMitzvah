@@ -1,0 +1,126 @@
+{
+  "page": 52,
+  "book_page": 88,
+  "raw_response": "```json\n{\n  \"page\": 72,\n  \"book_page\": 88,\n  \"overall_quality\": \"good\",\n  \"summary\": \"The OCR structural extraction is largely correct, handling the column flow and section breaks very well. However, there is a CRITICAL hallucination in the source reference for Section 56, where the OCR provides a source not present in the image and ignores the clear source text. There are also minor transcription errors (single letters).\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_source_ref\",\n      \"severity\": \"critical\",\n      \"location\": \"section נו (56)\",\n      \"description\": \"The OCR extracted the source reference as \\\"וש\\\"ך על התורה, בחוקותי\\\". The image text clearly displays \\\"(רמב\\\"ם הל' תשובה פ\\\"ט)\\\". The extracted text is completely different from the image.\",\n      \"original_text\": \"וש\\\"ך על התורה, בחוקותי\",\n      \"corrected_text\": \"רמב\\\"ם הל' תשובה פ\\\"ט\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נד (54), body text\",\n      \"description\": \"Transcription error. The word 'היתה' appears to be 'היתר' (permission) in the image, which better fits the context \\\"ולכך היתר הוא\\\" (therefore it is permissible). Visually the letter looks like a Resh, though slightly curved.\",\n      \"original_text\": \"ולכך היתה הוא\",\n      \"corrected_text\": \"ולכך היתר הוא\"\n    },\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section נג (53), makor text\",\n      \"description\": \"Transcription error. The OCR adds an extra Yud at the end of the first word. Image shows 'ינווי' (or similar), OCR has 'ינוויי'.\",\n      \"original_text\": \"ינוויי\",\n      \"corrected_text\": \"ינווי\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"עב\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק חמישי\",\n      \"continues_from\": {\n        \"flag\": true,\n        \"section_letter\": \"נב\",\n        \"level\": \"body_paragraph\"\n      },\n      \"continues_to\": {\n        \"flag\": true,\n        \"section_letter\": \"נז\",\n        \"level\": \"makor\"\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"continuation_fragment\",\n        \"text\": \"אחת הליכתם ואחת מהלכים לעשות מלאכתם להכין טרף לביתם תהיה בשביל חוקותי שהוא כלי שתוכלו לעסוק בתורה שלא מדוחק, ומילת בחוקותי ביחודו בשביל חוקותי וכו' וזהו שפירש רש\\\"י שתהיו עמלים בתורה פירוש שהעמל שאתם עמלים לצורך פרנסה תהיה אלא בשביל התורה שתוכלו אח\\\"כ לעסוק בתורה ולא תהיו טרודים בדאגת פרנסה אז נחשבת זאת גם השי\\\"ת יעשה את שלו להזמין פרנסתכם בלי טורח וכו', שלא תצטרכו להטריד עצמכם הרבה ותוכלו לעסוק בתורה מתוך הרחבה.\",\n        \"source_ref\": \"מאור ושמש בחקותי\"\n      },\n      {\n        \"type\": \"grouping_header\",\n        \"title\": \"מתנת שכר\"\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נג\",\n        \"title\": \"על מה שעתידין ישראל לשמוע בקולו\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ינווי ג\\\"כ היום ברכה שיהיה שכר בהאי עלמא וכו' למען לכם תיכף הברכה על מנת שתשמעו לעתיד וכו' ושכר זה יש בהאי עלמא.\",\n            \"source_ref\": \"ערבי נחל ראה א'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נד\",\n        \"title\": \"על חשבון המצות שיעשו בעתיד\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"והנה ידוע שהשי\\\"ת טוב ומטיב עם האדם קודם עשייתו את המצוה וכו' וא\\\"כ הפירוש אע\\\"פ שיש לצדיקים להנות במעשיהם הטובים, רצה לומר אף על המעשים הטובים שעתידים לעשות שעל זה ודאי ראוי שיתפלל כל חסיד ולכך היתר הוא וכו'.\",\n            \"source_ref\": \"שנות חיים פ' חיי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נה\",\n        \"title\": \"על המצות שעתידים לעשות, כדי שיוכלו לעשותם.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ולפי\\\"ז יש חילוק בין מצות שכבר קיימו ע\\\"ז שכר מצוה בהאי עלמא ליכא וכו' אכן על מה שעתידים לעשות ע\\\"ז יש שכר מקודם כדי שיוכל לעשותם וכו'.\",\n            \"source_ref\": \"לחם אבירים ואתחנן\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נו\",\n        \"title\": \"כדי שיהיו פנויים לקיום המצוות.\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"אם בחוקותי תלכו וכו' אלו היעודים אינם אלא הכנות כדי שימצא את עצמו פנוי כדי שיעשה המצות, ולא יהיה לו שום דבר שמעכבו ומטרידו מלעשותם.\",\n            \"source_ref\": \"רמב\\\"ם הל' תשובה פ\\\"ט\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"נז\",\n        \"title\": \"כדי להרגיל האדם לקיום המצות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"שהקב\\\"ה רצה להוליך עם ישראל בדרך שהלב מושך עם בנו\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+  "parsed_qa": {
+    "page": 72,
+    "book_page": 88,
+    "overall_quality": "good",
+    "summary": "The OCR structural extraction is largely correct, handling the column flow and section breaks very well. However, there is a CRITICAL hallucination in the source reference for Section 56, where the OCR provides a source not present in the image and ignores the clear source text. There are also minor transcription errors (single letters).",
+    "issues": [
+      {
+        "type": "wrong_source_ref",
+        "severity": "critical",
+        "location": "section נו (56)",
+        "description": "The OCR extracted the source reference as \"וש\"ך על התורה, בחוקותי\". The image text clearly displays \"(רמב\"ם הל' תשובה פ\"ט)\". The extracted text is completely different from the image.",
+        "original_text": "וש\"ך על התורה, בחוקותי",
+        "corrected_text": "רמב\"ם הל' תשובה פ\"ט"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section נד (54), body text",
+        "description": "Transcription error. The word 'היתה' appears to be 'היתר' (permission) in the image, which better fits the context \"ולכך היתר הוא\" (therefore it is permissible). Visually the letter looks like a Resh, though slightly curved.",
+        "original_text": "ולכך היתה הוא",
+        "corrected_text": "ולכך היתר הוא"
+      },
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section נג (53), makor text",
+        "description": "Transcription error. The OCR adds an extra Yud at the end of the first word. Image shows 'ינווי' (or similar), OCR has 'ינוויי'.",
+        "original_text": "ינוויי",
+        "corrected_text": "ינווי"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "עב",
+        "page_side": "left",
+        "chapter_context": "פרק חמישי",
+        "continues_from": {
+          "flag": true,
+          "section_letter": "נב",
+          "level": "body_paragraph"
+        },
+        "continues_to": {
+          "flag": true,
+          "section_letter": "נז",
+          "level": "makor"
+        }
+      },
+      "data": [
+        {
+          "type": "continuation_fragment",
+          "text": "אחת הליכתם ואחת מהלכים לעשות מלאכתם להכין טרף לביתם תהיה בשביל חוקותי שהוא כלי שתוכלו לעסוק בתורה שלא מדוחק, ומילת בחוקותי ביחודו בשביל חוקותי וכו' וזהו שפירש רש\"י שתהיו עמלים בתורה פירוש שהעמל שאתם עמלים לצורך פרנסה תהיה אלא בשביל התורה שתוכלו אח\"כ לעסוק בתורה ולא תהיו טרודים בדאגת פרנסה אז נחשבת זאת גם השי\"ת יעשה את שלו להזמין פרנסתכם בלי טורח וכו', שלא תצטרכו להטריד עצמכם הרבה ותוכלו לעסוק בתורה מתוך הרחבה.",
+          "source_ref": "מאור ושמש בחקותי"
+        },
+        {
+          "type": "grouping_header",
+          "title": "מתנת שכר"
+        },
+        {
+          "type": "section",
+          "number": "נג",
+          "title": "על מה שעתידין ישראל לשמוע בקולו",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ינווי ג\"כ היום ברכה שיהיה שכר בהאי עלמא וכו' למען לכם תיכף הברכה על מנת שתשמעו לעתיד וכו' ושכר זה יש בהאי עלמא.",
+              "source_ref": "ערבי נחל ראה א'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נד",
+          "title": "על חשבון המצות שיעשו בעתיד",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "והנה ידוע שהשי\"ת טוב ומטיב עם האדם קודם עשייתו את המצוה וכו' וא\"כ הפירוש אע\"פ שיש לצדיקים להנות במעשיהם הטובים, רצה לומר אף על המעשים הטובים שעתידים לעשות שעל זה ודאי ראוי שיתפלל כל חסיד ולכך היתר הוא וכו'.",
+              "source_ref": "שנות חיים פ' חיי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נה",
+          "title": "על המצות שעתידים לעשות, כדי שיוכלו לעשותם.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ולפי\"ז יש חילוק בין מצות שכבר קיימו ע\"ז שכר מצוה בהאי עלמא ליכא וכו' אכן על מה שעתידים לעשות ע\"ז יש שכר מקודם כדי שיוכל לעשותם וכו'.",
+              "source_ref": "לחם אבירים ואתחנן"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נו",
+          "title": "כדי שיהיו פנויים לקיום המצוות.",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "אם בחוקותי תלכו וכו' אלו היעודים אינם אלא הכנות כדי שימצא את עצמו פנוי כדי שיעשה המצות, ולא יהיה לו שום דבר שמעכבו ומטרידו מלעשותם.",
+              "source_ref": "רמב\"ם הל' תשובה פ\"ט"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "נז",
+          "title": "כדי להרגיל האדם לקיום המצות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "שהקב\"ה רצה להוליך עם ישראל בדרך שהלב מושך עם בנו"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

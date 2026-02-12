@@ -1,0 +1,49 @@
+{
+  "page": 50,
+  "book_page": 86,
+  "overall_quality": "good",
+  "summary": "Page 50 (book page 70/86) continues Chapter 5 with continuation of section mem-bet, then sections mem-gimel through mem-vav. Contains grouping header 'Machshava VeRatzon'. The page has a good amount of text and the OCR capture is largely accurate. Section mem-vav has a long detailed paragraph that is well captured.",
+  "issues": [
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "continuation_fragment",
+      "description": "OCR has 'שהצילם ממון לחיים' but image shows 'שהצילם ממות לחיים' - 'ממון' (money) should be 'ממות' (from death).",
+      "original_text": "ע\"י שהצילם ממון לחיים על זה מקבל האדם שכר לעולם הזה",
+      "corrected_text": "ע\"י שהצילם ממות לחיים על זה מקבל האדם שכר לעולם הזה"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section mem-gimel (43), makor paragraph",
+      "description": "OCR has 'שמגילים את העולם' but the image shows 'שמגלגלים את העולם' or 'שמגלים את העולם'. The word 'שמגילים' is unusual.",
+      "original_text": "שמגילים את העולם וזוכים בו",
+      "corrected_text": "שמגלגלים את העולם וזוכים בו"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section mem-dalet (44), third paragraph (יד אהרן)",
+      "description": "OCR has 'שקיוה קוית ה\"ל' which is garbled. Image shows 'שקיוה קוית ה'' - likely 'שקוה קוית ה'' (that he hoped for Hashem). The 'ה\"ל' should just be 'ה''.",
+      "original_text": "שקיוה קוית ה\"ל במחשבה",
+      "corrected_text": "שקיוה קוית ה' במחשבה"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section mem-dalet (44), fourth paragraph source_ref",
+      "description": "Source ref is 'ויהי יוסף בחוקותי' but looking at the image it appears to be 'ויחי יוסף בחוקותי' (Vaychi, not Vayhi).",
+      "original_text": "ויהי יוסף בחוקותי",
+      "corrected_text": "ויחי יוסף בחוקותי"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section mem-vav (46), makor paragraph",
+      "description": "The long paragraph about machshava tova is well captured. Minor note: 'ומבואר בספה\"ק' - the abbreviation is correctly expanded as 'bsefarim hakedoshim'.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}

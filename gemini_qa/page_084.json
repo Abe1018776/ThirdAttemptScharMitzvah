@@ -1,0 +1,78 @@
+{
+  "page": 84,
+  "book_page": 120,
+  "raw_response": "{\n  \"page\": 104,\n  \"book_page\": 104,\n  \"overall_quality\": \"excellent\",\n  \"summary\": \"The OCR extraction is highly accurate, correctly handling the two-column layout, section breaks, extracted sources, and formatting. There is only one minor text transcription error in Section 87 involving an unclear phrase.\",\n  \"issues\": [\n    {\n      \"type\": \"wrong_text\",\n      \"severity\": \"minor\",\n      \"location\": \"section פז, paragraph 1, middle of text\",\n      \"description\": \"Transcription error in an unclear Aramaic phrase. The OCR missed abbreviations marks and misidentified a word, though it correctly flagged uncertainty.\",\n      \"original_text\": \"כי מאן דכרן שׁל לקיס [?] לעתיד\",\n      \"corrected_text\": \"כי מאן דכרן ש\\\"ל לקבל לעתיד\"\n    }\n  ],\n  \"corrected_json\": {\n    \"meta\": {\n      \"book_title\": \"שכר מצוה\",\n      \"page_number\": \"קד\",\n      \"page_side\": \"left\",\n      \"chapter_context\": \"פרק ששי\",\n      \"continues_from\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      },\n      \"continues_to\": {\n        \"flag\": false,\n        \"section_letter\": null,\n        \"level\": null\n      }\n    },\n    \"data\": [\n      {\n        \"type\": \"section\",\n        \"number\": \"פה\",\n        \"title\": \"על מצוה שלא לשמה עם פניות\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"וכן הדבר במצוה שמקיימה שלא לשמה שמכוין בעשייתה בשביל איזה פניה של דבר גשמי שייך לשלם שכר ע\\\"ז בעוה\\\"ז.\",\n            \"source_ref\": \"ויחי יוסף בחוקותי\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פו\",\n        \"title\": \"כשרבים עושים מצוה\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"כשרבים עושים מצוה יש להם שכר בעוה\\\"ז, כ\\\"כ הרב הנזכר שם, משם הרב מהרש\\\"א.\",\n            \"source_ref\": \"דבש לפי מ'\"\n          }\n        ]\n      },\n      {\n        \"type\": \"section\",\n        \"number\": \"פז\",\n        \"title\": \"המקיים מצוה ואינו מצפה לשכר\",\n        \"paragraphs\": [\n          {\n            \"is_makor\": true,\n            \"text\": \"ויתכן שזהו דוקא במ\\\"ע שעושה המצוה ומקוה לתשלום שכר, לכן אין מגיע לו בעוה\\\"ז כלום כי מאן דכרן ש\\\"ל לקבל לעתיד, אבל מי שאין מעלה את עצמו במחשבתו כלל, רק משתדל במצות ה' לרצון ה' לבד בכל עוז, אזי כשם שהוא ממלא רצון ה' בלי תקוה לשכר כך ה' ממלא רצונו בדבר שאין מגיע לו ונוחל שני עולמים.\",\n            \"source_ref\": \"ערבי נחל חקת דרוש א'\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+  "parsed_qa": {
+    "page": 104,
+    "book_page": 104,
+    "overall_quality": "excellent",
+    "summary": "The OCR extraction is highly accurate, correctly handling the two-column layout, section breaks, extracted sources, and formatting. There is only one minor text transcription error in Section 87 involving an unclear phrase.",
+    "issues": [
+      {
+        "type": "wrong_text",
+        "severity": "minor",
+        "location": "section פז, paragraph 1, middle of text",
+        "description": "Transcription error in an unclear Aramaic phrase. The OCR missed abbreviations marks and misidentified a word, though it correctly flagged uncertainty.",
+        "original_text": "כי מאן דכרן שׁל לקיס [?] לעתיד",
+        "corrected_text": "כי מאן דכרן ש\"ל לקבל לעתיד"
+      }
+    ],
+    "corrected_json": {
+      "meta": {
+        "book_title": "שכר מצוה",
+        "page_number": "קד",
+        "page_side": "left",
+        "chapter_context": "פרק ששי",
+        "continues_from": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        },
+        "continues_to": {
+          "flag": false,
+          "section_letter": null,
+          "level": null
+        }
+      },
+      "data": [
+        {
+          "type": "section",
+          "number": "פה",
+          "title": "על מצוה שלא לשמה עם פניות",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "וכן הדבר במצוה שמקיימה שלא לשמה שמכוין בעשייתה בשביל איזה פניה של דבר גשמי שייך לשלם שכר ע\"ז בעוה\"ז.",
+              "source_ref": "ויחי יוסף בחוקותי"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פו",
+          "title": "כשרבים עושים מצוה",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "כשרבים עושים מצוה יש להם שכר בעוה\"ז, כ\"כ הרב הנזכר שם, משם הרב מהרש\"א.",
+              "source_ref": "דבש לפי מ'"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "number": "פז",
+          "title": "המקיים מצוה ואינו מצפה לשכר",
+          "paragraphs": [
+            {
+              "is_makor": true,
+              "text": "ויתכן שזהו דוקא במ\"ע שעושה המצוה ומקוה לתשלום שכר, לכן אין מגיע לו בעוה\"ז כלום כי מאן דכרן ש\"ל לקבל לעתיד, אבל מי שאין מעלה את עצמו במחשבתו כלל, רק משתדל במצות ה' לרצון ה' לבד בכל עוז, אזי כשם שהוא ממלא רצון ה' בלי תקוה לשכר כך ה' ממלא רצונו בדבר שאין מגיע לו ונוחל שני עולמים.",
+              "source_ref": "ערבי נחל חקת דרוש א'"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

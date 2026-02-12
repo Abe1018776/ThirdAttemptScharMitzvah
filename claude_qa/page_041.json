@@ -1,0 +1,57 @@
+{
+  "page": 41,
+  "book_page": 61,
+  "overall_quality": "good",
+  "summary": "Page contains sections לו through מא (with מא continuing to next page). Right column has sections לו, לז, לח, לט. Left column has grouping header 'זמנים מסויימים', then sections מ, מא. Structure is correct including the grouping header transition.",
+  "issues": [
+    {
+      "type": "missing_source_ref",
+      "severity": "major",
+      "location": "section לו (לרשע הקב\"ה משלם שכר מצוה בעוה\"ז), makor paragraph",
+      "description": "The source_ref is null. The makor text references '(דברים ז י) וברש\"י שם' inline, but there may also be a separate source attribution in parentheses at the end of the section visible in the image. The source reference to Devarim and Rashi is embedded in the text itself, but the external source (the sefer quoting this) should have been captured.",
+      "original_text": "null",
+      "corrected_text": ""
+    },
+    {
+      "type": "missing_source_ref",
+      "severity": "minor",
+      "location": "section לח, makor paragraph",
+      "description": "The source_ref is null. The text itself begins with 'עפי\"מ שמובא בספר חקל יצחק זי\"ע בפ' עקב וזל\"ק' which identifies the source inline. It appears the original text embeds the source within the quote rather than having it in parentheses at the end. This may be correct behavior for this text's format.",
+      "original_text": "",
+      "corrected_text": ""
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section לט, source_ref",
+      "description": "Source: 'ודורש טוב, בארות יצחק, קמג'. The leading 'ו' on 'ודורש' should be verified - may be just 'דורש טוב'. Also 'בארות' could be 'באורי' (commentary) vs 'בארות' (wells).",
+      "original_text": "ודורש טוב",
+      "corrected_text": "דורש טוב (verify)"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section מ title",
+      "description": "OCR title: 'בעיקבתא דמשיחא.' with a yod. Standard Aramaic spelling is 'בעקבתא דמשיחא' without the yod after ayin. The image should be checked for the exact spelling used.",
+      "original_text": "בעיקבתא",
+      "corrected_text": "בעקבתא (verify standard spelling)"
+    },
+    {
+      "type": "wrong_source_ref",
+      "severity": "minor",
+      "location": "section מ, source_ref",
+      "description": "Source: 'שארית מנחם פי עקב'. The 'פי' likely should be 'פ'' (abbreviation for פרשת). 'פי' as written is unusual.",
+      "original_text": "שארית מנחם פי עקב",
+      "corrected_text": "שארית מנחם פ' עקב"
+    },
+    {
+      "type": "wrong_text",
+      "severity": "minor",
+      "location": "section מ, makor text",
+      "description": "OCR text has 'בעל מסירות נפש נראה שיש שכר גם בהאי עלמא'. The opening words 'בעל מסירות נפש נראה' need verification. The image shows the makor text beginning under section מ header. Also 'וז\"ש והיה עקב, בעקבתא דמשיחא, תשמעון' - the comma-separated structure matches what appears in the image.",
+      "original_text": "",
+      "corrected_text": ""
+    }
+  ],
+  "corrected_json": null
+}
