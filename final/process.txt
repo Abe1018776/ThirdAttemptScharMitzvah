@@ -1,0 +1,96 @@
+OCR Process That Worked: Two-Tiered LLM Pipeline
+==================================================
+
+Book: שכר מצוה (Sechar Mitzvah) — 84 pages of dense Hebrew religious text
+Model: Gemini 3 Pro Preview (via OpenRouter, with thinking enabled)
+
+
+TIER 1: OCR Extraction
+-----------------------
+1. The source PDF (pages 37-120) was converted into 84 individual PNG images
+   at 250 DPI using PyMuPDF.
+
+2. Each page image was sent individually to Gemini 3 Pro Preview as a
+   separate LLM call — all 84 pages concurrently (20 workers).
+
+3. Every call included the OCR guide (see ocr_guide.txt) as the system
+   prompt. This guide is critical — it tells the model exactly how to:
+   - Read RTL Hebrew text, right column first then left column
+   - Join text that flows across columns mid-sentence
+   - Identify the structural hierarchy (chapters, grouping headers,
+     sections, paragraphs)
+   - Distinguish makor (primary source) paragraphs from body paragraphs
+   - Extract source references from final parentheses into a separate field
+   - Handle page continuations (text that starts/ends mid-section across
+     page boundaries)
+   - Correct common OCR letter confusions (מ/ם, ד/ר, ו/ז, כ/ב, ה/ח)
+
+4. The model returned structured JSON for each page with metadata and a
+   nested data array containing the page's content elements.
+
+Result: 84 individual page JSON files with structured OCR output.
+
+
+TIER 2: QA Review & Correction
+-------------------------------
+1. Each page image was sent AGAIN to the LLM — this time paired with its
+   OCR result from Tier 1. All 84 sent concurrently.
+
+2. The LLM was also given the original OCR guide (the same prompt from
+   Tier 1) so it understood exactly what the extraction was supposed to
+   produce and what rules should have been followed.
+
+3. The LLM was asked to:
+   - Compare the image against the extracted JSON
+   - Flag any mistakes: wrong text, missing content, structural errors,
+     incorrect source references, bad column ordering, etc.
+   - Rate overall quality
+   - If it found ANY issues, regenerate a corrected version of the full
+     page JSON with the fixes applied
+
+4. This produced a QA report for each page with:
+   - List of issues found (with severity: critical/major/minor)
+   - Original vs corrected text for each issue
+   - A complete corrected JSON (if changes were needed)
+
+5. The corrected JSONs from Tier 2 replaced the originals wherever the
+   QA flagged issues.
+
+Result: 84 corrected page JSON files with significantly improved accuracy.
+
+
+POST-PROCESSING
+---------------
+1. The 84 individual page JSONs were combined into one single book JSON,
+   preserving the chapter/section hierarchy and page source references.
+
+2. Continuation fragments (text split across page boundaries) were resolved
+   by merging them back into their parent sections from the previous page.
+
+3. Manual review was done using a split-pane HTML viewer (PDF image on the
+   left, rendered OCR text on the right) to catch remaining issues.
+
+4. A live editor server allowed direct JSON editing in the browser with
+   real-time preview and save-to-disk functionality for quick fixes.
+
+
+WHY THIS WORKED
+---------------
+- The detailed OCR guide was the single most important factor. Without
+  clear instructions on column order, cross-column joining, structural
+  hierarchy, and source extraction, the model produces inconsistent output.
+
+- The two-tier approach catches errors the first pass misses. The model
+  is better at spotting mistakes when comparing image-vs-text than it is
+  at getting everything right in a single extraction pass.
+
+- Sending pages individually (not the whole PDF) gives the model a focused
+  task with a single image to analyze, producing much more accurate results
+  than multi-page processing.
+
+- Concurrent processing (20 workers) made the whole pipeline fast —
+  84 pages extracted in ~6 minutes, QA review in similar time.
+
+- Having the QA pass regenerate a complete corrected JSON (not just flag
+  issues) meant corrections could be applied automatically without manual
+  intervention for the vast majority of pages.
