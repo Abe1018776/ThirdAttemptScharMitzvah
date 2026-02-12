@@ -1,0 +1,121 @@
+{
+  "page": 10,
+  "book_page": 46,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"ל\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שני\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"יז\",\n      \"title\": \"כשמקיים מצות שאדם דש בעקביו מקבל שכר בעוה\\\"ז.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והיינו ממלות שאדם דש בעקביו, ונחשבים כפסולת אצל אחרים, קיימם מזה, ומהם נתעשר.\",\n          \"source_ref\": \"בית אהרן, עקב.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יח\",\n      \"title\": \"במצוה שרבים מליזין עליה שאינה מצוה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל במצוה כזו שרבים היו מליזין עליה שאינה מצוה וכו' הולך בע\\\"כ לקבל שכרו בעוה\\\"ז למען יכירו וידעו הכל שרוצה השי\\\"ת במעשהו.\",\n          \"source_ref\": \"שבט מיהודה פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יט\",\n      \"title\": \"מצוה שאינו תלוי במעשה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וי\\\"ל טעם בהא דאמרינן שכר מצוה בהאי עלמא ליכא דהוא משום דהאדם מעצמו א\\\"א לו לעשות כלום, אמנם זהו דוקא במצות התלוי במעשה, משא\\\"כ במצוה שאינו תלוי במעשה זה שייך לעשות אפילו בלי סיוע.\",\n          \"source_ref\": \"מגדלות מרקחים, עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כ\",\n      \"title\": \"המצוה שהאדם עושה בעשיה ממש.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אשר יעשה אותם האדם וחי בהם, אותם קאי בהם בעוה\\\"ז ואוכל פירותיהם בעוה\\\"ז וזה מעשה ממש בעשיה וכו'.\",\n          \"source_ref\": \"אמרי שפר אחרי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כא\",\n      \"title\": \"מצוה שהגוף נהנה ממנו ועושהו לשם מצוה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והיה עקב תשמעון מצות שאדם דש בעקביו שהורגל בו בחומרו והנאת גופו ישמור רק למען מצות ה' אלקינו ולא לכוונה אחרת, ושמר ה\\\"א את הברית ואת החסד וגו'.\",\n          \"source_ref\": \"פני מבין פ' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כב\",\n      \"title\": \"על מצות השקולים נגד הרבה מצות.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אלא רצה הקב\\\"ה לזכות את ישראל גם בשכר עוה\\\"ז, לפיכך נתן להם מצות שיש להם חשיבות הרבה, ששקולה כנגד כל המצות וכו' בזכות זה ראויים כל ישראל לשכר אף בעוה\\\"ז.\",\n          \"source_ref\": \"דברי ישראל, בחוקותי\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 4427,
+    "total_tokens": 7156,
+    "cost": 0.058582,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.058582,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.053124
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3405,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "ל",
+      "page_side": "left",
+      "chapter_context": "פרק שני",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "יז",
+        "title": "כשמקיים מצות שאדם דש בעקביו מקבל שכר בעוה\"ז.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והיינו ממלות שאדם דש בעקביו, ונחשבים כפסולת אצל אחרים, קיימם מזה, ומהם נתעשר.",
+            "source_ref": "בית אהרן, עקב."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יח",
+        "title": "במצוה שרבים מליזין עליה שאינה מצוה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל במצוה כזו שרבים היו מליזין עליה שאינה מצוה וכו' הולך בע\"כ לקבל שכרו בעוה\"ז למען יכירו וידעו הכל שרוצה השי\"ת במעשהו.",
+            "source_ref": "שבט מיהודה פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יט",
+        "title": "מצוה שאינו תלוי במעשה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וי\"ל טעם בהא דאמרינן שכר מצוה בהאי עלמא ליכא דהוא משום דהאדם מעצמו א\"א לו לעשות כלום, אמנם זהו דוקא במצות התלוי במעשה, משא\"כ במצוה שאינו תלוי במעשה זה שייך לעשות אפילו בלי סיוע.",
+            "source_ref": "מגדלות מרקחים, עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כ",
+        "title": "המצוה שהאדם עושה בעשיה ממש.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אשר יעשה אותם האדם וחי בהם, אותם קאי בהם בעוה\"ז ואוכל פירותיהם בעוה\"ז וזה מעשה ממש בעשיה וכו'.",
+            "source_ref": "אמרי שפר אחרי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כא",
+        "title": "מצוה שהגוף נהנה ממנו ועושהו לשם מצוה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והיה עקב תשמעון מצות שאדם דש בעקביו שהורגל בו בחומרו והנאת גופו ישמור רק למען מצות ה' אלקינו ולא לכוונה אחרת, ושמר ה\"א את הברית ואת החסד וגו'.",
+            "source_ref": "פני מבין פ' עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כב",
+        "title": "על מצות השקולים נגד הרבה מצות.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אלא רצה הקב\"ה לזכות את ישראל גם בשכר עוה\"ז, לפיכך נתן להם מצות שיש להם חשיבות הרבה, ששקולה כנגד כל המצות וכו' בזכות זה ראויים כל ישראל לשכר אף בעוה\"ז.",
+            "source_ref": "דברי ישראל, בחוקותי"
+          }
+        ]
+      }
+    ]
+  }
+}

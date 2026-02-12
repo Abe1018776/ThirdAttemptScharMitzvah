@@ -1,0 +1,135 @@
+{
+  "page": 58,
+  "book_page": 94,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"עח\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"צב\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"פו\",\n      \"title\": \"על עבודת ה' רק בגופו מבלי כונה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כי מי שעובד ה' רק בגופו וכו' ראויה לו שכר הגוף דהיינו בעוה\\\"ז.\",\n          \"source_ref\": \"תיקון משה, מילה\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"רוצה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פז\",\n      \"title\": \"אם האדם רוצה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולכך אמר הכתוב ונתתי לפניך שני דרכים, אם תרצה לעשה עבור שכר בעוה\\\"ז וכו'.\",\n          \"source_ref\": \"אמרי שפר נצבים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פח\",\n      \"title\": \"מי שתובע\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וכי אמרו מה נאכל היינו שתובע וכו' וצויתי את ברכתי וכו' כיון דנתבעו מגיע תיכף שכרו בעוה\\\"ז.\",\n          \"source_ref\": \"עצי חיים, בהר\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פט\",\n      \"title\": \"העושה מצוה כדי לקבל עליה שכר בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי שעושה מצוה כדי לקבל שכר בעוה\\\"ז, נמצא כי המצוה נעלמה הוא ג\\\"כ גשמית, הגמרא נותנת שמשלמין לו שכר בעוה\\\"ז שכר גשמי וכו'.\",\n          \"source_ref\": \"זאת לרבות, בחוקותי, נחלת צבי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"צ\",\n      \"title\": \"המבקש שכר בענינים רוחניים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה על פנחס מעידה התוה\\\"ק שפעל ועשה מעשיו אך ורק למען אהבתו את בוראו וכו' ולא ציפה לשום תגמול שכר גשמי וכו' לכן זכה וכו' וגם בעוה\\\"ז היתה שכרו דברים רוחניים והיתה לו ולזרעו אחריו ברית כהונת עולם וכו' ולכן דייקו חז\\\"ל וכו' בדין הוא שיטול שכרו, היינו מה שאנחנו נחשב לשכר, דהיינו שכר רוחני וכו'.\",\n          \"source_ref\": \"בשבילי הישיבה - בעלעד\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"רשות לשם מצוה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"צא\",\n      \"title\": \"על ידי שמשתמשים בקניני עוה\\\"ז לענינים רוחניים.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דע\\\"י שמקדיש עניני עוה\\\"ז עם עניני עוה\\\"ב כגון אדם שמקיים בהונו מצות צדקה וכו' באופן זה מגיע לו ברכת עוה\\\"ז בשפע.\",\n          \"source_ref\": \"ויחי יוסף בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"צב\",\n      \"title\": \"מי שכל מעשיו לשם שמים, ואף באכילה ושתיה ושאר\",\n      \"paragraphs\": []\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 7078,
+    "total_tokens": 9807,
+    "cost": 0.090394,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.090394,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.084936
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5952,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "עח",
+      "page_side": "right",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "צב",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "פו",
+        "title": "על עבודת ה' רק בגופו מבלי כונה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כי מי שעובד ה' רק בגופו וכו' ראויה לו שכר הגוף דהיינו בעוה\"ז.",
+            "source_ref": "תיקון משה, מילה"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "רוצה"
+      },
+      {
+        "type": "section",
+        "number": "פז",
+        "title": "אם האדם רוצה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולכך אמר הכתוב ונתתי לפניך שני דרכים, אם תרצה לעשה עבור שכר בעוה\"ז וכו'.",
+            "source_ref": "אמרי שפר נצבים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פח",
+        "title": "מי שתובע",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וכי אמרו מה נאכל היינו שתובע וכו' וצויתי את ברכתי וכו' כיון דנתבעו מגיע תיכף שכרו בעוה\"ז.",
+            "source_ref": "עצי חיים, בהר"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פט",
+        "title": "העושה מצוה כדי לקבל עליה שכר בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי שעושה מצוה כדי לקבל שכר בעוה\"ז, נמצא כי המצוה נעלמה הוא ג\"כ גשמית, הגמרא נותנת שמשלמין לו שכר בעוה\"ז שכר גשמי וכו'.",
+            "source_ref": "זאת לרבות, בחוקותי, נחלת צבי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "צ",
+        "title": "המבקש שכר בענינים רוחניים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה על פנחס מעידה התוה\"ק שפעל ועשה מעשיו אך ורק למען אהבתו את בוראו וכו' ולא ציפה לשום תגמול שכר גשמי וכו' לכן זכה וכו' וגם בעוה\"ז היתה שכרו דברים רוחניים והיתה לו ולזרעו אחריו ברית כהונת עולם וכו' ולכן דייקו חז\"ל וכו' בדין הוא שיטול שכרו, היינו מה שאנחנו נחשב לשכר, דהיינו שכר רוחני וכו'.",
+            "source_ref": "בשבילי הישיבה - בעלעד"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "רשות לשם מצוה"
+      },
+      {
+        "type": "section",
+        "number": "צא",
+        "title": "על ידי שמשתמשים בקניני עוה\"ז לענינים רוחניים.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דע\"י שמקדיש עניני עוה\"ז עם עניני עוה\"ב כגון אדם שמקיים בהונו מצות צדקה וכו' באופן זה מגיע לו ברכת עוה\"ז בשפע.",
+            "source_ref": "ויחי יוסף בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "צב",
+        "title": "מי שכל מעשיו לשם שמים, ואף באכילה ושתיה ושאר",
+        "paragraphs": []
+      }
+    ]
+  }
+}

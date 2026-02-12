@@ -1,0 +1,155 @@
+{
+  "page": 14,
+  "book_page": 50,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"לד\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"כ\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"יג\",\n      \"title\": \"על מצות פדיון הבן\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n          \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יד\",\n      \"title\": \"על מצות כיבוד אב ואם ומקבל שכר בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מקרא מפורש בתורה: כבד את אביך ואת אמך למען יאריכון ימיך.\",\n          \"source_ref\": \"שמות כ יב\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"אלו דברים שאדם אוכל פירותיהם בעוה\\\"ז והקרן קיימת לו לעוה\\\"ב וכו' ואלו הן כיבוד אב ואם וכו'.\",\n          \"source_ref\": \"פאה מ\\\"א\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"טו\",\n      \"title\": \"המקיים מצות שילוח הקן\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שילוח הקן שכרו שיהיו לו בנים\",\n          \"source_ref\": \"תנחומא פ' תצא - דבש לפי מערכת שי\\\"ן\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"טז\",\n      \"title\": \"על מצות קימה והידור פני זקן\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שע\\\"י הקימה מפני שיבה זוכה האדם מפני השיבה ליר\\\"ש, ולזוכה לן הקב\\\"ה ע\\\"ש העתיד, וכאילו כבד בא, ומגיע לו שכר בעוה\\\"ז, אבל מצות היראה שמגיע עליה שכר בהאי עלמא.\",\n          \"source_ref\": \"באר שלמה מערכת קימה והידור\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יז\",\n      \"title\": \"על מצות עומר השכחה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אף ששכר מצוה בהאי עלמא ליכא, סגולה של וכו' עומר השכחה וכו' להמשיך ברכה אף בהאי עלמא.\",\n          \"source_ref\": \"היכל הברכה ואתחנן\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יח\",\n      \"title\": \"על הקרבנות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"לזכות הקרבנות הקב\\\"ה נותן לנו מזונות כמ\\\"ש המטה יששכר דף ל\\\"ו ע\\\"ג בשם מהרש\\\"ח פ\\\"ק למנחות דף יו\\\"ד.\",\n          \"source_ref\": \"דבש לפי מערכת מ'\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יט\",\n      \"title\": \"על מצות שריפת קדשים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"גם העשה דשריפת קדשים הוי זמ\\\"ג ונשים פטורות וכו' (גור ארי')\",\n          \"source_ref\": null\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n          \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כ\",\n      \"title\": \"על מצות שמיטה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אך מדברי התוס' ד\\\"ה תפלין שכ' ואור\\\"י כיון שחיובו תליא\",\n          \"source_ref\": null\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 6960,
+    "total_tokens": 9691,
+    "cost": 0.088982,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.088982,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.08352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5631,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "לד",
+      "page_side": "left",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "כ",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "יג",
+        "title": "על מצות פדיון הבן",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+            "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יד",
+        "title": "על מצות כיבוד אב ואם ומקבל שכר בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מקרא מפורש בתורה: כבד את אביך ואת אמך למען יאריכון ימיך.",
+            "source_ref": "שמות כ יב"
+          },
+          {
+            "is_makor": false,
+            "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז והקרן קיימת לו לעוה\"ב וכו' ואלו הן כיבוד אב ואם וכו'.",
+            "source_ref": "פאה מ\"א"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "טו",
+        "title": "המקיים מצות שילוח הקן",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שילוח הקן שכרו שיהיו לו בנים",
+            "source_ref": "תנחומא פ' תצא - דבש לפי מערכת שי\"ן"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "טז",
+        "title": "על מצות קימה והידור פני זקן",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שע\"י הקימה מפני שיבה זוכה האדם מפני השיבה ליר\"ש, ולזוכה לן הקב\"ה ע\"ש העתיד, וכאילו כבד בא, ומגיע לו שכר בעוה\"ז, אבל מצות היראה שמגיע עליה שכר בהאי עלמא.",
+            "source_ref": "באר שלמה מערכת קימה והידור"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יז",
+        "title": "על מצות עומר השכחה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אף ששכר מצוה בהאי עלמא ליכא, סגולה של וכו' עומר השכחה וכו' להמשיך ברכה אף בהאי עלמא.",
+            "source_ref": "היכל הברכה ואתחנן"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יח",
+        "title": "על הקרבנות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "לזכות הקרבנות הקב\"ה נותן לנו מזונות כמ\"ש המטה יששכר דף ל\"ו ע\"ג בשם מהרש\"ח פ\"ק למנחות דף יו\"ד.",
+            "source_ref": "דבש לפי מערכת מ'"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יט",
+        "title": "על מצות שריפת קדשים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "גם העשה דשריפת קדשים הוי זמ\"ג ונשים פטורות וכו' (גור ארי')",
+            "source_ref": null
+          },
+          {
+            "is_makor": false,
+            "text": "כאלו המצות שהזמן גרמא בהם לנשים רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+            "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כ",
+        "title": "על מצות שמיטה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אך מדברי התוס' ד\"ה תפלין שכ' ואור\"י כיון שחיובו תליא",
+            "source_ref": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "page": 72,
+  "book_page": 108,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"צב\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק ששי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"כא\",\n      \"title\": \"מי שלומד תורת דיני המצות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"יש הרבה מצות שמגיע עליהם שכר בעוה\\\"ז וכו' על לימוד תורת ודיני המצות.\",\n          \"source_ref\": \"לחם אבירים עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כב\",\n      \"title\": \"הלומד תורה קודם שמקיים המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ע\\\"י התוה\\\"ק שוב אינה יכולה העבירה לכבות מצוה וכו' אם לומד תורה קודם כל מצוה, אז אין העבירה מכבה המצוה וכו' ושפיר מגיע שכר בהאי עלמא.\",\n          \"source_ref\": \"דברי אליעזר מס' שבת\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כג\",\n      \"title\": \"הלומד דיני מצוה, שנחשב לו כאילו מקיימה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וה\\\"ה לכל המצות אם למד דין איזה מצוה וכו' וא\\\"כ שפיר מגיע לו שכר עוה\\\"ז\",\n          \"source_ref\": \"קרסי זהב ואתחנן\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כד\",\n      \"title\": \"הלומד קודם עשיית המצוה דיני המצוה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל יש עצה שיקבל שכר על כל המצות אפילו בעוה\\\"ז דהיינו אם ילמד קודם עשיית המצות דיני המצות נמצא שיקיים קודם העשיה גם תלמוד תורה, ומ\\\"מ הוא מהדברים שאדם אוכל פירותיהן בעוה\\\"ז.\",\n          \"source_ref\": \"אזור אליהו ועלים לתרופה עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"שמחה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כה\",\n      \"title\": \"על שמחה של מצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דהא דשכר מצוה בהאי עלמא ליכא זהו רק על גוף המצוה אבל על שמחה של מצוה איכא שכר בהאי עלמא.\",\n          \"source_ref\": \"ויחי יוסף בחוקותי\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"והמפרשים תירצו דעבור השמחה שהוא שמח בקיום המצות וכו' על זה קובע לו ה' שכר גם בהאי עלמא וכו'.\",\n          \"source_ref\": \"חדרי בטן\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"לכן המתחיל במלת והיה הרומזת לשמחה, שלא תשמעון המשפטים ותשמרון אותם בשמחה שתקבלו שכר בעוה\\\"ז.\",\n          \"source_ref\": \"ערכי יהושע מערכת ש' אות ל\\\"ה\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"דבשביל שמחת המצוה מגיע שכר עוה\\\"ז וכו' בגלל שלא ירע לבבך ונתן בשמחה, יברכך בעוה\\\"ז.\",\n          \"source_ref\": \"נחלת יעקב ואתחנן\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ואין שכר בעוה\\\"ז כי אם שכר שמחת המצוה וחיבתה וכו'.\",\n          \"source_ref\": \"דרשות חת\\\"ס ח\\\"ג דף ב'\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2732,
+    "completion_tokens": 4337,
+    "total_tokens": 7069,
+    "cost": 0.057508,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.057508,
+      "upstream_inference_prompt_cost": 0.005464,
+      "upstream_inference_completions_cost": 0.052044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3150,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "צב",
+      "page_side": "left",
+      "chapter_context": "פרק ששי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "כא",
+        "title": "מי שלומד תורת דיני המצות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "יש הרבה מצות שמגיע עליהם שכר בעוה\"ז וכו' על לימוד תורת ודיני המצות.",
+            "source_ref": "לחם אבירים עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כב",
+        "title": "הלומד תורה קודם שמקיים המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ע\"י התוה\"ק שוב אינה יכולה העבירה לכבות מצוה וכו' אם לומד תורה קודם כל מצוה, אז אין העבירה מכבה המצוה וכו' ושפיר מגיע שכר בהאי עלמא.",
+            "source_ref": "דברי אליעזר מס' שבת"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כג",
+        "title": "הלומד דיני מצוה, שנחשב לו כאילו מקיימה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וה\"ה לכל המצות אם למד דין איזה מצוה וכו' וא\"כ שפיר מגיע לו שכר עוה\"ז",
+            "source_ref": "קרסי זהב ואתחנן"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כד",
+        "title": "הלומד קודם עשיית המצוה דיני המצוה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל יש עצה שיקבל שכר על כל המצות אפילו בעוה\"ז דהיינו אם ילמד קודם עשיית המצות דיני המצות נמצא שיקיים קודם העשיה גם תלמוד תורה, ומ\"מ הוא מהדברים שאדם אוכל פירותיהן בעוה\"ז.",
+            "source_ref": "אזור אליהו ועלים לתרופה עקב"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "שמחה"
+      },
+      {
+        "type": "section",
+        "number": "כה",
+        "title": "על שמחה של מצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דהא דשכר מצוה בהאי עלמא ליכא זהו רק על גוף המצוה אבל על שמחה של מצוה איכא שכר בהאי עלמא.",
+            "source_ref": "ויחי יוסף בחוקותי"
+          },
+          {
+            "is_makor": false,
+            "text": "והמפרשים תירצו דעבור השמחה שהוא שמח בקיום המצות וכו' על זה קובע לו ה' שכר גם בהאי עלמא וכו'.",
+            "source_ref": "חדרי בטן"
+          },
+          {
+            "is_makor": false,
+            "text": "לכן המתחיל במלת והיה הרומזת לשמחה, שלא תשמעון המשפטים ותשמרון אותם בשמחה שתקבלו שכר בעוה\"ז.",
+            "source_ref": "ערכי יהושע מערכת ש' אות ל\"ה"
+          },
+          {
+            "is_makor": false,
+            "text": "דבשביל שמחת המצוה מגיע שכר עוה\"ז וכו' בגלל שלא ירע לבבך ונתן בשמחה, יברכך בעוה\"ז.",
+            "source_ref": "נחלת יעקב ואתחנן"
+          },
+          {
+            "is_makor": false,
+            "text": "ואין שכר בעוה\"ז כי אם שכר שמחת המצוה וחיבתה וכו'.",
+            "source_ref": "דרשות חת\"ס ח\"ג דף ב'"
+          }
+        ]
+      }
+    ]
+  }
+}

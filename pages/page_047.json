@@ -1,0 +1,137 @@
+{
+  "page": 47,
+  "book_page": 83,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"סד\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"כב\",\n      \"level\": \"section_title\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"כח\",\n      \"level\": \"body_paragraph\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"כב\",\n      \"title\": \"להשי\\\"ת נח\\\"ר בשכרו שיכול להיטיב.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ואפשר דבכהאי גוונא השכר הוא גם בעוה\\\"ז, מכיון שבקבלת השכר הוא מכוין לעשות נח\\\"ר לבוראו ית'.\",\n          \"source_ref\": \"שארית מנחם פ' בחוקתי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כג\",\n      \"title\": \"העושה דבר ומתכוין שעי\\\"ז יתקדש שם ה'.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"למעט קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא.\",\n          \"source_ref\": \"שארית מנחם פ' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כד\",\n      \"title\": \"מי שאינו מתפתה ממסיתים ומדיחים ולוחם נגדם.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דאם האדם מתגבר על מסיתים ומדיחים בעלי בחירה ואינו מתפתה להם רק לוחם נגדם יקבל שכרו משלם בעוה\\\"ז.\",\n          \"source_ref\": \"המגיד פ' פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כה\",\n      \"title\": \"על מצות ביעור הרשעים שמצפין שיתמו חטאים ולא יצטרכו עוד לקיימו.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"הנה שכירות אינה משתלמת אלא לבסוף וכו' ולא נגמר שום מצוה עד יום מותו, משא\\\"כ מצוה זו וכו' ויעמוד פנחס ויפלל שלא יהא עוד לידו לעולם וכו' וא\\\"כ נגמר המצוה ולכך בדין הוא ביטול שכרו.\",\n          \"source_ref\": \"פני מבין פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"מזכה הרבים\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כו\",\n      \"title\": \"כשמזכין את הרבים.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\\\"ז\",\n          \"source_ref\": \"מהרש\\\"א קידושין לט.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כז\",\n      \"title\": \"המזכה אחרים בקיום המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דנהי דעל מצוה גופא ליכא שכר בעוה\\\"ז מ\\\"מ במה שזיכה אחרים על זה מגיע שכר בעוה\\\"ז.\",\n          \"source_ref\": \"ויחי יוסף בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כח\",\n      \"title\": \"המזכה את הרבים מקבל שכרו בעוה\\\"ז על כל מצותיו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שכר מצוה בהאי עלמא ליכא, והטעם להרמב\\\"ם דלא שליט עבידתיה ושכירות אינה משתלמת אלא\",\n          \"source_ref\": null\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 11674,
+    "total_tokens": 14405,
+    "cost": 0.14555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.14555,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.140088
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 10507,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "סד",
+      "page_side": "right",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "כב",
+        "level": "section_title"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "כח",
+        "level": "body_paragraph"
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "כב",
+        "title": "להשי\"ת נח\"ר בשכרו שיכול להיטיב.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ואפשר דבכהאי גוונא השכר הוא גם בעוה\"ז, מכיון שבקבלת השכר הוא מכוין לעשות נח\"ר לבוראו ית'.",
+            "source_ref": "שארית מנחם פ' בחוקתי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כג",
+        "title": "העושה דבר ומתכוין שעי\"ז יתקדש שם ה'.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "למעט קילוס ה', כדי שיתקלס שמו יתברך, יותן שכר גם בהאי עלמא.",
+            "source_ref": "שארית מנחם פ' עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כד",
+        "title": "מי שאינו מתפתה ממסיתים ומדיחים ולוחם נגדם.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דאם האדם מתגבר על מסיתים ומדיחים בעלי בחירה ואינו מתפתה להם רק לוחם נגדם יקבל שכרו משלם בעוה\"ז.",
+            "source_ref": "המגיד פ' פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כה",
+        "title": "על מצות ביעור הרשעים שמצפין שיתמו חטאים ולא יצטרכו עוד לקיימו.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "הנה שכירות אינה משתלמת אלא לבסוף וכו' ולא נגמר שום מצוה עד יום מותו, משא\"כ מצוה זו וכו' ויעמוד פנחס ויפלל שלא יהא עוד לידו לעולם וכו' וא\"כ נגמר המצוה ולכך בדין הוא ביטול שכרו.",
+            "source_ref": "פני מבין פנחס"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "מזכה הרבים"
+      },
+      {
+        "type": "section",
+        "number": "כו",
+        "title": "כשמזכין את הרבים.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "זכות הרבים ומעשיהם הטובים מניחים להם כל הברכות והטובות שנזכרו בתורה גם בעוה\"ז",
+            "source_ref": "מהרש\"א קידושין לט."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כז",
+        "title": "המזכה אחרים בקיום המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דנהי דעל מצוה גופא ליכא שכר בעוה\"ז מ\"מ במה שזיכה אחרים על זה מגיע שכר בעוה\"ז.",
+            "source_ref": "ויחי יוסף בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כח",
+        "title": "המזכה את הרבים מקבל שכרו בעוה\"ז על כל מצותיו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שכר מצוה בהאי עלמא ליכא, והטעם להרמב\"ם דלא שליט עבידתיה ושכירות אינה משתלמת אלא",
+            "source_ref": null
+          }
+        ]
+      }
+    ]
+  }
+}

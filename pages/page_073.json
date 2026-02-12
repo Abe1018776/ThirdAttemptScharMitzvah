@@ -1,0 +1,134 @@
+{
+  "page": 73,
+  "book_page": 109,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"צג\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק ששי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": null,\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"לא\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"וכל מה שהצדיקים נהנים בעוה\\\"ז הכל הוא בשכר השמחה של מצוה מה ששמחים וטובים בהאבה ונחת המצוה וכו'.\",\n      \"source_ref\": \"אמרות ה' ראה\"\n    },\n    {\n      \"type\": \"body_paragraph\",\n      \"text\": \"דאף דשכר מצוה בהאי עלמא ליכא מ\\\"מ על שמחה שיש לו בהמצוה על זה מגיע שכר בעוה\\\"ז.\",\n      \"source_ref\": \"ויגד יעקב עקב\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כו\",\n      \"title\": \"על שמחת המצוה שאינה שוה בבני אדם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"נ\\\"ל כי בשלמת שכר מצוה בהאי עלמא ליכא, אבל כתיב במלכים כי על שמחת המצוה שאינה שוה בבני אדם, זה עושה בשמחה יותר מזה, על זה ישולם שכר בעוה\\\"ז.\",\n          \"source_ref\": \"כתב סופר פ' דברים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כז\",\n      \"title\": \"המקיים מצוה בשמחה כאילו ניתן היום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שהברכה בעוה\\\"ז יהיה, אשר תשמעו את המצות בשמחה, כאלו היום ניתנו, ויהיו תמיד חדשים בעיניכם זה ישכר לכם ברכה גם היום בעוה\\\"ז.\",\n          \"source_ref\": \"רחובות הנהר עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כח\",\n      \"title\": \"העובד השי\\\"ת מתוך אהבה ושמחה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"הכוונה שמי שלא עובד השי\\\"ת מתוך שמחה ואהבה וכו' אז שפיר מגיע שכר בהאי עלמא.\",\n          \"source_ref\": \"דברי אליעזר, הדרנים למס' שבת\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"זריזות\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כט\",\n      \"title\": \"על זריזות והידור מצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דהמצוה עצמה אין לה תשלומין בעוה\\\"ז אבל הזריזות וההידור יש שכר בעוה\\\"ז.\",\n          \"source_ref\": \"פרד\\\"י וידא בשם הגר\\\"א\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ל\",\n      \"title\": \"מצוה שזמנה כל היום ומזרז לעשותה בתחילת היום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל מי שמזלזל בהמצוה ואינו ממתין זמנה כל היום, אז מקבל שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"דברי תורה ו ד\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לא\",\n      \"title\": \"כל מצוה שאפשר לעשותו ע\\\"י שליח ועושהו בעצמו.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ועפי\\\"ז שפיר כיון דמצוה בו יותר מבשלוחו הוא רק זריזות המצוה ביותר שעושה בעצמו וכו' שפיר\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 7194,
+    "total_tokens": 9924,
+    "cost": 0.091788,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.091788,
+      "upstream_inference_prompt_cost": 0.00546,
+      "upstream_inference_completions_cost": 0.086328
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6088,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "צג",
+      "page_side": "right",
+      "chapter_context": "פרק ששי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": null,
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "לא",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "וכל מה שהצדיקים נהנים בעוה\"ז הכל הוא בשכר השמחה של מצוה מה ששמחים וטובים בהאבה ונחת המצוה וכו'.",
+        "source_ref": "אמרות ה' ראה"
+      },
+      {
+        "type": "body_paragraph",
+        "text": "דאף דשכר מצוה בהאי עלמא ליכא מ\"מ על שמחה שיש לו בהמצוה על זה מגיע שכר בעוה\"ז.",
+        "source_ref": "ויגד יעקב עקב"
+      },
+      {
+        "type": "section",
+        "number": "כו",
+        "title": "על שמחת המצוה שאינה שוה בבני אדם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "נ\"ל כי בשלמת שכר מצוה בהאי עלמא ליכא, אבל כתיב במלכים כי על שמחת המצוה שאינה שוה בבני אדם, זה עושה בשמחה יותר מזה, על זה ישולם שכר בעוה\"ז.",
+            "source_ref": "כתב סופר פ' דברים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כז",
+        "title": "המקיים מצוה בשמחה כאילו ניתן היום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שהברכה בעוה\"ז יהיה, אשר תשמעו את המצות בשמחה, כאלו היום ניתנו, ויהיו תמיד חדשים בעיניכם זה ישכר לכם ברכה גם היום בעוה\"ז.",
+            "source_ref": "רחובות הנהר עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כח",
+        "title": "העובד השי\"ת מתוך אהבה ושמחה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "הכוונה שמי שלא עובד השי\"ת מתוך שמחה ואהבה וכו' אז שפיר מגיע שכר בהאי עלמא.",
+            "source_ref": "דברי אליעזר, הדרנים למס' שבת"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "זריזות"
+      },
+      {
+        "type": "section",
+        "number": "כט",
+        "title": "על זריזות והידור מצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דהמצוה עצמה אין לה תשלומין בעוה\"ז אבל הזריזות וההידור יש שכר בעוה\"ז.",
+            "source_ref": "פרד\"י וידא בשם הגר\"א"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ל",
+        "title": "מצוה שזמנה כל היום ומזרז לעשותה בתחילת היום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל מי שמזלזל בהמצוה ואינו ממתין זמנה כל היום, אז מקבל שכר גם בעוה\"ז.",
+            "source_ref": "דברי תורה ו ד"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "לא",
+        "title": "כל מצוה שאפשר לעשותו ע\"י שליח ועושהו בעצמו.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ועפי\"ז שפיר כיון דמצוה בו יותר מבשלוחו הוא רק זריזות המצוה ביותר שעושה בעצמו וכו' שפיר"
+          }
+        ]
+      }
+    ]
+  }
+}

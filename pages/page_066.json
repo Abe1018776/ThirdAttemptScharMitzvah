@@ -1,0 +1,133 @@
+{
+  "page": 66,
+  "book_page": 102,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"פז\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"קלג\",\n      \"title\": \"בעידן ריתחא מקבלים שכר בעוה\\\"ז על קיום מצות עשה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ונמצא לדעת ריתחא כמו שאז הוי עונש כביכול העשה נמצא ממילא מגיע אז שכר ג\\\"כ על המ\\\"ע.\",\n          \"source_ref\": \"פנינים יקרים לקוטים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלד\",\n      \"title\": \"הנודר למצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל חלוק נדרים בזה לבחן באיזה אופן שהוא אפילו כמה מגיע לו שכר בעוה\\\"ז.\",\n          \"source_ref\": \"בני משה מטות\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלה\",\n      \"title\": \"מי שיש לו מכל טוב ואינו נהנה ממנו ומייגע עצמו בתורה ואוכל פת במלח\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל אם הוא עשיר ויש לו מכל טוב והיה יכול לאכול ולשתות ולהטיב לבו, והוא לא כן עושה אלא מייגע עצמו ואוכל פת במלח ועוסק בתורה הקדושה, שכרו הרבה מאד וכו' אשריך בעולם הזה וכו' ויהיה להם טוב בעוה\\\"ז ובעוה\\\"ב.\",\n          \"source_ref\": \"באר מנחם ויחי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלו\",\n      \"title\": \"יכול האדם לקיים מצוה כדי לקבל על זה השכר בעוה\\\"ז, להאריך ימים בארץ ישראל.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מותר לחול ע\\\"מ שיזכה להאריך ימים בא\\\"י וכו' דבשביל שכר זה מותר לחול.\",\n          \"source_ref\": \"רחובות הנהר ואתחנן\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלז\",\n      \"title\": \"העובד להשי\\\"ת בניגוד להיצה\\\"ר\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כי השכר שנוחלתו הוא כניגוד יש לו שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"ויגד משה תזריע\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלח\",\n      \"title\": \"מי שמקנא לכבוד ה' באופן שאינו רגיל אליו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"לפי שיותר שכר ראוי למי שאינו רגיל במלחמה ולא בכלי המלחמה ולוקח הכלים ההם והורג לאויבי המלך וכו' פנחס שהוא תלמיד חכם, בן תלמיד חכם בנו של ת\\\"ח הניח את ממחי בצלקתו ולקח רומח שלא היה מורגל לקחתו.\",\n          \"source_ref\": \"תולדות יצחק פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלט\",\n      \"title\": \"ההולך במלבושי האבות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אם בחוקותי תלכו ר\\\"ת אב\\\"ת שתלכו במלבושי אבותינו הק' בצורת זקן וכו' [ - ואז] ונתתי גשמיכם בעתם.\",\n          \"source_ref\": \"בית אשר בחוקותי\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2732,
+    "completion_tokens": 8264,
+    "total_tokens": 10996,
+    "cost": 0.104632,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.104632,
+      "upstream_inference_prompt_cost": 0.005464,
+      "upstream_inference_completions_cost": 0.099168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7092,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "פז",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "קלג",
+        "title": "בעידן ריתחא מקבלים שכר בעוה\"ז על קיום מצות עשה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ונמצא לדעת ריתחא כמו שאז הוי עונש כביכול העשה נמצא ממילא מגיע אז שכר ג\"כ על המ\"ע.",
+            "source_ref": "פנינים יקרים לקוטים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלד",
+        "title": "הנודר למצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל חלוק נדרים בזה לבחן באיזה אופן שהוא אפילו כמה מגיע לו שכר בעוה\"ז.",
+            "source_ref": "בני משה מטות"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלה",
+        "title": "מי שיש לו מכל טוב ואינו נהנה ממנו ומייגע עצמו בתורה ואוכל פת במלח",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל אם הוא עשיר ויש לו מכל טוב והיה יכול לאכול ולשתות ולהטיב לבו, והוא לא כן עושה אלא מייגע עצמו ואוכל פת במלח ועוסק בתורה הקדושה, שכרו הרבה מאד וכו' אשריך בעולם הזה וכו' ויהיה להם טוב בעוה\"ז ובעוה\"ב.",
+            "source_ref": "באר מנחם ויחי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלו",
+        "title": "יכול האדם לקיים מצוה כדי לקבל על זה השכר בעוה\"ז, להאריך ימים בארץ ישראל.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מותר לחול ע\"מ שיזכה להאריך ימים בא\"י וכו' דבשביל שכר זה מותר לחול.",
+            "source_ref": "רחובות הנהר ואתחנן"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלז",
+        "title": "העובד להשי\"ת בניגוד להיצה\"ר",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כי השכר שנוחלתו הוא כניגוד יש לו שכר גם בעוה\"ז.",
+            "source_ref": "ויגד משה תזריע"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלח",
+        "title": "מי שמקנא לכבוד ה' באופן שאינו רגיל אליו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "לפי שיותר שכר ראוי למי שאינו רגיל במלחמה ולא בכלי המלחמה ולוקח הכלים ההם והורג לאויבי המלך וכו' פנחס שהוא תלמיד חכם, בן תלמיד חכם בנו של ת\"ח הניח את ממחי בצלקתו ולקח רומח שלא היה מורגל לקחתו.",
+            "source_ref": "תולדות יצחק פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלט",
+        "title": "ההולך במלבושי האבות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אם בחוקותי תלכו ר\"ת אב\"ת שתלכו במלבושי אבותינו הק' בצורת זקן וכו' [ - ואז] ונתתי גשמיכם בעתם.",
+            "source_ref": "בית אשר בחוקותי"
+          }
+        ]
+      }
+    ]
+  }
+}

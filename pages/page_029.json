@@ -1,0 +1,144 @@
+{
+  "page": 29,
+  "book_page": 65,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"מט\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"קיב\",\n      \"level\": \"body_paragraph\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"אמונה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קו\",\n      \"title\": \"מי שהוא מאמין בהשי\\\"ת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ואפ\\\"ל דהמאמין השלם מובטח לו שלא יחטא, ורגלי חסידיו ישמור וכו' וזה לעומת זה עשה אלקים שהמאמין יעמוד בצדקתו ומגיע לו שכר לעוה\\\"ז.\",\n          \"source_ref\": \"שארית מנחם פ' בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קז\",\n      \"title\": \"המקיים מצות ה' באמונה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אם מעשה הדיוט מכוון בו אמונה שלימה, ובעד זה, בעד חלק האמונה שבכל מצוה ומצוה מגיע שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"שארית מנחם פ' בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קח\",\n      \"title\": \"המאמין שהשי\\\"ת יפרע לו על מה שהוא לוה לכבוד שב\\\"ק.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אשר יקבל שכרו לעוה\\\"ז בזכות האמונה שה' יפרע מה שלוה וכו'.\",\n          \"source_ref\": \"דרשות חת\\\"ס לשמ\\\"ע\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קט\",\n      \"title\": \"המאמין שהשי\\\"ת יעזור לו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דגם בעוה\\\"ז יקבל שכרו יען שהאמין מאין יבוא עזרי היינו שאפילו מבחינת אין ישלח הקב\\\"ה עזרו למעלה מהשגת השכל.\",\n          \"source_ref\": \"ויד אהרן ויצא\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קי\",\n      \"title\": \"המאמין שיש שכר לפעולתו בעוה\\\"ב.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": false,\n          \"text\": \"איתא במדרש כל מה שישראל אוכלין בעוה\\\"ז אינם אוכלים אלא בשכר האמונה וכו' דהא מלות אמונה שמענו מפי הקב\\\"ה בעצמו ולא על ידי שליח א\\\"כ מחוייב ליתן השכר תיכף ביומו.\",\n          \"source_ref\": \"חנוכת התורה פ' יתרו\"\n        },\n        {\n          \"is_makor\": true,\n          \"text\": \"ומה שאוכלין בעוה\\\"ז הוא בשביל שמחזיק באמונה שלימה כי יש שכר לפעולתו בעוה\\\"ב.\",\n          \"source_ref\": \"יכ\\\"ס ש\\\"ע ט\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"צדקה וגמילות חסדים\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיא\",\n      \"title\": \"על מצות צדקה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"עשר תעשר את כל תבואת זרעך [דברים יד כב], ודרשו ז\\\"ל [תענית ט.] עשר בשביל שתתעשר. ומקרא מלא דיבר הכתוב [מלאכי ג י], ובחנוני נא בזאת אם לא אפתח לכם ארובות השמים.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיב\",\n      \"title\": \"בזכות מצות צדקה לתלמידי חכמים עניים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"בכל העבודות שאנו עובדים להקב\\\"ה השכר מזומן רק לעוה\\\"ב אבל מצות צדקה שאנו נותנים\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 6099,
+    "total_tokens": 8828,
+    "cost": 0.078646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.078646,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.073188
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4864,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "מט",
+      "page_side": "right",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "קיב",
+        "level": "body_paragraph"
+      }
+    },
+    "data": [
+      {
+        "type": "grouping_header",
+        "title": "אמונה"
+      },
+      {
+        "type": "section",
+        "number": "קו",
+        "title": "מי שהוא מאמין בהשי\"ת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ואפ\"ל דהמאמין השלם מובטח לו שלא יחטא, ורגלי חסידיו ישמור וכו' וזה לעומת זה עשה אלקים שהמאמין יעמוד בצדקתו ומגיע לו שכר לעוה\"ז.",
+            "source_ref": "שארית מנחם פ' בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קז",
+        "title": "המקיים מצות ה' באמונה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אם מעשה הדיוט מכוון בו אמונה שלימה, ובעד זה, בעד חלק האמונה שבכל מצוה ומצוה מגיע שכר גם בעוה\"ז.",
+            "source_ref": "שארית מנחם פ' בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קח",
+        "title": "המאמין שהשי\"ת יפרע לו על מה שהוא לוה לכבוד שב\"ק.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אשר יקבל שכרו לעוה\"ז בזכות האמונה שה' יפרע מה שלוה וכו'.",
+            "source_ref": "דרשות חת\"ס לשמ\"ע"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קט",
+        "title": "המאמין שהשי\"ת יעזור לו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דגם בעוה\"ז יקבל שכרו יען שהאמין מאין יבוא עזרי היינו שאפילו מבחינת אין ישלח הקב\"ה עזרו למעלה מהשגת השכל.",
+            "source_ref": "ויד אהרן ויצא"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קי",
+        "title": "המאמין שיש שכר לפעולתו בעוה\"ב.",
+        "paragraphs": [
+          {
+            "is_makor": false,
+            "text": "איתא במדרש כל מה שישראל אוכלין בעוה\"ז אינם אוכלים אלא בשכר האמונה וכו' דהא מלות אמונה שמענו מפי הקב\"ה בעצמו ולא על ידי שליח א\"כ מחוייב ליתן השכר תיכף ביומו.",
+            "source_ref": "חנוכת התורה פ' יתרו"
+          },
+          {
+            "is_makor": true,
+            "text": "ומה שאוכלין בעוה\"ז הוא בשביל שמחזיק באמונה שלימה כי יש שכר לפעולתו בעוה\"ב.",
+            "source_ref": "יכ\"ס ש\"ע ט"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "צדקה וגמילות חסדים"
+      },
+      {
+        "type": "section",
+        "number": "קיא",
+        "title": "על מצות צדקה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "עשר תעשר את כל תבואת זרעך [דברים יד כב], ודרשו ז\"ל [תענית ט.] עשר בשביל שתתעשר. ומקרא מלא דיבר הכתוב [מלאכי ג י], ובחנוני נא בזאת אם לא אפתח לכם ארובות השמים."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קיב",
+        "title": "בזכות מצות צדקה לתלמידי חכמים עניים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "בכל העבודות שאנו עובדים להקב\"ה השכר מזומן רק לעוה\"ב אבל מצות צדקה שאנו נותנים"
+          }
+        ]
+      }
+    ]
+  }
+}

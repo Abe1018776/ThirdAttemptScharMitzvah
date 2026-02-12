@@ -1,0 +1,149 @@
+{
+  "page": 74,
+  "book_page": 110,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"צד\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק ששי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"לא\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"לז\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"...שייך שכר גם בעוה\\\"ז וכו'.\",\n      \"source_ref\": \"דברי תורה ג עה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לב\",\n      \"title\": \"מי שממהר למצוה כדי שלא לעבור על בל תאחר\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מכל ההוספה שעושה זה שממהרת למשרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\\\"כ בעולם הזה. וקדושה וברכה\",\n          \"source_ref\": \"ברכות פ\\\"א\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"הידור וכבוד\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לג\",\n      \"title\": \"על הידור המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"חז\\\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.\",\n          \"source_ref\": \"מאורי אור בשם הרה\\\"ק ר' דוד אהרן מזאריג זצוק\\\"ל\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לד\",\n      \"title\": \"על הידור מצוה יותר משליש\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"עד שליש משלו מכאן ואילך משל הקב\\\"ה (ב\\\"ק ט:), וברש\\\"י שם מה שיוסיף בהידור על שליש יפרע לו הקב\\\"ה בחייו.\",\n          \"source_ref\": null\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לה\",\n      \"title\": \"על כבוד המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"חז\\\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.\",\n          \"source_ref\": \"ומאורי אור בשם הרה\\\"ק ר' דוד אהרן מזאריק זצוק\\\"ל\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"מס\\\"נ\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לו\",\n      \"title\": \"כשעושין מצוה במסירות נפש\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דכשעושין מצות במסירות נפש מגיע שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"תפארת חיים אות צז\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ואמר הקדוש הנ\\\"ל (ההיל\\\"מ) עלה לקבל שכר מצוה גם בהאי עלמא, שיעשה כל מצותיו במסירות נפש כמו שעלינו וכו' ואז יגיע לו שכר עכ\\\"ד.\",\n          \"source_ref\": \"יודעי בינה\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"על מצוה שעושים במסירות נפש יש שכר בהאי עלמא.\",\n          \"source_ref\": \"פרדס יוסף פנחס, בשם ספר זרע בירך\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ויקח רמח בידו שמרמז שבכח לעשות דבר זה במסירות נפש ככל רמ\\\"ח איברים, וזהו למעלה מהטבע ואז נתעלה לגמרי ולא היה לו שייכות רק עם רוחניו וכו' ע\\\"ז בדין הוא שיטול שכרו.\",\n          \"source_ref\": \"דברי שמחה, פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לז\",\n      \"title\": \"המוסר נפשו למצוה, חוץ מג' דברים של יהרג ואל יעבור.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"חמנס יש מילה וכו' מסירת נפש חוץ מהשלשה דברים [המשך בעמוד הבא]\",\n          \"source_ref\": null\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2732,
+    "completion_tokens": 9984,
+    "total_tokens": 12716,
+    "cost": 0.125272,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.125272,
+      "upstream_inference_prompt_cost": 0.005464,
+      "upstream_inference_completions_cost": 0.119808
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8694,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "צד",
+      "page_side": "left",
+      "chapter_context": "פרק ששי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "לא",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "לז",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "...שייך שכר גם בעוה\"ז וכו'.",
+        "source_ref": "דברי תורה ג עה"
+      },
+      {
+        "type": "section",
+        "number": "לב",
+        "title": "מי שממהר למצוה כדי שלא לעבור על בל תאחר",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מכל ההוספה שעושה זה שממהרת למשרת במרוצתו כדי שלא לעבור בבל תאחר מקבל עליה שכר נוסף ג\"כ בעולם הזה. וקדושה וברכה",
+            "source_ref": "ברכות פ\"א"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "הידור וכבוד"
+      },
+      {
+        "type": "section",
+        "number": "לג",
+        "title": "על הידור המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "חז\"ל על וכו' והידור המצוות איכא שכר מצוה בהאי עלמא.",
+            "source_ref": "מאורי אור בשם הרה\"ק ר' דוד אהרן מזאריג זצוק\"ל"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "לד",
+        "title": "על הידור מצוה יותר משליש",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "עד שליש משלו מכאן ואילך משל הקב\"ה (ב\"ק ט:), וברש\"י שם מה שיוסיף בהידור על שליש יפרע לו הקב\"ה בחייו.",
+            "source_ref": null
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "לה",
+        "title": "על כבוד המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "חז\"ל על כיבוד וכו' המצות איכא שכר מצוה בהאי עלמא.",
+            "source_ref": "ומאורי אור בשם הרה\"ק ר' דוד אהרן מזאריק זצוק\"ל"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "מס\"נ"
+      },
+      {
+        "type": "section",
+        "number": "לו",
+        "title": "כשעושין מצוה במסירות נפש",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דכשעושין מצות במסירות נפש מגיע שכר גם בעוה\"ז.",
+            "source_ref": "תפארת חיים אות צז"
+          },
+          {
+            "is_makor": false,
+            "text": "ואמר הקדוש הנ\"ל (ההיל\"מ) עלה לקבל שכר מצוה גם בהאי עלמא, שיעשה כל מצותיו במסירות נפש כמו שעלינו וכו' ואז יגיע לו שכר עכ\"ד.",
+            "source_ref": "יודעי בינה"
+          },
+          {
+            "is_makor": false,
+            "text": "על מצוה שעושים במסירות נפש יש שכר בהאי עלמא.",
+            "source_ref": "פרדס יוסף פנחס, בשם ספר זרע בירך"
+          },
+          {
+            "is_makor": false,
+            "text": "ויקח רמח בידו שמרמז שבכח לעשות דבר זה במסירות נפש ככל רמ\"ח איברים, וזהו למעלה מהטבע ואז נתעלה לגמרי ולא היה לו שייכות רק עם רוחניו וכו' ע\"ז בדין הוא שיטול שכרו.",
+            "source_ref": "דברי שמחה, פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "לז",
+        "title": "המוסר נפשו למצוה, חוץ מג' דברים של יהרג ואל יעבור.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "חמנס יש מילה וכו' מסירת נפש חוץ מהשלשה דברים [המשך בעמוד הבא]",
+            "source_ref": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "page": 11,
+  "book_page": 47,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"לא\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שני\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"כג\",\n      \"title\": \"על מצוה שנאמר בו זה הדבר.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולפי\\\"ז מצוה שכזה אותה מצה בבחינת זה הדבר וכו' ע\\\"ז מגיע שכר בהאי עלמא.\",\n          \"source_ref\": \"ויקהל\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כד\",\n      \"title\": \"מצוה שזכה אליה ע\\\"י עבירה של אחרים.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שכר על המצוה באמת אינו מגיע עפ\\\"י דין כיון שהיה ישועה להשי\\\"ת ולטובה אינו מוכרח וכו' וא\\\"כ עבירה שעשה זמרי היה ביד זמרי לבטל בחירתו לרעה מוכרח וא\\\"כ גם המצוה שעשה פנחס היה בטל וכו' ושפיר מגיע שכר עפ\\\"י דין.\",\n          \"source_ref\": \"אמרי אש פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כה\",\n      \"title\": \"מצות שאדם מוסיף וממציא מדעת עצמו.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דעל מצות שהאדם מוסיף וממציא מדעת עצמו נותנים שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"חידושי רבינו יוסף נחמי' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כו\",\n      \"title\": \"המקיים מצות התלוים בעסקי פרנסתו.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"היינו שכעסקיכם במזונותיכם ובפרנסתיכם ותקיימו את המצות התלוים בהם עכ\\\"פ אני אשלח ברכה במעשי ידיכם וכו'.\",\n          \"source_ref\": \"שובע שמחות בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כז\",\n      \"title\": \"מצוה שאי אפשר ליעשות ע\\\"י אחר.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דהא דלא עשה משה בעצמו דבר זה, לפי שמשה ואהרן זכו שׂכרו ולא נזכר אלא פנחס, בגין שפרע\\\"ה שרצון הקב\\\"ה שלא יעשה דבר זה שום בן אדם אלא פנחס, א\\\"כ בכה\\\"ג אזלא הפקפוק דמילי ושוָה שפיר היה מגיע לפנחס שכר מדינא משום לא תלין דשליח של אדם כמותו ודו\\\"ק.\",\n          \"source_ref\": \"שפתי מהר\\\"ש פ' פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כח\",\n      \"title\": \"על מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,\",\n          \"source_ref\": \"דרשות חת\\\"ס קכג, ירבה תורה פנחס\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 5730,
+    "total_tokens": 8461,
+    "cost": 0.074222,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.074222,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.06876
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4633,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "לא",
+      "page_side": "left",
+      "chapter_context": "פרק שני",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "כג",
+        "title": "על מצוה שנאמר בו זה הדבר.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולפי\"ז מצוה שכזה אותה מצה בבחינת זה הדבר וכו' ע\"ז מגיע שכר בהאי עלמא.",
+            "source_ref": "ויקהל"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כד",
+        "title": "מצוה שזכה אליה ע\"י עבירה של אחרים.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שכר על המצוה באמת אינו מגיע עפ\"י דין כיון שהיה ישועה להשי\"ת ולטובה אינו מוכרח וכו' וא\"כ עבירה שעשה זמרי היה ביד זמרי לבטל בחירתו לרעה מוכרח וא\"כ גם המצוה שעשה פנחס היה בטל וכו' ושפיר מגיע שכר עפ\"י דין.",
+            "source_ref": "אמרי אש פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כה",
+        "title": "מצות שאדם מוסיף וממציא מדעת עצמו.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דעל מצות שהאדם מוסיף וממציא מדעת עצמו נותנים שכר גם בעוה\"ז.",
+            "source_ref": "חידושי רבינו יוסף נחמי' עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כו",
+        "title": "המקיים מצות התלוים בעסקי פרנסתו.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "היינו שכעסקיכם במזונותיכם ובפרנסתיכם ותקיימו את המצות התלוים בהם עכ\"פ אני אשלח ברכה במעשי ידיכם וכו'.",
+            "source_ref": "שובע שמחות בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כז",
+        "title": "מצוה שאי אפשר ליעשות ע\"י אחר.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דהא דלא עשה משה בעצמו דבר זה, לפי שמשה ואהרן זכו שׂכרו ולא נזכר אלא פנחס, בגין שפרע\"ה שרצון הקב\"ה שלא יעשה דבר זה שום בן אדם אלא פנחס, א\"כ בכה\"ג אזלא הפקפוק דמילי ושוָה שפיר היה מגיע לפנחס שכר מדינא משום לא תלין דשליח של אדם כמותו ודו\"ק.",
+            "source_ref": "שפתי מהר\"ש פ' פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כח",
+        "title": "על מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שכל מצוה בהאי עלמא לא יזכו בה אלא משום מצוה יחידית שרוב נכשלים בה ואיזה יחידי סגולה מתאמצים בה,",
+            "source_ref": "דרשות חת\"ס קכג, ירבה תורה פנחס"
+          }
+        ]
+      }
+    ]
+  }
+}

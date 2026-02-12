@@ -1,0 +1,138 @@
+{
+  "page": 3,
+  "book_page": 39,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"כג\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק ראשון\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"ה\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"נראה כי הוא אינו ירא אלקים, ומקבל זה משלם שכר בהאי עלמא.\",\n      \"source_ref\": \"דרשות יריעות שלמה דרוש ח\\\"י\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ו\",\n      \"title\": \"על קיום המצוה מצד אמונתו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"י\\\"ל דבכל מצוה יש שכר טוב בעוה\\\"ז, דבכל מצוה שהוא מקיים מעיד על האמונה שיש לו אמונת אומן וכו' א\\\"כ בכל מצוה שקיים קדם לו האמונה ויש לו שכר בעוה\\\"ז.\",\n          \"source_ref\": \"דברי יוסף עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ז\",\n      \"title\": \"הכנה למצוה שלאחריה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"א\\\"כ יש בכל קיום מצוה גם הכנה למצוה שימשך ממצוה זו ולכן וכו' תזכו ג\\\"כ לשכר בהאי עלמא.\",\n          \"source_ref\": \"ולאשר אמר בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ח\",\n      \"title\": \"שיוכל לקיים שאר מצות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"יובן כי שכר מצוה בהאי עלמא ליכא, כ\\\"א שכר מצוה מצוה, שיזכה לעשות מצות אחרות, ובזכות אלו יעשה עוד אחרים.\",\n          \"source_ref\": \"חת\\\"ס פ' פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ט\",\n      \"title\": \"על ביטולו בזמן קיום המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"הא דקיי\\\"ל שכר מצוה בהאי עלמא ליכא, דוקא שכר עשיית המצוה, אבל מקבל שכר על ביטול מלאכתו מה שנתבטל בזמן עשיית המצוה.\",\n          \"source_ref\": \"שערי אבות\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"י\",\n      \"title\": \"על צורך הגשמיות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שאשמור ואמתין על עיקר השכר לעוה\\\"ב, רק זאת אעשה לכם מיד הגשמיות והכנה שצריך האדם בעוה\\\"ז, וזה הוא נושא את נפשו, ומקיים השי\\\"ת בו ביומו תתן שכרו.\",\n          \"source_ref\": \"טהור רעיונים פ' בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יא\",\n      \"title\": \"על הפעולה מקבלים שכר בעוה\\\"ז.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה קשה הלא שכר מצוה בהאי עלמא ליכא, והתירוץ הוא כך לפי שיש בני אדם שעושין מצוה עם פעולה ויש בני אדם שעושין מצוה בלא פעולה, וזה ידוע שבכל פעולה יש בהאי עלמא.\",\n          \"source_ref\": \"קדושת לוי, שבועות\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יב\",\n      \"title\": \"על מעשה הנגלה של המצוה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כי על מעשה הנגלה יש שכר בעוה\\\"ז, ועל מחשבה הנעלמה יש שכר בעוה\\\"ב.\",\n          \"source_ref\": \"רב טוב האזינו\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2728,
+    "completion_tokens": 6465,
+    "total_tokens": 9193,
+    "cost": 0.083036,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.083036,
+      "upstream_inference_prompt_cost": 0.005456,
+      "upstream_inference_completions_cost": 0.07758
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5300,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "כג",
+      "page_side": "left",
+      "chapter_context": "פרק ראשון",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "ה",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "נראה כי הוא אינו ירא אלקים, ומקבל זה משלם שכר בהאי עלמא.",
+        "source_ref": "דרשות יריעות שלמה דרוש ח\"י"
+      },
+      {
+        "type": "section",
+        "number": "ו",
+        "title": "על קיום המצוה מצד אמונתו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "י\"ל דבכל מצוה יש שכר טוב בעוה\"ז, דבכל מצוה שהוא מקיים מעיד על האמונה שיש לו אמונת אומן וכו' א\"כ בכל מצוה שקיים קדם לו האמונה ויש לו שכר בעוה\"ז.",
+            "source_ref": "דברי יוסף עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ז",
+        "title": "הכנה למצוה שלאחריה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "א\"כ יש בכל קיום מצוה גם הכנה למצוה שימשך ממצוה זו ולכן וכו' תזכו ג\"כ לשכר בהאי עלמא.",
+            "source_ref": "ולאשר אמר בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ח",
+        "title": "שיוכל לקיים שאר מצות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "יובן כי שכר מצוה בהאי עלמא ליכא, כ\"א שכר מצוה מצוה, שיזכה לעשות מצות אחרות, ובזכות אלו יעשה עוד אחרים.",
+            "source_ref": "חת\"ס פ' פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ט",
+        "title": "על ביטולו בזמן קיום המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "הא דקיי\"ל שכר מצוה בהאי עלמא ליכא, דוקא שכר עשיית המצוה, אבל מקבל שכר על ביטול מלאכתו מה שנתבטל בזמן עשיית המצוה.",
+            "source_ref": "שערי אבות"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "י",
+        "title": "על צורך הגשמיות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שאשמור ואמתין על עיקר השכר לעוה\"ב, רק זאת אעשה לכם מיד הגשמיות והכנה שצריך האדם בעוה\"ז, וזה הוא נושא את נפשו, ומקיים השי\"ת בו ביומו תתן שכרו.",
+            "source_ref": "טהור רעיונים פ' בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יא",
+        "title": "על הפעולה מקבלים שכר בעוה\"ז.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה קשה הלא שכר מצוה בהאי עלמא ליכא, והתירוץ הוא כך לפי שיש בני אדם שעושין מצוה עם פעולה ויש בני אדם שעושין מצוה בלא פעולה, וזה ידוע שבכל פעולה יש בהאי עלמא.",
+            "source_ref": "קדושת לוי, שבועות"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יב",
+        "title": "על מעשה הנגלה של המצוה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כי על מעשה הנגלה יש שכר בעוה\"ז, ועל מחשבה הנעלמה יש שכר בעוה\"ב.",
+            "source_ref": "רב טוב האזינו"
+          }
+        ]
+      }
+    ]
+  }
+}

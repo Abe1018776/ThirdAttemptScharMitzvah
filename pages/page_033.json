@@ -1,0 +1,128 @@
+{
+  "page": 33,
+  "book_page": 69,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"נג\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"קלב\",\n      \"level\": \"makor\"\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"אגרא דבי הילולא מילי וכו' השכר שנותנים בעוה\\\"ז הוא על המילי שמשמח חתן, ושמח כלה.\",\n      \"source_ref\": \"יעב\\\"ץ ברכות ו:\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלג\",\n      \"title\": \"על ביקור חולים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אר\\\"י אלו דברים שאדם אוכל פירותיהן בעוה\\\"ז וכו' ואלו הן וכו' וביקור חולים וכו'.\",\n          \"source_ref\": \"שבת קכז.\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"דגם במצות ביקור חולים אין אדם מתחזק שיקוים עוה\\\"ב מצוה זו, והלואי יהיו כל ישראל בריאים ושלמים וכו' על כן מגיע ע\\\"ז שכר בהאי עלמא וכו'.\",\n          \"source_ref\": \"ויגד יעקב פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלד\",\n      \"title\": \"על הרמת קול בכי בלויה ל\\\"ע.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אגרא דהספידא דלויי וכו' השכר שנותנים בעוה\\\"ז הוא על הרמת קול וּבְכִי הַשּׁוֹמְעִים.\",\n          \"source_ref\": \"יעב\\\"ץ ברכות ו:\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"חינוך\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלה\",\n      \"title\": \"על חינוך בניו הקטנים למצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"על מה שמחנכין ומניחין בניו הקטנים למצוה ע\\\"ז יש שכר לפעולתן בעוה\\\"ז.\",\n          \"source_ref\": \"חמדת ישראל, פתח - עצי חיים, אמור\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"כי כל יו\\\"ח ושאר אנשים שהדריך האיש הכל מכוחו וכו' ונחשב כאילו הוא עשה את כל מה שעשו הם וממילא השכר שלו הוא בלתי גבול וכיון שהשכר שלו הוא בלתי גבול ממילא מגיע לו שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"ולאשר אמר חיי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלו\",\n      \"title\": \"כדי שנוכל לחנך הבנים בדרך טובים.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שנוכל להדריך הבנים בדרך הטוב, שיהיה לנו השפעה עליהם, גם יותן שכר בהאי עלמא, כי חכמת המסכן בזויה.\",\n          \"source_ref\": \"שארית מנחם פ' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קלז\",\n      \"title\": \"אם מרגיל הבנים מעת פסיעתם בעולם לילך בדרך טוב.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל אם מרגיל הבנים מעת פסיעתם בעולם רק לילך בדרך הטוב וכו' וא\\\"כ שפיר הקב\\\"ה יכול ליתן השכר בעוה\\\"ז.\",\n          \"source_ref\": \"קהלת משה נצבים\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 6281,
+    "total_tokens": 9012,
+    "cost": 0.080834,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.080834,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.075372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5152,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "נג",
+      "page_side": "right",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "קלב",
+        "level": "makor"
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "אגרא דבי הילולא מילי וכו' השכר שנותנים בעוה\"ז הוא על המילי שמשמח חתן, ושמח כלה.",
+        "source_ref": "יעב\"ץ ברכות ו:"
+      },
+      {
+        "type": "section",
+        "number": "קלג",
+        "title": "על ביקור חולים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אר\"י אלו דברים שאדם אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' וביקור חולים וכו'.",
+            "source_ref": "שבת קכז."
+          },
+          {
+            "is_makor": false,
+            "text": "דגם במצות ביקור חולים אין אדם מתחזק שיקוים עוה\"ב מצוה זו, והלואי יהיו כל ישראל בריאים ושלמים וכו' על כן מגיע ע\"ז שכר בהאי עלמא וכו'.",
+            "source_ref": "ויגד יעקב פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלד",
+        "title": "על הרמת קול בכי בלויה ל\"ע.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אגרא דהספידא דלויי וכו' השכר שנותנים בעוה\"ז הוא על הרמת קול וּבְכִי הַשּׁוֹמְעִים.",
+            "source_ref": "יעב\"ץ ברכות ו:"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "חינוך"
+      },
+      {
+        "type": "section",
+        "number": "קלה",
+        "title": "על חינוך בניו הקטנים למצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "על מה שמחנכין ומניחין בניו הקטנים למצוה ע\"ז יש שכר לפעולתן בעוה\"ז.",
+            "source_ref": "חמדת ישראל, פתח - עצי חיים, אמור"
+          },
+          {
+            "is_makor": false,
+            "text": "כי כל יו\"ח ושאר אנשים שהדריך האיש הכל מכוחו וכו' ונחשב כאילו הוא עשה את כל מה שעשו הם וממילא השכר שלו הוא בלתי גבול וכיון שהשכר שלו הוא בלתי גבול ממילא מגיע לו שכר גם בעוה\"ז.",
+            "source_ref": "ולאשר אמר חיי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלו",
+        "title": "כדי שנוכל לחנך הבנים בדרך טובים.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שנוכל להדריך הבנים בדרך הטוב, שיהיה לנו השפעה עליהם, גם יותן שכר בהאי עלמא, כי חכמת המסכן בזויה.",
+            "source_ref": "שארית מנחם פ' עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קלז",
+        "title": "אם מרגיל הבנים מעת פסיעתם בעולם לילך בדרך טוב.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל אם מרגיל הבנים מעת פסיעתם בעולם רק לילך בדרך הטוב וכו' וא\"כ שפיר הקב\"ה יכול ליתן השכר בעוה\"ז.",
+            "source_ref": "קהלת משה נצבים"
+          }
+        ]
+      }
+    ]
+  }
+}

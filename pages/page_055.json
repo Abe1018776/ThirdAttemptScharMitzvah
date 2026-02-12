@@ -1,0 +1,131 @@
+{
+  "page": 55,
+  "book_page": 91,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"עה\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"עה\",\n      \"level\": \"body_paragraph\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"סט\",\n      \"title\": \"על עבירה לשמה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה קיימ\\\"ל דשכר מצוה בהאי עלמא ליכא, וטעמא זה שכל עבירה עיקר תשלומי' בעוה\\\"ז כדי ששכר מצותיו יהיה שמור לעוה\\\"ב, והנה כי כן אם מזדמן לאיש רשע דבר טוב בעד עבירה, כיון שמדת דינו הדק כן הוא שעל עבירה משלמין בעוה\\\"ז העונש, הה\\\"ד אם מזדמן עבירה שראוי ליתן עליה שכר ג\\\"כ לא יגרע מלצדיק שכר עבירה בעוה\\\"ז.\",\n          \"source_ref\": \"ערוגת הבושם פ' פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ע\",\n      \"title\": \"העושה מצוה ע\\\"י שקדם לה איזה עבירה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה בעשות אדם מצוה שאי אפשר לקיימה זולת אם קדם לה עבירה, שפיר מסתבר לומר שמגיע שכר עפ\\\"י דין על עשיית המצוה וכו' לכן כשעשה פנחס המצוה, בדין הוא שיטול שכרו וכו'.\",\n          \"source_ref\": \"כרם שלמה בשם הגר\\\"י גר\\\"פ אבד\\\"ק סעמיהאלי זצ\\\"ל\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"עבודה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עא\",\n      \"title\": \"מי שכל מגמתו רק לעבוד את ה'.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל באנשים צדיקים אשר כל מגמתם רק לעבוד את ה' וכו' ולהם משלם הקב\\\"ה השכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"דעת סופר ליקוטים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עב\",\n      \"title\": \"העובד לשמה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ומעתה בעובד ה' לשמה וכו' ששכרו כפול יטול לו גם בהאי עלמא.\",\n          \"source_ref\": \"ולאשר אמר בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עג\",\n      \"title\": \"העובד את ה' בעבידתא שפירתא.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אמנם יש לחלק ולומר שבשכר החלט עובד עבודתא שפירתא וכו' קוב\\\"ה טפי ליה אגריה גם בעוה\\\"ז.\",\n          \"source_ref\": \"ברך משה, ויצא\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עד\",\n      \"title\": \"מי שעובד השי\\\"ת נותנין לו שכר בעוה\\\"ז, כדי שיוכל לעבוד מתוך הרחבה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"א\\\"כ כיון שיש למעלה נח\\\"ר מעבודתו וכו' מכ\\\"ש שיתנו לו עושר וכבוד כי מבלעדי אלה לא יוכל לעבוד ה'.\",\n          \"source_ref\": \"מראה יחזקאל פ' לך\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עה\",\n      \"title\": \"מי שעובד השי\\\"ת שלא על מנת לקבל פרס\",\n      \"paragraphs\": []\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 7463,
+    "total_tokens": 10194,
+    "cost": 0.095018,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.095018,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.089556
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6283,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "עה",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "עה",
+        "level": "body_paragraph"
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "סט",
+        "title": "על עבירה לשמה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה קיימ\"ל דשכר מצוה בהאי עלמא ליכא, וטעמא זה שכל עבירה עיקר תשלומי' בעוה\"ז כדי ששכר מצותיו יהיה שמור לעוה\"ב, והנה כי כן אם מזדמן לאיש רשע דבר טוב בעד עבירה, כיון שמדת דינו הדק כן הוא שעל עבירה משלמין בעוה\"ז העונש, הה\"ד אם מזדמן עבירה שראוי ליתן עליה שכר ג\"כ לא יגרע מלצדיק שכר עבירה בעוה\"ז.",
+            "source_ref": "ערוגת הבושם פ' פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ע",
+        "title": "העושה מצוה ע\"י שקדם לה איזה עבירה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה בעשות אדם מצוה שאי אפשר לקיימה זולת אם קדם לה עבירה, שפיר מסתבר לומר שמגיע שכר עפ\"י דין על עשיית המצוה וכו' לכן כשעשה פנחס המצוה, בדין הוא שיטול שכרו וכו'.",
+            "source_ref": "כרם שלמה בשם הגר\"י גר\"פ אבד\"ק סעמיהאלי זצ\"ל"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "עבודה"
+      },
+      {
+        "type": "section",
+        "number": "עא",
+        "title": "מי שכל מגמתו רק לעבוד את ה'.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל באנשים צדיקים אשר כל מגמתם רק לעבוד את ה' וכו' ולהם משלם הקב\"ה השכר גם בעוה\"ז.",
+            "source_ref": "דעת סופר ליקוטים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עב",
+        "title": "העובד לשמה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ומעתה בעובד ה' לשמה וכו' ששכרו כפול יטול לו גם בהאי עלמא.",
+            "source_ref": "ולאשר אמר בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עג",
+        "title": "העובד את ה' בעבידתא שפירתא.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אמנם יש לחלק ולומר שבשכר החלט עובד עבודתא שפירתא וכו' קוב\"ה טפי ליה אגריה גם בעוה\"ז.",
+            "source_ref": "ברך משה, ויצא"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עד",
+        "title": "מי שעובד השי\"ת נותנין לו שכר בעוה\"ז, כדי שיוכל לעבוד מתוך הרחבה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "א\"כ כיון שיש למעלה נח\"ר מעבודתו וכו' מכ\"ש שיתנו לו עושר וכבוד כי מבלעדי אלה לא יוכל לעבוד ה'.",
+            "source_ref": "מראה יחזקאל פ' לך"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עה",
+        "title": "מי שעובד השי\"ת שלא על מנת לקבל פרס",
+        "paragraphs": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "page": 34,
+  "book_page": 70,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"נד\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"קלח\",\n      \"title\": \"מי שמשתמש בהשפעת שכר מצוה, כדי לגדל הילדים בדרך התורה והיראה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ויעקב אבינו הגיד לו, הילדים אשר חנן אלקים את עבדך, כי מה שנתן לי הקב\\\"ה השפעת עוה\\\"ז הוא רק בשביל הילדים כדי לגדלם על דרך התורה והיראה, ולהעמיד דורות ישרים נאמנים להשי\\\"ת ולתורתו הקדושה, ובשביל הילדים חנן אלקים את עבדך בכל אלה, אבל אני לעצמי איני כדאי לכל הטובות האלה ואין חפצי בהם, ואין אני רוצה בשכר מצוה בעוה\\\"ז.\",\n          \"source_ref\": \"דברי יואל ח\\\"ב קצ\\\"א\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 2245,
+    "total_tokens": 4976,
+    "cost": 0.032402,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.032402,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.02694
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1853,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "נד",
+      "page_side": "left",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "קלח",
+        "title": "מי שמשתמש בהשפעת שכר מצוה, כדי לגדל הילדים בדרך התורה והיראה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ויעקב אבינו הגיד לו, הילדים אשר חנן אלקים את עבדך, כי מה שנתן לי הקב\"ה השפעת עוה\"ז הוא רק בשביל הילדים כדי לגדלם על דרך התורה והיראה, ולהעמיד דורות ישרים נאמנים להשי\"ת ולתורתו הקדושה, ובשביל הילדים חנן אלקים את עבדך בכל אלה, אבל אני לעצמי איני כדאי לכל הטובות האלה ואין חפצי בהם, ואין אני רוצה בשכר מצוה בעוה\"ז.",
+            "source_ref": "דברי יואל ח\"ב קצ\"א"
+          }
+        ]
+      }
+    ]
+  }
+}

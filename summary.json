@@ -1,0 +1,13 @@
+{
+  "total_pages": 84,
+  "success": 80,
+  "json_parse_failed": 2,
+  "api_failed": 4,
+  "elapsed_seconds": 352.06359100341797,
+  "failed_pages": [
+    15,
+    17,
+    59,
+    81
+  ]
+}

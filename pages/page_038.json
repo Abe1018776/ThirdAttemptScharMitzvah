@@ -1,0 +1,126 @@
+{
+  "page": 38,
+  "book_page": 74,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"נח\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק רביעי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"יט\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"להעשות נס לו כל צרכי עוה\\\"ז.\",\n      \"source_ref\": \"באהלי ישכר פ' לך\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כ\",\n      \"title\": \"הצדיק שבגללו נשפע טובה לעולם.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"לכן הצדיק אם זכה להכריע במעשיו שיהיה העולם נידון לזכות ע\\\"פ מצוה שעשה, גם בעוה\\\"ז ישלם ה' גמולו תחת כפיו טוב.\",\n          \"source_ref\": \"וקומץ המנחה, עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כא\",\n      \"title\": \"לצדיק שע\\\"י שכרו נשפע טוב להעולם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אף שבכל מצוה בהאי עלמא ליכא שכר כשהשי\\\"ת רוצה להשפיע לצדיק שכרו כדי שע\\\"ז ישפיע לכל העולם, בודאי מגיע גם בעוה\\\"ז.\",\n          \"source_ref\": \"מהרי\\\"ד מבעלזא\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כב\",\n      \"title\": \"צדיקים ההולכים מחיל אל חיל גם בעולם הבא.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אצל צדיקים שגם לעוה\\\"ב עוסקים בתורה בברכות (סד) ילכו מחיל אל חיל וכו' ממילא שייך ליתן להם שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"שארית מנחם פ' בחקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כג\",\n      \"title\": \"צדיק ששומר עצמו מלדבר על רשע\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ויש אופן שיהיה לצדיק שכר גם בעוה\\\"ז וכו' אם הצדיק משמר עצמו מלדבר מטוב ועד רע על הרשע (לצדיק זה יש גם עוה\\\"ז).\",\n          \"source_ref\": \"כת\\\"ס מצורע\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כד\",\n      \"title\": \"כשהדור זכאי, אז מקבל הצדיק שכרו בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"רק כשהדור כולו זכאי אז אפשר להצדיק העובד מאהבה ג\\\"כ שיהיה לו טוב וכו' אם אפשר להסיר הרע והעונש מהעולם. וכו' אז בודאי הדין נותן כ\\\"ש שיתן לו הקב\\\"ה להעובד מאהבה השכר בעוה\\\"ז וכו'.\",\n          \"source_ref\": \"ברית אברם פ' פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"כה\",\n      \"title\": \"בגלגול שני מקבל הצדיק שכר גם בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולפי\\\"ז לפעמים שמתגלגל הצדיק עה\\\"פ אל זה העולם לחיות פעם השנית חלף עמלו ית\\\"ש מגיע לו גם בעוה\\\"ז שכר מעשיו אשר בגלגול ראשון.\",\n          \"source_ref\": \"ערבי נחל ואתחנן ט\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 11125,
+    "total_tokens": 13856,
+    "cost": 0.138962,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.138962,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.1335
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9994,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "נח",
+      "page_side": "right",
+      "chapter_context": "פרק רביעי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "יט",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "להעשות נס לו כל צרכי עוה\"ז.",
+        "source_ref": "באהלי ישכר פ' לך"
+      },
+      {
+        "type": "section",
+        "number": "כ",
+        "title": "הצדיק שבגללו נשפע טובה לעולם.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "לכן הצדיק אם זכה להכריע במעשיו שיהיה העולם נידון לזכות ע\"פ מצוה שעשה, גם בעוה\"ז ישלם ה' גמולו תחת כפיו טוב.",
+            "source_ref": "וקומץ המנחה, עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כא",
+        "title": "לצדיק שע\"י שכרו נשפע טוב להעולם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אף שבכל מצוה בהאי עלמא ליכא שכר כשהשי\"ת רוצה להשפיע לצדיק שכרו כדי שע\"ז ישפיע לכל העולם, בודאי מגיע גם בעוה\"ז.",
+            "source_ref": "מהרי\"ד מבעלזא"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כב",
+        "title": "צדיקים ההולכים מחיל אל חיל גם בעולם הבא.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אצל צדיקים שגם לעוה\"ב עוסקים בתורה בברכות (סד) ילכו מחיל אל חיל וכו' ממילא שייך ליתן להם שכר גם בעוה\"ז.",
+            "source_ref": "שארית מנחם פ' בחקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כג",
+        "title": "צדיק ששומר עצמו מלדבר על רשע",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ויש אופן שיהיה לצדיק שכר גם בעוה\"ז וכו' אם הצדיק משמר עצמו מלדבר מטוב ועד רע על הרשע (לצדיק זה יש גם עוה\"ז).",
+            "source_ref": "כת\"ס מצורע"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כד",
+        "title": "כשהדור זכאי, אז מקבל הצדיק שכרו בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "רק כשהדור כולו זכאי אז אפשר להצדיק העובד מאהבה ג\"כ שיהיה לו טוב וכו' אם אפשר להסיר הרע והעונש מהעולם. וכו' אז בודאי הדין נותן כ\"ש שיתן לו הקב\"ה להעובד מאהבה השכר בעוה\"ז וכו'.",
+            "source_ref": "ברית אברם פ' פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "כה",
+        "title": "בגלגול שני מקבל הצדיק שכר גם בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולפי\"ז לפעמים שמתגלגל הצדיק עה\"פ אל זה העולם לחיות פעם השנית חלף עמלו ית\"ש מגיע לו גם בעוה\"ז שכר מעשיו אשר בגלגול ראשון.",
+            "source_ref": "ערבי נחל ואתחנן ט"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "page": 54,
+  "book_page": 90,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"עד\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"סב\",\n      \"title\": \"המקיים מצוה ואינו מתגאה אח\\\"כ\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ע\\\"כ מאת ה' היתה נסבה שהיו הקנטים מכניס מומו וכו' כדי שלא יתגאה וישמח אח\\\"כ עיי\\\"ז בדין הוא שיטול שכרו.\",\n          \"source_ref\": \"חת\\\"ס פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סג\",\n      \"title\": \"מי שנראה לו תמיד שהמצות שעשה עד עכשיו לא היו כהוגן\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולפי\\\"ז נמי שמתעלה מדריגה אחר מדריגה באופן הנ\\\"ל עד שנראין לו כל המצות שעשה בבחינת עבירות, בדין הוא שיקבל שכרן בעוה\\\"ז.\",\n          \"source_ref\": \"מגדלות מרקחים, וירא.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סד\",\n      \"title\": \"מי שמבין שמצותיו אינם כהוגן, ומצפה לקיים אותם עה\\\"פ, שיהיו אז כהוגן.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אם בכל פעם שעושה המצוה הוא מכין שלא עשה כלום ועי\\\"ז עומד ומצפה מתי תבא לידו עוד ומקיימנה, לזה ראוי שיקבל שכר כמתנת חינם\",\n          \"source_ref\": \"ערוגת הבושם פ' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"עבירה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סה\",\n      \"title\": \"מי שפירש מעבירה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אף דשכר מצוה בהאי עלמא ליכא, אבל אי פירש מעבירה ונותנין לו שכר כעושה מצוה יש שכר בעוה\\\"ז.\",\n          \"source_ref\": \"פרד\\\"י בא\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סו\",\n      \"title\": \"בא דבר עבירה לידו, לעבור על לא תעשה, וניצול מזה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולפי\\\"ז יצא לנו דין חדש דל\\\"ת בבא דבר עבירה לידו וניצול דלהוי [?] כעשה מצוה ממש יש שכר בהאי עלמא.\",\n          \"source_ref\": \"תיבת גמא משפטים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סז\",\n      \"title\": \"ישב אדם ולא עבר עבירה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולפי\\\"ז ישב אדם ולא עבר עבירה שנותנים לו שכר כעושה מצוה ע\\\"ז יש שכר בעוה\\\"ז.\",\n          \"source_ref\": \"יד אהרן תזריע\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סח\",\n      \"title\": \"המונע עצמו מלעבור על נדנוד איסור עריות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דע\\\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\\\"ז.\",\n          \"source_ref\": \"בקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\\\"ה\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 6220,
+    "total_tokens": 8951,
+    "cost": 0.080102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.080102,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.07464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5042,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "עד",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "סב",
+        "title": "המקיים מצוה ואינו מתגאה אח\"כ",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ע\"כ מאת ה' היתה נסבה שהיו הקנטים מכניס מומו וכו' כדי שלא יתגאה וישמח אח\"כ עיי\"ז בדין הוא שיטול שכרו.",
+            "source_ref": "חת\"ס פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סג",
+        "title": "מי שנראה לו תמיד שהמצות שעשה עד עכשיו לא היו כהוגן",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולפי\"ז נמי שמתעלה מדריגה אחר מדריגה באופן הנ\"ל עד שנראין לו כל המצות שעשה בבחינת עבירות, בדין הוא שיקבל שכרן בעוה\"ז.",
+            "source_ref": "מגדלות מרקחים, וירא."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סד",
+        "title": "מי שמבין שמצותיו אינם כהוגן, ומצפה לקיים אותם עה\"פ, שיהיו אז כהוגן.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אם בכל פעם שעושה המצוה הוא מכין שלא עשה כלום ועי\"ז עומד ומצפה מתי תבא לידו עוד ומקיימנה, לזה ראוי שיקבל שכר כמתנת חינם",
+            "source_ref": "ערוגת הבושם פ' עקב"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "עבירה"
+      },
+      {
+        "type": "section",
+        "number": "סה",
+        "title": "מי שפירש מעבירה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אף דשכר מצוה בהאי עלמא ליכא, אבל אי פירש מעבירה ונותנין לו שכר כעושה מצוה יש שכר בעוה\"ז.",
+            "source_ref": "פרד\"י בא"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סו",
+        "title": "בא דבר עבירה לידו, לעבור על לא תעשה, וניצול מזה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולפי\"ז יצא לנו דין חדש דל\"ת בבא דבר עבירה לידו וניצול דלהוי [?] כעשה מצוה ממש יש שכר בהאי עלמא.",
+            "source_ref": "תיבת גמא משפטים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סז",
+        "title": "ישב אדם ולא עבר עבירה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולפי\"ז ישב אדם ולא עבר עבירה שנותנים לו שכר כעושה מצוה ע\"ז יש שכר בעוה\"ז.",
+            "source_ref": "יד אהרן תזריע"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סח",
+        "title": "המונע עצמו מלעבור על נדנוד איסור עריות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דע\"י שמנע עצמו מעבירה שנשמר מלעבור על נדנוד איסור עריות לכן זכה לשכר בעוה\"ז.",
+            "source_ref": "בקובץ 'חדשים גם ישנים' חוברת ד', סימן קנ\"ה"
+          }
+        ]
+      }
+    ]
+  }
+}

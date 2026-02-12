@@ -1,0 +1,133 @@
+{
+  "page": 20,
+  "book_page": 56,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"מ\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": \"נד\",\n      \"level\": \"body_paragraph\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"מח\",\n      \"title\": \"הלומד שלא לשמה, באופן שהוא הכשר מצוה להגיע לשמה.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כל מה שהאדם עוסק בתורה שלא לשמה הוא רק הכשר מצוה אל העסק המעולה בבחינת לשמה וכו' דעל הכשר מצוה מגיע שכר בעוה\\\"ז וכו'.\",\n          \"source_ref\": \"דברי יואל בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"מט\",\n      \"title\": \"העוסק בתורה שיהיה לו עשירות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל אם עוסק בתורה כדי שיהיה לו עשירות, בוודאי הקב\\\"ה נותן לו מלא קומצו לו בעולם הזה.\",\n          \"source_ref\": \"חת\\\"ס בהר\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"נ\",\n      \"title\": \"העוסק בדרוש\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"לדרוש וקבל שכר (סוטה מד.) ואף שאמרו שכר מצוה בהאי עלמא ליכא, לדרוש שאני כי טועמין מזה טעם עוה\\\"ב ויש שכר מצוה בהאי עלמא.\",\n          \"source_ref\": \"ביאורי החסידות, סוטה, דובר צדק, כו.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"נא\",\n      \"title\": \"על פסיעות שהולכים לביהמ\\\"ד\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מש\\\"כ הכתוב והיה עקב תשמעון וכו' ויעד עליה שכר עוה\\\"ז, ולכאורה שכר מצוה בהאי עלמא ליכא, ולפי דרכינו מיירי הכתוב כאן במצות פסיעות דלא רמיא עליהו חיוב לעשותם, וכיון שהוא מניח עצמו לידי חיוב מגיע לו שכר בעוה\\\"ז.\",\n          \"source_ref\": \"אגדות מהרי\\\"ט עירובין דף של\\\"ב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"נב\",\n      \"title\": \"על השכמת ביהמ\\\"ד\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אר\\\"י [?] ... אוכל פירותיהן בעוה\\\"ז וכו' ואלו הן וכו' והשכמת ביהמ\\\"ד וכו'.\",\n          \"source_ref\": \"שבת קכז.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"נג\",\n      \"title\": \"על לימוד התורה של תינוקות של בית רבן\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה מצינו שעל לימוד תורה של תינוקות של בית רבן יכולים לקבל שכר וכו' שמחוי' להשתדל להכניס קטנים יעסקו בתורה שכולה זכותם רב ועל ידיהם יוכלו לקבל שכר בעוה\\\"ז וכו'.\",\n          \"source_ref\": \"פרח שושן\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"נד\",\n      \"title\": \"המגדל בניו לתלמוד תורה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אר\\\"י [?] ... אוכל פירותיהן בעוה\\\"ז וכו' ואלו הן וכו' והמגדל בניו לת\\\"ת וכו'.\",\n          \"source_ref\": \"שבת קכז.\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 10241,
+    "total_tokens": 12970,
+    "cost": 0.12835,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.12835,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.122892
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9112,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "מ",
+      "page_side": "left",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": "נד",
+        "level": "body_paragraph"
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "מח",
+        "title": "הלומד שלא לשמה, באופן שהוא הכשר מצוה להגיע לשמה.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כל מה שהאדם עוסק בתורה שלא לשמה הוא רק הכשר מצוה אל העסק המעולה בבחינת לשמה וכו' דעל הכשר מצוה מגיע שכר בעוה\"ז וכו'.",
+            "source_ref": "דברי יואל בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "מט",
+        "title": "העוסק בתורה שיהיה לו עשירות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל אם עוסק בתורה כדי שיהיה לו עשירות, בוודאי הקב\"ה נותן לו מלא קומצו לו בעולם הזה.",
+            "source_ref": "חת\"ס בהר"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "נ",
+        "title": "העוסק בדרוש",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "לדרוש וקבל שכר (סוטה מד.) ואף שאמרו שכר מצוה בהאי עלמא ליכא, לדרוש שאני כי טועמין מזה טעם עוה\"ב ויש שכר מצוה בהאי עלמא.",
+            "source_ref": "ביאורי החסידות, סוטה, דובר צדק, כו."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "נא",
+        "title": "על פסיעות שהולכים לביהמ\"ד",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מש\"כ הכתוב והיה עקב תשמעון וכו' ויעד עליה שכר עוה\"ז, ולכאורה שכר מצוה בהאי עלמא ליכא, ולפי דרכינו מיירי הכתוב כאן במצות פסיעות דלא רמיא עליהו חיוב לעשותם, וכיון שהוא מניח עצמו לידי חיוב מגיע לו שכר בעוה\"ז.",
+            "source_ref": "אגדות מהרי\"ט עירובין דף של\"ב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "נב",
+        "title": "על השכמת ביהמ\"ד",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והשכמת ביהמ\"ד וכו'.",
+            "source_ref": "שבת קכז."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "נג",
+        "title": "על לימוד התורה של תינוקות של בית רבן",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה מצינו שעל לימוד תורה של תינוקות של בית רבן יכולים לקבל שכר וכו' שמחוי' להשתדל להכניס קטנים יעסקו בתורה שכולה זכותם רב ועל ידיהם יוכלו לקבל שכר בעוה\"ז וכו'.",
+            "source_ref": "פרח שושן"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "נד",
+        "title": "המגדל בניו לתלמוד תורה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אר\"י [?] ... אוכל פירותיהן בעוה\"ז וכו' ואלו הן וכו' והמגדל בניו לת\"ת וכו'.",
+            "source_ref": "שבת קכז."
+          }
+        ]
+      }
+    ]
+  }
+}

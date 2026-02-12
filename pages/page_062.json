@@ -1,0 +1,134 @@
+{
+  "page": 62,
+  "book_page": 98,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"פג\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": null,\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"קיד\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"אף דקימ\\\"ל שכר מצוה בהאי עלמא ליכא מ\\\"מ אם מהפכים העבירות לזכיות ע\\\"י תשובה מאהבה מגיע על זה שכר בהאי עלמא.\",\n      \"source_ref\": \"ויגד יעקב פנחס\"\n    },\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"אולם אם ע\\\"י תשובה מאהבה נעשה לו זכיות ע\\\"ז מגיע שכרו בהאי עלמא וכו'.\",\n      \"source_ref\": \"אמרי יצחק תבא\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קט\",\n      \"title\": \"מי שעושה תמיד חשבון הנפש\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מ\\\"מ שכר מצוה בהאי עלמא איכא על ידי וכו' שתהיו זהירים להיות יושבים ומשמרים שלא תבואו לידי הפסד וכו' בשביל כך יגיעך שכר בשביל חשבון צדק שאתה מחשב.\",\n          \"source_ref\": \"ערוגת הבושם פ' עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"שונות\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קי\",\n      \"title\": \"על הערבות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דבתרי\\\"ג מצות ליכא מצות ערבות, וממילא מגיע לו שכר גם בהאי עלמא.\",\n          \"source_ref\": \"שו\\\"ת מנחת אשר ח\\\"ו, דברי אגדה\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיא\",\n      \"title\": \"כשמתברכים מפי עכו\\\"ם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולכן אין ברכות עכו\\\"ם יכולים להתקיים בישראל מפני שבברכין בעין הרע, אבל בעת שרואה השי\\\"ת להיטיב לישראל בהדרגה באין עין הרע שולט וכלומר אין יכולים להתברך בעוה\\\"ז מברכת העכו\\\"ם.\",\n          \"source_ref\": \"ערבי נחל פ' עקב דרוש א'\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיב\",\n      \"title\": \"מצוה שעושין בציבור\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ואפ\\\"ל עפי\\\"מ שאיתא בספרים הטעם דשכר מצוה בהאי עלמא ליכא, שהוא משום שמא יחטא ושוב יקלקל, אמנם כ\\\"ז ביחיד אבל לא בציבור דלא חייקינן שכולם יחטאו.\",\n          \"source_ref\": \"זכר חיים פ' ויקהל\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיג\",\n      \"title\": \"יש בני אדם שלפי ערך זכותם משתלמים בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ויש שזוכים שבשביל הטוב שעשה משלמין לו בעוה\\\"ז ושעוה\\\"ב וכו' ויש שרק בעוה\\\"ז בלבד וכו'.\",\n          \"source_ref\": \"בית נפתלי בהר\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קיד\",\n      \"title\": \"ע\\\"י שמקבלים גרים מבני עשו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דעל ידי שאנו מקבלים גרים מבני עשו ומזכין אותן בחלק לעוה\\\"ב, לכן בחליפין מגיע לנו ג\\\"כ חלק\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 5143,
+    "total_tokens": 7872,
+    "cost": 0.067174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.067174,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.061716
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3981,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "פג",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": null,
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "קיד",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "אף דקימ\"ל שכר מצוה בהאי עלמא ליכא מ\"מ אם מהפכים העבירות לזכיות ע\"י תשובה מאהבה מגיע על זה שכר בהאי עלמא.",
+        "source_ref": "ויגד יעקב פנחס"
+      },
+      {
+        "type": "continuation_fragment",
+        "text": "אולם אם ע\"י תשובה מאהבה נעשה לו זכיות ע\"ז מגיע שכרו בהאי עלמא וכו'.",
+        "source_ref": "אמרי יצחק תבא"
+      },
+      {
+        "type": "section",
+        "number": "קט",
+        "title": "מי שעושה תמיד חשבון הנפש",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מ\"מ שכר מצוה בהאי עלמא איכא על ידי וכו' שתהיו זהירים להיות יושבים ומשמרים שלא תבואו לידי הפסד וכו' בשביל כך יגיעך שכר בשביל חשבון צדק שאתה מחשב.",
+            "source_ref": "ערוגת הבושם פ' עקב"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "שונות"
+      },
+      {
+        "type": "section",
+        "number": "קי",
+        "title": "על הערבות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דבתרי\"ג מצות ליכא מצות ערבות, וממילא מגיע לו שכר גם בהאי עלמא.",
+            "source_ref": "שו\"ת מנחת אשר ח\"ו, דברי אגדה"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קיא",
+        "title": "כשמתברכים מפי עכו\"ם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולכן אין ברכות עכו\"ם יכולים להתקיים בישראל מפני שבברכין בעין הרע, אבל בעת שרואה השי\"ת להיטיב לישראל בהדרגה באין עין הרע שולט וכלומר אין יכולים להתברך בעוה\"ז מברכת העכו\"ם.",
+            "source_ref": "ערבי נחל פ' עקב דרוש א'"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קיב",
+        "title": "מצוה שעושין בציבור",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ואפ\"ל עפי\"מ שאיתא בספרים הטעם דשכר מצוה בהאי עלמא ליכא, שהוא משום שמא יחטא ושוב יקלקל, אמנם כ\"ז ביחיד אבל לא בציבור דלא חייקינן שכולם יחטאו.",
+            "source_ref": "זכר חיים פ' ויקהל"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קיג",
+        "title": "יש בני אדם שלפי ערך זכותם משתלמים בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ויש שזוכים שבשביל הטוב שעשה משלמין לו בעוה\"ז ושעוה\"ב וכו' ויש שרק בעוה\"ז בלבד וכו'.",
+            "source_ref": "בית נפתלי בהר"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קיד",
+        "title": "ע\"י שמקבלים גרים מבני עשו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דעל ידי שאנו מקבלים גרים מבני עשו ומזכין אותן בחלק לעוה\"ב, לכן בחליפין מגיע לנו ג\"כ חלק"
+          }
+        ]
+      }
+    ]
+  }
+}

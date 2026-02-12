@@ -1,0 +1,158 @@
+{
+  "page": 60,
+  "book_page": 96,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"פא\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": null,\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"קה\",\n      \"level\": \"body_paragraph\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"שכרו בעוה\\\"ז ג\\\"כ.\",\n      \"source_ref\": \"אוצר החיים קאמארנא - ראה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"צח\",\n      \"title\": \"מי ששותה ביחודים ובשכל ובחכמה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אכל מי וכו' ושותה ביחודים ובשכל ובחכמה וכו' נותנין לו שכרו בעוה\\\"ז ג\\\"כ.\",\n          \"source_ref\": \"שם\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"שלום\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"צט\",\n      \"title\": \"על הבאת שלום בין אדם לחבירו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אלו דברים שאדם אוכל פירותיהם בעוה\\\"ז וכו' ואלו הן וכו' והבאת שלום בין אדם לחבירו וכו'.\",\n          \"source_ref\": \"פאה פ\\\"א מ\\\"א\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ק\",\n      \"title\": \"המקדים שלום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי וכו' ומקדים שלום וכו' הקב\\\"ה מוליכו חיי העוה\\\"ז וכו'.\",\n          \"source_ref\": \"ר\\\"א זוטא פרק השלום\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קא\",\n      \"title\": \"המשיב שלום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי וכו' ומשיב שלום וכו' הקב\\\"ה מוליכו חיי העוה\\\"ז וכו'.\",\n          \"source_ref\": \"ר\\\"א זוטא פרק השלום\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קב\",\n      \"title\": \"בזכות השלום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"הגם דקי\\\"ל שכר מצוה בהאי עלמא ליכא, עכ\\\"ז על שלום איכא שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"ויגד משה תולדות\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קג\",\n      \"title\": \"האוהב שלום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי שאוהב שלום וכו' הקב\\\"ה מוליכו חיי העוה\\\"ז וכו'.\",\n          \"source_ref\": \"ר\\\"א זוטא פרק השלום\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קד\",\n      \"title\": \"כל השותק בשעת מריבה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"הנני נותן לו את בריתי שלום הואיל ששתק ושבר מריב והיתה לו ולזרעו אחריו ברית כהונת עולם וכו'.\",\n          \"source_ref\": \"חת\\\"ס פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קה\",\n      \"title\": \"אם ישראל הם באחדות בלב שלם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ממילא אם ישראל הם באחדות בלב אחד כאיש אחד הרי כל מצוה שעושה כל אחד מישראל מזכה בה גם את חבירו, ובעבור זה מגיע שכר בהאי עלמא וכו'.\",\n          \"source_ref\": \"ויגד יעקב בחוקותי\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"וכשישראל מחזיקים בשלום ואין בהם פירוד לבבות אז יש להם וכו' ומגיע\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 4720,
+    "total_tokens": 7451,
+    "cost": 0.062102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.062102,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.05664
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3459,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "פא",
+      "page_side": "right",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": null,
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "קה",
+        "level": "body_paragraph"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "שכרו בעוה\"ז ג\"כ.",
+        "source_ref": "אוצר החיים קאמארנא - ראה"
+      },
+      {
+        "type": "section",
+        "number": "צח",
+        "title": "מי ששותה ביחודים ובשכל ובחכמה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אכל מי וכו' ושותה ביחודים ובשכל ובחכמה וכו' נותנין לו שכרו בעוה\"ז ג\"כ.",
+            "source_ref": "שם"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "שלום"
+      },
+      {
+        "type": "section",
+        "number": "צט",
+        "title": "על הבאת שלום בין אדם לחבירו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אלו דברים שאדם אוכל פירותיהם בעוה\"ז וכו' ואלו הן וכו' והבאת שלום בין אדם לחבירו וכו'.",
+            "source_ref": "פאה פ\"א מ\"א"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ק",
+        "title": "המקדים שלום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי וכו' ומקדים שלום וכו' הקב\"ה מוליכו חיי העוה\"ז וכו'.",
+            "source_ref": "ר\"א זוטא פרק השלום"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קא",
+        "title": "המשיב שלום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי וכו' ומשיב שלום וכו' הקב\"ה מוליכו חיי העוה\"ז וכו'.",
+            "source_ref": "ר\"א זוטא פרק השלום"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קב",
+        "title": "בזכות השלום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "הגם דקי\"ל שכר מצוה בהאי עלמא ליכא, עכ\"ז על שלום איכא שכר גם בעוה\"ז.",
+            "source_ref": "ויגד משה תולדות"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קג",
+        "title": "האוהב שלום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי שאוהב שלום וכו' הקב\"ה מוליכו חיי העוה\"ז וכו'.",
+            "source_ref": "ר\"א זוטא פרק השלום"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קד",
+        "title": "כל השותק בשעת מריבה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "הנני נותן לו את בריתי שלום הואיל ששתק ושבר מריב והיתה לו ולזרעו אחריו ברית כהונת עולם וכו'.",
+            "source_ref": "חת\"ס פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קה",
+        "title": "אם ישראל הם באחדות בלב שלם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ממילא אם ישראל הם באחדות בלב אחד כאיש אחד הרי כל מצוה שעושה כל אחד מישראל מזכה בה גם את חבירו, ובעבור זה מגיע שכר בהאי עלמא וכו'.",
+            "source_ref": "ויגד יעקב בחוקותי"
+          },
+          {
+            "is_makor": false,
+            "text": "וכשישראל מחזיקים בשלום ואין בהם פירוד לבבות אז יש להם וכו' ומגיע"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "page": 25,
+  "book_page": 61,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"מה\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"פא\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"פח\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"שמתנהגים עמו בדרך הנקי שהוא בלא גבול.\",\n      \"source_ref\": \"פני אברהם מסכת שבת פט\\\"ו\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פב\",\n      \"title\": \"המקיים ג' סעודות שבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"להג' סעודות משפיעין בני חיי ומזוני וכו' כמ\\\"ש בזמרי יוסף בשם רבה\\\"ק מלובלין זללה\\\"ה\",\n          \"source_ref\": \"חקל יצחק פי' נח\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ויראה במה שכתבו חכמי המדע כי מי שהוא זוכה לקיים הג' סעודות כהלכתן ולא יפגע בכל סעודותיו בחול ויחול להם מקדושת שבת.\",\n          \"source_ref\": \"פתח עינים שבת פט\\\"ז\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פג\",\n      \"title\": \"על הוצאות שבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כל מזונותיו של אדם קצובין לו מר\\\"ה חוץ מהוצאות שבת.\",\n          \"source_ref\": \"ביצה טז.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פד\",\n      \"title\": \"על תוספת שבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אלא יפלס לך הקב\\\"ה עכשיו אפילו על תוספות שבת להורייתא וכו'.\",\n          \"source_ref\": \"שם אליעזר, שבת\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"וז\\\"ק ושמרתם את דברי הברית, ברית נקרא שבת, את לרבות תוספות שבת ועל זה מגיע שכר בהאי עלמא.\",\n          \"source_ref\": \"דברי אליעזר תבא\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פה\",\n      \"title\": \"המקיים סעודת מלוה מלכה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כל מי שישמור סעודת מלוה מלכה בטוח הוא במזונות תמיד.\",\n          \"source_ref\": \"משמיע שלום\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פו\",\n      \"title\": \"על הוצאות יו''ט\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כל מזונותיו של אדם קצובין לו מר\\\"ה חוץ מהוצאות וכו' ויו\\\"ט.\",\n          \"source_ref\": \"ביצה טז.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פז\",\n      \"title\": \"על מצות שמחה ביו''ט\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וכללא הוא והרי וכו' שמחה וכו' דמ\\\"ע דאו\\\"ג וכו' (וקידושין לד.). וכתב הגרש\\\"ק זל\\\"ל וזל\\\"ק: אבל בלאו המנות שהזמן גרמא בהם דבליס רק עבור חיי העוה\\\"ז בהם יש שכר מצוה בהאי עלמא וכו'.\",\n          \"source_ref\": \"שו\\\"ת קנאת סופרים סימן צ\\\"ה ובשו\\\"ת שנות חיים קכ\\\"ג\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פח\",\n      \"title\": \"על שמחת יו''ט לשם שמים.\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל יש מצות שיש בהם הנאת הגוף כמו וכו' ושמחת יו\\\"ט וכו' וזה אם יזכך עצמו וכו' אלא לקיים\",\n          \"source_ref\": null\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 8123,
+    "total_tokens": 10854,
+    "cost": 0.102938,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.102938,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.097476
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6852,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "מה",
+      "page_side": "right",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "פא",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "פח",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "שמתנהגים עמו בדרך הנקי שהוא בלא גבול.",
+        "source_ref": "פני אברהם מסכת שבת פט\"ו"
+      },
+      {
+        "type": "section",
+        "number": "פב",
+        "title": "המקיים ג' סעודות שבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "להג' סעודות משפיעין בני חיי ומזוני וכו' כמ\"ש בזמרי יוסף בשם רבה\"ק מלובלין זללה\"ה",
+            "source_ref": "חקל יצחק פי' נח"
+          },
+          {
+            "is_makor": false,
+            "text": "ויראה במה שכתבו חכמי המדע כי מי שהוא זוכה לקיים הג' סעודות כהלכתן ולא יפגע בכל סעודותיו בחול ויחול להם מקדושת שבת.",
+            "source_ref": "פתח עינים שבת פט\"ז"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פג",
+        "title": "על הוצאות שבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כל מזונותיו של אדם קצובין לו מר\"ה חוץ מהוצאות שבת.",
+            "source_ref": "ביצה טז."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פד",
+        "title": "על תוספת שבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אלא יפלס לך הקב\"ה עכשיו אפילו על תוספות שבת להורייתא וכו'.",
+            "source_ref": "שם אליעזר, שבת"
+          },
+          {
+            "is_makor": false,
+            "text": "וז\"ק ושמרתם את דברי הברית, ברית נקרא שבת, את לרבות תוספות שבת ועל זה מגיע שכר בהאי עלמא.",
+            "source_ref": "דברי אליעזר תבא"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פה",
+        "title": "המקיים סעודת מלוה מלכה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כל מי שישמור סעודת מלוה מלכה בטוח הוא במזונות תמיד.",
+            "source_ref": "משמיע שלום"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פו",
+        "title": "על הוצאות יו''ט",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כל מזונותיו של אדם קצובין לו מר\"ה חוץ מהוצאות וכו' ויו\"ט.",
+            "source_ref": "ביצה טז."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פז",
+        "title": "על מצות שמחה ביו''ט",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וכללא הוא והרי וכו' שמחה וכו' דמ\"ע דאו\"ג וכו' (וקידושין לד.). וכתב הגרש\"ק זל\"ל וזל\"ק: אבל בלאו המנות שהזמן גרמא בהם דבליס רק עבור חיי העוה\"ז בהם יש שכר מצוה בהאי עלמא וכו'.",
+            "source_ref": "שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פח",
+        "title": "על שמחת יו''ט לשם שמים.",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל יש מצות שיש בהם הנאת הגוף כמו וכו' ושמחת יו\"ט וכו' וזה אם יזכך עצמו וכו' אלא לקיים",
+            "source_ref": null
+          }
+        ]
+      }
+    ]
+  }
+}

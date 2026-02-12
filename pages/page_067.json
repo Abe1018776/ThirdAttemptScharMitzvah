@@ -1,0 +1,121 @@
+{
+  "page": 67,
+  "book_page": 103,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"פח\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק חמישי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"קמ\",\n      \"title\": \"מי שרבים צריכים לו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ואם אעשך לגוי גדול וכו' כי רבים צריכים לו וממילא מגיע לו כה\\\"ע.\",\n          \"source_ref\": \"אמרי יצחק לך\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קמא\",\n      \"title\": \"מי שנכפל שמו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"נקיט מה דאיתא במד\\\"ר א\\\"ר אבא בר כהנא כל מי שנכפל שמו יש לו בעוה\\\"ז ויש לו בעוה\\\"ב.\",\n          \"source_ref\": \"זרע ישראל נדפס בקובץ 'חדשים גם ישנים' חוברת ב'\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קמב\",\n      \"title\": \"מצות שעשה האב ונפטר והניח זכיותיו לבנו, מקבל הבן ע\\\"ז שכר בעוה\\\"ז\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל במצות שעשה אביו וחיו כבר מת והניח זכותו לבניו וכו' עכ\\\"פ יש לו זכות מזל אביו שראוי ע\\\"ז לקבל שכר אפילו בעוה\\\"ז.\",\n          \"source_ref\": \"טללי אורות נצבים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קמג\",\n      \"title\": \"מי שהוא בגלגול שני\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"דאם כבר היה פעם א' בעוה\\\"ז, יוכל ליהנות בגלגול גם משמחת עוה\\\"ז.\",\n          \"source_ref\": \"וקומץ המנחה, פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קמד\",\n      \"title\": \"סומא\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ומעתה לק\\\"מ דסומא וכו' הא באמת ראוי שפיר לקייס וגם שכר חיים ואריכת ימיו יש לו בעוה\\\"ז.\",\n          \"source_ref\": \"וילקט יוסף שנה ז, א, סימן ח\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"קמה\",\n      \"title\": \"העומד בשעת קרה\\\"ת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וראיתי קצת אנשי מעשה שנוהגים לעמוד ולזקוף בעת קרה\\\"ת ומנהג טוב וכשר הוא מה טוב חלקם בחיים ומה נעים גורלם וכו' וראוי שכרם גדול ובעל הגמול ישלם לו פעלו משלם ותהי משכורתו שלימה בעוה\\\"ז ובבא וכו'.\",\n          \"source_ref\": \"וסדר היום, סדר קרה\\\"ת בשבת\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 6055,
+    "total_tokens": 8785,
+    "cost": 0.07812,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.07812,
+      "upstream_inference_prompt_cost": 0.00546,
+      "upstream_inference_completions_cost": 0.07266
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5095,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "פח",
+      "page_side": "left",
+      "chapter_context": "פרק חמישי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "קמ",
+        "title": "מי שרבים צריכים לו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ואם אעשך לגוי גדול וכו' כי רבים צריכים לו וממילא מגיע לו כה\"ע.",
+            "source_ref": "אמרי יצחק לך"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קמא",
+        "title": "מי שנכפל שמו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "נקיט מה דאיתא במד\"ר א\"ר אבא בר כהנא כל מי שנכפל שמו יש לו בעוה\"ז ויש לו בעוה\"ב.",
+            "source_ref": "זרע ישראל נדפס בקובץ 'חדשים גם ישנים' חוברת ב'"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קמב",
+        "title": "מצות שעשה האב ונפטר והניח זכיותיו לבנו, מקבל הבן ע\"ז שכר בעוה\"ז",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל במצות שעשה אביו וחיו כבר מת והניח זכותו לבניו וכו' עכ\"פ יש לו זכות מזל אביו שראוי ע\"ז לקבל שכר אפילו בעוה\"ז.",
+            "source_ref": "טללי אורות נצבים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קמג",
+        "title": "מי שהוא בגלגול שני",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "דאם כבר היה פעם א' בעוה\"ז, יוכל ליהנות בגלגול גם משמחת עוה\"ז.",
+            "source_ref": "וקומץ המנחה, פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קמד",
+        "title": "סומא",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ומעתה לק\"מ דסומא וכו' הא באמת ראוי שפיר לקייס וגם שכר חיים ואריכת ימיו יש לו בעוה\"ז.",
+            "source_ref": "וילקט יוסף שנה ז, א, סימן ח"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "קמה",
+        "title": "העומד בשעת קרה\"ת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וראיתי קצת אנשי מעשה שנוהגים לעמוד ולזקוף בעת קרה\"ת ומנהג טוב וכשר הוא מה טוב חלקם בחיים ומה נעים גורלם וכו' וראוי שכרם גדול ובעל הגמול ישלם לו פעלו משלם ותהי משכורתו שלימה בעוה\"ז ובבא וכו'.",
+            "source_ref": "וסדר היום, סדר קרה\"ת בשבת"
+          }
+        ]
+      }
+    ]
+  }
+}

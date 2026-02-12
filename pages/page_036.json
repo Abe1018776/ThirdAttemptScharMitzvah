@@ -1,0 +1,133 @@
+{
+  "page": 36,
+  "book_page": 72,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"נו\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק רביעי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"ו\",\n      \"title\": \"פנחס שחי לעולם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"פנחס כיון שחי וקיים לעולם ולא שייך לומר בו היום לעשותם ומחר לקבל וכו' מגיע לו שכרו בדין בעוה\\\"ז\",\n          \"source_ref\": \"ובית נפתלי פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ז\",\n      \"title\": \"מי שקיבל נשמה חדשה בחייו, ותיקן כבר נשמתו הראשונה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כיון שנתחלפה נשמת פנחס, וכבר תקנה את אשר היה לו לתקן וכו' בדין הוא שיטול שכרו (בעוה\\\"ז).\",\n          \"source_ref\": \"בני יוסף, בהר\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ח\",\n      \"title\": \"מי שיש לו נשמה מעלמא עילאה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה המפרשים כתבו הטעם למה שכר בהאי עלמא ליכא, משום שאם יחיה שמה יחטא ויתחרט על המצות וכו' וז\\\"ש פינחס ביו\\\"ד וכו' וא\\\"כ היה לו נשמה מעלמא עילאה וגמירי שאינו חוטא, לכן אמר הקב\\\"ה בדין הוא שיטול שכרו וכו'.\",\n          \"source_ref\": \"בגדי אהרן פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ט\",\n      \"title\": \"מי שמתנהג ברבנות בכשרות ובתמימות\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"מי שנוהג ברבנות בכשרות ובתמימות כראוי וכו' נותנין לו שכרו קודם שיצא מן העולם וכו'.\",\n          \"source_ref\": \"באר שלמה, רבנות, ליקוטי מהר\\\"ן רל\\\"ו\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"י\",\n      \"title\": \"הזכר\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\\\"ז\",\n          \"source_ref\": \"ויגד משה תזריע\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יא\",\n      \"title\": \"נשים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"רז\\\"ל גדולה הבטחה שהבטיחן הקב\\\"ה לנשים וכו' שנתנו ג' עולמות עוה\\\"ז ועוה\\\"ב וכו'.\",\n          \"source_ref\": \"עין יעקב מבואר ברכות קפח\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"יב\",\n      \"title\": \"כשהאשה מקיימת את התורה מעוני, זוכה הבעל לעשירות בזכותה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אין הברכה מצויה בתוך ביתו של אדם אלא בזכות האשה, ולכך אם היא קיימה את התורה מעוני זכה אף הבעל לעשירות בזכותה.\",\n          \"source_ref\": \"אמרי שפר לך\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2729,
+    "completion_tokens": 5410,
+    "total_tokens": 8139,
+    "cost": 0.070378,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.070378,
+      "upstream_inference_prompt_cost": 0.005458,
+      "upstream_inference_completions_cost": 0.06492
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4328,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "נו",
+      "page_side": "left",
+      "chapter_context": "פרק רביעי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "ו",
+        "title": "פנחס שחי לעולם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "פנחס כיון שחי וקיים לעולם ולא שייך לומר בו היום לעשותם ומחר לקבל וכו' מגיע לו שכרו בדין בעוה\"ז",
+            "source_ref": "ובית נפתלי פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ז",
+        "title": "מי שקיבל נשמה חדשה בחייו, ותיקן כבר נשמתו הראשונה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כיון שנתחלפה נשמת פנחס, וכבר תקנה את אשר היה לו לתקן וכו' בדין הוא שיטול שכרו (בעוה\"ז).",
+            "source_ref": "בני יוסף, בהר"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ח",
+        "title": "מי שיש לו נשמה מעלמא עילאה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה המפרשים כתבו הטעם למה שכר בהאי עלמא ליכא, משום שאם יחיה שמה יחטא ויתחרט על המצות וכו' וז\"ש פינחס ביו\"ד וכו' וא\"כ היה לו נשמה מעלמא עילאה וגמירי שאינו חוטא, לכן אמר הקב\"ה בדין הוא שיטול שכרו וכו'.",
+            "source_ref": "בגדי אהרן פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ט",
+        "title": "מי שמתנהג ברבנות בכשרות ובתמימות",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "מי שנוהג ברבנות בכשרות ובתמימות כראוי וכו' נותנין לו שכרו קודם שיצא מן העולם וכו'.",
+            "source_ref": "באר שלמה, רבנות, ליקוטי מהר\"ן רל\"ו"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "י",
+        "title": "הזכר",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "כי הזכר שפעולתו היא בניגוד יש לו שכר גם בעוה\"ז",
+            "source_ref": "ויגד משה תזריע"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יא",
+        "title": "נשים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "רז\"ל גדולה הבטחה שהבטיחן הקב\"ה לנשים וכו' שנתנו ג' עולמות עוה\"ז ועוה\"ב וכו'.",
+            "source_ref": "עין יעקב מבואר ברכות קפח"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "יב",
+        "title": "כשהאשה מקיימת את התורה מעוני, זוכה הבעל לעשירות בזכותה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אין הברכה מצויה בתוך ביתו של אדם אלא בזכות האשה, ולכך אם היא קיימה את התורה מעוני זכה אף הבעל לעשירות בזכותה.",
+            "source_ref": "אמרי שפר לך"
+          }
+        ]
+      }
+    ]
+  }
+}

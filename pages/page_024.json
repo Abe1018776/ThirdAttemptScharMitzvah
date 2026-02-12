@@ -1,0 +1,142 @@
+{
+  "page": 24,
+  "book_page": 60,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"מד\",\n    \"page_side\": \"left\",\n    \"chapter_context\": \"פרק שלישי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"עו\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": true,\n      \"section_letter\": \"פא\",\n      \"level\": \"makor\"\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"שטבעו חכמים. (מטה משה) וכן ניצל ממאה תוכחות (חיד\\\"א) וזוכה לאריכות ימים\",\n      \"source_ref\": \"אגרות משה ח\\\"ד כא, ברכות המצות כתיקונן\"\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"שבת, מועדים וזמנים\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עז\",\n      \"title\": \"במצות שמירת שבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"זולת במצות שבת יוכל להיות קצת שכר בעולם הזה, כי הוא מעין עולם הבא, על ידי שמצות שבת הוא שביתת השבת, ולכן יש בו נשמה יתירה וכו'.\",\n          \"source_ref\": \"שפת אמת עקב תרל\\\"ט\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ועפי״ז יובן מה שהקדים מצות שבת למלאכת המשכן כי במה שאמר השי״ת ויקחו לי תרומה וכו׳ דעל ידי מצות שבת יזכו לשכר בעוה״ז תכף, ויהיה התרומה משלנו.\",\n          \"source_ref\": \"ייטב פנים ח\\\"ב דף ס\\\"ח\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ומשו״ה י״ל דשכר שבת משלמין ג״כ בהאי עלמא.\",\n          \"source_ref\": \"שם אליעזר שבת\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"אף דבכל המצות אין שכר בהאי עלמא, מ״מ בשבת יש שכר בהאי עלמא.\",\n          \"source_ref\": \"אמרי שפר עקב\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"דע״י שמירת שבת כהלכתו מגיע לו שכרו גם וכו׳ בעוה״ז.\",\n          \"source_ref\": \"ולאשר אמר נח\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עח\",\n      \"title\": \"על קידוש היום\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"לפי דבאמת על מ״ע דקידוש היום משלם הקב״ה השכר גם בעוה״ז וכו'.\",\n          \"source_ref\": \"ילקוט הגרשוני כה\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"עט\",\n      \"title\": \"על ידי שמענגין את השבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וזה שאמר, שעל ידי שמענג את השבת אני נותן לו שכר. וזהו ענין מפרותיהן אתה אוכל בעולם הזה.\",\n          \"source_ref\": \"שפת אמת פ' עקב תרנ\\\"א\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"ע״כ נתן לנו הקב״ה את השבת, ולוה לנו מלות עונג שבת, וזה אפשרות לקיימו בודאי, וע״כ נזכה לעוה״ז ולעשירות ג״כ.\",\n          \"source_ref\": \"אמרי שפר עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פ\",\n      \"title\": \"המכבד את השבת\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"עשירים שבבבל במה הן זוכין, בשביל שמכבדים את השבת.\",\n          \"source_ref\": \"שבת קיט.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"פא\",\n      \"title\": \"מי שמענג את השבת ואינו חושש על ממונו\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וזה דאמר המענג את השבת שאינו חושש על ממונו בשבת ומענגו בשביל לכבד קדושת השבת ולא עוה״ז, נותנים לו נחלה בלי מצרים\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 6463,
+    "total_tokens": 9194,
+    "cost": 0.083018,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.083018,
+      "upstream_inference_prompt_cost": 0.005462,
+      "upstream_inference_completions_cost": 0.077556
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5176,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "מד",
+      "page_side": "left",
+      "chapter_context": "פרק שלישי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "עו",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": true,
+        "section_letter": "פא",
+        "level": "makor"
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "שטבעו חכמים. (מטה משה) וכן ניצל ממאה תוכחות (חיד\"א) וזוכה לאריכות ימים",
+        "source_ref": "אגרות משה ח\"ד כא, ברכות המצות כתיקונן"
+      },
+      {
+        "type": "grouping_header",
+        "title": "שבת, מועדים וזמנים"
+      },
+      {
+        "type": "section",
+        "number": "עז",
+        "title": "במצות שמירת שבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "זולת במצות שבת יוכל להיות קצת שכר בעולם הזה, כי הוא מעין עולם הבא, על ידי שמצות שבת הוא שביתת השבת, ולכן יש בו נשמה יתירה וכו'.",
+            "source_ref": "שפת אמת עקב תרל\"ט"
+          },
+          {
+            "is_makor": false,
+            "text": "ועפי״ז יובן מה שהקדים מצות שבת למלאכת המשכן כי במה שאמר השי״ת ויקחו לי תרומה וכו׳ דעל ידי מצות שבת יזכו לשכר בעוה״ז תכף, ויהיה התרומה משלנו.",
+            "source_ref": "ייטב פנים ח\"ב דף ס\"ח"
+          },
+          {
+            "is_makor": false,
+            "text": "ומשו״ה י״ל דשכר שבת משלמין ג״כ בהאי עלמא.",
+            "source_ref": "שם אליעזר שבת"
+          },
+          {
+            "is_makor": false,
+            "text": "אף דבכל המצות אין שכר בהאי עלמא, מ״מ בשבת יש שכר בהאי עלמא.",
+            "source_ref": "אמרי שפר עקב"
+          },
+          {
+            "is_makor": false,
+            "text": "דע״י שמירת שבת כהלכתו מגיע לו שכרו גם וכו׳ בעוה״ז.",
+            "source_ref": "ולאשר אמר נח"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עח",
+        "title": "על קידוש היום",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "לפי דבאמת על מ״ע דקידוש היום משלם הקב״ה השכר גם בעוה״ז וכו'.",
+            "source_ref": "ילקוט הגרשוני כה"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "עט",
+        "title": "על ידי שמענגין את השבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וזה שאמר, שעל ידי שמענג את השבת אני נותן לו שכר. וזהו ענין מפרותיהן אתה אוכל בעולם הזה.",
+            "source_ref": "שפת אמת פ' עקב תרנ\"א"
+          },
+          {
+            "is_makor": false,
+            "text": "ע״כ נתן לנו הקב״ה את השבת, ולוה לנו מלות עונג שבת, וזה אפשרות לקיימו בודאי, וע״כ נזכה לעוה״ז ולעשירות ג״כ.",
+            "source_ref": "אמרי שפר עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פ",
+        "title": "המכבד את השבת",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "עשירים שבבבל במה הן זוכין, בשביל שמכבדים את השבת.",
+            "source_ref": "שבת קיט."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "פא",
+        "title": "מי שמענג את השבת ואינו חושש על ממונו",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וזה דאמר המענג את השבת שאינו חושש על ממונו בשבת ומענגו בשביל לכבד קדושת השבת ולא עוה״ז, נותנים לו נחלה בלי מצרים"
+          }
+        ]
+      }
+    ]
+  }
+}

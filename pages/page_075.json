@@ -1,0 +1,135 @@
+{
+  "page": 75,
+  "book_page": 111,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"צה\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק ששי\",\n    \"continues_from\": {\n      \"flag\": true,\n      \"section_letter\": \"לז\",\n      \"level\": \"body_paragraph\"\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"continuation_fragment\",\n      \"text\": \"שנאמר בהם יהרג ואל יעבור וכו' ע\\\"ז משלמים בהאי עלמא.\",\n      \"source_ref\": \"מרדכי בשער המלך, פנחס\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לח\",\n      \"title\": \"מי שמכניס עצמו בסכנה לקיום המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"והנה פנחס נמי הכניס עצמו בסכנה גדולה מה שלא היה מחוייב בדבר וכו' לכן בדין הוא נוטל שכרו.\",\n          \"source_ref\": \"אך פרי תבואה פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"לט\",\n      \"title\": \"המוכן למסור נפשו כדי לקיים מצות ה'\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שכשאדם זוכה לקיים מצוה מתוך מסירות נפש וכו' ואע\\\"פ שמחשבתו לא נתקיימה והוא נשאר בחיים וכו' כיון שהחלט מצידו היה מוכן למסור נפשו וכו' לא נאמר לגביו שכר מצוה כה\\\"ע ליכא וכו' ושייך שפיר ליתן שכרו כה\\\"ע.\",\n          \"source_ref\": \"דברי אש פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"מ\",\n      \"title\": \"על מסירות נפש\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ואולם וכו' דעל מסיי\\\"נ מקבל שכר בהאי עלמא וכו'.\",\n          \"source_ref\": \"אמרי יצחק עקב\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"וא\\\"כ שמע ישראל, והוא מסיי\\\"נ, ומקנה פנים חדשות וזוכה לשכר בעוה\\\"ז.\",\n          \"source_ref\": \"שארית מנחם פ' בחוקותי\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"מא\",\n      \"title\": \"מי שמוסר נפשו להשי\\\"ת במחשבה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וכתב הזרע בירך דקמעיין מזה דמי שמוסר נפשו להקב\\\"ה במחשבה וכו' אז הקב\\\"ה צריך ליתן לו שכר מומ\\\"י.\",\n          \"source_ref\": \"ותפארת חיים, צו\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"מב\",\n      \"title\": \"המקבל על עצמו למסור נפשו לה'\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ולכן על זה המלוה כשמקבל על עצמו באמת למסור נפשו מגיע אליו השכר בעוה\\\"ז.\",\n          \"source_ref\": \"עצי חיים, פנחס\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"כולל\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"מג\",\n      \"title\": \"הכולל את עצמו עם הכלל ישראל בעת קיום המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"שכר מצוה בהאי עלמא ליכא דוקא ליחיד העושה מצוה אבל רבים זכותא לרבים עדיף ויכולה להמשיך שכר גם בהאי עלמא, וכל יחיד המשתתף וכולל א\\\"ע עם כלל ישראל: בעשותו איזה מצוה ממשיך על עצמו רחמי ה' לשלם לו שכר גם בעוה\\\"ז.\",\n          \"source_ref\": \"ערכי יהושע אות ל׳ תפלה בציבור\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 4083,
+    "total_tokens": 6813,
+    "cost": 0.054456,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.054456,
+      "upstream_inference_prompt_cost": 0.00546,
+      "upstream_inference_completions_cost": 0.048996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2930,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "צה",
+      "page_side": "right",
+      "chapter_context": "פרק ששי",
+      "continues_from": {
+        "flag": true,
+        "section_letter": "לז",
+        "level": "body_paragraph"
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "continuation_fragment",
+        "text": "שנאמר בהם יהרג ואל יעבור וכו' ע\"ז משלמים בהאי עלמא.",
+        "source_ref": "מרדכי בשער המלך, פנחס"
+      },
+      {
+        "type": "section",
+        "number": "לח",
+        "title": "מי שמכניס עצמו בסכנה לקיום המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "והנה פנחס נמי הכניס עצמו בסכנה גדולה מה שלא היה מחוייב בדבר וכו' לכן בדין הוא נוטל שכרו.",
+            "source_ref": "אך פרי תבואה פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "לט",
+        "title": "המוכן למסור נפשו כדי לקיים מצות ה'",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שכשאדם זוכה לקיים מצוה מתוך מסירות נפש וכו' ואע\"פ שמחשבתו לא נתקיימה והוא נשאר בחיים וכו' כיון שהחלט מצידו היה מוכן למסור נפשו וכו' לא נאמר לגביו שכר מצוה כה\"ע ליכא וכו' ושייך שפיר ליתן שכרו כה\"ע.",
+            "source_ref": "דברי אש פנחס"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "מ",
+        "title": "על מסירות נפש",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ואולם וכו' דעל מסיי\"נ מקבל שכר בהאי עלמא וכו'.",
+            "source_ref": "אמרי יצחק עקב"
+          },
+          {
+            "is_makor": false,
+            "text": "וא\"כ שמע ישראל, והוא מסיי\"נ, ומקנה פנים חדשות וזוכה לשכר בעוה\"ז.",
+            "source_ref": "שארית מנחם פ' בחוקותי"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "מא",
+        "title": "מי שמוסר נפשו להשי\"ת במחשבה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וכתב הזרע בירך דקמעיין מזה דמי שמוסר נפשו להקב\"ה במחשבה וכו' אז הקב\"ה צריך ליתן לו שכר מומ\"י.",
+            "source_ref": "ותפארת חיים, צו"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "מב",
+        "title": "המקבל על עצמו למסור נפשו לה'",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ולכן על זה המלוה כשמקבל על עצמו באמת למסור נפשו מגיע אליו השכר בעוה\"ז.",
+            "source_ref": "עצי חיים, פנחס"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "כולל"
+      },
+      {
+        "type": "section",
+        "number": "מג",
+        "title": "הכולל את עצמו עם הכלל ישראל בעת קיום המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "שכר מצוה בהאי עלמא ליכא דוקא ליחיד העושה מצוה אבל רבים זכותא לרבים עדיף ויכולה להמשיך שכר גם בהאי עלמא, וכל יחיד המשתתף וכולל א\"ע עם כלל ישראל: בעשותו איזה מצוה ממשיך על עצמו רחמי ה' לשלם לו שכר גם בעוה\"ז.",
+            "source_ref": "ערכי יהושע אות ל׳ תפלה בציבור"
+          }
+        ]
+      }
+    ]
+  }
+}

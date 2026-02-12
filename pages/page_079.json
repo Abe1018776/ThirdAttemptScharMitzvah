@@ -1,0 +1,118 @@
+{
+  "page": 79,
+  "book_page": 115,
+  "raw_response": "```json\n{\n  \"meta\": {\n    \"book_title\": \"שכר מצוה\",\n    \"page_number\": \"צט\",\n    \"page_side\": \"right\",\n    \"chapter_context\": \"פרק ששי\",\n    \"continues_from\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    },\n    \"continues_to\": {\n      \"flag\": false,\n      \"section_letter\": null,\n      \"level\": null\n    }\n  },\n  \"data\": [\n    {\n      \"type\": \"section\",\n      \"number\": \"נט\",\n      \"title\": \"מי שאינו סר מדרך התורה אף מדוחק\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"אבל אם אתה עושה כן, על אף העוני והדחק הנך ממשיך בדרך התורה אז תזכה לשני עולמות שיהיה לך ארוך וטוב לך גם בעוה\\\"ז.\",\n          \"source_ref\": \"הישיבה - נצבים\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"ס\",\n      \"title\": \"על ההתגברות על היצה\\\"ר לקיום המצוה\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"עבור ההתגברות על היצה\\\"ר שמונע ממנה בכל כוחו לעשותה, והאדם מכניס עצמו בסכנה להלחם עמו, על זה מקבל שכרו.\",\n          \"source_ref\": \"ביאורי החסידות, קידושין, חיים וחסד.\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סא\",\n      \"title\": \"העושה מצות בפרהסיא אע\\\"פ שאין מרגיש בה טעם\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"וזה נראה פירוש המדרש, צדקה שהקב\\\"ה עושה עם ישראל, הוא עושה בפרהסיא, מחמת שעושה מצות בפרהסיא, אע\\\"פ שאינו יודע טעמו ואין לו תענוג מעבודתו, וזה אצלו ית' כמו צדקה.\",\n          \"source_ref\": \"וזרע יעקב רות\"\n        }\n      ]\n    },\n    {\n      \"type\": \"grouping_header\",\n      \"title\": \"תוספת ברכה\"\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סב\",\n      \"title\": \"על דקדוקי מצות וגדרים וסייגים\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ורק על הדקדוקי מצות וגדרים וסייגים שהאדם עושה לכל מצוה או לי\\\"ת, בזה קונה לעצמו שלימות שהקב\\\"ה אוהב אותו ובעד זה הקב\\\"ה נותן לו שכר בעוה\\\"ז.\",\n          \"source_ref\": \"אלשיך בחוקותי\"\n        },\n        {\n          \"is_makor\": false,\n          \"text\": \"כוונת עוה\\\"ז הוי פינת קיום התורה וכו' שאם האדם רוצה לעשות לעצמו גדרים וסייגים למנוע כל המניעות המבטלים מהתורה אז וכו' גם הקב\\\"ה רוצה להיטיב עמו לעשות לו כל הכנות ולבטל ממנו מניעות המונעים מהתורה.\",\n          \"source_ref\": \"אמרי שפר עקב\"\n        }\n      ]\n    },\n    {\n      \"type\": \"section\",\n      \"number\": \"סג\",\n      \"title\": \"המרחיק מפניו צ\\\"ט שערי היתר שלא יגע ח\\\"ו בשער אחד של איסור\",\n      \"paragraphs\": [\n        {\n          \"is_makor\": true,\n          \"text\": \"ומרחיק מפניו צ\\\"ט שערי היתר שלא יגיע ח\\\"ו בשער האיסור, וככה\\\"ג מגיע שכרו בעוה\\\"ז.\",\n          \"source_ref\": \"בית נפתלי פנחס\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "thinking": "",
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 5037,
+    "total_tokens": 7767,
+    "cost": 0.065904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.065904,
+      "upstream_inference_prompt_cost": 0.00546,
+      "upstream_inference_completions_cost": 0.060444
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4002,
+      "image_tokens": 0
+    }
+  },
+  "status": "success",
+  "parsed_json": {
+    "meta": {
+      "book_title": "שכר מצוה",
+      "page_number": "צט",
+      "page_side": "right",
+      "chapter_context": "פרק ששי",
+      "continues_from": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      },
+      "continues_to": {
+        "flag": false,
+        "section_letter": null,
+        "level": null
+      }
+    },
+    "data": [
+      {
+        "type": "section",
+        "number": "נט",
+        "title": "מי שאינו סר מדרך התורה אף מדוחק",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "אבל אם אתה עושה כן, על אף העוני והדחק הנך ממשיך בדרך התורה אז תזכה לשני עולמות שיהיה לך ארוך וטוב לך גם בעוה\"ז.",
+            "source_ref": "הישיבה - נצבים"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "ס",
+        "title": "על ההתגברות על היצה\"ר לקיום המצוה",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "עבור ההתגברות על היצה\"ר שמונע ממנה בכל כוחו לעשותה, והאדם מכניס עצמו בסכנה להלחם עמו, על זה מקבל שכרו.",
+            "source_ref": "ביאורי החסידות, קידושין, חיים וחסד."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סא",
+        "title": "העושה מצות בפרהסיא אע\"פ שאין מרגיש בה טעם",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "וזה נראה פירוש המדרש, צדקה שהקב\"ה עושה עם ישראל, הוא עושה בפרהסיא, מחמת שעושה מצות בפרהסיא, אע\"פ שאינו יודע טעמו ואין לו תענוג מעבודתו, וזה אצלו ית' כמו צדקה.",
+            "source_ref": "וזרע יעקב רות"
+          }
+        ]
+      },
+      {
+        "type": "grouping_header",
+        "title": "תוספת ברכה"
+      },
+      {
+        "type": "section",
+        "number": "סב",
+        "title": "על דקדוקי מצות וגדרים וסייגים",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ורק על הדקדוקי מצות וגדרים וסייגים שהאדם עושה לכל מצוה או לי\"ת, בזה קונה לעצמו שלימות שהקב\"ה אוהב אותו ובעד זה הקב\"ה נותן לו שכר בעוה\"ז.",
+            "source_ref": "אלשיך בחוקותי"
+          },
+          {
+            "is_makor": false,
+            "text": "כוונת עוה\"ז הוי פינת קיום התורה וכו' שאם האדם רוצה לעשות לעצמו גדרים וסייגים למנוע כל המניעות המבטלים מהתורה אז וכו' גם הקב\"ה רוצה להיטיב עמו לעשות לו כל הכנות ולבטל ממנו מניעות המונעים מהתורה.",
+            "source_ref": "אמרי שפר עקב"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "number": "סג",
+        "title": "המרחיק מפניו צ\"ט שערי היתר שלא יגע ח\"ו בשער אחד של איסור",
+        "paragraphs": [
+          {
+            "is_makor": true,
+            "text": "ומרחיק מפניו צ\"ט שערי היתר שלא יגיע ח\"ו בשער האיסור, וככה\"ג מגיע שכרו בעוה\"ז.",
+            "source_ref": "בית נפתלי פנחס"
+          }
+        ]
+      }
+    ]
+  }
+}
